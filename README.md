@@ -1,6 +1,8 @@
 # @cossackframework/solar-icons
 
-Tree-shakeable [Solar icon set](https://solar-icons.vercel.app/) for the Cossack framework — 1,246 icons × 6 styles, exposed as data entries plus `Icon` / `NamedIcon` components.
+Tree-shakeable [Solar icon set](https://solar-icons.vercel.app/) DATA package — 1,246 icons × 6 styles, exposed as per-style SVG inner-markup strings. **Framework-agnostic, zero runtime dependencies.**
+
+The `Icon` / `NamedIcon` components that render this data live in [`@cossackframework/ui`](https://github.com/cossackframework/cossack) (so they share the consumer's single renderer/core module instance). This package ships only the data + types.
 
 Every icon ships as **one file per style**, so importing a single style of a single icon pulls only that markup into the bundle.
 
@@ -10,25 +12,28 @@ Every icon ships as **one file per style**, so importing a single style of a sin
 pnpm add @cossackframework/solar-icons
 ```
 
-Peer dependencies: `@cossackframework/core` and `@cossackframework/renderer`.
+No peer dependencies — this package is data-only.
 
 ## Usage
 
 ```ts
-import { Icon } from '@cossackframework/solar-icons'
+// Icon data (this package):
 import { EyeIcon } from '@cossackframework/solar-icons/eye'        // all styles (IconEntry)
 import { EyeIcon } from '@cossackframework/solar-icons/eye/bold'   // one style (string) — max tree-shake
+
+// The component (from @cossackframework/ui):
+import { Icon } from '@cossackframework/ui'
 import { component } from '@cossackframework/renderer'
 
 // Fixed icon (tree-shakeable): import the entry, pass to Icon.
 component(Icon, { entry: EyeIcon, style: 'bold', size: 24 })
 
 // Dynamic name lookup (runtime data): carries the full registry.
-import { NamedIcon } from '@cossackframework/solar-icons'
+import { NamedIcon } from '@cossackframework/ui'
 component(NamedIcon, { name: 'eye', style: 'bold', size: 24 })
 ```
 
-- **`Icon` + `entry`** — the tree-shakeable path. Import the icon data directly from `@cossackframework/solar-icons/<name>` (all styles) or `@cossackframework/solar-icons/<name>/<style>` (one style). Only what you import is bundled.
+- **Data import** — the tree-shakeable path. Import icon data directly from `@cossackframework/solar-icons/<name>` (all styles) or `@cossackframework/solar-icons/<name>/<style>` (one style). Only what you import is bundled.
 - **`NamedIcon`** — dynamic name-based lookup. Carries the full registry dependency; use it when the icon name comes from data.
 
 Each icon export is suffixed with `Icon` (e.g. `EyeIcon`, `SettingsIcon`) to avoid collisions with common identifiers.

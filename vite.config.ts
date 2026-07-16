@@ -53,8 +53,9 @@ export default defineConfig({
         },
         outDir: "dist",
         rolldownOptions: {
-            // Peer deps — never bundle; resolve from the consumer.
-            external: ["@cossackframework/core", "@cossackframework/renderer"],
+            // This package is data-only (zero framework deps), so there is
+            // nothing to externalize — every module is self-contained data.
+            external: [],
         },
     },
 });

@@ -1,6 +1,6 @@
 {
   "name": "@cossackframework/solar-icons",
-  "version": "0.6.1",
+  "version": "0.7.0",
   "description": "Tree-shakeable Solar icon set for the Cossack framework — data entries + Icon/NamedIcon components.",
   "type": "module",
   "sideEffects": false,
@@ -2511,13 +2511,7 @@
     "build:icons": "tsx src/scripts/build-icons.ts",
     "test": "vitest"
   },
-  "peerDependencies": {
-    "@cossackframework/core": "^0.6.0",
-    "@cossackframework/renderer": "^0.6.0"
-  },
   "devDependencies": {
-    "@cossackframework/core": "^0.6.0",
-    "@cossackframework/renderer": "^0.6.0",
     "@types/node": "^22.19.0",
     "tsx": "^4.23.0",
     "typescript": "^7.0.2",
