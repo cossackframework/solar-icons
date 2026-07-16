@@ -2516,8 +2516,8 @@
     "@cossackframework/renderer": "^0.6.0"
   },
   "devDependencies": {
-    "@cossackframework/core": "link:../core/packages/core",
-    "@cossackframework/renderer": "link:../core/packages/renderer",
+    "@cossackframework/core": "^0.6.0",
+    "@cossackframework/renderer": "^0.6.0",
     "@types/node": "^22.19.0",
     "tsx": "^4.23.0",
     "typescript": "^7.0.2",
