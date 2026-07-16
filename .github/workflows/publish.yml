@@ -29,15 +29,21 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      # NOTE: the generated src/<icon>/ files are committed to the repo, so no
-      # `build:icons` step is needed at publish time — the published tarball
-      # ships the committed source under `src/` (see the `files` field).
+      # The generated src/<icon>/ files are committed to the repo, so no
+      # `build:icons` step is needed (that regenerates src/ from vendored SVGs).
+      # `build` below compiles the committed TypeScript src/ to dist/ — REQUIRED
+      # before publish: Node/esbuild refuse to type-strip .ts inside node_modules,
+      # so the published tarball must ship compiled JS. The `patch-exports` step
+      # (run by `build`) rewrites package.json's main/types/exports → dist.
 
       - name: Type check
         run: pnpm tsc --noEmit
 
       - name: Run tests
         run: pnpm test -- --run
+
+      - name: Build (compile src → dist)
+        run: pnpm build
 
       - name: Publish @cossackframework/solar-icons
         run: pnpm publish --access public --no-git-checks
