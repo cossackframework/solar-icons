@@ -4,12 +4,12 @@
  *   One style:   import { AlignVerticalSpacingIcon } from '@cossackframework/solar-icons/align-vertical-spacing/<style>'
  */
 import type { IconEntry } from "../types";
-import { AlignVerticalSpacingIcon as line } from "./line";
-import { AlignVerticalSpacingIcon as bold } from "./bold";
-import { AlignVerticalSpacingIcon as duotone } from "./duotone";
-import { AlignVerticalSpacingIcon as broken } from "./broken";
-import { AlignVerticalSpacingIcon as outline } from "./outline";
-import { AlignVerticalSpacingIcon as line_duotone } from "./line-duotone";
+import { AlignVerticalSpacingIcon as line } from "./line.ts";
+import { AlignVerticalSpacingIcon as bold } from "./bold.ts";
+import { AlignVerticalSpacingIcon as duotone } from "./duotone.ts";
+import { AlignVerticalSpacingIcon as broken } from "./broken.ts";
+import { AlignVerticalSpacingIcon as outline } from "./outline.ts";
+import { AlignVerticalSpacingIcon as line_duotone } from "./line-duotone.ts";
 
 export const AlignVerticalSpacingIcon: IconEntry = {
     line: line,

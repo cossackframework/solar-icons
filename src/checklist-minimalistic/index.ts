@@ -4,12 +4,12 @@
  *   One style:   import { ChecklistMinimalisticIcon } from '@cossackframework/solar-icons/checklist-minimalistic/<style>'
  */
 import type { IconEntry } from "../types";
-import { ChecklistMinimalisticIcon as line } from "./line";
-import { ChecklistMinimalisticIcon as bold } from "./bold";
-import { ChecklistMinimalisticIcon as duotone } from "./duotone";
-import { ChecklistMinimalisticIcon as broken } from "./broken";
-import { ChecklistMinimalisticIcon as outline } from "./outline";
-import { ChecklistMinimalisticIcon as line_duotone } from "./line-duotone";
+import { ChecklistMinimalisticIcon as line } from "./line.ts";
+import { ChecklistMinimalisticIcon as bold } from "./bold.ts";
+import { ChecklistMinimalisticIcon as duotone } from "./duotone.ts";
+import { ChecklistMinimalisticIcon as broken } from "./broken.ts";
+import { ChecklistMinimalisticIcon as outline } from "./outline.ts";
+import { ChecklistMinimalisticIcon as line_duotone } from "./line-duotone.ts";
 
 export const ChecklistMinimalisticIcon: IconEntry = {
     line: line,

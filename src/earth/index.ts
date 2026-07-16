@@ -4,12 +4,12 @@
  *   One style:   import { EarthIcon } from '@cossackframework/solar-icons/earth/<style>'
  */
 import type { IconEntry } from "../types";
-import { EarthIcon as line } from "./line";
-import { EarthIcon as bold } from "./bold";
-import { EarthIcon as duotone } from "./duotone";
-import { EarthIcon as broken } from "./broken";
-import { EarthIcon as outline } from "./outline";
-import { EarthIcon as line_duotone } from "./line-duotone";
+import { EarthIcon as line } from "./line.ts";
+import { EarthIcon as bold } from "./bold.ts";
+import { EarthIcon as duotone } from "./duotone.ts";
+import { EarthIcon as broken } from "./broken.ts";
+import { EarthIcon as outline } from "./outline.ts";
+import { EarthIcon as line_duotone } from "./line-duotone.ts";
 
 export const EarthIcon: IconEntry = {
     line: line,

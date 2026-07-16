@@ -4,12 +4,12 @@
  *   One style:   import { SidebarMinimalisticIcon } from '@cossackframework/solar-icons/sidebar-minimalistic/<style>'
  */
 import type { IconEntry } from "../types";
-import { SidebarMinimalisticIcon as line } from "./line";
-import { SidebarMinimalisticIcon as bold } from "./bold";
-import { SidebarMinimalisticIcon as duotone } from "./duotone";
-import { SidebarMinimalisticIcon as broken } from "./broken";
-import { SidebarMinimalisticIcon as outline } from "./outline";
-import { SidebarMinimalisticIcon as line_duotone } from "./line-duotone";
+import { SidebarMinimalisticIcon as line } from "./line.ts";
+import { SidebarMinimalisticIcon as bold } from "./bold.ts";
+import { SidebarMinimalisticIcon as duotone } from "./duotone.ts";
+import { SidebarMinimalisticIcon as broken } from "./broken.ts";
+import { SidebarMinimalisticIcon as outline } from "./outline.ts";
+import { SidebarMinimalisticIcon as line_duotone } from "./line-duotone.ts";
 
 export const SidebarMinimalisticIcon: IconEntry = {
     line: line,

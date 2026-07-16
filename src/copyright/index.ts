@@ -4,12 +4,12 @@
  *   One style:   import { CopyrightIcon } from '@cossackframework/solar-icons/copyright/<style>'
  */
 import type { IconEntry } from "../types";
-import { CopyrightIcon as line } from "./line";
-import { CopyrightIcon as bold } from "./bold";
-import { CopyrightIcon as duotone } from "./duotone";
-import { CopyrightIcon as broken } from "./broken";
-import { CopyrightIcon as outline } from "./outline";
-import { CopyrightIcon as line_duotone } from "./line-duotone";
+import { CopyrightIcon as line } from "./line.ts";
+import { CopyrightIcon as bold } from "./bold.ts";
+import { CopyrightIcon as duotone } from "./duotone.ts";
+import { CopyrightIcon as broken } from "./broken.ts";
+import { CopyrightIcon as outline } from "./outline.ts";
+import { CopyrightIcon as line_duotone } from "./line-duotone.ts";
 
 export const CopyrightIcon: IconEntry = {
     line: line,

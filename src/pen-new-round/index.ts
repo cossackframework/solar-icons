@@ -4,12 +4,12 @@
  *   One style:   import { PenNewRoundIcon } from '@cossackframework/solar-icons/pen-new-round/<style>'
  */
 import type { IconEntry } from "../types";
-import { PenNewRoundIcon as line } from "./line";
-import { PenNewRoundIcon as bold } from "./bold";
-import { PenNewRoundIcon as duotone } from "./duotone";
-import { PenNewRoundIcon as broken } from "./broken";
-import { PenNewRoundIcon as outline } from "./outline";
-import { PenNewRoundIcon as line_duotone } from "./line-duotone";
+import { PenNewRoundIcon as line } from "./line.ts";
+import { PenNewRoundIcon as bold } from "./bold.ts";
+import { PenNewRoundIcon as duotone } from "./duotone.ts";
+import { PenNewRoundIcon as broken } from "./broken.ts";
+import { PenNewRoundIcon as outline } from "./outline.ts";
+import { PenNewRoundIcon as line_duotone } from "./line-duotone.ts";
 
 export const PenNewRoundIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { SquareDoubleAltArrowDownIcon } from '@cossackframework/solar-icons/square-double-alt-arrow-down/<style>'
  */
 import type { IconEntry } from "../types";
-import { SquareDoubleAltArrowDownIcon as line } from "./line";
-import { SquareDoubleAltArrowDownIcon as bold } from "./bold";
-import { SquareDoubleAltArrowDownIcon as duotone } from "./duotone";
-import { SquareDoubleAltArrowDownIcon as broken } from "./broken";
-import { SquareDoubleAltArrowDownIcon as outline } from "./outline";
-import { SquareDoubleAltArrowDownIcon as line_duotone } from "./line-duotone";
+import { SquareDoubleAltArrowDownIcon as line } from "./line.ts";
+import { SquareDoubleAltArrowDownIcon as bold } from "./bold.ts";
+import { SquareDoubleAltArrowDownIcon as duotone } from "./duotone.ts";
+import { SquareDoubleAltArrowDownIcon as broken } from "./broken.ts";
+import { SquareDoubleAltArrowDownIcon as outline } from "./outline.ts";
+import { SquareDoubleAltArrowDownIcon as line_duotone } from "./line-duotone.ts";
 
 export const SquareDoubleAltArrowDownIcon: IconEntry = {
     line: line,

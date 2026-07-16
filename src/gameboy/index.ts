@@ -4,12 +4,12 @@
  *   One style:   import { GameboyIcon } from '@cossackframework/solar-icons/gameboy/<style>'
  */
 import type { IconEntry } from "../types";
-import { GameboyIcon as line } from "./line";
-import { GameboyIcon as bold } from "./bold";
-import { GameboyIcon as duotone } from "./duotone";
-import { GameboyIcon as broken } from "./broken";
-import { GameboyIcon as outline } from "./outline";
-import { GameboyIcon as line_duotone } from "./line-duotone";
+import { GameboyIcon as line } from "./line.ts";
+import { GameboyIcon as bold } from "./bold.ts";
+import { GameboyIcon as duotone } from "./duotone.ts";
+import { GameboyIcon as broken } from "./broken.ts";
+import { GameboyIcon as outline } from "./outline.ts";
+import { GameboyIcon as line_duotone } from "./line-duotone.ts";
 
 export const GameboyIcon: IconEntry = {
     line: line,

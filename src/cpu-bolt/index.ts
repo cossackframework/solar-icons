@@ -4,12 +4,12 @@
  *   One style:   import { CpuBoltIcon } from '@cossackframework/solar-icons/cpu-bolt/<style>'
  */
 import type { IconEntry } from "../types";
-import { CpuBoltIcon as line } from "./line";
-import { CpuBoltIcon as bold } from "./bold";
-import { CpuBoltIcon as duotone } from "./duotone";
-import { CpuBoltIcon as broken } from "./broken";
-import { CpuBoltIcon as outline } from "./outline";
-import { CpuBoltIcon as line_duotone } from "./line-duotone";
+import { CpuBoltIcon as line } from "./line.ts";
+import { CpuBoltIcon as bold } from "./bold.ts";
+import { CpuBoltIcon as duotone } from "./duotone.ts";
+import { CpuBoltIcon as broken } from "./broken.ts";
+import { CpuBoltIcon as outline } from "./outline.ts";
+import { CpuBoltIcon as line_duotone } from "./line-duotone.ts";
 
 export const CpuBoltIcon: IconEntry = {
     line: line,

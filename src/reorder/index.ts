@@ -4,12 +4,12 @@
  *   One style:   import { ReorderIcon } from '@cossackframework/solar-icons/reorder/<style>'
  */
 import type { IconEntry } from "../types";
-import { ReorderIcon as line } from "./line";
-import { ReorderIcon as bold } from "./bold";
-import { ReorderIcon as duotone } from "./duotone";
-import { ReorderIcon as broken } from "./broken";
-import { ReorderIcon as outline } from "./outline";
-import { ReorderIcon as line_duotone } from "./line-duotone";
+import { ReorderIcon as line } from "./line.ts";
+import { ReorderIcon as bold } from "./bold.ts";
+import { ReorderIcon as duotone } from "./duotone.ts";
+import { ReorderIcon as broken } from "./broken.ts";
+import { ReorderIcon as outline } from "./outline.ts";
+import { ReorderIcon as line_duotone } from "./line-duotone.ts";
 
 export const ReorderIcon: IconEntry = {
     line: line,

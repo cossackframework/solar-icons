@@ -4,12 +4,12 @@
  *   One style:   import { SlashSquareIcon } from '@cossackframework/solar-icons/slash-square/<style>'
  */
 import type { IconEntry } from "../types";
-import { SlashSquareIcon as line } from "./line";
-import { SlashSquareIcon as bold } from "./bold";
-import { SlashSquareIcon as duotone } from "./duotone";
-import { SlashSquareIcon as broken } from "./broken";
-import { SlashSquareIcon as outline } from "./outline";
-import { SlashSquareIcon as line_duotone } from "./line-duotone";
+import { SlashSquareIcon as line } from "./line.ts";
+import { SlashSquareIcon as bold } from "./bold.ts";
+import { SlashSquareIcon as duotone } from "./duotone.ts";
+import { SlashSquareIcon as broken } from "./broken.ts";
+import { SlashSquareIcon as outline } from "./outline.ts";
+import { SlashSquareIcon as line_duotone } from "./line-duotone.ts";
 
 export const SlashSquareIcon: IconEntry = {
     line: line,

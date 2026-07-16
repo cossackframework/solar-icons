@@ -4,12 +4,12 @@
  *   One style:   import { AirbudsChargeIcon } from '@cossackframework/solar-icons/airbuds-charge/<style>'
  */
 import type { IconEntry } from "../types";
-import { AirbudsChargeIcon as line } from "./line";
-import { AirbudsChargeIcon as bold } from "./bold";
-import { AirbudsChargeIcon as duotone } from "./duotone";
-import { AirbudsChargeIcon as broken } from "./broken";
-import { AirbudsChargeIcon as outline } from "./outline";
-import { AirbudsChargeIcon as line_duotone } from "./line-duotone";
+import { AirbudsChargeIcon as line } from "./line.ts";
+import { AirbudsChargeIcon as bold } from "./bold.ts";
+import { AirbudsChargeIcon as duotone } from "./duotone.ts";
+import { AirbudsChargeIcon as broken } from "./broken.ts";
+import { AirbudsChargeIcon as outline } from "./outline.ts";
+import { AirbudsChargeIcon as line_duotone } from "./line-duotone.ts";
 
 export const AirbudsChargeIcon: IconEntry = {
     line: line,

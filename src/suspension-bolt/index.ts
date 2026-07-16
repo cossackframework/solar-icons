@@ -4,12 +4,12 @@
  *   One style:   import { SuspensionBoltIcon } from '@cossackframework/solar-icons/suspension-bolt/<style>'
  */
 import type { IconEntry } from "../types";
-import { SuspensionBoltIcon as line } from "./line";
-import { SuspensionBoltIcon as bold } from "./bold";
-import { SuspensionBoltIcon as duotone } from "./duotone";
-import { SuspensionBoltIcon as broken } from "./broken";
-import { SuspensionBoltIcon as outline } from "./outline";
-import { SuspensionBoltIcon as line_duotone } from "./line-duotone";
+import { SuspensionBoltIcon as line } from "./line.ts";
+import { SuspensionBoltIcon as bold } from "./bold.ts";
+import { SuspensionBoltIcon as duotone } from "./duotone.ts";
+import { SuspensionBoltIcon as broken } from "./broken.ts";
+import { SuspensionBoltIcon as outline } from "./outline.ts";
+import { SuspensionBoltIcon as line_duotone } from "./line-duotone.ts";
 
 export const SuspensionBoltIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { SimCardIcon } from '@cossackframework/solar-icons/sim-card/<style>'
  */
 import type { IconEntry } from "../types";
-import { SimCardIcon as line } from "./line";
-import { SimCardIcon as bold } from "./bold";
-import { SimCardIcon as duotone } from "./duotone";
-import { SimCardIcon as broken } from "./broken";
-import { SimCardIcon as outline } from "./outline";
-import { SimCardIcon as line_duotone } from "./line-duotone";
+import { SimCardIcon as line } from "./line.ts";
+import { SimCardIcon as bold } from "./bold.ts";
+import { SimCardIcon as duotone } from "./duotone.ts";
+import { SimCardIcon as broken } from "./broken.ts";
+import { SimCardIcon as outline } from "./outline.ts";
+import { SimCardIcon as line_duotone } from "./line-duotone.ts";
 
 export const SimCardIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { MenuDotsIcon } from '@cossackframework/solar-icons/menu-dots/<style>'
  */
 import type { IconEntry } from "../types";
-import { MenuDotsIcon as line } from "./line";
-import { MenuDotsIcon as bold } from "./bold";
-import { MenuDotsIcon as duotone } from "./duotone";
-import { MenuDotsIcon as broken } from "./broken";
-import { MenuDotsIcon as outline } from "./outline";
-import { MenuDotsIcon as line_duotone } from "./line-duotone";
+import { MenuDotsIcon as line } from "./line.ts";
+import { MenuDotsIcon as bold } from "./bold.ts";
+import { MenuDotsIcon as duotone } from "./duotone.ts";
+import { MenuDotsIcon as broken } from "./broken.ts";
+import { MenuDotsIcon as outline } from "./outline.ts";
+import { MenuDotsIcon as line_duotone } from "./line-duotone.ts";
 
 export const MenuDotsIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { StationMinimalisticIcon } from '@cossackframework/solar-icons/station-minimalistic/<style>'
  */
 import type { IconEntry } from "../types";
-import { StationMinimalisticIcon as line } from "./line";
-import { StationMinimalisticIcon as bold } from "./bold";
-import { StationMinimalisticIcon as duotone } from "./duotone";
-import { StationMinimalisticIcon as broken } from "./broken";
-import { StationMinimalisticIcon as outline } from "./outline";
-import { StationMinimalisticIcon as line_duotone } from "./line-duotone";
+import { StationMinimalisticIcon as line } from "./line.ts";
+import { StationMinimalisticIcon as bold } from "./bold.ts";
+import { StationMinimalisticIcon as duotone } from "./duotone.ts";
+import { StationMinimalisticIcon as broken } from "./broken.ts";
+import { StationMinimalisticIcon as outline } from "./outline.ts";
+import { StationMinimalisticIcon as line_duotone } from "./line-duotone.ts";
 
 export const StationMinimalisticIcon: IconEntry = {
     line: line,

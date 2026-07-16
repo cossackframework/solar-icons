@@ -4,12 +4,12 @@
  *   One style:   import { CalendarAddIcon } from '@cossackframework/solar-icons/calendar-add/<style>'
  */
 import type { IconEntry } from "../types";
-import { CalendarAddIcon as line } from "./line";
-import { CalendarAddIcon as bold } from "./bold";
-import { CalendarAddIcon as duotone } from "./duotone";
-import { CalendarAddIcon as broken } from "./broken";
-import { CalendarAddIcon as outline } from "./outline";
-import { CalendarAddIcon as line_duotone } from "./line-duotone";
+import { CalendarAddIcon as line } from "./line.ts";
+import { CalendarAddIcon as bold } from "./bold.ts";
+import { CalendarAddIcon as duotone } from "./duotone.ts";
+import { CalendarAddIcon as broken } from "./broken.ts";
+import { CalendarAddIcon as outline } from "./outline.ts";
+import { CalendarAddIcon as line_duotone } from "./line-duotone.ts";
 
 export const CalendarAddIcon: IconEntry = {
     line: line,

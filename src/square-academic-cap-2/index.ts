@@ -4,12 +4,12 @@
  *   One style:   import { SquareAcademicCap2Icon } from '@cossackframework/solar-icons/square-academic-cap-2/<style>'
  */
 import type { IconEntry } from "../types";
-import { SquareAcademicCap2Icon as line } from "./line";
-import { SquareAcademicCap2Icon as bold } from "./bold";
-import { SquareAcademicCap2Icon as duotone } from "./duotone";
-import { SquareAcademicCap2Icon as broken } from "./broken";
-import { SquareAcademicCap2Icon as outline } from "./outline";
-import { SquareAcademicCap2Icon as line_duotone } from "./line-duotone";
+import { SquareAcademicCap2Icon as line } from "./line.ts";
+import { SquareAcademicCap2Icon as bold } from "./bold.ts";
+import { SquareAcademicCap2Icon as duotone } from "./duotone.ts";
+import { SquareAcademicCap2Icon as broken } from "./broken.ts";
+import { SquareAcademicCap2Icon as outline } from "./outline.ts";
+import { SquareAcademicCap2Icon as line_duotone } from "./line-duotone.ts";
 
 export const SquareAcademicCap2Icon: IconEntry = {
     line: line,

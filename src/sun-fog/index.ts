@@ -4,12 +4,12 @@
  *   One style:   import { SunFogIcon } from '@cossackframework/solar-icons/sun-fog/<style>'
  */
 import type { IconEntry } from "../types";
-import { SunFogIcon as line } from "./line";
-import { SunFogIcon as bold } from "./bold";
-import { SunFogIcon as duotone } from "./duotone";
-import { SunFogIcon as broken } from "./broken";
-import { SunFogIcon as outline } from "./outline";
-import { SunFogIcon as line_duotone } from "./line-duotone";
+import { SunFogIcon as line } from "./line.ts";
+import { SunFogIcon as bold } from "./bold.ts";
+import { SunFogIcon as duotone } from "./duotone.ts";
+import { SunFogIcon as broken } from "./broken.ts";
+import { SunFogIcon as outline } from "./outline.ts";
+import { SunFogIcon as line_duotone } from "./line-duotone.ts";
 
 export const SunFogIcon: IconEntry = {
     line: line,

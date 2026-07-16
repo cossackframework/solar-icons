@@ -4,12 +4,12 @@
  *   One style:   import { RunningRoundIcon } from '@cossackframework/solar-icons/running-round/<style>'
  */
 import type { IconEntry } from "../types";
-import { RunningRoundIcon as line } from "./line";
-import { RunningRoundIcon as bold } from "./bold";
-import { RunningRoundIcon as duotone } from "./duotone";
-import { RunningRoundIcon as broken } from "./broken";
-import { RunningRoundIcon as outline } from "./outline";
-import { RunningRoundIcon as line_duotone } from "./line-duotone";
+import { RunningRoundIcon as line } from "./line.ts";
+import { RunningRoundIcon as bold } from "./bold.ts";
+import { RunningRoundIcon as duotone } from "./duotone.ts";
+import { RunningRoundIcon as broken } from "./broken.ts";
+import { RunningRoundIcon as outline } from "./outline.ts";
+import { RunningRoundIcon as line_duotone } from "./line-duotone.ts";
 
 export const RunningRoundIcon: IconEntry = {
     line: line,

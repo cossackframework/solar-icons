@@ -4,12 +4,12 @@
  *   One style:   import { CircleTopUpIcon } from '@cossackframework/solar-icons/circle-top-up/<style>'
  */
 import type { IconEntry } from "../types";
-import { CircleTopUpIcon as line } from "./line";
-import { CircleTopUpIcon as bold } from "./bold";
-import { CircleTopUpIcon as duotone } from "./duotone";
-import { CircleTopUpIcon as broken } from "./broken";
-import { CircleTopUpIcon as outline } from "./outline";
-import { CircleTopUpIcon as line_duotone } from "./line-duotone";
+import { CircleTopUpIcon as line } from "./line.ts";
+import { CircleTopUpIcon as bold } from "./bold.ts";
+import { CircleTopUpIcon as duotone } from "./duotone.ts";
+import { CircleTopUpIcon as broken } from "./broken.ts";
+import { CircleTopUpIcon as outline } from "./outline.ts";
+import { CircleTopUpIcon as line_duotone } from "./line-duotone.ts";
 
 export const CircleTopUpIcon: IconEntry = {
     line: line,

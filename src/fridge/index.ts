@@ -4,12 +4,12 @@
  *   One style:   import { FridgeIcon } from '@cossackframework/solar-icons/fridge/<style>'
  */
 import type { IconEntry } from "../types";
-import { FridgeIcon as line } from "./line";
-import { FridgeIcon as bold } from "./bold";
-import { FridgeIcon as duotone } from "./duotone";
-import { FridgeIcon as broken } from "./broken";
-import { FridgeIcon as outline } from "./outline";
-import { FridgeIcon as line_duotone } from "./line-duotone";
+import { FridgeIcon as line } from "./line.ts";
+import { FridgeIcon as bold } from "./bold.ts";
+import { FridgeIcon as duotone } from "./duotone.ts";
+import { FridgeIcon as broken } from "./broken.ts";
+import { FridgeIcon as outline } from "./outline.ts";
+import { FridgeIcon as line_duotone } from "./line-duotone.ts";
 
 export const FridgeIcon: IconEntry = {
     line: line,

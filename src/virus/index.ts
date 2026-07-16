@@ -4,12 +4,12 @@
  *   One style:   import { VirusIcon } from '@cossackframework/solar-icons/virus/<style>'
  */
 import type { IconEntry } from "../types";
-import { VirusIcon as line } from "./line";
-import { VirusIcon as bold } from "./bold";
-import { VirusIcon as duotone } from "./duotone";
-import { VirusIcon as broken } from "./broken";
-import { VirusIcon as outline } from "./outline";
-import { VirusIcon as line_duotone } from "./line-duotone";
+import { VirusIcon as line } from "./line.ts";
+import { VirusIcon as bold } from "./bold.ts";
+import { VirusIcon as duotone } from "./duotone.ts";
+import { VirusIcon as broken } from "./broken.ts";
+import { VirusIcon as outline } from "./outline.ts";
+import { VirusIcon as line_duotone } from "./line-duotone.ts";
 
 export const VirusIcon: IconEntry = {
     line: line,

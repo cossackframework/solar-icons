@@ -4,12 +4,12 @@
  *   One style:   import { WatchSquareMinimalisticChargeIcon } from '@cossackframework/solar-icons/watch-square-minimalistic-charge/<style>'
  */
 import type { IconEntry } from "../types";
-import { WatchSquareMinimalisticChargeIcon as line } from "./line";
-import { WatchSquareMinimalisticChargeIcon as bold } from "./bold";
-import { WatchSquareMinimalisticChargeIcon as duotone } from "./duotone";
-import { WatchSquareMinimalisticChargeIcon as broken } from "./broken";
-import { WatchSquareMinimalisticChargeIcon as outline } from "./outline";
-import { WatchSquareMinimalisticChargeIcon as line_duotone } from "./line-duotone";
+import { WatchSquareMinimalisticChargeIcon as line } from "./line.ts";
+import { WatchSquareMinimalisticChargeIcon as bold } from "./bold.ts";
+import { WatchSquareMinimalisticChargeIcon as duotone } from "./duotone.ts";
+import { WatchSquareMinimalisticChargeIcon as broken } from "./broken.ts";
+import { WatchSquareMinimalisticChargeIcon as outline } from "./outline.ts";
+import { WatchSquareMinimalisticChargeIcon as line_duotone } from "./line-duotone.ts";
 
 export const WatchSquareMinimalisticChargeIcon: IconEntry = {
     line: line,

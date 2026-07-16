@@ -4,12 +4,12 @@
  *   One style:   import { SatelliteIcon } from '@cossackframework/solar-icons/satellite/<style>'
  */
 import type { IconEntry } from "../types";
-import { SatelliteIcon as line } from "./line";
-import { SatelliteIcon as bold } from "./bold";
-import { SatelliteIcon as duotone } from "./duotone";
-import { SatelliteIcon as broken } from "./broken";
-import { SatelliteIcon as outline } from "./outline";
-import { SatelliteIcon as line_duotone } from "./line-duotone";
+import { SatelliteIcon as line } from "./line.ts";
+import { SatelliteIcon as bold } from "./bold.ts";
+import { SatelliteIcon as duotone } from "./duotone.ts";
+import { SatelliteIcon as broken } from "./broken.ts";
+import { SatelliteIcon as outline } from "./outline.ts";
+import { SatelliteIcon as line_duotone } from "./line-duotone.ts";
 
 export const SatelliteIcon: IconEntry = {
     line: line,

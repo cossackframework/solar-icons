@@ -4,12 +4,12 @@
  *   One style:   import { GalleryRemoveIcon } from '@cossackframework/solar-icons/gallery-remove/<style>'
  */
 import type { IconEntry } from "../types";
-import { GalleryRemoveIcon as line } from "./line";
-import { GalleryRemoveIcon as bold } from "./bold";
-import { GalleryRemoveIcon as duotone } from "./duotone";
-import { GalleryRemoveIcon as broken } from "./broken";
-import { GalleryRemoveIcon as outline } from "./outline";
-import { GalleryRemoveIcon as line_duotone } from "./line-duotone";
+import { GalleryRemoveIcon as line } from "./line.ts";
+import { GalleryRemoveIcon as bold } from "./bold.ts";
+import { GalleryRemoveIcon as duotone } from "./duotone.ts";
+import { GalleryRemoveIcon as broken } from "./broken.ts";
+import { GalleryRemoveIcon as outline } from "./outline.ts";
+import { GalleryRemoveIcon as line_duotone } from "./line-duotone.ts";
 
 export const GalleryRemoveIcon: IconEntry = {
     line: line,

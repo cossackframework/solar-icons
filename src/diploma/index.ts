@@ -4,12 +4,12 @@
  *   One style:   import { DiplomaIcon } from '@cossackframework/solar-icons/diploma/<style>'
  */
 import type { IconEntry } from "../types";
-import { DiplomaIcon as line } from "./line";
-import { DiplomaIcon as bold } from "./bold";
-import { DiplomaIcon as duotone } from "./duotone";
-import { DiplomaIcon as broken } from "./broken";
-import { DiplomaIcon as outline } from "./outline";
-import { DiplomaIcon as line_duotone } from "./line-duotone";
+import { DiplomaIcon as line } from "./line.ts";
+import { DiplomaIcon as bold } from "./bold.ts";
+import { DiplomaIcon as duotone } from "./duotone.ts";
+import { DiplomaIcon as broken } from "./broken.ts";
+import { DiplomaIcon as outline } from "./outline.ts";
+import { DiplomaIcon as line_duotone } from "./line-duotone.ts";
 
 export const DiplomaIcon: IconEntry = {
     line: line,

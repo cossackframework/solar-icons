@@ -4,12 +4,12 @@
  *   One style:   import { WashingMachineMinimalisticIcon } from '@cossackframework/solar-icons/washing-machine-minimalistic/<style>'
  */
 import type { IconEntry } from "../types";
-import { WashingMachineMinimalisticIcon as line } from "./line";
-import { WashingMachineMinimalisticIcon as bold } from "./bold";
-import { WashingMachineMinimalisticIcon as duotone } from "./duotone";
-import { WashingMachineMinimalisticIcon as broken } from "./broken";
-import { WashingMachineMinimalisticIcon as outline } from "./outline";
-import { WashingMachineMinimalisticIcon as line_duotone } from "./line-duotone";
+import { WashingMachineMinimalisticIcon as line } from "./line.ts";
+import { WashingMachineMinimalisticIcon as bold } from "./bold.ts";
+import { WashingMachineMinimalisticIcon as duotone } from "./duotone.ts";
+import { WashingMachineMinimalisticIcon as broken } from "./broken.ts";
+import { WashingMachineMinimalisticIcon as outline } from "./outline.ts";
+import { WashingMachineMinimalisticIcon as line_duotone } from "./line-duotone.ts";
 
 export const WashingMachineMinimalisticIcon: IconEntry = {
     line: line,

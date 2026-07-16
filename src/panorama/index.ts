@@ -4,12 +4,12 @@
  *   One style:   import { PanoramaIcon } from '@cossackframework/solar-icons/panorama/<style>'
  */
 import type { IconEntry } from "../types";
-import { PanoramaIcon as line } from "./line";
-import { PanoramaIcon as bold } from "./bold";
-import { PanoramaIcon as duotone } from "./duotone";
-import { PanoramaIcon as broken } from "./broken";
-import { PanoramaIcon as outline } from "./outline";
-import { PanoramaIcon as line_duotone } from "./line-duotone";
+import { PanoramaIcon as line } from "./line.ts";
+import { PanoramaIcon as bold } from "./bold.ts";
+import { PanoramaIcon as duotone } from "./duotone.ts";
+import { PanoramaIcon as broken } from "./broken.ts";
+import { PanoramaIcon as outline } from "./outline.ts";
+import { PanoramaIcon as line_duotone } from "./line-duotone.ts";
 
 export const PanoramaIcon: IconEntry = {
     line: line,

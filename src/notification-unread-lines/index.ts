@@ -4,12 +4,12 @@
  *   One style:   import { NotificationUnreadLinesIcon } from '@cossackframework/solar-icons/notification-unread-lines/<style>'
  */
 import type { IconEntry } from "../types";
-import { NotificationUnreadLinesIcon as line } from "./line";
-import { NotificationUnreadLinesIcon as bold } from "./bold";
-import { NotificationUnreadLinesIcon as duotone } from "./duotone";
-import { NotificationUnreadLinesIcon as broken } from "./broken";
-import { NotificationUnreadLinesIcon as outline } from "./outline";
-import { NotificationUnreadLinesIcon as line_duotone } from "./line-duotone";
+import { NotificationUnreadLinesIcon as line } from "./line.ts";
+import { NotificationUnreadLinesIcon as bold } from "./bold.ts";
+import { NotificationUnreadLinesIcon as duotone } from "./duotone.ts";
+import { NotificationUnreadLinesIcon as broken } from "./broken.ts";
+import { NotificationUnreadLinesIcon as outline } from "./outline.ts";
+import { NotificationUnreadLinesIcon as line_duotone } from "./line-duotone.ts";
 
 export const NotificationUnreadLinesIcon: IconEntry = {
     line: line,

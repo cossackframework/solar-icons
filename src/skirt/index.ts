@@ -4,12 +4,12 @@
  *   One style:   import { SkirtIcon } from '@cossackframework/solar-icons/skirt/<style>'
  */
 import type { IconEntry } from "../types";
-import { SkirtIcon as line } from "./line";
-import { SkirtIcon as bold } from "./bold";
-import { SkirtIcon as duotone } from "./duotone";
-import { SkirtIcon as broken } from "./broken";
-import { SkirtIcon as outline } from "./outline";
-import { SkirtIcon as line_duotone } from "./line-duotone";
+import { SkirtIcon as line } from "./line.ts";
+import { SkirtIcon as bold } from "./bold.ts";
+import { SkirtIcon as duotone } from "./duotone.ts";
+import { SkirtIcon as broken } from "./broken.ts";
+import { SkirtIcon as outline } from "./outline.ts";
+import { SkirtIcon as line_duotone } from "./line-duotone.ts";
 
 export const SkirtIcon: IconEntry = {
     line: line,

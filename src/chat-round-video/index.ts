@@ -4,12 +4,12 @@
  *   One style:   import { ChatRoundVideoIcon } from '@cossackframework/solar-icons/chat-round-video/<style>'
  */
 import type { IconEntry } from "../types";
-import { ChatRoundVideoIcon as line } from "./line";
-import { ChatRoundVideoIcon as bold } from "./bold";
-import { ChatRoundVideoIcon as duotone } from "./duotone";
-import { ChatRoundVideoIcon as broken } from "./broken";
-import { ChatRoundVideoIcon as outline } from "./outline";
-import { ChatRoundVideoIcon as line_duotone } from "./line-duotone";
+import { ChatRoundVideoIcon as line } from "./line.ts";
+import { ChatRoundVideoIcon as bold } from "./bold.ts";
+import { ChatRoundVideoIcon as duotone } from "./duotone.ts";
+import { ChatRoundVideoIcon as broken } from "./broken.ts";
+import { ChatRoundVideoIcon as outline } from "./outline.ts";
+import { ChatRoundVideoIcon as line_duotone } from "./line-duotone.ts";
 
 export const ChatRoundVideoIcon: IconEntry = {
     line: line,

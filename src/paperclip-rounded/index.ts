@@ -4,12 +4,12 @@
  *   One style:   import { PaperclipRoundedIcon } from '@cossackframework/solar-icons/paperclip-rounded/<style>'
  */
 import type { IconEntry } from "../types";
-import { PaperclipRoundedIcon as line } from "./line";
-import { PaperclipRoundedIcon as bold } from "./bold";
-import { PaperclipRoundedIcon as duotone } from "./duotone";
-import { PaperclipRoundedIcon as broken } from "./broken";
-import { PaperclipRoundedIcon as outline } from "./outline";
-import { PaperclipRoundedIcon as line_duotone } from "./line-duotone";
+import { PaperclipRoundedIcon as line } from "./line.ts";
+import { PaperclipRoundedIcon as bold } from "./bold.ts";
+import { PaperclipRoundedIcon as duotone } from "./duotone.ts";
+import { PaperclipRoundedIcon as broken } from "./broken.ts";
+import { PaperclipRoundedIcon as outline } from "./outline.ts";
+import { PaperclipRoundedIcon as line_duotone } from "./line-duotone.ts";
 
 export const PaperclipRoundedIcon: IconEntry = {
     line: line,

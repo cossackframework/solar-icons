@@ -4,12 +4,12 @@
  *   One style:   import { CupMusicIcon } from '@cossackframework/solar-icons/cup-music/<style>'
  */
 import type { IconEntry } from "../types";
-import { CupMusicIcon as line } from "./line";
-import { CupMusicIcon as bold } from "./bold";
-import { CupMusicIcon as duotone } from "./duotone";
-import { CupMusicIcon as broken } from "./broken";
-import { CupMusicIcon as outline } from "./outline";
-import { CupMusicIcon as line_duotone } from "./line-duotone";
+import { CupMusicIcon as line } from "./line.ts";
+import { CupMusicIcon as bold } from "./bold.ts";
+import { CupMusicIcon as duotone } from "./duotone.ts";
+import { CupMusicIcon as broken } from "./broken.ts";
+import { CupMusicIcon as outline } from "./outline.ts";
+import { CupMusicIcon as line_duotone } from "./line-duotone.ts";
 
 export const CupMusicIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { OutgoingCallIcon } from '@cossackframework/solar-icons/outgoing-call/<style>'
  */
 import type { IconEntry } from "../types";
-import { OutgoingCallIcon as line } from "./line";
-import { OutgoingCallIcon as bold } from "./bold";
-import { OutgoingCallIcon as duotone } from "./duotone";
-import { OutgoingCallIcon as broken } from "./broken";
-import { OutgoingCallIcon as outline } from "./outline";
-import { OutgoingCallIcon as line_duotone } from "./line-duotone";
+import { OutgoingCallIcon as line } from "./line.ts";
+import { OutgoingCallIcon as bold } from "./bold.ts";
+import { OutgoingCallIcon as duotone } from "./duotone.ts";
+import { OutgoingCallIcon as broken } from "./broken.ts";
+import { OutgoingCallIcon as outline } from "./outline.ts";
+import { OutgoingCallIcon as line_duotone } from "./line-duotone.ts";
 
 export const OutgoingCallIcon: IconEntry = {
     line: line,

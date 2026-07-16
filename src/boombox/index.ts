@@ -4,12 +4,12 @@
  *   One style:   import { BoomboxIcon } from '@cossackframework/solar-icons/boombox/<style>'
  */
 import type { IconEntry } from "../types";
-import { BoomboxIcon as line } from "./line";
-import { BoomboxIcon as bold } from "./bold";
-import { BoomboxIcon as duotone } from "./duotone";
-import { BoomboxIcon as broken } from "./broken";
-import { BoomboxIcon as outline } from "./outline";
-import { BoomboxIcon as line_duotone } from "./line-duotone";
+import { BoomboxIcon as line } from "./line.ts";
+import { BoomboxIcon as bold } from "./bold.ts";
+import { BoomboxIcon as duotone } from "./duotone.ts";
+import { BoomboxIcon as broken } from "./broken.ts";
+import { BoomboxIcon as outline } from "./outline.ts";
+import { BoomboxIcon as line_duotone } from "./line-duotone.ts";
 
 export const BoomboxIcon: IconEntry = {
     line: line,

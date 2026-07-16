@@ -4,12 +4,12 @@
  *   One style:   import { FireMinimalisticIcon } from '@cossackframework/solar-icons/fire-minimalistic/<style>'
  */
 import type { IconEntry } from "../types";
-import { FireMinimalisticIcon as line } from "./line";
-import { FireMinimalisticIcon as bold } from "./bold";
-import { FireMinimalisticIcon as duotone } from "./duotone";
-import { FireMinimalisticIcon as broken } from "./broken";
-import { FireMinimalisticIcon as outline } from "./outline";
-import { FireMinimalisticIcon as line_duotone } from "./line-duotone";
+import { FireMinimalisticIcon as line } from "./line.ts";
+import { FireMinimalisticIcon as bold } from "./bold.ts";
+import { FireMinimalisticIcon as duotone } from "./duotone.ts";
+import { FireMinimalisticIcon as broken } from "./broken.ts";
+import { FireMinimalisticIcon as outline } from "./outline.ts";
+import { FireMinimalisticIcon as line_duotone } from "./line-duotone.ts";
 
 export const FireMinimalisticIcon: IconEntry = {
     line: line,

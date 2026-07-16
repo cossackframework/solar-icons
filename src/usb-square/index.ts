@@ -4,12 +4,12 @@
  *   One style:   import { UsbSquareIcon } from '@cossackframework/solar-icons/usb-square/<style>'
  */
 import type { IconEntry } from "../types";
-import { UsbSquareIcon as line } from "./line";
-import { UsbSquareIcon as bold } from "./bold";
-import { UsbSquareIcon as duotone } from "./duotone";
-import { UsbSquareIcon as broken } from "./broken";
-import { UsbSquareIcon as outline } from "./outline";
-import { UsbSquareIcon as line_duotone } from "./line-duotone";
+import { UsbSquareIcon as line } from "./line.ts";
+import { UsbSquareIcon as bold } from "./bold.ts";
+import { UsbSquareIcon as duotone } from "./duotone.ts";
+import { UsbSquareIcon as broken } from "./broken.ts";
+import { UsbSquareIcon as outline } from "./outline.ts";
+import { UsbSquareIcon as line_duotone } from "./line-duotone.ts";
 
 export const UsbSquareIcon: IconEntry = {
     line: line,

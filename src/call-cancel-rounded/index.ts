@@ -4,12 +4,12 @@
  *   One style:   import { CallCancelRoundedIcon } from '@cossackframework/solar-icons/call-cancel-rounded/<style>'
  */
 import type { IconEntry } from "../types";
-import { CallCancelRoundedIcon as line } from "./line";
-import { CallCancelRoundedIcon as bold } from "./bold";
-import { CallCancelRoundedIcon as duotone } from "./duotone";
-import { CallCancelRoundedIcon as broken } from "./broken";
-import { CallCancelRoundedIcon as outline } from "./outline";
-import { CallCancelRoundedIcon as line_duotone } from "./line-duotone";
+import { CallCancelRoundedIcon as line } from "./line.ts";
+import { CallCancelRoundedIcon as bold } from "./bold.ts";
+import { CallCancelRoundedIcon as duotone } from "./duotone.ts";
+import { CallCancelRoundedIcon as broken } from "./broken.ts";
+import { CallCancelRoundedIcon as outline } from "./outline.ts";
+import { CallCancelRoundedIcon as line_duotone } from "./line-duotone.ts";
 
 export const CallCancelRoundedIcon: IconEntry = {
     line: line,

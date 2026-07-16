@@ -4,12 +4,12 @@
  *   One style:   import { TextBoldSquareIcon } from '@cossackframework/solar-icons/text-bold-square/<style>'
  */
 import type { IconEntry } from "../types";
-import { TextBoldSquareIcon as line } from "./line";
-import { TextBoldSquareIcon as bold } from "./bold";
-import { TextBoldSquareIcon as duotone } from "./duotone";
-import { TextBoldSquareIcon as broken } from "./broken";
-import { TextBoldSquareIcon as outline } from "./outline";
-import { TextBoldSquareIcon as line_duotone } from "./line-duotone";
+import { TextBoldSquareIcon as line } from "./line.ts";
+import { TextBoldSquareIcon as bold } from "./bold.ts";
+import { TextBoldSquareIcon as duotone } from "./duotone.ts";
+import { TextBoldSquareIcon as broken } from "./broken.ts";
+import { TextBoldSquareIcon as outline } from "./outline.ts";
+import { TextBoldSquareIcon as line_duotone } from "./line-duotone.ts";
 
 export const TextBoldSquareIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { TextUnderlineIcon } from '@cossackframework/solar-icons/text-underline/<style>'
  */
 import type { IconEntry } from "../types";
-import { TextUnderlineIcon as line } from "./line";
-import { TextUnderlineIcon as bold } from "./bold";
-import { TextUnderlineIcon as duotone } from "./duotone";
-import { TextUnderlineIcon as broken } from "./broken";
-import { TextUnderlineIcon as outline } from "./outline";
-import { TextUnderlineIcon as line_duotone } from "./line-duotone";
+import { TextUnderlineIcon as line } from "./line.ts";
+import { TextUnderlineIcon as bold } from "./bold.ts";
+import { TextUnderlineIcon as duotone } from "./duotone.ts";
+import { TextUnderlineIcon as broken } from "./broken.ts";
+import { TextUnderlineIcon as outline } from "./outline.ts";
+import { TextUnderlineIcon as line_duotone } from "./line-duotone.ts";
 
 export const TextUnderlineIcon: IconEntry = {
     line: line,

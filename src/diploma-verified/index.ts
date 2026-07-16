@@ -4,12 +4,12 @@
  *   One style:   import { DiplomaVerifiedIcon } from '@cossackframework/solar-icons/diploma-verified/<style>'
  */
 import type { IconEntry } from "../types";
-import { DiplomaVerifiedIcon as line } from "./line";
-import { DiplomaVerifiedIcon as bold } from "./bold";
-import { DiplomaVerifiedIcon as duotone } from "./duotone";
-import { DiplomaVerifiedIcon as broken } from "./broken";
-import { DiplomaVerifiedIcon as outline } from "./outline";
-import { DiplomaVerifiedIcon as line_duotone } from "./line-duotone";
+import { DiplomaVerifiedIcon as line } from "./line.ts";
+import { DiplomaVerifiedIcon as bold } from "./bold.ts";
+import { DiplomaVerifiedIcon as duotone } from "./duotone.ts";
+import { DiplomaVerifiedIcon as broken } from "./broken.ts";
+import { DiplomaVerifiedIcon as outline } from "./outline.ts";
+import { DiplomaVerifiedIcon as line_duotone } from "./line-duotone.ts";
 
 export const DiplomaVerifiedIcon: IconEntry = {
     line: line,

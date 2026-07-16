@@ -4,12 +4,12 @@
  *   One style:   import { WaterdropIcon } from '@cossackframework/solar-icons/waterdrop/<style>'
  */
 import type { IconEntry } from "../types";
-import { WaterdropIcon as line } from "./line";
-import { WaterdropIcon as bold } from "./bold";
-import { WaterdropIcon as duotone } from "./duotone";
-import { WaterdropIcon as broken } from "./broken";
-import { WaterdropIcon as outline } from "./outline";
-import { WaterdropIcon as line_duotone } from "./line-duotone";
+import { WaterdropIcon as line } from "./line.ts";
+import { WaterdropIcon as bold } from "./bold.ts";
+import { WaterdropIcon as duotone } from "./duotone.ts";
+import { WaterdropIcon as broken } from "./broken.ts";
+import { WaterdropIcon as outline } from "./outline.ts";
+import { WaterdropIcon as line_duotone } from "./line-duotone.ts";
 
 export const WaterdropIcon: IconEntry = {
     line: line,

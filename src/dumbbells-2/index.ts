@@ -4,12 +4,12 @@
  *   One style:   import { Dumbbells2Icon } from '@cossackframework/solar-icons/dumbbells-2/<style>'
  */
 import type { IconEntry } from "../types";
-import { Dumbbells2Icon as line } from "./line";
-import { Dumbbells2Icon as bold } from "./bold";
-import { Dumbbells2Icon as duotone } from "./duotone";
-import { Dumbbells2Icon as broken } from "./broken";
-import { Dumbbells2Icon as outline } from "./outline";
-import { Dumbbells2Icon as line_duotone } from "./line-duotone";
+import { Dumbbells2Icon as line } from "./line.ts";
+import { Dumbbells2Icon as bold } from "./bold.ts";
+import { Dumbbells2Icon as duotone } from "./duotone.ts";
+import { Dumbbells2Icon as broken } from "./broken.ts";
+import { Dumbbells2Icon as outline } from "./outline.ts";
+import { Dumbbells2Icon as line_duotone } from "./line-duotone.ts";
 
 export const Dumbbells2Icon: IconEntry = {
     line: line,

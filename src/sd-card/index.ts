@@ -4,12 +4,12 @@
  *   One style:   import { SdCardIcon } from '@cossackframework/solar-icons/sd-card/<style>'
  */
 import type { IconEntry } from "../types";
-import { SdCardIcon as line } from "./line";
-import { SdCardIcon as bold } from "./bold";
-import { SdCardIcon as duotone } from "./duotone";
-import { SdCardIcon as broken } from "./broken";
-import { SdCardIcon as outline } from "./outline";
-import { SdCardIcon as line_duotone } from "./line-duotone";
+import { SdCardIcon as line } from "./line.ts";
+import { SdCardIcon as bold } from "./bold.ts";
+import { SdCardIcon as duotone } from "./duotone.ts";
+import { SdCardIcon as broken } from "./broken.ts";
+import { SdCardIcon as outline } from "./outline.ts";
+import { SdCardIcon as line_duotone } from "./line-duotone.ts";
 
 export const SdCardIcon: IconEntry = {
     line: line,

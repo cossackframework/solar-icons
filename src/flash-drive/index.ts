@@ -4,12 +4,12 @@
  *   One style:   import { FlashDriveIcon } from '@cossackframework/solar-icons/flash-drive/<style>'
  */
 import type { IconEntry } from "../types";
-import { FlashDriveIcon as line } from "./line";
-import { FlashDriveIcon as bold } from "./bold";
-import { FlashDriveIcon as duotone } from "./duotone";
-import { FlashDriveIcon as broken } from "./broken";
-import { FlashDriveIcon as outline } from "./outline";
-import { FlashDriveIcon as line_duotone } from "./line-duotone";
+import { FlashDriveIcon as line } from "./line.ts";
+import { FlashDriveIcon as bold } from "./bold.ts";
+import { FlashDriveIcon as duotone } from "./duotone.ts";
+import { FlashDriveIcon as broken } from "./broken.ts";
+import { FlashDriveIcon as outline } from "./outline.ts";
+import { FlashDriveIcon as line_duotone } from "./line-duotone.ts";
 
 export const FlashDriveIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { GallerySendIcon } from '@cossackframework/solar-icons/gallery-send/<style>'
  */
 import type { IconEntry } from "../types";
-import { GallerySendIcon as line } from "./line";
-import { GallerySendIcon as bold } from "./bold";
-import { GallerySendIcon as duotone } from "./duotone";
-import { GallerySendIcon as broken } from "./broken";
-import { GallerySendIcon as outline } from "./outline";
-import { GallerySendIcon as line_duotone } from "./line-duotone";
+import { GallerySendIcon as line } from "./line.ts";
+import { GallerySendIcon as bold } from "./bold.ts";
+import { GallerySendIcon as duotone } from "./duotone.ts";
+import { GallerySendIcon as broken } from "./broken.ts";
+import { GallerySendIcon as outline } from "./outline.ts";
+import { GallerySendIcon as line_duotone } from "./line-duotone.ts";
 
 export const GallerySendIcon: IconEntry = {
     line: line,

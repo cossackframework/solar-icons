@@ -4,12 +4,12 @@
  *   One style:   import { QuitPipIcon } from '@cossackframework/solar-icons/quit-pip/<style>'
  */
 import type { IconEntry } from "../types";
-import { QuitPipIcon as line } from "./line";
-import { QuitPipIcon as bold } from "./bold";
-import { QuitPipIcon as duotone } from "./duotone";
-import { QuitPipIcon as broken } from "./broken";
-import { QuitPipIcon as outline } from "./outline";
-import { QuitPipIcon as line_duotone } from "./line-duotone";
+import { QuitPipIcon as line } from "./line.ts";
+import { QuitPipIcon as bold } from "./bold.ts";
+import { QuitPipIcon as duotone } from "./duotone.ts";
+import { QuitPipIcon as broken } from "./broken.ts";
+import { QuitPipIcon as outline } from "./outline.ts";
+import { QuitPipIcon as line_duotone } from "./line-duotone.ts";
 
 export const QuitPipIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { Pills2Icon } from '@cossackframework/solar-icons/pills-2/<style>'
  */
 import type { IconEntry } from "../types";
-import { Pills2Icon as line } from "./line";
-import { Pills2Icon as bold } from "./bold";
-import { Pills2Icon as duotone } from "./duotone";
-import { Pills2Icon as broken } from "./broken";
-import { Pills2Icon as outline } from "./outline";
-import { Pills2Icon as line_duotone } from "./line-duotone";
+import { Pills2Icon as line } from "./line.ts";
+import { Pills2Icon as bold } from "./bold.ts";
+import { Pills2Icon as duotone } from "./duotone.ts";
+import { Pills2Icon as broken } from "./broken.ts";
+import { Pills2Icon as outline } from "./outline.ts";
+import { Pills2Icon as line_duotone } from "./line-duotone.ts";
 
 export const Pills2Icon: IconEntry = {
     line: line,

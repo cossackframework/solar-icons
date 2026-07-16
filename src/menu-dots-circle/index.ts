@@ -4,12 +4,12 @@
  *   One style:   import { MenuDotsCircleIcon } from '@cossackframework/solar-icons/menu-dots-circle/<style>'
  */
 import type { IconEntry } from "../types";
-import { MenuDotsCircleIcon as line } from "./line";
-import { MenuDotsCircleIcon as bold } from "./bold";
-import { MenuDotsCircleIcon as duotone } from "./duotone";
-import { MenuDotsCircleIcon as broken } from "./broken";
-import { MenuDotsCircleIcon as outline } from "./outline";
-import { MenuDotsCircleIcon as line_duotone } from "./line-duotone";
+import { MenuDotsCircleIcon as line } from "./line.ts";
+import { MenuDotsCircleIcon as bold } from "./bold.ts";
+import { MenuDotsCircleIcon as duotone } from "./duotone.ts";
+import { MenuDotsCircleIcon as broken } from "./broken.ts";
+import { MenuDotsCircleIcon as outline } from "./outline.ts";
+import { MenuDotsCircleIcon as line_duotone } from "./line-duotone.ts";
 
 export const MenuDotsCircleIcon: IconEntry = {
     line: line,

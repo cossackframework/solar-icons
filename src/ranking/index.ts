@@ -4,12 +4,12 @@
  *   One style:   import { RankingIcon } from '@cossackframework/solar-icons/ranking/<style>'
  */
 import type { IconEntry } from "../types";
-import { RankingIcon as line } from "./line";
-import { RankingIcon as bold } from "./bold";
-import { RankingIcon as duotone } from "./duotone";
-import { RankingIcon as broken } from "./broken";
-import { RankingIcon as outline } from "./outline";
-import { RankingIcon as line_duotone } from "./line-duotone";
+import { RankingIcon as line } from "./line.ts";
+import { RankingIcon as bold } from "./bold.ts";
+import { RankingIcon as duotone } from "./duotone.ts";
+import { RankingIcon as broken } from "./broken.ts";
+import { RankingIcon as outline } from "./outline.ts";
+import { RankingIcon as line_duotone } from "./line-duotone.ts";
 
 export const RankingIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { CallDroppedIcon } from '@cossackframework/solar-icons/call-dropped/<style>'
  */
 import type { IconEntry } from "../types";
-import { CallDroppedIcon as line } from "./line";
-import { CallDroppedIcon as bold } from "./bold";
-import { CallDroppedIcon as duotone } from "./duotone";
-import { CallDroppedIcon as broken } from "./broken";
-import { CallDroppedIcon as outline } from "./outline";
-import { CallDroppedIcon as line_duotone } from "./line-duotone";
+import { CallDroppedIcon as line } from "./line.ts";
+import { CallDroppedIcon as bold } from "./bold.ts";
+import { CallDroppedIcon as duotone } from "./duotone.ts";
+import { CallDroppedIcon as broken } from "./broken.ts";
+import { CallDroppedIcon as outline } from "./outline.ts";
+import { CallDroppedIcon as line_duotone } from "./line-duotone.ts";
 
 export const CallDroppedIcon: IconEntry = {
     line: line,

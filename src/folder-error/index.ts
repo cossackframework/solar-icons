@@ -4,12 +4,12 @@
  *   One style:   import { FolderErrorIcon } from '@cossackframework/solar-icons/folder-error/<style>'
  */
 import type { IconEntry } from "../types";
-import { FolderErrorIcon as line } from "./line";
-import { FolderErrorIcon as bold } from "./bold";
-import { FolderErrorIcon as duotone } from "./duotone";
-import { FolderErrorIcon as broken } from "./broken";
-import { FolderErrorIcon as outline } from "./outline";
-import { FolderErrorIcon as line_duotone } from "./line-duotone";
+import { FolderErrorIcon as line } from "./line.ts";
+import { FolderErrorIcon as bold } from "./bold.ts";
+import { FolderErrorIcon as duotone } from "./duotone.ts";
+import { FolderErrorIcon as broken } from "./broken.ts";
+import { FolderErrorIcon as outline } from "./outline.ts";
+import { FolderErrorIcon as line_duotone } from "./line-duotone.ts";
 
 export const FolderErrorIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { FolderFavoriteStarIcon } from '@cossackframework/solar-icons/folder-favorite-star/<style>'
  */
 import type { IconEntry } from "../types";
-import { FolderFavoriteStarIcon as line } from "./line";
-import { FolderFavoriteStarIcon as bold } from "./bold";
-import { FolderFavoriteStarIcon as duotone } from "./duotone";
-import { FolderFavoriteStarIcon as broken } from "./broken";
-import { FolderFavoriteStarIcon as outline } from "./outline";
-import { FolderFavoriteStarIcon as line_duotone } from "./line-duotone";
+import { FolderFavoriteStarIcon as line } from "./line.ts";
+import { FolderFavoriteStarIcon as bold } from "./bold.ts";
+import { FolderFavoriteStarIcon as duotone } from "./duotone.ts";
+import { FolderFavoriteStarIcon as broken } from "./broken.ts";
+import { FolderFavoriteStarIcon as outline } from "./outline.ts";
+import { FolderFavoriteStarIcon as line_duotone } from "./line-duotone.ts";
 
 export const FolderFavoriteStarIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { DangerTriangleIcon } from '@cossackframework/solar-icons/danger-triangle/<style>'
  */
 import type { IconEntry } from "../types";
-import { DangerTriangleIcon as line } from "./line";
-import { DangerTriangleIcon as bold } from "./bold";
-import { DangerTriangleIcon as duotone } from "./duotone";
-import { DangerTriangleIcon as broken } from "./broken";
-import { DangerTriangleIcon as outline } from "./outline";
-import { DangerTriangleIcon as line_duotone } from "./line-duotone";
+import { DangerTriangleIcon as line } from "./line.ts";
+import { DangerTriangleIcon as bold } from "./bold.ts";
+import { DangerTriangleIcon as duotone } from "./duotone.ts";
+import { DangerTriangleIcon as broken } from "./broken.ts";
+import { DangerTriangleIcon as outline } from "./outline.ts";
+import { DangerTriangleIcon as line_duotone } from "./line-duotone.ts";
 
 export const DangerTriangleIcon: IconEntry = {
     line: line,

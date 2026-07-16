@@ -4,12 +4,12 @@
  *   One style:   import { RemoveFolderIcon } from '@cossackframework/solar-icons/remove-folder/<style>'
  */
 import type { IconEntry } from "../types";
-import { RemoveFolderIcon as line } from "./line";
-import { RemoveFolderIcon as bold } from "./bold";
-import { RemoveFolderIcon as duotone } from "./duotone";
-import { RemoveFolderIcon as broken } from "./broken";
-import { RemoveFolderIcon as outline } from "./outline";
-import { RemoveFolderIcon as line_duotone } from "./line-duotone";
+import { RemoveFolderIcon as line } from "./line.ts";
+import { RemoveFolderIcon as bold } from "./bold.ts";
+import { RemoveFolderIcon as duotone } from "./duotone.ts";
+import { RemoveFolderIcon as broken } from "./broken.ts";
+import { RemoveFolderIcon as outline } from "./outline.ts";
+import { RemoveFolderIcon as line_duotone } from "./line-duotone.ts";
 
 export const RemoveFolderIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { StarIcon } from '@cossackframework/solar-icons/star/<style>'
  */
 import type { IconEntry } from "../types";
-import { StarIcon as line } from "./line";
-import { StarIcon as bold } from "./bold";
-import { StarIcon as duotone } from "./duotone";
-import { StarIcon as broken } from "./broken";
-import { StarIcon as outline } from "./outline";
-import { StarIcon as line_duotone } from "./line-duotone";
+import { StarIcon as line } from "./line.ts";
+import { StarIcon as bold } from "./bold.ts";
+import { StarIcon as duotone } from "./duotone.ts";
+import { StarIcon as broken } from "./broken.ts";
+import { StarIcon as outline } from "./outline.ts";
+import { StarIcon as line_duotone } from "./line-duotone.ts";
 
 export const StarIcon: IconEntry = {
     line: line,

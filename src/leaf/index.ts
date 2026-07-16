@@ -4,12 +4,12 @@
  *   One style:   import { LeafIcon } from '@cossackframework/solar-icons/leaf/<style>'
  */
 import type { IconEntry } from "../types";
-import { LeafIcon as line } from "./line";
-import { LeafIcon as bold } from "./bold";
-import { LeafIcon as duotone } from "./duotone";
-import { LeafIcon as broken } from "./broken";
-import { LeafIcon as outline } from "./outline";
-import { LeafIcon as line_duotone } from "./line-duotone";
+import { LeafIcon as line } from "./line.ts";
+import { LeafIcon as bold } from "./bold.ts";
+import { LeafIcon as duotone } from "./duotone.ts";
+import { LeafIcon as broken } from "./broken.ts";
+import { LeafIcon as outline } from "./outline.ts";
+import { LeafIcon as line_duotone } from "./line-duotone.ts";
 
 export const LeafIcon: IconEntry = {
     line: line,

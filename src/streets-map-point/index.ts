@@ -4,12 +4,12 @@
  *   One style:   import { StreetsMapPointIcon } from '@cossackframework/solar-icons/streets-map-point/<style>'
  */
 import type { IconEntry } from "../types";
-import { StreetsMapPointIcon as line } from "./line";
-import { StreetsMapPointIcon as bold } from "./bold";
-import { StreetsMapPointIcon as duotone } from "./duotone";
-import { StreetsMapPointIcon as broken } from "./broken";
-import { StreetsMapPointIcon as outline } from "./outline";
-import { StreetsMapPointIcon as line_duotone } from "./line-duotone";
+import { StreetsMapPointIcon as line } from "./line.ts";
+import { StreetsMapPointIcon as bold } from "./bold.ts";
+import { StreetsMapPointIcon as duotone } from "./duotone.ts";
+import { StreetsMapPointIcon as broken } from "./broken.ts";
+import { StreetsMapPointIcon as outline } from "./outline.ts";
+import { StreetsMapPointIcon as line_duotone } from "./line-duotone.ts";
 
 export const StreetsMapPointIcon: IconEntry = {
     line: line,

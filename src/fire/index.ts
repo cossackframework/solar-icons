@@ -4,12 +4,12 @@
  *   One style:   import { FireIcon } from '@cossackframework/solar-icons/fire/<style>'
  */
 import type { IconEntry } from "../types";
-import { FireIcon as line } from "./line";
-import { FireIcon as bold } from "./bold";
-import { FireIcon as duotone } from "./duotone";
-import { FireIcon as broken } from "./broken";
-import { FireIcon as outline } from "./outline";
-import { FireIcon as line_duotone } from "./line-duotone";
+import { FireIcon as line } from "./line.ts";
+import { FireIcon as bold } from "./bold.ts";
+import { FireIcon as duotone } from "./duotone.ts";
+import { FireIcon as broken } from "./broken.ts";
+import { FireIcon as outline } from "./outline.ts";
+import { FireIcon as line_duotone } from "./line-duotone.ts";
 
 export const FireIcon: IconEntry = {
     line: line,

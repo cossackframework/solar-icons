@@ -4,12 +4,12 @@
  *   One style:   import { MapArrowUpIcon } from '@cossackframework/solar-icons/map-arrow-up/<style>'
  */
 import type { IconEntry } from "../types";
-import { MapArrowUpIcon as line } from "./line";
-import { MapArrowUpIcon as bold } from "./bold";
-import { MapArrowUpIcon as duotone } from "./duotone";
-import { MapArrowUpIcon as broken } from "./broken";
-import { MapArrowUpIcon as outline } from "./outline";
-import { MapArrowUpIcon as line_duotone } from "./line-duotone";
+import { MapArrowUpIcon as line } from "./line.ts";
+import { MapArrowUpIcon as bold } from "./bold.ts";
+import { MapArrowUpIcon as duotone } from "./duotone.ts";
+import { MapArrowUpIcon as broken } from "./broken.ts";
+import { MapArrowUpIcon as outline } from "./outline.ts";
+import { MapArrowUpIcon as line_duotone } from "./line-duotone.ts";
 
 export const MapArrowUpIcon: IconEntry = {
     line: line,

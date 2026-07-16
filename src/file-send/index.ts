@@ -4,12 +4,12 @@
  *   One style:   import { FileSendIcon } from '@cossackframework/solar-icons/file-send/<style>'
  */
 import type { IconEntry } from "../types";
-import { FileSendIcon as line } from "./line";
-import { FileSendIcon as bold } from "./bold";
-import { FileSendIcon as duotone } from "./duotone";
-import { FileSendIcon as broken } from "./broken";
-import { FileSendIcon as outline } from "./outline";
-import { FileSendIcon as line_duotone } from "./line-duotone";
+import { FileSendIcon as line } from "./line.ts";
+import { FileSendIcon as bold } from "./bold.ts";
+import { FileSendIcon as duotone } from "./duotone.ts";
+import { FileSendIcon as broken } from "./broken.ts";
+import { FileSendIcon as outline } from "./outline.ts";
+import { FileSendIcon as line_duotone } from "./line-duotone.ts";
 
 export const FileSendIcon: IconEntry = {
     line: line,

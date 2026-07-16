@@ -4,12 +4,12 @@
  *   One style:   import { PerfumeIcon } from '@cossackframework/solar-icons/perfume/<style>'
  */
 import type { IconEntry } from "../types";
-import { PerfumeIcon as line } from "./line";
-import { PerfumeIcon as bold } from "./bold";
-import { PerfumeIcon as duotone } from "./duotone";
-import { PerfumeIcon as broken } from "./broken";
-import { PerfumeIcon as outline } from "./outline";
-import { PerfumeIcon as line_duotone } from "./line-duotone";
+import { PerfumeIcon as line } from "./line.ts";
+import { PerfumeIcon as bold } from "./bold.ts";
+import { PerfumeIcon as duotone } from "./duotone.ts";
+import { PerfumeIcon as broken } from "./broken.ts";
+import { PerfumeIcon as outline } from "./outline.ts";
+import { PerfumeIcon as line_duotone } from "./line-duotone.ts";
 
 export const PerfumeIcon: IconEntry = {
     line: line,

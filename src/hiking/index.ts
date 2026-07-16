@@ -4,12 +4,12 @@
  *   One style:   import { HikingIcon } from '@cossackframework/solar-icons/hiking/<style>'
  */
 import type { IconEntry } from "../types";
-import { HikingIcon as line } from "./line";
-import { HikingIcon as bold } from "./bold";
-import { HikingIcon as duotone } from "./duotone";
-import { HikingIcon as broken } from "./broken";
-import { HikingIcon as outline } from "./outline";
-import { HikingIcon as line_duotone } from "./line-duotone";
+import { HikingIcon as line } from "./line.ts";
+import { HikingIcon as bold } from "./bold.ts";
+import { HikingIcon as duotone } from "./duotone.ts";
+import { HikingIcon as broken } from "./broken.ts";
+import { HikingIcon as outline } from "./outline.ts";
+import { HikingIcon as line_duotone } from "./line-duotone.ts";
 
 export const HikingIcon: IconEntry = {
     line: line,

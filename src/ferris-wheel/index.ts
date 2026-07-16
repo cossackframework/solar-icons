@@ -4,12 +4,12 @@
  *   One style:   import { FerrisWheelIcon } from '@cossackframework/solar-icons/ferris-wheel/<style>'
  */
 import type { IconEntry } from "../types";
-import { FerrisWheelIcon as line } from "./line";
-import { FerrisWheelIcon as bold } from "./bold";
-import { FerrisWheelIcon as duotone } from "./duotone";
-import { FerrisWheelIcon as broken } from "./broken";
-import { FerrisWheelIcon as outline } from "./outline";
-import { FerrisWheelIcon as line_duotone } from "./line-duotone";
+import { FerrisWheelIcon as line } from "./line.ts";
+import { FerrisWheelIcon as bold } from "./bold.ts";
+import { FerrisWheelIcon as duotone } from "./duotone.ts";
+import { FerrisWheelIcon as broken } from "./broken.ts";
+import { FerrisWheelIcon as outline } from "./outline.ts";
+import { FerrisWheelIcon as line_duotone } from "./line-duotone.ts";
 
 export const FerrisWheelIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { RecordAudioCircleIcon } from '@cossackframework/solar-icons/record-audio-circle/<style>'
  */
 import type { IconEntry } from "../types";
-import { RecordAudioCircleIcon as line } from "./line";
-import { RecordAudioCircleIcon as bold } from "./bold";
-import { RecordAudioCircleIcon as duotone } from "./duotone";
-import { RecordAudioCircleIcon as broken } from "./broken";
-import { RecordAudioCircleIcon as outline } from "./outline";
-import { RecordAudioCircleIcon as line_duotone } from "./line-duotone";
+import { RecordAudioCircleIcon as line } from "./line.ts";
+import { RecordAudioCircleIcon as bold } from "./bold.ts";
+import { RecordAudioCircleIcon as duotone } from "./duotone.ts";
+import { RecordAudioCircleIcon as broken } from "./broken.ts";
+import { RecordAudioCircleIcon as outline } from "./outline.ts";
+import { RecordAudioCircleIcon as line_duotone } from "./line-duotone.ts";
 
 export const RecordAudioCircleIcon: IconEntry = {
     line: line,

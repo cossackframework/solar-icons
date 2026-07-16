@@ -4,12 +4,12 @@
  *   One style:   import { TrashBin2Icon } from '@cossackframework/solar-icons/trash-bin-2/<style>'
  */
 import type { IconEntry } from "../types";
-import { TrashBin2Icon as line } from "./line";
-import { TrashBin2Icon as bold } from "./bold";
-import { TrashBin2Icon as duotone } from "./duotone";
-import { TrashBin2Icon as broken } from "./broken";
-import { TrashBin2Icon as outline } from "./outline";
-import { TrashBin2Icon as line_duotone } from "./line-duotone";
+import { TrashBin2Icon as line } from "./line.ts";
+import { TrashBin2Icon as bold } from "./bold.ts";
+import { TrashBin2Icon as duotone } from "./duotone.ts";
+import { TrashBin2Icon as broken } from "./broken.ts";
+import { TrashBin2Icon as outline } from "./outline.ts";
+import { TrashBin2Icon as line_duotone } from "./line-duotone.ts";
 
 export const TrashBin2Icon: IconEntry = {
     line: line,

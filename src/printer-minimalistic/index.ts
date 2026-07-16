@@ -4,12 +4,12 @@
  *   One style:   import { PrinterMinimalisticIcon } from '@cossackframework/solar-icons/printer-minimalistic/<style>'
  */
 import type { IconEntry } from "../types";
-import { PrinterMinimalisticIcon as line } from "./line";
-import { PrinterMinimalisticIcon as bold } from "./bold";
-import { PrinterMinimalisticIcon as duotone } from "./duotone";
-import { PrinterMinimalisticIcon as broken } from "./broken";
-import { PrinterMinimalisticIcon as outline } from "./outline";
-import { PrinterMinimalisticIcon as line_duotone } from "./line-duotone";
+import { PrinterMinimalisticIcon as line } from "./line.ts";
+import { PrinterMinimalisticIcon as bold } from "./bold.ts";
+import { PrinterMinimalisticIcon as duotone } from "./duotone.ts";
+import { PrinterMinimalisticIcon as broken } from "./broken.ts";
+import { PrinterMinimalisticIcon as outline } from "./outline.ts";
+import { PrinterMinimalisticIcon as line_duotone } from "./line-duotone.ts";
 
 export const PrinterMinimalisticIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { BroomIcon } from '@cossackframework/solar-icons/broom/<style>'
  */
 import type { IconEntry } from "../types";
-import { BroomIcon as line } from "./line";
-import { BroomIcon as bold } from "./bold";
-import { BroomIcon as duotone } from "./duotone";
-import { BroomIcon as broken } from "./broken";
-import { BroomIcon as outline } from "./outline";
-import { BroomIcon as line_duotone } from "./line-duotone";
+import { BroomIcon as line } from "./line.ts";
+import { BroomIcon as bold } from "./bold.ts";
+import { BroomIcon as duotone } from "./duotone.ts";
+import { BroomIcon as broken } from "./broken.ts";
+import { BroomIcon as outline } from "./outline.ts";
+import { BroomIcon as line_duotone } from "./line-duotone.ts";
 
 export const BroomIcon: IconEntry = {
     line: line,

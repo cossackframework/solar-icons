@@ -4,12 +4,12 @@
  *   One style:   import { HeartAngleIcon } from '@cossackframework/solar-icons/heart-angle/<style>'
  */
 import type { IconEntry } from "../types";
-import { HeartAngleIcon as line } from "./line";
-import { HeartAngleIcon as bold } from "./bold";
-import { HeartAngleIcon as duotone } from "./duotone";
-import { HeartAngleIcon as broken } from "./broken";
-import { HeartAngleIcon as outline } from "./outline";
-import { HeartAngleIcon as line_duotone } from "./line-duotone";
+import { HeartAngleIcon as line } from "./line.ts";
+import { HeartAngleIcon as bold } from "./bold.ts";
+import { HeartAngleIcon as duotone } from "./duotone.ts";
+import { HeartAngleIcon as broken } from "./broken.ts";
+import { HeartAngleIcon as outline } from "./outline.ts";
+import { HeartAngleIcon as line_duotone } from "./line-duotone.ts";
 
 export const HeartAngleIcon: IconEntry = {
     line: line,

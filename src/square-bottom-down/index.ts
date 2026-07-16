@@ -4,12 +4,12 @@
  *   One style:   import { SquareBottomDownIcon } from '@cossackframework/solar-icons/square-bottom-down/<style>'
  */
 import type { IconEntry } from "../types";
-import { SquareBottomDownIcon as line } from "./line";
-import { SquareBottomDownIcon as bold } from "./bold";
-import { SquareBottomDownIcon as duotone } from "./duotone";
-import { SquareBottomDownIcon as broken } from "./broken";
-import { SquareBottomDownIcon as outline } from "./outline";
-import { SquareBottomDownIcon as line_duotone } from "./line-duotone";
+import { SquareBottomDownIcon as line } from "./line.ts";
+import { SquareBottomDownIcon as bold } from "./bold.ts";
+import { SquareBottomDownIcon as duotone } from "./duotone.ts";
+import { SquareBottomDownIcon as broken } from "./broken.ts";
+import { SquareBottomDownIcon as outline } from "./outline.ts";
+import { SquareBottomDownIcon as line_duotone } from "./line-duotone.ts";
 
 export const SquareBottomDownIcon: IconEntry = {
     line: line,

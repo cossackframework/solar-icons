@@ -4,12 +4,12 @@
  *   One style:   import { VolumeLoudIcon } from '@cossackframework/solar-icons/volume-loud/<style>'
  */
 import type { IconEntry } from "../types";
-import { VolumeLoudIcon as line } from "./line";
-import { VolumeLoudIcon as bold } from "./bold";
-import { VolumeLoudIcon as duotone } from "./duotone";
-import { VolumeLoudIcon as broken } from "./broken";
-import { VolumeLoudIcon as outline } from "./outline";
-import { VolumeLoudIcon as line_duotone } from "./line-duotone";
+import { VolumeLoudIcon as line } from "./line.ts";
+import { VolumeLoudIcon as bold } from "./bold.ts";
+import { VolumeLoudIcon as duotone } from "./duotone.ts";
+import { VolumeLoudIcon as broken } from "./broken.ts";
+import { VolumeLoudIcon as outline } from "./outline.ts";
+import { VolumeLoudIcon as line_duotone } from "./line-duotone.ts";
 
 export const VolumeLoudIcon: IconEntry = {
     line: line,

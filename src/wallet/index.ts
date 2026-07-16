@@ -4,12 +4,12 @@
  *   One style:   import { WalletIcon } from '@cossackframework/solar-icons/wallet/<style>'
  */
 import type { IconEntry } from "../types";
-import { WalletIcon as line } from "./line";
-import { WalletIcon as bold } from "./bold";
-import { WalletIcon as duotone } from "./duotone";
-import { WalletIcon as broken } from "./broken";
-import { WalletIcon as outline } from "./outline";
-import { WalletIcon as line_duotone } from "./line-duotone";
+import { WalletIcon as line } from "./line.ts";
+import { WalletIcon as bold } from "./bold.ts";
+import { WalletIcon as duotone } from "./duotone.ts";
+import { WalletIcon as broken } from "./broken.ts";
+import { WalletIcon as outline } from "./outline.ts";
+import { WalletIcon as line_duotone } from "./line-duotone.ts";
 
 export const WalletIcon: IconEntry = {
     line: line,

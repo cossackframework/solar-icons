@@ -4,12 +4,12 @@
  *   One style:   import { HomeSmileAngleIcon } from '@cossackframework/solar-icons/home-smile-angle/<style>'
  */
 import type { IconEntry } from "../types";
-import { HomeSmileAngleIcon as line } from "./line";
-import { HomeSmileAngleIcon as bold } from "./bold";
-import { HomeSmileAngleIcon as duotone } from "./duotone";
-import { HomeSmileAngleIcon as broken } from "./broken";
-import { HomeSmileAngleIcon as outline } from "./outline";
-import { HomeSmileAngleIcon as line_duotone } from "./line-duotone";
+import { HomeSmileAngleIcon as line } from "./line.ts";
+import { HomeSmileAngleIcon as bold } from "./bold.ts";
+import { HomeSmileAngleIcon as duotone } from "./duotone.ts";
+import { HomeSmileAngleIcon as broken } from "./broken.ts";
+import { HomeSmileAngleIcon as outline } from "./outline.ts";
+import { HomeSmileAngleIcon as line_duotone } from "./line-duotone.ts";
 
 export const HomeSmileAngleIcon: IconEntry = {
     line: line,

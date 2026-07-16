@@ -4,12 +4,12 @@
  *   One style:   import { MedalStarSquareIcon } from '@cossackframework/solar-icons/medal-star-square/<style>'
  */
 import type { IconEntry } from "../types";
-import { MedalStarSquareIcon as line } from "./line";
-import { MedalStarSquareIcon as bold } from "./bold";
-import { MedalStarSquareIcon as duotone } from "./duotone";
-import { MedalStarSquareIcon as broken } from "./broken";
-import { MedalStarSquareIcon as outline } from "./outline";
-import { MedalStarSquareIcon as line_duotone } from "./line-duotone";
+import { MedalStarSquareIcon as line } from "./line.ts";
+import { MedalStarSquareIcon as bold } from "./bold.ts";
+import { MedalStarSquareIcon as duotone } from "./duotone.ts";
+import { MedalStarSquareIcon as broken } from "./broken.ts";
+import { MedalStarSquareIcon as outline } from "./outline.ts";
+import { MedalStarSquareIcon as line_duotone } from "./line-duotone.ts";
 
 export const MedalStarSquareIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { WallpaperIcon } from '@cossackframework/solar-icons/wallpaper/<style>'
  */
 import type { IconEntry } from "../types";
-import { WallpaperIcon as line } from "./line";
-import { WallpaperIcon as bold } from "./bold";
-import { WallpaperIcon as duotone } from "./duotone";
-import { WallpaperIcon as broken } from "./broken";
-import { WallpaperIcon as outline } from "./outline";
-import { WallpaperIcon as line_duotone } from "./line-duotone";
+import { WallpaperIcon as line } from "./line.ts";
+import { WallpaperIcon as bold } from "./bold.ts";
+import { WallpaperIcon as duotone } from "./duotone.ts";
+import { WallpaperIcon as broken } from "./broken.ts";
+import { WallpaperIcon as outline } from "./outline.ts";
+import { WallpaperIcon as line_duotone } from "./line-duotone.ts";
 
 export const WallpaperIcon: IconEntry = {
     line: line,

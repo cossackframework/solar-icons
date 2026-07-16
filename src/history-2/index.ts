@@ -4,12 +4,12 @@
  *   One style:   import { History2Icon } from '@cossackframework/solar-icons/history-2/<style>'
  */
 import type { IconEntry } from "../types";
-import { History2Icon as line } from "./line";
-import { History2Icon as bold } from "./bold";
-import { History2Icon as duotone } from "./duotone";
-import { History2Icon as broken } from "./broken";
-import { History2Icon as outline } from "./outline";
-import { History2Icon as line_duotone } from "./line-duotone";
+import { History2Icon as line } from "./line.ts";
+import { History2Icon as bold } from "./bold.ts";
+import { History2Icon as duotone } from "./duotone.ts";
+import { History2Icon as broken } from "./broken.ts";
+import { History2Icon as outline } from "./outline.ts";
+import { History2Icon as line_duotone } from "./line-duotone.ts";
 
 export const History2Icon: IconEntry = {
     line: line,

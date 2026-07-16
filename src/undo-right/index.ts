@@ -4,12 +4,12 @@
  *   One style:   import { UndoRightIcon } from '@cossackframework/solar-icons/undo-right/<style>'
  */
 import type { IconEntry } from "../types";
-import { UndoRightIcon as line } from "./line";
-import { UndoRightIcon as bold } from "./bold";
-import { UndoRightIcon as duotone } from "./duotone";
-import { UndoRightIcon as broken } from "./broken";
-import { UndoRightIcon as outline } from "./outline";
-import { UndoRightIcon as line_duotone } from "./line-duotone";
+import { UndoRightIcon as line } from "./line.ts";
+import { UndoRightIcon as bold } from "./bold.ts";
+import { UndoRightIcon as duotone } from "./duotone.ts";
+import { UndoRightIcon as broken } from "./broken.ts";
+import { UndoRightIcon as outline } from "./outline.ts";
+import { UndoRightIcon as line_duotone } from "./line-duotone.ts";
 
 export const UndoRightIcon: IconEntry = {
     line: line,

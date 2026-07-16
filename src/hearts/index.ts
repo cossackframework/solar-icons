@@ -4,12 +4,12 @@
  *   One style:   import { HeartsIcon } from '@cossackframework/solar-icons/hearts/<style>'
  */
 import type { IconEntry } from "../types";
-import { HeartsIcon as line } from "./line";
-import { HeartsIcon as bold } from "./bold";
-import { HeartsIcon as duotone } from "./duotone";
-import { HeartsIcon as broken } from "./broken";
-import { HeartsIcon as outline } from "./outline";
-import { HeartsIcon as line_duotone } from "./line-duotone";
+import { HeartsIcon as line } from "./line.ts";
+import { HeartsIcon as bold } from "./bold.ts";
+import { HeartsIcon as duotone } from "./duotone.ts";
+import { HeartsIcon as broken } from "./broken.ts";
+import { HeartsIcon as outline } from "./outline.ts";
+import { HeartsIcon as line_duotone } from "./line-duotone.ts";
 
 export const HeartsIcon: IconEntry = {
     line: line,

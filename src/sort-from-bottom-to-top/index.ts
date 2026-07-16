@@ -4,12 +4,12 @@
  *   One style:   import { SortFromBottomToTopIcon } from '@cossackframework/solar-icons/sort-from-bottom-to-top/<style>'
  */
 import type { IconEntry } from "../types";
-import { SortFromBottomToTopIcon as line } from "./line";
-import { SortFromBottomToTopIcon as bold } from "./bold";
-import { SortFromBottomToTopIcon as duotone } from "./duotone";
-import { SortFromBottomToTopIcon as broken } from "./broken";
-import { SortFromBottomToTopIcon as outline } from "./outline";
-import { SortFromBottomToTopIcon as line_duotone } from "./line-duotone";
+import { SortFromBottomToTopIcon as line } from "./line.ts";
+import { SortFromBottomToTopIcon as bold } from "./bold.ts";
+import { SortFromBottomToTopIcon as duotone } from "./duotone.ts";
+import { SortFromBottomToTopIcon as broken } from "./broken.ts";
+import { SortFromBottomToTopIcon as outline } from "./outline.ts";
+import { SortFromBottomToTopIcon as line_duotone } from "./line-duotone.ts";
 
 export const SortFromBottomToTopIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { ClockSquareIcon } from '@cossackframework/solar-icons/clock-square/<style>'
  */
 import type { IconEntry } from "../types";
-import { ClockSquareIcon as line } from "./line";
-import { ClockSquareIcon as bold } from "./bold";
-import { ClockSquareIcon as duotone } from "./duotone";
-import { ClockSquareIcon as broken } from "./broken";
-import { ClockSquareIcon as outline } from "./outline";
-import { ClockSquareIcon as line_duotone } from "./line-duotone";
+import { ClockSquareIcon as line } from "./line.ts";
+import { ClockSquareIcon as bold } from "./bold.ts";
+import { ClockSquareIcon as duotone } from "./duotone.ts";
+import { ClockSquareIcon as broken } from "./broken.ts";
+import { ClockSquareIcon as outline } from "./outline.ts";
+import { ClockSquareIcon as line_duotone } from "./line-duotone.ts";
 
 export const ClockSquareIcon: IconEntry = {
     line: line,

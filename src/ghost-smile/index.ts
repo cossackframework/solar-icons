@@ -4,12 +4,12 @@
  *   One style:   import { GhostSmileIcon } from '@cossackframework/solar-icons/ghost-smile/<style>'
  */
 import type { IconEntry } from "../types";
-import { GhostSmileIcon as line } from "./line";
-import { GhostSmileIcon as bold } from "./bold";
-import { GhostSmileIcon as duotone } from "./duotone";
-import { GhostSmileIcon as broken } from "./broken";
-import { GhostSmileIcon as outline } from "./outline";
-import { GhostSmileIcon as line_duotone } from "./line-duotone";
+import { GhostSmileIcon as line } from "./line.ts";
+import { GhostSmileIcon as bold } from "./bold.ts";
+import { GhostSmileIcon as duotone } from "./duotone.ts";
+import { GhostSmileIcon as broken } from "./broken.ts";
+import { GhostSmileIcon as outline } from "./outline.ts";
+import { GhostSmileIcon as line_duotone } from "./line-duotone.ts";
 
 export const GhostSmileIcon: IconEntry = {
     line: line,

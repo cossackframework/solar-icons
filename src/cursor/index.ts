@@ -4,12 +4,12 @@
  *   One style:   import { CursorIcon } from '@cossackframework/solar-icons/cursor/<style>'
  */
 import type { IconEntry } from "../types";
-import { CursorIcon as line } from "./line";
-import { CursorIcon as bold } from "./bold";
-import { CursorIcon as duotone } from "./duotone";
-import { CursorIcon as broken } from "./broken";
-import { CursorIcon as outline } from "./outline";
-import { CursorIcon as line_duotone } from "./line-duotone";
+import { CursorIcon as line } from "./line.ts";
+import { CursorIcon as bold } from "./bold.ts";
+import { CursorIcon as duotone } from "./duotone.ts";
+import { CursorIcon as broken } from "./broken.ts";
+import { CursorIcon as outline } from "./outline.ts";
+import { CursorIcon as line_duotone } from "./line-duotone.ts";
 
 export const CursorIcon: IconEntry = {
     line: line,

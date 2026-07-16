@@ -4,12 +4,12 @@
  *   One style:   import { ArrowRightUpIcon } from '@cossackframework/solar-icons/arrow-right-up/<style>'
  */
 import type { IconEntry } from "../types";
-import { ArrowRightUpIcon as line } from "./line";
-import { ArrowRightUpIcon as bold } from "./bold";
-import { ArrowRightUpIcon as duotone } from "./duotone";
-import { ArrowRightUpIcon as broken } from "./broken";
-import { ArrowRightUpIcon as outline } from "./outline";
-import { ArrowRightUpIcon as line_duotone } from "./line-duotone";
+import { ArrowRightUpIcon as line } from "./line.ts";
+import { ArrowRightUpIcon as bold } from "./bold.ts";
+import { ArrowRightUpIcon as duotone } from "./duotone.ts";
+import { ArrowRightUpIcon as broken } from "./broken.ts";
+import { ArrowRightUpIcon as outline } from "./outline.ts";
+import { ArrowRightUpIcon as line_duotone } from "./line-duotone.ts";
 
 export const ArrowRightUpIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { PhoneCallingRoundedIcon } from '@cossackframework/solar-icons/phone-calling-rounded/<style>'
  */
 import type { IconEntry } from "../types";
-import { PhoneCallingRoundedIcon as line } from "./line";
-import { PhoneCallingRoundedIcon as bold } from "./bold";
-import { PhoneCallingRoundedIcon as duotone } from "./duotone";
-import { PhoneCallingRoundedIcon as broken } from "./broken";
-import { PhoneCallingRoundedIcon as outline } from "./outline";
-import { PhoneCallingRoundedIcon as line_duotone } from "./line-duotone";
+import { PhoneCallingRoundedIcon as line } from "./line.ts";
+import { PhoneCallingRoundedIcon as bold } from "./bold.ts";
+import { PhoneCallingRoundedIcon as duotone } from "./duotone.ts";
+import { PhoneCallingRoundedIcon as broken } from "./broken.ts";
+import { PhoneCallingRoundedIcon as outline } from "./outline.ts";
+import { PhoneCallingRoundedIcon as line_duotone } from "./line-duotone.ts";
 
 export const PhoneCallingRoundedIcon: IconEntry = {
     line: line,

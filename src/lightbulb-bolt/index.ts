@@ -4,12 +4,12 @@
  *   One style:   import { LightbulbBoltIcon } from '@cossackframework/solar-icons/lightbulb-bolt/<style>'
  */
 import type { IconEntry } from "../types";
-import { LightbulbBoltIcon as line } from "./line";
-import { LightbulbBoltIcon as bold } from "./bold";
-import { LightbulbBoltIcon as duotone } from "./duotone";
-import { LightbulbBoltIcon as broken } from "./broken";
-import { LightbulbBoltIcon as outline } from "./outline";
-import { LightbulbBoltIcon as line_duotone } from "./line-duotone";
+import { LightbulbBoltIcon as line } from "./line.ts";
+import { LightbulbBoltIcon as bold } from "./bold.ts";
+import { LightbulbBoltIcon as duotone } from "./duotone.ts";
+import { LightbulbBoltIcon as broken } from "./broken.ts";
+import { LightbulbBoltIcon as outline } from "./outline.ts";
+import { LightbulbBoltIcon as line_duotone } from "./line-duotone.ts";
 
 export const LightbulbBoltIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { Dialog2Icon } from '@cossackframework/solar-icons/dialog-2/<style>'
  */
 import type { IconEntry } from "../types";
-import { Dialog2Icon as line } from "./line";
-import { Dialog2Icon as bold } from "./bold";
-import { Dialog2Icon as duotone } from "./duotone";
-import { Dialog2Icon as broken } from "./broken";
-import { Dialog2Icon as outline } from "./outline";
-import { Dialog2Icon as line_duotone } from "./line-duotone";
+import { Dialog2Icon as line } from "./line.ts";
+import { Dialog2Icon as bold } from "./bold.ts";
+import { Dialog2Icon as duotone } from "./duotone.ts";
+import { Dialog2Icon as broken } from "./broken.ts";
+import { Dialog2Icon as outline } from "./outline.ts";
+import { Dialog2Icon as line_duotone } from "./line-duotone.ts";
 
 export const Dialog2Icon: IconEntry = {
     line: line,

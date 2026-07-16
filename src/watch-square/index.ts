@@ -4,12 +4,12 @@
  *   One style:   import { WatchSquareIcon } from '@cossackframework/solar-icons/watch-square/<style>'
  */
 import type { IconEntry } from "../types";
-import { WatchSquareIcon as line } from "./line";
-import { WatchSquareIcon as bold } from "./bold";
-import { WatchSquareIcon as duotone } from "./duotone";
-import { WatchSquareIcon as broken } from "./broken";
-import { WatchSquareIcon as outline } from "./outline";
-import { WatchSquareIcon as line_duotone } from "./line-duotone";
+import { WatchSquareIcon as line } from "./line.ts";
+import { WatchSquareIcon as bold } from "./bold.ts";
+import { WatchSquareIcon as duotone } from "./duotone.ts";
+import { WatchSquareIcon as broken } from "./broken.ts";
+import { WatchSquareIcon as outline } from "./outline.ts";
+import { WatchSquareIcon as line_duotone } from "./line-duotone.ts";
 
 export const WatchSquareIcon: IconEntry = {
     line: line,

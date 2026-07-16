@@ -4,12 +4,12 @@
  *   One style:   import { CameraMinimalisticIcon } from '@cossackframework/solar-icons/camera-minimalistic/<style>'
  */
 import type { IconEntry } from "../types";
-import { CameraMinimalisticIcon as line } from "./line";
-import { CameraMinimalisticIcon as bold } from "./bold";
-import { CameraMinimalisticIcon as duotone } from "./duotone";
-import { CameraMinimalisticIcon as broken } from "./broken";
-import { CameraMinimalisticIcon as outline } from "./outline";
-import { CameraMinimalisticIcon as line_duotone } from "./line-duotone";
+import { CameraMinimalisticIcon as line } from "./line.ts";
+import { CameraMinimalisticIcon as bold } from "./bold.ts";
+import { CameraMinimalisticIcon as duotone } from "./duotone.ts";
+import { CameraMinimalisticIcon as broken } from "./broken.ts";
+import { CameraMinimalisticIcon as outline } from "./outline.ts";
+import { CameraMinimalisticIcon as line_duotone } from "./line-duotone.ts";
 
 export const CameraMinimalisticIcon: IconEntry = {
     line: line,

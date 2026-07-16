@@ -4,12 +4,12 @@
  *   One style:   import { DropperIcon } from '@cossackframework/solar-icons/dropper/<style>'
  */
 import type { IconEntry } from "../types";
-import { DropperIcon as line } from "./line";
-import { DropperIcon as bold } from "./bold";
-import { DropperIcon as duotone } from "./duotone";
-import { DropperIcon as broken } from "./broken";
-import { DropperIcon as outline } from "./outline";
-import { DropperIcon as line_duotone } from "./line-duotone";
+import { DropperIcon as line } from "./line.ts";
+import { DropperIcon as bold } from "./bold.ts";
+import { DropperIcon as duotone } from "./duotone.ts";
+import { DropperIcon as broken } from "./broken.ts";
+import { DropperIcon as outline } from "./outline.ts";
+import { DropperIcon as line_duotone } from "./line-duotone.ts";
 
 export const DropperIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { MinusCircleIcon } from '@cossackframework/solar-icons/minus-circle/<style>'
  */
 import type { IconEntry } from "../types";
-import { MinusCircleIcon as line } from "./line";
-import { MinusCircleIcon as bold } from "./bold";
-import { MinusCircleIcon as duotone } from "./duotone";
-import { MinusCircleIcon as broken } from "./broken";
-import { MinusCircleIcon as outline } from "./outline";
-import { MinusCircleIcon as line_duotone } from "./line-duotone";
+import { MinusCircleIcon as line } from "./line.ts";
+import { MinusCircleIcon as bold } from "./bold.ts";
+import { MinusCircleIcon as duotone } from "./duotone.ts";
+import { MinusCircleIcon as broken } from "./broken.ts";
+import { MinusCircleIcon as outline } from "./outline.ts";
+import { MinusCircleIcon as line_duotone } from "./line-duotone.ts";
 
 export const MinusCircleIcon: IconEntry = {
     line: line,

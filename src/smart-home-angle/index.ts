@@ -4,12 +4,12 @@
  *   One style:   import { SmartHomeAngleIcon } from '@cossackframework/solar-icons/smart-home-angle/<style>'
  */
 import type { IconEntry } from "../types";
-import { SmartHomeAngleIcon as line } from "./line";
-import { SmartHomeAngleIcon as bold } from "./bold";
-import { SmartHomeAngleIcon as duotone } from "./duotone";
-import { SmartHomeAngleIcon as broken } from "./broken";
-import { SmartHomeAngleIcon as outline } from "./outline";
-import { SmartHomeAngleIcon as line_duotone } from "./line-duotone";
+import { SmartHomeAngleIcon as line } from "./line.ts";
+import { SmartHomeAngleIcon as bold } from "./bold.ts";
+import { SmartHomeAngleIcon as duotone } from "./duotone.ts";
+import { SmartHomeAngleIcon as broken } from "./broken.ts";
+import { SmartHomeAngleIcon as outline } from "./outline.ts";
+import { SmartHomeAngleIcon as line_duotone } from "./line-duotone.ts";
 
 export const SmartHomeAngleIcon: IconEntry = {
     line: line,

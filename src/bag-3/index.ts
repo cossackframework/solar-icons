@@ -4,12 +4,12 @@
  *   One style:   import { Bag3Icon } from '@cossackframework/solar-icons/bag-3/<style>'
  */
 import type { IconEntry } from "../types";
-import { Bag3Icon as line } from "./line";
-import { Bag3Icon as bold } from "./bold";
-import { Bag3Icon as duotone } from "./duotone";
-import { Bag3Icon as broken } from "./broken";
-import { Bag3Icon as outline } from "./outline";
-import { Bag3Icon as line_duotone } from "./line-duotone";
+import { Bag3Icon as line } from "./line.ts";
+import { Bag3Icon as bold } from "./bold.ts";
+import { Bag3Icon as duotone } from "./duotone.ts";
+import { Bag3Icon as broken } from "./broken.ts";
+import { Bag3Icon as outline } from "./outline.ts";
+import { Bag3Icon as line_duotone } from "./line-duotone.ts";
 
 export const Bag3Icon: IconEntry = {
     line: line,

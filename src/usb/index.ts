@@ -4,12 +4,12 @@
  *   One style:   import { UsbIcon } from '@cossackframework/solar-icons/usb/<style>'
  */
 import type { IconEntry } from "../types";
-import { UsbIcon as line } from "./line";
-import { UsbIcon as bold } from "./bold";
-import { UsbIcon as duotone } from "./duotone";
-import { UsbIcon as broken } from "./broken";
-import { UsbIcon as outline } from "./outline";
-import { UsbIcon as line_duotone } from "./line-duotone";
+import { UsbIcon as line } from "./line.ts";
+import { UsbIcon as bold } from "./bold.ts";
+import { UsbIcon as duotone } from "./duotone.ts";
+import { UsbIcon as broken } from "./broken.ts";
+import { UsbIcon as outline } from "./outline.ts";
+import { UsbIcon as line_duotone } from "./line-duotone.ts";
 
 export const UsbIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { RollingPinIcon } from '@cossackframework/solar-icons/rolling-pin/<style>'
  */
 import type { IconEntry } from "../types";
-import { RollingPinIcon as line } from "./line";
-import { RollingPinIcon as bold } from "./bold";
-import { RollingPinIcon as duotone } from "./duotone";
-import { RollingPinIcon as broken } from "./broken";
-import { RollingPinIcon as outline } from "./outline";
-import { RollingPinIcon as line_duotone } from "./line-duotone";
+import { RollingPinIcon as line } from "./line.ts";
+import { RollingPinIcon as bold } from "./bold.ts";
+import { RollingPinIcon as duotone } from "./duotone.ts";
+import { RollingPinIcon as broken } from "./broken.ts";
+import { RollingPinIcon as outline } from "./outline.ts";
+import { RollingPinIcon as line_duotone } from "./line-duotone.ts";
 
 export const RollingPinIcon: IconEntry = {
     line: line,

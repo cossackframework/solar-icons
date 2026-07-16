@@ -4,12 +4,12 @@
  *   One style:   import { SwimmingIcon } from '@cossackframework/solar-icons/swimming/<style>'
  */
 import type { IconEntry } from "../types";
-import { SwimmingIcon as line } from "./line";
-import { SwimmingIcon as bold } from "./bold";
-import { SwimmingIcon as duotone } from "./duotone";
-import { SwimmingIcon as broken } from "./broken";
-import { SwimmingIcon as outline } from "./outline";
-import { SwimmingIcon as line_duotone } from "./line-duotone";
+import { SwimmingIcon as line } from "./line.ts";
+import { SwimmingIcon as bold } from "./bold.ts";
+import { SwimmingIcon as duotone } from "./duotone.ts";
+import { SwimmingIcon as broken } from "./broken.ts";
+import { SwimmingIcon as outline } from "./outline.ts";
+import { SwimmingIcon as line_duotone } from "./line-duotone.ts";
 
 export const SwimmingIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { StructureIcon } from '@cossackframework/solar-icons/structure/<style>'
  */
 import type { IconEntry } from "../types";
-import { StructureIcon as line } from "./line";
-import { StructureIcon as bold } from "./bold";
-import { StructureIcon as duotone } from "./duotone";
-import { StructureIcon as broken } from "./broken";
-import { StructureIcon as outline } from "./outline";
-import { StructureIcon as line_duotone } from "./line-duotone";
+import { StructureIcon as line } from "./line.ts";
+import { StructureIcon as bold } from "./bold.ts";
+import { StructureIcon as duotone } from "./duotone.ts";
+import { StructureIcon as broken } from "./broken.ts";
+import { StructureIcon as outline } from "./outline.ts";
+import { StructureIcon as line_duotone } from "./line-duotone.ts";
 
 export const StructureIcon: IconEntry = {
     line: line,

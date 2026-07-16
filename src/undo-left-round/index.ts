@@ -4,12 +4,12 @@
  *   One style:   import { UndoLeftRoundIcon } from '@cossackframework/solar-icons/undo-left-round/<style>'
  */
 import type { IconEntry } from "../types";
-import { UndoLeftRoundIcon as line } from "./line";
-import { UndoLeftRoundIcon as bold } from "./bold";
-import { UndoLeftRoundIcon as duotone } from "./duotone";
-import { UndoLeftRoundIcon as broken } from "./broken";
-import { UndoLeftRoundIcon as outline } from "./outline";
-import { UndoLeftRoundIcon as line_duotone } from "./line-duotone";
+import { UndoLeftRoundIcon as line } from "./line.ts";
+import { UndoLeftRoundIcon as bold } from "./bold.ts";
+import { UndoLeftRoundIcon as duotone } from "./duotone.ts";
+import { UndoLeftRoundIcon as broken } from "./broken.ts";
+import { UndoLeftRoundIcon as outline } from "./outline.ts";
+import { UndoLeftRoundIcon as line_duotone } from "./line-duotone.ts";
 
 export const UndoLeftRoundIcon: IconEntry = {
     line: line,

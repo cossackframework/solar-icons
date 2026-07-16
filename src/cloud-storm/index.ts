@@ -4,12 +4,12 @@
  *   One style:   import { CloudStormIcon } from '@cossackframework/solar-icons/cloud-storm/<style>'
  */
 import type { IconEntry } from "../types";
-import { CloudStormIcon as line } from "./line";
-import { CloudStormIcon as bold } from "./bold";
-import { CloudStormIcon as duotone } from "./duotone";
-import { CloudStormIcon as broken } from "./broken";
-import { CloudStormIcon as outline } from "./outline";
-import { CloudStormIcon as line_duotone } from "./line-duotone";
+import { CloudStormIcon as line } from "./line.ts";
+import { CloudStormIcon as bold } from "./bold.ts";
+import { CloudStormIcon as duotone } from "./duotone.ts";
+import { CloudStormIcon as broken } from "./broken.ts";
+import { CloudStormIcon as outline } from "./outline.ts";
+import { CloudStormIcon as line_duotone } from "./line-duotone.ts";
 
 export const CloudStormIcon: IconEntry = {
     line: line,

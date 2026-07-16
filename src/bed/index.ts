@@ -4,12 +4,12 @@
  *   One style:   import { BedIcon } from '@cossackframework/solar-icons/bed/<style>'
  */
 import type { IconEntry } from "../types";
-import { BedIcon as line } from "./line";
-import { BedIcon as bold } from "./bold";
-import { BedIcon as duotone } from "./duotone";
-import { BedIcon as broken } from "./broken";
-import { BedIcon as outline } from "./outline";
-import { BedIcon as line_duotone } from "./line-duotone";
+import { BedIcon as line } from "./line.ts";
+import { BedIcon as bold } from "./bold.ts";
+import { BedIcon as duotone } from "./duotone.ts";
+import { BedIcon as broken } from "./broken.ts";
+import { BedIcon as outline } from "./outline.ts";
+import { BedIcon as line_duotone } from "./line-duotone.ts";
 
 export const BedIcon: IconEntry = {
     line: line,

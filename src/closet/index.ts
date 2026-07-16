@@ -4,12 +4,12 @@
  *   One style:   import { ClosetIcon } from '@cossackframework/solar-icons/closet/<style>'
  */
 import type { IconEntry } from "../types";
-import { ClosetIcon as line } from "./line";
-import { ClosetIcon as bold } from "./bold";
-import { ClosetIcon as duotone } from "./duotone";
-import { ClosetIcon as broken } from "./broken";
-import { ClosetIcon as outline } from "./outline";
-import { ClosetIcon as line_duotone } from "./line-duotone";
+import { ClosetIcon as line } from "./line.ts";
+import { ClosetIcon as bold } from "./bold.ts";
+import { ClosetIcon as duotone } from "./duotone.ts";
+import { ClosetIcon as broken } from "./broken.ts";
+import { ClosetIcon as outline } from "./outline.ts";
+import { ClosetIcon as line_duotone } from "./line-duotone.ts";
 
 export const ClosetIcon: IconEntry = {
     line: line,

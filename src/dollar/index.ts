@@ -4,12 +4,12 @@
  *   One style:   import { DollarIcon } from '@cossackframework/solar-icons/dollar/<style>'
  */
 import type { IconEntry } from "../types";
-import { DollarIcon as line } from "./line";
-import { DollarIcon as bold } from "./bold";
-import { DollarIcon as duotone } from "./duotone";
-import { DollarIcon as broken } from "./broken";
-import { DollarIcon as outline } from "./outline";
-import { DollarIcon as line_duotone } from "./line-duotone";
+import { DollarIcon as line } from "./line.ts";
+import { DollarIcon as bold } from "./bold.ts";
+import { DollarIcon as duotone } from "./duotone.ts";
+import { DollarIcon as broken } from "./broken.ts";
+import { DollarIcon as outline } from "./outline.ts";
+import { DollarIcon as line_duotone } from "./line-duotone.ts";
 
 export const DollarIcon: IconEntry = {
     line: line,

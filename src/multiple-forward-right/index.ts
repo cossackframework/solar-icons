@@ -4,12 +4,12 @@
  *   One style:   import { MultipleForwardRightIcon } from '@cossackframework/solar-icons/multiple-forward-right/<style>'
  */
 import type { IconEntry } from "../types";
-import { MultipleForwardRightIcon as line } from "./line";
-import { MultipleForwardRightIcon as bold } from "./bold";
-import { MultipleForwardRightIcon as duotone } from "./duotone";
-import { MultipleForwardRightIcon as broken } from "./broken";
-import { MultipleForwardRightIcon as outline } from "./outline";
-import { MultipleForwardRightIcon as line_duotone } from "./line-duotone";
+import { MultipleForwardRightIcon as line } from "./line.ts";
+import { MultipleForwardRightIcon as bold } from "./bold.ts";
+import { MultipleForwardRightIcon as duotone } from "./duotone.ts";
+import { MultipleForwardRightIcon as broken } from "./broken.ts";
+import { MultipleForwardRightIcon as outline } from "./outline.ts";
+import { MultipleForwardRightIcon as line_duotone } from "./line-duotone.ts";
 
 export const MultipleForwardRightIcon: IconEntry = {
     line: line,

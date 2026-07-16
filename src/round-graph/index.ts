@@ -4,12 +4,12 @@
  *   One style:   import { RoundGraphIcon } from '@cossackframework/solar-icons/round-graph/<style>'
  */
 import type { IconEntry } from "../types";
-import { RoundGraphIcon as line } from "./line";
-import { RoundGraphIcon as bold } from "./bold";
-import { RoundGraphIcon as duotone } from "./duotone";
-import { RoundGraphIcon as broken } from "./broken";
-import { RoundGraphIcon as outline } from "./outline";
-import { RoundGraphIcon as line_duotone } from "./line-duotone";
+import { RoundGraphIcon as line } from "./line.ts";
+import { RoundGraphIcon as bold } from "./bold.ts";
+import { RoundGraphIcon as duotone } from "./duotone.ts";
+import { RoundGraphIcon as broken } from "./broken.ts";
+import { RoundGraphIcon as outline } from "./outline.ts";
+import { RoundGraphIcon as line_duotone } from "./line-duotone.ts";
 
 export const RoundGraphIcon: IconEntry = {
     line: line,

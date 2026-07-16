@@ -4,12 +4,12 @@
  *   One style:   import { RocketIcon } from '@cossackframework/solar-icons/rocket/<style>'
  */
 import type { IconEntry } from "../types";
-import { RocketIcon as line } from "./line";
-import { RocketIcon as bold } from "./bold";
-import { RocketIcon as duotone } from "./duotone";
-import { RocketIcon as broken } from "./broken";
-import { RocketIcon as outline } from "./outline";
-import { RocketIcon as line_duotone } from "./line-duotone";
+import { RocketIcon as line } from "./line.ts";
+import { RocketIcon as bold } from "./bold.ts";
+import { RocketIcon as duotone } from "./duotone.ts";
+import { RocketIcon as broken } from "./broken.ts";
+import { RocketIcon as outline } from "./outline.ts";
+import { RocketIcon as line_duotone } from "./line-duotone.ts";
 
 export const RocketIcon: IconEntry = {
     line: line,

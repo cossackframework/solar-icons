@@ -4,12 +4,12 @@
  *   One style:   import { TransmissionCircleIcon } from '@cossackframework/solar-icons/transmission-circle/<style>'
  */
 import type { IconEntry } from "../types";
-import { TransmissionCircleIcon as line } from "./line";
-import { TransmissionCircleIcon as bold } from "./bold";
-import { TransmissionCircleIcon as duotone } from "./duotone";
-import { TransmissionCircleIcon as broken } from "./broken";
-import { TransmissionCircleIcon as outline } from "./outline";
-import { TransmissionCircleIcon as line_duotone } from "./line-duotone";
+import { TransmissionCircleIcon as line } from "./line.ts";
+import { TransmissionCircleIcon as bold } from "./bold.ts";
+import { TransmissionCircleIcon as duotone } from "./duotone.ts";
+import { TransmissionCircleIcon as broken } from "./broken.ts";
+import { TransmissionCircleIcon as outline } from "./outline.ts";
+import { TransmissionCircleIcon as line_duotone } from "./line-duotone.ts";
 
 export const TransmissionCircleIcon: IconEntry = {
     line: line,

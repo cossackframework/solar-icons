@@ -4,12 +4,12 @@
  *   One style:   import { MouseMinimalisticIcon } from '@cossackframework/solar-icons/mouse-minimalistic/<style>'
  */
 import type { IconEntry } from "../types";
-import { MouseMinimalisticIcon as line } from "./line";
-import { MouseMinimalisticIcon as bold } from "./bold";
-import { MouseMinimalisticIcon as duotone } from "./duotone";
-import { MouseMinimalisticIcon as broken } from "./broken";
-import { MouseMinimalisticIcon as outline } from "./outline";
-import { MouseMinimalisticIcon as line_duotone } from "./line-duotone";
+import { MouseMinimalisticIcon as line } from "./line.ts";
+import { MouseMinimalisticIcon as bold } from "./bold.ts";
+import { MouseMinimalisticIcon as duotone } from "./duotone.ts";
+import { MouseMinimalisticIcon as broken } from "./broken.ts";
+import { MouseMinimalisticIcon as outline } from "./outline.ts";
+import { MouseMinimalisticIcon as line_duotone } from "./line-duotone.ts";
 
 export const MouseMinimalisticIcon: IconEntry = {
     line: line,

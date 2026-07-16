@@ -4,12 +4,12 @@
  *   One style:   import { CaseMinimalisticIcon } from '@cossackframework/solar-icons/case-minimalistic/<style>'
  */
 import type { IconEntry } from "../types";
-import { CaseMinimalisticIcon as line } from "./line";
-import { CaseMinimalisticIcon as bold } from "./bold";
-import { CaseMinimalisticIcon as duotone } from "./duotone";
-import { CaseMinimalisticIcon as broken } from "./broken";
-import { CaseMinimalisticIcon as outline } from "./outline";
-import { CaseMinimalisticIcon as line_duotone } from "./line-duotone";
+import { CaseMinimalisticIcon as line } from "./line.ts";
+import { CaseMinimalisticIcon as bold } from "./bold.ts";
+import { CaseMinimalisticIcon as duotone } from "./duotone.ts";
+import { CaseMinimalisticIcon as broken } from "./broken.ts";
+import { CaseMinimalisticIcon as outline } from "./outline.ts";
+import { CaseMinimalisticIcon as line_duotone } from "./line-duotone.ts";
 
 export const CaseMinimalisticIcon: IconEntry = {
     line: line,

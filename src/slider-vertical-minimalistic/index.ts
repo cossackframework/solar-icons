@@ -4,12 +4,12 @@
  *   One style:   import { SliderVerticalMinimalisticIcon } from '@cossackframework/solar-icons/slider-vertical-minimalistic/<style>'
  */
 import type { IconEntry } from "../types";
-import { SliderVerticalMinimalisticIcon as line } from "./line";
-import { SliderVerticalMinimalisticIcon as bold } from "./bold";
-import { SliderVerticalMinimalisticIcon as duotone } from "./duotone";
-import { SliderVerticalMinimalisticIcon as broken } from "./broken";
-import { SliderVerticalMinimalisticIcon as outline } from "./outline";
-import { SliderVerticalMinimalisticIcon as line_duotone } from "./line-duotone";
+import { SliderVerticalMinimalisticIcon as line } from "./line.ts";
+import { SliderVerticalMinimalisticIcon as bold } from "./bold.ts";
+import { SliderVerticalMinimalisticIcon as duotone } from "./duotone.ts";
+import { SliderVerticalMinimalisticIcon as broken } from "./broken.ts";
+import { SliderVerticalMinimalisticIcon as outline } from "./outline.ts";
+import { SliderVerticalMinimalisticIcon as line_duotone } from "./line-duotone.ts";
 
 export const SliderVerticalMinimalisticIcon: IconEntry = {
     line: line,

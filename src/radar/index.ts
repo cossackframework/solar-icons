@@ -4,12 +4,12 @@
  *   One style:   import { RadarIcon } from '@cossackframework/solar-icons/radar/<style>'
  */
 import type { IconEntry } from "../types";
-import { RadarIcon as line } from "./line";
-import { RadarIcon as bold } from "./bold";
-import { RadarIcon as duotone } from "./duotone";
-import { RadarIcon as broken } from "./broken";
-import { RadarIcon as outline } from "./outline";
-import { RadarIcon as line_duotone } from "./line-duotone";
+import { RadarIcon as line } from "./line.ts";
+import { RadarIcon as bold } from "./bold.ts";
+import { RadarIcon as duotone } from "./duotone.ts";
+import { RadarIcon as broken } from "./broken.ts";
+import { RadarIcon as outline } from "./outline.ts";
+import { RadarIcon as line_duotone } from "./line-duotone.ts";
 
 export const RadarIcon: IconEntry = {
     line: line,

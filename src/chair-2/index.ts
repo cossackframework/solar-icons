@@ -4,12 +4,12 @@
  *   One style:   import { Chair2Icon } from '@cossackframework/solar-icons/chair-2/<style>'
  */
 import type { IconEntry } from "../types";
-import { Chair2Icon as line } from "./line";
-import { Chair2Icon as bold } from "./bold";
-import { Chair2Icon as duotone } from "./duotone";
-import { Chair2Icon as broken } from "./broken";
-import { Chair2Icon as outline } from "./outline";
-import { Chair2Icon as line_duotone } from "./line-duotone";
+import { Chair2Icon as line } from "./line.ts";
+import { Chair2Icon as bold } from "./bold.ts";
+import { Chair2Icon as duotone } from "./duotone.ts";
+import { Chair2Icon as broken } from "./broken.ts";
+import { Chair2Icon as outline } from "./outline.ts";
+import { Chair2Icon as line_duotone } from "./line-duotone.ts";
 
 export const Chair2Icon: IconEntry = {
     line: line,

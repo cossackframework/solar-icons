@@ -4,12 +4,12 @@
  *   One style:   import { SquareShareLineIcon } from '@cossackframework/solar-icons/square-share-line/<style>'
  */
 import type { IconEntry } from "../types";
-import { SquareShareLineIcon as line } from "./line";
-import { SquareShareLineIcon as bold } from "./bold";
-import { SquareShareLineIcon as duotone } from "./duotone";
-import { SquareShareLineIcon as broken } from "./broken";
-import { SquareShareLineIcon as outline } from "./outline";
-import { SquareShareLineIcon as line_duotone } from "./line-duotone";
+import { SquareShareLineIcon as line } from "./line.ts";
+import { SquareShareLineIcon as bold } from "./bold.ts";
+import { SquareShareLineIcon as duotone } from "./duotone.ts";
+import { SquareShareLineIcon as broken } from "./broken.ts";
+import { SquareShareLineIcon as outline } from "./outline.ts";
+import { SquareShareLineIcon as line_duotone } from "./line-duotone.ts";
 
 export const SquareShareLineIcon: IconEntry = {
     line: line,

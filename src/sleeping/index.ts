@@ -4,12 +4,12 @@
  *   One style:   import { SleepingIcon } from '@cossackframework/solar-icons/sleeping/<style>'
  */
 import type { IconEntry } from "../types";
-import { SleepingIcon as line } from "./line";
-import { SleepingIcon as bold } from "./bold";
-import { SleepingIcon as duotone } from "./duotone";
-import { SleepingIcon as broken } from "./broken";
-import { SleepingIcon as outline } from "./outline";
-import { SleepingIcon as line_duotone } from "./line-duotone";
+import { SleepingIcon as line } from "./line.ts";
+import { SleepingIcon as bold } from "./bold.ts";
+import { SleepingIcon as duotone } from "./duotone.ts";
+import { SleepingIcon as broken } from "./broken.ts";
+import { SleepingIcon as outline } from "./outline.ts";
+import { SleepingIcon as line_duotone } from "./line-duotone.ts";
 
 export const SleepingIcon: IconEntry = {
     line: line,

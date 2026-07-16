@@ -4,12 +4,12 @@
  *   One style:   import { ScreenShareIcon } from '@cossackframework/solar-icons/screen-share/<style>'
  */
 import type { IconEntry } from "../types";
-import { ScreenShareIcon as line } from "./line";
-import { ScreenShareIcon as bold } from "./bold";
-import { ScreenShareIcon as duotone } from "./duotone";
-import { ScreenShareIcon as broken } from "./broken";
-import { ScreenShareIcon as outline } from "./outline";
-import { ScreenShareIcon as line_duotone } from "./line-duotone";
+import { ScreenShareIcon as line } from "./line.ts";
+import { ScreenShareIcon as bold } from "./bold.ts";
+import { ScreenShareIcon as duotone } from "./duotone.ts";
+import { ScreenShareIcon as broken } from "./broken.ts";
+import { ScreenShareIcon as outline } from "./outline.ts";
+import { ScreenShareIcon as line_duotone } from "./line-duotone.ts";
 
 export const ScreenShareIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { UserHandUpIcon } from '@cossackframework/solar-icons/user-hand-up/<style>'
  */
 import type { IconEntry } from "../types";
-import { UserHandUpIcon as line } from "./line";
-import { UserHandUpIcon as bold } from "./bold";
-import { UserHandUpIcon as duotone } from "./duotone";
-import { UserHandUpIcon as broken } from "./broken";
-import { UserHandUpIcon as outline } from "./outline";
-import { UserHandUpIcon as line_duotone } from "./line-duotone";
+import { UserHandUpIcon as line } from "./line.ts";
+import { UserHandUpIcon as bold } from "./bold.ts";
+import { UserHandUpIcon as duotone } from "./duotone.ts";
+import { UserHandUpIcon as broken } from "./broken.ts";
+import { UserHandUpIcon as outline } from "./outline.ts";
+import { UserHandUpIcon as line_duotone } from "./line-duotone.ts";
 
 export const UserHandUpIcon: IconEntry = {
     line: line,

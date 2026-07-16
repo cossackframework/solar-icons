@@ -4,12 +4,12 @@
  *   One style:   import { SmartphoneRotate2Icon } from '@cossackframework/solar-icons/smartphone-rotate-2/<style>'
  */
 import type { IconEntry } from "../types";
-import { SmartphoneRotate2Icon as line } from "./line";
-import { SmartphoneRotate2Icon as bold } from "./bold";
-import { SmartphoneRotate2Icon as duotone } from "./duotone";
-import { SmartphoneRotate2Icon as broken } from "./broken";
-import { SmartphoneRotate2Icon as outline } from "./outline";
-import { SmartphoneRotate2Icon as line_duotone } from "./line-duotone";
+import { SmartphoneRotate2Icon as line } from "./line.ts";
+import { SmartphoneRotate2Icon as bold } from "./bold.ts";
+import { SmartphoneRotate2Icon as duotone } from "./duotone.ts";
+import { SmartphoneRotate2Icon as broken } from "./broken.ts";
+import { SmartphoneRotate2Icon as outline } from "./outline.ts";
+import { SmartphoneRotate2Icon as line_duotone } from "./line-duotone.ts";
 
 export const SmartphoneRotate2Icon: IconEntry = {
     line: line,

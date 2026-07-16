@@ -4,12 +4,12 @@
  *   One style:   import { CorkscrewIcon } from '@cossackframework/solar-icons/corkscrew/<style>'
  */
 import type { IconEntry } from "../types";
-import { CorkscrewIcon as line } from "./line";
-import { CorkscrewIcon as bold } from "./bold";
-import { CorkscrewIcon as duotone } from "./duotone";
-import { CorkscrewIcon as broken } from "./broken";
-import { CorkscrewIcon as outline } from "./outline";
-import { CorkscrewIcon as line_duotone } from "./line-duotone";
+import { CorkscrewIcon as line } from "./line.ts";
+import { CorkscrewIcon as bold } from "./bold.ts";
+import { CorkscrewIcon as duotone } from "./duotone.ts";
+import { CorkscrewIcon as broken } from "./broken.ts";
+import { CorkscrewIcon as outline } from "./outline.ts";
+import { CorkscrewIcon as line_duotone } from "./line-duotone.ts";
 
 export const CorkscrewIcon: IconEntry = {
     line: line,

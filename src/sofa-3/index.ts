@@ -4,12 +4,12 @@
  *   One style:   import { Sofa3Icon } from '@cossackframework/solar-icons/sofa-3/<style>'
  */
 import type { IconEntry } from "../types";
-import { Sofa3Icon as line } from "./line";
-import { Sofa3Icon as bold } from "./bold";
-import { Sofa3Icon as duotone } from "./duotone";
-import { Sofa3Icon as broken } from "./broken";
-import { Sofa3Icon as outline } from "./outline";
-import { Sofa3Icon as line_duotone } from "./line-duotone";
+import { Sofa3Icon as line } from "./line.ts";
+import { Sofa3Icon as bold } from "./bold.ts";
+import { Sofa3Icon as duotone } from "./duotone.ts";
+import { Sofa3Icon as broken } from "./broken.ts";
+import { Sofa3Icon as outline } from "./outline.ts";
+import { Sofa3Icon as line_duotone } from "./line-duotone.ts";
 
 export const Sofa3Icon: IconEntry = {
     line: line,

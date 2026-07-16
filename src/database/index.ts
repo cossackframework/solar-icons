@@ -4,12 +4,12 @@
  *   One style:   import { DatabaseIcon } from '@cossackframework/solar-icons/database/<style>'
  */
 import type { IconEntry } from "../types";
-import { DatabaseIcon as line } from "./line";
-import { DatabaseIcon as bold } from "./bold";
-import { DatabaseIcon as duotone } from "./duotone";
-import { DatabaseIcon as broken } from "./broken";
-import { DatabaseIcon as outline } from "./outline";
-import { DatabaseIcon as line_duotone } from "./line-duotone";
+import { DatabaseIcon as line } from "./line.ts";
+import { DatabaseIcon as bold } from "./bold.ts";
+import { DatabaseIcon as duotone } from "./duotone.ts";
+import { DatabaseIcon as broken } from "./broken.ts";
+import { DatabaseIcon as outline } from "./outline.ts";
+import { DatabaseIcon as line_duotone } from "./line-duotone.ts";
 
 export const DatabaseIcon: IconEntry = {
     line: line,

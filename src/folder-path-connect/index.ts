@@ -4,12 +4,12 @@
  *   One style:   import { FolderPathConnectIcon } from '@cossackframework/solar-icons/folder-path-connect/<style>'
  */
 import type { IconEntry } from "../types";
-import { FolderPathConnectIcon as line } from "./line";
-import { FolderPathConnectIcon as bold } from "./bold";
-import { FolderPathConnectIcon as duotone } from "./duotone";
-import { FolderPathConnectIcon as broken } from "./broken";
-import { FolderPathConnectIcon as outline } from "./outline";
-import { FolderPathConnectIcon as line_duotone } from "./line-duotone";
+import { FolderPathConnectIcon as line } from "./line.ts";
+import { FolderPathConnectIcon as bold } from "./bold.ts";
+import { FolderPathConnectIcon as duotone } from "./duotone.ts";
+import { FolderPathConnectIcon as broken } from "./broken.ts";
+import { FolderPathConnectIcon as outline } from "./outline.ts";
+import { FolderPathConnectIcon as line_duotone } from "./line-duotone.ts";
 
 export const FolderPathConnectIcon: IconEntry = {
     line: line,

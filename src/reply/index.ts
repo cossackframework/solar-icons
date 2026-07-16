@@ -4,12 +4,12 @@
  *   One style:   import { ReplyIcon } from '@cossackframework/solar-icons/reply/<style>'
  */
 import type { IconEntry } from "../types";
-import { ReplyIcon as line } from "./line";
-import { ReplyIcon as bold } from "./bold";
-import { ReplyIcon as duotone } from "./duotone";
-import { ReplyIcon as broken } from "./broken";
-import { ReplyIcon as outline } from "./outline";
-import { ReplyIcon as line_duotone } from "./line-duotone";
+import { ReplyIcon as line } from "./line.ts";
+import { ReplyIcon as bold } from "./bold.ts";
+import { ReplyIcon as duotone } from "./duotone.ts";
+import { ReplyIcon as broken } from "./broken.ts";
+import { ReplyIcon as outline } from "./outline.ts";
+import { ReplyIcon as line_duotone } from "./line-duotone.ts";
 
 export const ReplyIcon: IconEntry = {
     line: line,

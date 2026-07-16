@@ -4,12 +4,12 @@
  *   One style:   import { FileDownloadIcon } from '@cossackframework/solar-icons/file-download/<style>'
  */
 import type { IconEntry } from "../types";
-import { FileDownloadIcon as line } from "./line";
-import { FileDownloadIcon as bold } from "./bold";
-import { FileDownloadIcon as duotone } from "./duotone";
-import { FileDownloadIcon as broken } from "./broken";
-import { FileDownloadIcon as outline } from "./outline";
-import { FileDownloadIcon as line_duotone } from "./line-duotone";
+import { FileDownloadIcon as line } from "./line.ts";
+import { FileDownloadIcon as bold } from "./bold.ts";
+import { FileDownloadIcon as duotone } from "./duotone.ts";
+import { FileDownloadIcon as broken } from "./broken.ts";
+import { FileDownloadIcon as outline } from "./outline.ts";
+import { FileDownloadIcon as line_duotone } from "./line-duotone.ts";
 
 export const FileDownloadIcon: IconEntry = {
     line: line,

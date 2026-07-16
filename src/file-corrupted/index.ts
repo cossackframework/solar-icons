@@ -4,12 +4,12 @@
  *   One style:   import { FileCorruptedIcon } from '@cossackframework/solar-icons/file-corrupted/<style>'
  */
 import type { IconEntry } from "../types";
-import { FileCorruptedIcon as line } from "./line";
-import { FileCorruptedIcon as bold } from "./bold";
-import { FileCorruptedIcon as duotone } from "./duotone";
-import { FileCorruptedIcon as broken } from "./broken";
-import { FileCorruptedIcon as outline } from "./outline";
-import { FileCorruptedIcon as line_duotone } from "./line-duotone";
+import { FileCorruptedIcon as line } from "./line.ts";
+import { FileCorruptedIcon as bold } from "./bold.ts";
+import { FileCorruptedIcon as duotone } from "./duotone.ts";
+import { FileCorruptedIcon as broken } from "./broken.ts";
+import { FileCorruptedIcon as outline } from "./outline.ts";
+import { FileCorruptedIcon as line_duotone } from "./line-duotone.ts";
 
 export const FileCorruptedIcon: IconEntry = {
     line: line,

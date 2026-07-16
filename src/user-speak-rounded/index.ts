@@ -4,12 +4,12 @@
  *   One style:   import { UserSpeakRoundedIcon } from '@cossackframework/solar-icons/user-speak-rounded/<style>'
  */
 import type { IconEntry } from "../types";
-import { UserSpeakRoundedIcon as line } from "./line";
-import { UserSpeakRoundedIcon as bold } from "./bold";
-import { UserSpeakRoundedIcon as duotone } from "./duotone";
-import { UserSpeakRoundedIcon as broken } from "./broken";
-import { UserSpeakRoundedIcon as outline } from "./outline";
-import { UserSpeakRoundedIcon as line_duotone } from "./line-duotone";
+import { UserSpeakRoundedIcon as line } from "./line.ts";
+import { UserSpeakRoundedIcon as bold } from "./bold.ts";
+import { UserSpeakRoundedIcon as duotone } from "./duotone.ts";
+import { UserSpeakRoundedIcon as broken } from "./broken.ts";
+import { UserSpeakRoundedIcon as outline } from "./outline.ts";
+import { UserSpeakRoundedIcon as line_duotone } from "./line-duotone.ts";
 
 export const UserSpeakRoundedIcon: IconEntry = {
     line: line,

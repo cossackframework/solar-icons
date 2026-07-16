@@ -4,12 +4,12 @@
  *   One style:   import { ShuffleIcon } from '@cossackframework/solar-icons/shuffle/<style>'
  */
 import type { IconEntry } from "../types";
-import { ShuffleIcon as line } from "./line";
-import { ShuffleIcon as bold } from "./bold";
-import { ShuffleIcon as duotone } from "./duotone";
-import { ShuffleIcon as broken } from "./broken";
-import { ShuffleIcon as outline } from "./outline";
-import { ShuffleIcon as line_duotone } from "./line-duotone";
+import { ShuffleIcon as line } from "./line.ts";
+import { ShuffleIcon as bold } from "./bold.ts";
+import { ShuffleIcon as duotone } from "./duotone.ts";
+import { ShuffleIcon as broken } from "./broken.ts";
+import { ShuffleIcon as outline } from "./outline.ts";
+import { ShuffleIcon as line_duotone } from "./line-duotone.ts";
 
 export const ShuffleIcon: IconEntry = {
     line: line,

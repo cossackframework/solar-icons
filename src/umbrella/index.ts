@@ -4,12 +4,12 @@
  *   One style:   import { UmbrellaIcon } from '@cossackframework/solar-icons/umbrella/<style>'
  */
 import type { IconEntry } from "../types";
-import { UmbrellaIcon as line } from "./line";
-import { UmbrellaIcon as bold } from "./bold";
-import { UmbrellaIcon as duotone } from "./duotone";
-import { UmbrellaIcon as broken } from "./broken";
-import { UmbrellaIcon as outline } from "./outline";
-import { UmbrellaIcon as line_duotone } from "./line-duotone";
+import { UmbrellaIcon as line } from "./line.ts";
+import { UmbrellaIcon as bold } from "./bold.ts";
+import { UmbrellaIcon as duotone } from "./duotone.ts";
+import { UmbrellaIcon as broken } from "./broken.ts";
+import { UmbrellaIcon as outline } from "./outline.ts";
+import { UmbrellaIcon as line_duotone } from "./line-duotone.ts";
 
 export const UmbrellaIcon: IconEntry = {
     line: line,

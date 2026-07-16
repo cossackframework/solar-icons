@@ -4,12 +4,12 @@
  *   One style:   import { StreetsNavigationIcon } from '@cossackframework/solar-icons/streets-navigation/<style>'
  */
 import type { IconEntry } from "../types";
-import { StreetsNavigationIcon as line } from "./line";
-import { StreetsNavigationIcon as bold } from "./bold";
-import { StreetsNavigationIcon as duotone } from "./duotone";
-import { StreetsNavigationIcon as broken } from "./broken";
-import { StreetsNavigationIcon as outline } from "./outline";
-import { StreetsNavigationIcon as line_duotone } from "./line-duotone";
+import { StreetsNavigationIcon as line } from "./line.ts";
+import { StreetsNavigationIcon as bold } from "./bold.ts";
+import { StreetsNavigationIcon as duotone } from "./duotone.ts";
+import { StreetsNavigationIcon as broken } from "./broken.ts";
+import { StreetsNavigationIcon as outline } from "./outline.ts";
+import { StreetsNavigationIcon as line_duotone } from "./line-duotone.ts";
 
 export const StreetsNavigationIcon: IconEntry = {
     line: line,

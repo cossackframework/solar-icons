@@ -4,12 +4,12 @@
  *   One style:   import { QuitFullScreenIcon } from '@cossackframework/solar-icons/quit-full-screen/<style>'
  */
 import type { IconEntry } from "../types";
-import { QuitFullScreenIcon as line } from "./line";
-import { QuitFullScreenIcon as bold } from "./bold";
-import { QuitFullScreenIcon as duotone } from "./duotone";
-import { QuitFullScreenIcon as broken } from "./broken";
-import { QuitFullScreenIcon as outline } from "./outline";
-import { QuitFullScreenIcon as line_duotone } from "./line-duotone";
+import { QuitFullScreenIcon as line } from "./line.ts";
+import { QuitFullScreenIcon as bold } from "./bold.ts";
+import { QuitFullScreenIcon as duotone } from "./duotone.ts";
+import { QuitFullScreenIcon as broken } from "./broken.ts";
+import { QuitFullScreenIcon as outline } from "./outline.ts";
+import { QuitFullScreenIcon as line_duotone } from "./line-duotone.ts";
 
 export const QuitFullScreenIcon: IconEntry = {
     line: line,

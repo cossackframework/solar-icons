@@ -4,12 +4,12 @@
  *   One style:   import { MapPointFavoriteIcon } from '@cossackframework/solar-icons/map-point-favorite/<style>'
  */
 import type { IconEntry } from "../types";
-import { MapPointFavoriteIcon as line } from "./line";
-import { MapPointFavoriteIcon as bold } from "./bold";
-import { MapPointFavoriteIcon as duotone } from "./duotone";
-import { MapPointFavoriteIcon as broken } from "./broken";
-import { MapPointFavoriteIcon as outline } from "./outline";
-import { MapPointFavoriteIcon as line_duotone } from "./line-duotone";
+import { MapPointFavoriteIcon as line } from "./line.ts";
+import { MapPointFavoriteIcon as bold } from "./bold.ts";
+import { MapPointFavoriteIcon as duotone } from "./duotone.ts";
+import { MapPointFavoriteIcon as broken } from "./broken.ts";
+import { MapPointFavoriteIcon as outline } from "./outline.ts";
+import { MapPointFavoriteIcon as line_duotone } from "./line-duotone.ts";
 
 export const MapPointFavoriteIcon: IconEntry = {
     line: line,

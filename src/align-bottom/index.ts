@@ -4,12 +4,12 @@
  *   One style:   import { AlignBottomIcon } from '@cossackframework/solar-icons/align-bottom/<style>'
  */
 import type { IconEntry } from "../types";
-import { AlignBottomIcon as line } from "./line";
-import { AlignBottomIcon as bold } from "./bold";
-import { AlignBottomIcon as duotone } from "./duotone";
-import { AlignBottomIcon as broken } from "./broken";
-import { AlignBottomIcon as outline } from "./outline";
-import { AlignBottomIcon as line_duotone } from "./line-duotone";
+import { AlignBottomIcon as line } from "./line.ts";
+import { AlignBottomIcon as bold } from "./bold.ts";
+import { AlignBottomIcon as duotone } from "./duotone.ts";
+import { AlignBottomIcon as broken } from "./broken.ts";
+import { AlignBottomIcon as outline } from "./outline.ts";
+import { AlignBottomIcon as line_duotone } from "./line-duotone.ts";
 
 export const AlignBottomIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { CardholderIcon } from '@cossackframework/solar-icons/cardholder/<style>'
  */
 import type { IconEntry } from "../types";
-import { CardholderIcon as line } from "./line";
-import { CardholderIcon as bold } from "./bold";
-import { CardholderIcon as duotone } from "./duotone";
-import { CardholderIcon as broken } from "./broken";
-import { CardholderIcon as outline } from "./outline";
-import { CardholderIcon as line_duotone } from "./line-duotone";
+import { CardholderIcon as line } from "./line.ts";
+import { CardholderIcon as bold } from "./bold.ts";
+import { CardholderIcon as duotone } from "./duotone.ts";
+import { CardholderIcon as broken } from "./broken.ts";
+import { CardholderIcon as outline } from "./outline.ts";
+import { CardholderIcon as line_duotone } from "./line-duotone.ts";
 
 export const CardholderIcon: IconEntry = {
     line: line,

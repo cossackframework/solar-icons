@@ -4,12 +4,12 @@
  *   One style:   import { DocumentAddIcon } from '@cossackframework/solar-icons/document-add/<style>'
  */
 import type { IconEntry } from "../types";
-import { DocumentAddIcon as line } from "./line";
-import { DocumentAddIcon as bold } from "./bold";
-import { DocumentAddIcon as duotone } from "./duotone";
-import { DocumentAddIcon as broken } from "./broken";
-import { DocumentAddIcon as outline } from "./outline";
-import { DocumentAddIcon as line_duotone } from "./line-duotone";
+import { DocumentAddIcon as line } from "./line.ts";
+import { DocumentAddIcon as bold } from "./bold.ts";
+import { DocumentAddIcon as duotone } from "./duotone.ts";
+import { DocumentAddIcon as broken } from "./broken.ts";
+import { DocumentAddIcon as outline } from "./outline.ts";
+import { DocumentAddIcon as line_duotone } from "./line-duotone.ts";
 
 export const DocumentAddIcon: IconEntry = {
     line: line,

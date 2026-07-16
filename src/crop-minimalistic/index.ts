@@ -4,12 +4,12 @@
  *   One style:   import { CropMinimalisticIcon } from '@cossackframework/solar-icons/crop-minimalistic/<style>'
  */
 import type { IconEntry } from "../types";
-import { CropMinimalisticIcon as line } from "./line";
-import { CropMinimalisticIcon as bold } from "./bold";
-import { CropMinimalisticIcon as duotone } from "./duotone";
-import { CropMinimalisticIcon as broken } from "./broken";
-import { CropMinimalisticIcon as outline } from "./outline";
-import { CropMinimalisticIcon as line_duotone } from "./line-duotone";
+import { CropMinimalisticIcon as line } from "./line.ts";
+import { CropMinimalisticIcon as bold } from "./bold.ts";
+import { CropMinimalisticIcon as duotone } from "./duotone.ts";
+import { CropMinimalisticIcon as broken } from "./broken.ts";
+import { CropMinimalisticIcon as outline } from "./outline.ts";
+import { CropMinimalisticIcon as line_duotone } from "./line-duotone.ts";
 
 export const CropMinimalisticIcon: IconEntry = {
     line: line,

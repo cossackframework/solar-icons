@@ -4,12 +4,12 @@
  *   One style:   import { RemoteControllerMinimalisticIcon } from '@cossackframework/solar-icons/remote-controller-minimalistic/<style>'
  */
 import type { IconEntry } from "../types";
-import { RemoteControllerMinimalisticIcon as line } from "./line";
-import { RemoteControllerMinimalisticIcon as bold } from "./bold";
-import { RemoteControllerMinimalisticIcon as duotone } from "./duotone";
-import { RemoteControllerMinimalisticIcon as broken } from "./broken";
-import { RemoteControllerMinimalisticIcon as outline } from "./outline";
-import { RemoteControllerMinimalisticIcon as line_duotone } from "./line-duotone";
+import { RemoteControllerMinimalisticIcon as line } from "./line.ts";
+import { RemoteControllerMinimalisticIcon as bold } from "./bold.ts";
+import { RemoteControllerMinimalisticIcon as duotone } from "./duotone.ts";
+import { RemoteControllerMinimalisticIcon as broken } from "./broken.ts";
+import { RemoteControllerMinimalisticIcon as outline } from "./outline.ts";
+import { RemoteControllerMinimalisticIcon as line_duotone } from "./line-duotone.ts";
 
 export const RemoteControllerMinimalisticIcon: IconEntry = {
     line: line,

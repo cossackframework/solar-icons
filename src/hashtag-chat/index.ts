@@ -4,12 +4,12 @@
  *   One style:   import { HashtagChatIcon } from '@cossackframework/solar-icons/hashtag-chat/<style>'
  */
 import type { IconEntry } from "../types";
-import { HashtagChatIcon as line } from "./line";
-import { HashtagChatIcon as bold } from "./bold";
-import { HashtagChatIcon as duotone } from "./duotone";
-import { HashtagChatIcon as broken } from "./broken";
-import { HashtagChatIcon as outline } from "./outline";
-import { HashtagChatIcon as line_duotone } from "./line-duotone";
+import { HashtagChatIcon as line } from "./line.ts";
+import { HashtagChatIcon as bold } from "./bold.ts";
+import { HashtagChatIcon as duotone } from "./duotone.ts";
+import { HashtagChatIcon as broken } from "./broken.ts";
+import { HashtagChatIcon as outline } from "./outline.ts";
+import { HashtagChatIcon as line_duotone } from "./line-duotone.ts";
 
 export const HashtagChatIcon: IconEntry = {
     line: line,

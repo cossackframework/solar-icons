@@ -4,12 +4,12 @@
  *   One style:   import { DislikeIcon } from '@cossackframework/solar-icons/dislike/<style>'
  */
 import type { IconEntry } from "../types";
-import { DislikeIcon as line } from "./line";
-import { DislikeIcon as bold } from "./bold";
-import { DislikeIcon as duotone } from "./duotone";
-import { DislikeIcon as broken } from "./broken";
-import { DislikeIcon as outline } from "./outline";
-import { DislikeIcon as line_duotone } from "./line-duotone";
+import { DislikeIcon as line } from "./line.ts";
+import { DislikeIcon as bold } from "./bold.ts";
+import { DislikeIcon as duotone } from "./duotone.ts";
+import { DislikeIcon as broken } from "./broken.ts";
+import { DislikeIcon as outline } from "./outline.ts";
+import { DislikeIcon as line_duotone } from "./line-duotone.ts";
 
 export const DislikeIcon: IconEntry = {
     line: line,

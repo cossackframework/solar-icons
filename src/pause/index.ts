@@ -4,12 +4,12 @@
  *   One style:   import { PauseIcon } from '@cossackframework/solar-icons/pause/<style>'
  */
 import type { IconEntry } from "../types";
-import { PauseIcon as line } from "./line";
-import { PauseIcon as bold } from "./bold";
-import { PauseIcon as duotone } from "./duotone";
-import { PauseIcon as broken } from "./broken";
-import { PauseIcon as outline } from "./outline";
-import { PauseIcon as line_duotone } from "./line-duotone";
+import { PauseIcon as line } from "./line.ts";
+import { PauseIcon as bold } from "./bold.ts";
+import { PauseIcon as duotone } from "./duotone.ts";
+import { PauseIcon as broken } from "./broken.ts";
+import { PauseIcon as outline } from "./outline.ts";
+import { PauseIcon as line_duotone } from "./line-duotone.ts";
 
 export const PauseIcon: IconEntry = {
     line: line,

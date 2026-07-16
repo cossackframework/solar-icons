@@ -4,12 +4,12 @@
  *   One style:   import { HashtagCircleIcon } from '@cossackframework/solar-icons/hashtag-circle/<style>'
  */
 import type { IconEntry } from "../types";
-import { HashtagCircleIcon as line } from "./line";
-import { HashtagCircleIcon as bold } from "./bold";
-import { HashtagCircleIcon as duotone } from "./duotone";
-import { HashtagCircleIcon as broken } from "./broken";
-import { HashtagCircleIcon as outline } from "./outline";
-import { HashtagCircleIcon as line_duotone } from "./line-duotone";
+import { HashtagCircleIcon as line } from "./line.ts";
+import { HashtagCircleIcon as bold } from "./bold.ts";
+import { HashtagCircleIcon as duotone } from "./duotone.ts";
+import { HashtagCircleIcon as broken } from "./broken.ts";
+import { HashtagCircleIcon as outline } from "./outline.ts";
+import { HashtagCircleIcon as line_duotone } from "./line-duotone.ts";
 
 export const HashtagCircleIcon: IconEntry = {
     line: line,

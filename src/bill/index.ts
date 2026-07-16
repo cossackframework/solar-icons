@@ -4,12 +4,12 @@
  *   One style:   import { BillIcon } from '@cossackframework/solar-icons/bill/<style>'
  */
 import type { IconEntry } from "../types";
-import { BillIcon as line } from "./line";
-import { BillIcon as bold } from "./bold";
-import { BillIcon as duotone } from "./duotone";
-import { BillIcon as broken } from "./broken";
-import { BillIcon as outline } from "./outline";
-import { BillIcon as line_duotone } from "./line-duotone";
+import { BillIcon as line } from "./line.ts";
+import { BillIcon as bold } from "./bold.ts";
+import { BillIcon as duotone } from "./duotone.ts";
+import { BillIcon as broken } from "./broken.ts";
+import { BillIcon as outline } from "./outline.ts";
+import { BillIcon as line_duotone } from "./line-duotone.ts";
 
 export const BillIcon: IconEntry = {
     line: line,

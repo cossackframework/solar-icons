@@ -4,12 +4,12 @@
  *   One style:   import { Playlist2Icon } from '@cossackframework/solar-icons/playlist-2/<style>'
  */
 import type { IconEntry } from "../types";
-import { Playlist2Icon as line } from "./line";
-import { Playlist2Icon as bold } from "./bold";
-import { Playlist2Icon as duotone } from "./duotone";
-import { Playlist2Icon as broken } from "./broken";
-import { Playlist2Icon as outline } from "./outline";
-import { Playlist2Icon as line_duotone } from "./line-duotone";
+import { Playlist2Icon as line } from "./line.ts";
+import { Playlist2Icon as bold } from "./bold.ts";
+import { Playlist2Icon as duotone } from "./duotone.ts";
+import { Playlist2Icon as broken } from "./broken.ts";
+import { Playlist2Icon as outline } from "./outline.ts";
+import { Playlist2Icon as line_duotone } from "./line-duotone.ts";
 
 export const Playlist2Icon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { TuningSquareIcon } from '@cossackframework/solar-icons/tuning-square/<style>'
  */
 import type { IconEntry } from "../types";
-import { TuningSquareIcon as line } from "./line";
-import { TuningSquareIcon as bold } from "./bold";
-import { TuningSquareIcon as duotone } from "./duotone";
-import { TuningSquareIcon as broken } from "./broken";
-import { TuningSquareIcon as outline } from "./outline";
-import { TuningSquareIcon as line_duotone } from "./line-duotone";
+import { TuningSquareIcon as line } from "./line.ts";
+import { TuningSquareIcon as bold } from "./bold.ts";
+import { TuningSquareIcon as duotone } from "./duotone.ts";
+import { TuningSquareIcon as broken } from "./broken.ts";
+import { TuningSquareIcon as outline } from "./outline.ts";
+import { TuningSquareIcon as line_duotone } from "./line-duotone.ts";
 
 export const TuningSquareIcon: IconEntry = {
     line: line,

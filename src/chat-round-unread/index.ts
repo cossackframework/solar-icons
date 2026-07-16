@@ -4,12 +4,12 @@
  *   One style:   import { ChatRoundUnreadIcon } from '@cossackframework/solar-icons/chat-round-unread/<style>'
  */
 import type { IconEntry } from "../types";
-import { ChatRoundUnreadIcon as line } from "./line";
-import { ChatRoundUnreadIcon as bold } from "./bold";
-import { ChatRoundUnreadIcon as duotone } from "./duotone";
-import { ChatRoundUnreadIcon as broken } from "./broken";
-import { ChatRoundUnreadIcon as outline } from "./outline";
-import { ChatRoundUnreadIcon as line_duotone } from "./line-duotone";
+import { ChatRoundUnreadIcon as line } from "./line.ts";
+import { ChatRoundUnreadIcon as bold } from "./bold.ts";
+import { ChatRoundUnreadIcon as duotone } from "./duotone.ts";
+import { ChatRoundUnreadIcon as broken } from "./broken.ts";
+import { ChatRoundUnreadIcon as outline } from "./outline.ts";
+import { ChatRoundUnreadIcon as line_duotone } from "./line-duotone.ts";
 
 export const ChatRoundUnreadIcon: IconEntry = {
     line: line,

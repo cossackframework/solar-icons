@@ -4,12 +4,12 @@
  *   One style:   import { FogIcon } from '@cossackframework/solar-icons/fog/<style>'
  */
 import type { IconEntry } from "../types";
-import { FogIcon as line } from "./line";
-import { FogIcon as bold } from "./bold";
-import { FogIcon as duotone } from "./duotone";
-import { FogIcon as broken } from "./broken";
-import { FogIcon as outline } from "./outline";
-import { FogIcon as line_duotone } from "./line-duotone";
+import { FogIcon as line } from "./line.ts";
+import { FogIcon as bold } from "./bold.ts";
+import { FogIcon as duotone } from "./duotone.ts";
+import { FogIcon as broken } from "./broken.ts";
+import { FogIcon as outline } from "./outline.ts";
+import { FogIcon as line_duotone } from "./line-duotone.ts";
 
 export const FogIcon: IconEntry = {
     line: line,

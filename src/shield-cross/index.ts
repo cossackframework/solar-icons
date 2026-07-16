@@ -4,12 +4,12 @@
  *   One style:   import { ShieldCrossIcon } from '@cossackframework/solar-icons/shield-cross/<style>'
  */
 import type { IconEntry } from "../types";
-import { ShieldCrossIcon as line } from "./line";
-import { ShieldCrossIcon as bold } from "./bold";
-import { ShieldCrossIcon as duotone } from "./duotone";
-import { ShieldCrossIcon as broken } from "./broken";
-import { ShieldCrossIcon as outline } from "./outline";
-import { ShieldCrossIcon as line_duotone } from "./line-duotone";
+import { ShieldCrossIcon as line } from "./line.ts";
+import { ShieldCrossIcon as bold } from "./bold.ts";
+import { ShieldCrossIcon as duotone } from "./duotone.ts";
+import { ShieldCrossIcon as broken } from "./broken.ts";
+import { ShieldCrossIcon as outline } from "./outline.ts";
+import { ShieldCrossIcon as line_duotone } from "./line-duotone.ts";
 
 export const ShieldCrossIcon: IconEntry = {
     line: line,

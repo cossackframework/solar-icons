@@ -4,12 +4,12 @@
  *   One style:   import { ForbiddenCircleIcon } from '@cossackframework/solar-icons/forbidden-circle/<style>'
  */
 import type { IconEntry } from "../types";
-import { ForbiddenCircleIcon as line } from "./line";
-import { ForbiddenCircleIcon as bold } from "./bold";
-import { ForbiddenCircleIcon as duotone } from "./duotone";
-import { ForbiddenCircleIcon as broken } from "./broken";
-import { ForbiddenCircleIcon as outline } from "./outline";
-import { ForbiddenCircleIcon as line_duotone } from "./line-duotone";
+import { ForbiddenCircleIcon as line } from "./line.ts";
+import { ForbiddenCircleIcon as bold } from "./bold.ts";
+import { ForbiddenCircleIcon as duotone } from "./duotone.ts";
+import { ForbiddenCircleIcon as broken } from "./broken.ts";
+import { ForbiddenCircleIcon as outline } from "./outline.ts";
+import { ForbiddenCircleIcon as line_duotone } from "./line-duotone.ts";
 
 export const ForbiddenCircleIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { StopwatchPlayIcon } from '@cossackframework/solar-icons/stopwatch-play/<style>'
  */
 import type { IconEntry } from "../types";
-import { StopwatchPlayIcon as line } from "./line";
-import { StopwatchPlayIcon as bold } from "./bold";
-import { StopwatchPlayIcon as duotone } from "./duotone";
-import { StopwatchPlayIcon as broken } from "./broken";
-import { StopwatchPlayIcon as outline } from "./outline";
-import { StopwatchPlayIcon as line_duotone } from "./line-duotone";
+import { StopwatchPlayIcon as line } from "./line.ts";
+import { StopwatchPlayIcon as bold } from "./bold.ts";
+import { StopwatchPlayIcon as duotone } from "./duotone.ts";
+import { StopwatchPlayIcon as broken } from "./broken.ts";
+import { StopwatchPlayIcon as outline } from "./outline.ts";
+import { StopwatchPlayIcon as line_duotone } from "./line-duotone.ts";
 
 export const StopwatchPlayIcon: IconEntry = {
     line: line,

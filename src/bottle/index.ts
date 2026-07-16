@@ -4,12 +4,12 @@
  *   One style:   import { BottleIcon } from '@cossackframework/solar-icons/bottle/<style>'
  */
 import type { IconEntry } from "../types";
-import { BottleIcon as line } from "./line";
-import { BottleIcon as bold } from "./bold";
-import { BottleIcon as duotone } from "./duotone";
-import { BottleIcon as broken } from "./broken";
-import { BottleIcon as outline } from "./outline";
-import { BottleIcon as line_duotone } from "./line-duotone";
+import { BottleIcon as line } from "./line.ts";
+import { BottleIcon as bold } from "./bold.ts";
+import { BottleIcon as duotone } from "./duotone.ts";
+import { BottleIcon as broken } from "./broken.ts";
+import { BottleIcon as outline } from "./outline.ts";
+import { BottleIcon as line_duotone } from "./line-duotone.ts";
 
 export const BottleIcon: IconEntry = {
     line: line,

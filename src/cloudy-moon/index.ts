@@ -4,12 +4,12 @@
  *   One style:   import { CloudyMoonIcon } from '@cossackframework/solar-icons/cloudy-moon/<style>'
  */
 import type { IconEntry } from "../types";
-import { CloudyMoonIcon as line } from "./line";
-import { CloudyMoonIcon as bold } from "./bold";
-import { CloudyMoonIcon as duotone } from "./duotone";
-import { CloudyMoonIcon as broken } from "./broken";
-import { CloudyMoonIcon as outline } from "./outline";
-import { CloudyMoonIcon as line_duotone } from "./line-duotone";
+import { CloudyMoonIcon as line } from "./line.ts";
+import { CloudyMoonIcon as bold } from "./bold.ts";
+import { CloudyMoonIcon as duotone } from "./duotone.ts";
+import { CloudyMoonIcon as broken } from "./broken.ts";
+import { CloudyMoonIcon as outline } from "./outline.ts";
+import { CloudyMoonIcon as line_duotone } from "./line-duotone.ts";
 
 export const CloudyMoonIcon: IconEntry = {
     line: line,

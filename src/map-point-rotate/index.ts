@@ -4,12 +4,12 @@
  *   One style:   import { MapPointRotateIcon } from '@cossackframework/solar-icons/map-point-rotate/<style>'
  */
 import type { IconEntry } from "../types";
-import { MapPointRotateIcon as line } from "./line";
-import { MapPointRotateIcon as bold } from "./bold";
-import { MapPointRotateIcon as duotone } from "./duotone";
-import { MapPointRotateIcon as broken } from "./broken";
-import { MapPointRotateIcon as outline } from "./outline";
-import { MapPointRotateIcon as line_duotone } from "./line-duotone";
+import { MapPointRotateIcon as line } from "./line.ts";
+import { MapPointRotateIcon as bold } from "./bold.ts";
+import { MapPointRotateIcon as duotone } from "./duotone.ts";
+import { MapPointRotateIcon as broken } from "./broken.ts";
+import { MapPointRotateIcon as outline } from "./outline.ts";
+import { MapPointRotateIcon as line_duotone } from "./line-duotone.ts";
 
 export const MapPointRotateIcon: IconEntry = {
     line: line,

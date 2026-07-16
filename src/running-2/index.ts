@@ -4,12 +4,12 @@
  *   One style:   import { Running2Icon } from '@cossackframework/solar-icons/running-2/<style>'
  */
 import type { IconEntry } from "../types";
-import { Running2Icon as line } from "./line";
-import { Running2Icon as bold } from "./bold";
-import { Running2Icon as duotone } from "./duotone";
-import { Running2Icon as broken } from "./broken";
-import { Running2Icon as outline } from "./outline";
-import { Running2Icon as line_duotone } from "./line-duotone";
+import { Running2Icon as line } from "./line.ts";
+import { Running2Icon as bold } from "./bold.ts";
+import { Running2Icon as duotone } from "./duotone.ts";
+import { Running2Icon as broken } from "./broken.ts";
+import { Running2Icon as outline } from "./outline.ts";
+import { Running2Icon as line_duotone } from "./line-duotone.ts";
 
 export const Running2Icon: IconEntry = {
     line: line,

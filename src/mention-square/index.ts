@@ -4,12 +4,12 @@
  *   One style:   import { MentionSquareIcon } from '@cossackframework/solar-icons/mention-square/<style>'
  */
 import type { IconEntry } from "../types";
-import { MentionSquareIcon as line } from "./line";
-import { MentionSquareIcon as bold } from "./bold";
-import { MentionSquareIcon as duotone } from "./duotone";
-import { MentionSquareIcon as broken } from "./broken";
-import { MentionSquareIcon as outline } from "./outline";
-import { MentionSquareIcon as line_duotone } from "./line-duotone";
+import { MentionSquareIcon as line } from "./line.ts";
+import { MentionSquareIcon as bold } from "./bold.ts";
+import { MentionSquareIcon as duotone } from "./duotone.ts";
+import { MentionSquareIcon as broken } from "./broken.ts";
+import { MentionSquareIcon as outline } from "./outline.ts";
+import { MentionSquareIcon as line_duotone } from "./line-duotone.ts";
 
 export const MentionSquareIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { BugMinimalisticIcon } from '@cossackframework/solar-icons/bug-minimalistic/<style>'
  */
 import type { IconEntry } from "../types";
-import { BugMinimalisticIcon as line } from "./line";
-import { BugMinimalisticIcon as bold } from "./bold";
-import { BugMinimalisticIcon as duotone } from "./duotone";
-import { BugMinimalisticIcon as broken } from "./broken";
-import { BugMinimalisticIcon as outline } from "./outline";
-import { BugMinimalisticIcon as line_duotone } from "./line-duotone";
+import { BugMinimalisticIcon as line } from "./line.ts";
+import { BugMinimalisticIcon as bold } from "./bold.ts";
+import { BugMinimalisticIcon as duotone } from "./duotone.ts";
+import { BugMinimalisticIcon as broken } from "./broken.ts";
+import { BugMinimalisticIcon as outline } from "./outline.ts";
+import { BugMinimalisticIcon as line_duotone } from "./line-duotone.ts";
 
 export const BugMinimalisticIcon: IconEntry = {
     line: line,

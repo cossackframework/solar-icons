@@ -4,12 +4,12 @@
  *   One style:   import { PasswordIcon } from '@cossackframework/solar-icons/password/<style>'
  */
 import type { IconEntry } from "../types";
-import { PasswordIcon as line } from "./line";
-import { PasswordIcon as bold } from "./bold";
-import { PasswordIcon as duotone } from "./duotone";
-import { PasswordIcon as broken } from "./broken";
-import { PasswordIcon as outline } from "./outline";
-import { PasswordIcon as line_duotone } from "./line-duotone";
+import { PasswordIcon as line } from "./line.ts";
+import { PasswordIcon as bold } from "./bold.ts";
+import { PasswordIcon as duotone } from "./duotone.ts";
+import { PasswordIcon as broken } from "./broken.ts";
+import { PasswordIcon as outline } from "./outline.ts";
+import { PasswordIcon as line_duotone } from "./line-duotone.ts";
 
 export const PasswordIcon: IconEntry = {
     line: line,

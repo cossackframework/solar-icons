@@ -4,12 +4,12 @@
  *   One style:   import { SpecialEffectsIcon } from '@cossackframework/solar-icons/special-effects/<style>'
  */
 import type { IconEntry } from "../types";
-import { SpecialEffectsIcon as line } from "./line";
-import { SpecialEffectsIcon as bold } from "./bold";
-import { SpecialEffectsIcon as duotone } from "./duotone";
-import { SpecialEffectsIcon as broken } from "./broken";
-import { SpecialEffectsIcon as outline } from "./outline";
-import { SpecialEffectsIcon as line_duotone } from "./line-duotone";
+import { SpecialEffectsIcon as line } from "./line.ts";
+import { SpecialEffectsIcon as bold } from "./bold.ts";
+import { SpecialEffectsIcon as duotone } from "./duotone.ts";
+import { SpecialEffectsIcon as broken } from "./broken.ts";
+import { SpecialEffectsIcon as outline } from "./outline.ts";
+import { SpecialEffectsIcon as line_duotone } from "./line-duotone.ts";
 
 export const SpecialEffectsIcon: IconEntry = {
     line: line,

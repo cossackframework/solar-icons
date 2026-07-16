@@ -4,12 +4,12 @@
  *   One style:   import { EmojiFunnyCircleIcon } from '@cossackframework/solar-icons/emoji-funny-circle/<style>'
  */
 import type { IconEntry } from "../types";
-import { EmojiFunnyCircleIcon as line } from "./line";
-import { EmojiFunnyCircleIcon as bold } from "./bold";
-import { EmojiFunnyCircleIcon as duotone } from "./duotone";
-import { EmojiFunnyCircleIcon as broken } from "./broken";
-import { EmojiFunnyCircleIcon as outline } from "./outline";
-import { EmojiFunnyCircleIcon as line_duotone } from "./line-duotone";
+import { EmojiFunnyCircleIcon as line } from "./line.ts";
+import { EmojiFunnyCircleIcon as bold } from "./bold.ts";
+import { EmojiFunnyCircleIcon as duotone } from "./duotone.ts";
+import { EmojiFunnyCircleIcon as broken } from "./broken.ts";
+import { EmojiFunnyCircleIcon as outline } from "./outline.ts";
+import { EmojiFunnyCircleIcon as line_duotone } from "./line-duotone.ts";
 
 export const EmojiFunnyCircleIcon: IconEntry = {
     line: line,

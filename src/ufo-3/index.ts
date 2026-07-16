@@ -4,12 +4,12 @@
  *   One style:   import { Ufo3Icon } from '@cossackframework/solar-icons/ufo-3/<style>'
  */
 import type { IconEntry } from "../types";
-import { Ufo3Icon as line } from "./line";
-import { Ufo3Icon as bold } from "./bold";
-import { Ufo3Icon as duotone } from "./duotone";
-import { Ufo3Icon as broken } from "./broken";
-import { Ufo3Icon as outline } from "./outline";
-import { Ufo3Icon as line_duotone } from "./line-duotone";
+import { Ufo3Icon as line } from "./line.ts";
+import { Ufo3Icon as bold } from "./bold.ts";
+import { Ufo3Icon as duotone } from "./duotone.ts";
+import { Ufo3Icon as broken } from "./broken.ts";
+import { Ufo3Icon as outline } from "./outline.ts";
+import { Ufo3Icon as line_duotone } from "./line-duotone.ts";
 
 export const Ufo3Icon: IconEntry = {
     line: line,

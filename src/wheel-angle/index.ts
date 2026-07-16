@@ -4,12 +4,12 @@
  *   One style:   import { WheelAngleIcon } from '@cossackframework/solar-icons/wheel-angle/<style>'
  */
 import type { IconEntry } from "../types";
-import { WheelAngleIcon as line } from "./line";
-import { WheelAngleIcon as bold } from "./bold";
-import { WheelAngleIcon as duotone } from "./duotone";
-import { WheelAngleIcon as broken } from "./broken";
-import { WheelAngleIcon as outline } from "./outline";
-import { WheelAngleIcon as line_duotone } from "./line-duotone";
+import { WheelAngleIcon as line } from "./line.ts";
+import { WheelAngleIcon as bold } from "./bold.ts";
+import { WheelAngleIcon as duotone } from "./duotone.ts";
+import { WheelAngleIcon as broken } from "./broken.ts";
+import { WheelAngleIcon as outline } from "./outline.ts";
+import { WheelAngleIcon as line_duotone } from "./line-duotone.ts";
 
 export const WheelAngleIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { VideocameraRecordIcon } from '@cossackframework/solar-icons/videocamera-record/<style>'
  */
 import type { IconEntry } from "../types";
-import { VideocameraRecordIcon as line } from "./line";
-import { VideocameraRecordIcon as bold } from "./bold";
-import { VideocameraRecordIcon as duotone } from "./duotone";
-import { VideocameraRecordIcon as broken } from "./broken";
-import { VideocameraRecordIcon as outline } from "./outline";
-import { VideocameraRecordIcon as line_duotone } from "./line-duotone";
+import { VideocameraRecordIcon as line } from "./line.ts";
+import { VideocameraRecordIcon as bold } from "./bold.ts";
+import { VideocameraRecordIcon as duotone } from "./duotone.ts";
+import { VideocameraRecordIcon as broken } from "./broken.ts";
+import { VideocameraRecordIcon as outline } from "./outline.ts";
+import { VideocameraRecordIcon as line_duotone } from "./line-duotone.ts";
 
 export const VideocameraRecordIcon: IconEntry = {
     line: line,

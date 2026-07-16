@@ -4,12 +4,12 @@
  *   One style:   import { RemoteControllerIcon } from '@cossackframework/solar-icons/remote-controller/<style>'
  */
 import type { IconEntry } from "../types";
-import { RemoteControllerIcon as line } from "./line";
-import { RemoteControllerIcon as bold } from "./bold";
-import { RemoteControllerIcon as duotone } from "./duotone";
-import { RemoteControllerIcon as broken } from "./broken";
-import { RemoteControllerIcon as outline } from "./outline";
-import { RemoteControllerIcon as line_duotone } from "./line-duotone";
+import { RemoteControllerIcon as line } from "./line.ts";
+import { RemoteControllerIcon as bold } from "./bold.ts";
+import { RemoteControllerIcon as duotone } from "./duotone.ts";
+import { RemoteControllerIcon as broken } from "./broken.ts";
+import { RemoteControllerIcon as outline } from "./outline.ts";
+import { RemoteControllerIcon as line_duotone } from "./line-duotone.ts";
 
 export const RemoteControllerIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { SpeakerIcon } from '@cossackframework/solar-icons/speaker/<style>'
  */
 import type { IconEntry } from "../types";
-import { SpeakerIcon as line } from "./line";
-import { SpeakerIcon as bold } from "./bold";
-import { SpeakerIcon as duotone } from "./duotone";
-import { SpeakerIcon as broken } from "./broken";
-import { SpeakerIcon as outline } from "./outline";
-import { SpeakerIcon as line_duotone } from "./line-duotone";
+import { SpeakerIcon as line } from "./line.ts";
+import { SpeakerIcon as bold } from "./bold.ts";
+import { SpeakerIcon as duotone } from "./duotone.ts";
+import { SpeakerIcon as broken } from "./broken.ts";
+import { SpeakerIcon as outline } from "./outline.ts";
+import { SpeakerIcon as line_duotone } from "./line-duotone.ts";
 
 export const SpeakerIcon: IconEntry = {
     line: line,

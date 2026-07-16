@@ -4,12 +4,12 @@
  *   One style:   import { PlateIcon } from '@cossackframework/solar-icons/plate/<style>'
  */
 import type { IconEntry } from "../types";
-import { PlateIcon as line } from "./line";
-import { PlateIcon as bold } from "./bold";
-import { PlateIcon as duotone } from "./duotone";
-import { PlateIcon as broken } from "./broken";
-import { PlateIcon as outline } from "./outline";
-import { PlateIcon as line_duotone } from "./line-duotone";
+import { PlateIcon as line } from "./line.ts";
+import { PlateIcon as bold } from "./bold.ts";
+import { PlateIcon as duotone } from "./duotone.ts";
+import { PlateIcon as broken } from "./broken.ts";
+import { PlateIcon as outline } from "./outline.ts";
+import { PlateIcon as line_duotone } from "./line-duotone.ts";
 
 export const PlateIcon: IconEntry = {
     line: line,

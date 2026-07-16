@@ -4,12 +4,12 @@
  *   One style:   import { MugIcon } from '@cossackframework/solar-icons/mug/<style>'
  */
 import type { IconEntry } from "../types";
-import { MugIcon as line } from "./line";
-import { MugIcon as bold } from "./bold";
-import { MugIcon as duotone } from "./duotone";
-import { MugIcon as broken } from "./broken";
-import { MugIcon as outline } from "./outline";
-import { MugIcon as line_duotone } from "./line-duotone";
+import { MugIcon as line } from "./line.ts";
+import { MugIcon as bold } from "./bold.ts";
+import { MugIcon as duotone } from "./duotone.ts";
+import { MugIcon as broken } from "./broken.ts";
+import { MugIcon as outline } from "./outline.ts";
+import { MugIcon as line_duotone } from "./line-duotone.ts";
 
 export const MugIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { SortVerticalIcon } from '@cossackframework/solar-icons/sort-vertical/<style>'
  */
 import type { IconEntry } from "../types";
-import { SortVerticalIcon as line } from "./line";
-import { SortVerticalIcon as bold } from "./bold";
-import { SortVerticalIcon as duotone } from "./duotone";
-import { SortVerticalIcon as broken } from "./broken";
-import { SortVerticalIcon as outline } from "./outline";
-import { SortVerticalIcon as line_duotone } from "./line-duotone";
+import { SortVerticalIcon as line } from "./line.ts";
+import { SortVerticalIcon as bold } from "./bold.ts";
+import { SortVerticalIcon as duotone } from "./duotone.ts";
+import { SortVerticalIcon as broken } from "./broken.ts";
+import { SortVerticalIcon as outline } from "./outline.ts";
+import { SortVerticalIcon as line_duotone } from "./line-duotone.ts";
 
 export const SortVerticalIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { RadialBlurIcon } from '@cossackframework/solar-icons/radial-blur/<style>'
  */
 import type { IconEntry } from "../types";
-import { RadialBlurIcon as line } from "./line";
-import { RadialBlurIcon as bold } from "./bold";
-import { RadialBlurIcon as duotone } from "./duotone";
-import { RadialBlurIcon as broken } from "./broken";
-import { RadialBlurIcon as outline } from "./outline";
-import { RadialBlurIcon as line_duotone } from "./line-duotone";
+import { RadialBlurIcon as line } from "./line.ts";
+import { RadialBlurIcon as bold } from "./bold.ts";
+import { RadialBlurIcon as duotone } from "./duotone.ts";
+import { RadialBlurIcon as broken } from "./broken.ts";
+import { RadialBlurIcon as outline } from "./outline.ts";
+import { RadialBlurIcon as line_duotone } from "./line-duotone.ts";
 
 export const RadialBlurIcon: IconEntry = {
     line: line,

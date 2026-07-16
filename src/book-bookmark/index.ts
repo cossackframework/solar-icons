@@ -4,12 +4,12 @@
  *   One style:   import { BookBookmarkIcon } from '@cossackframework/solar-icons/book-bookmark/<style>'
  */
 import type { IconEntry } from "../types";
-import { BookBookmarkIcon as line } from "./line";
-import { BookBookmarkIcon as bold } from "./bold";
-import { BookBookmarkIcon as duotone } from "./duotone";
-import { BookBookmarkIcon as broken } from "./broken";
-import { BookBookmarkIcon as outline } from "./outline";
-import { BookBookmarkIcon as line_duotone } from "./line-duotone";
+import { BookBookmarkIcon as line } from "./line.ts";
+import { BookBookmarkIcon as bold } from "./bold.ts";
+import { BookBookmarkIcon as duotone } from "./duotone.ts";
+import { BookBookmarkIcon as broken } from "./broken.ts";
+import { BookBookmarkIcon as outline } from "./outline.ts";
+import { BookBookmarkIcon as line_duotone } from "./line-duotone.ts";
 
 export const BookBookmarkIcon: IconEntry = {
     line: line,

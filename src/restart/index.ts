@@ -4,12 +4,12 @@
  *   One style:   import { RestartIcon } from '@cossackframework/solar-icons/restart/<style>'
  */
 import type { IconEntry } from "../types";
-import { RestartIcon as line } from "./line";
-import { RestartIcon as bold } from "./bold";
-import { RestartIcon as duotone } from "./duotone";
-import { RestartIcon as broken } from "./broken";
-import { RestartIcon as outline } from "./outline";
-import { RestartIcon as line_duotone } from "./line-duotone";
+import { RestartIcon as line } from "./line.ts";
+import { RestartIcon as bold } from "./bold.ts";
+import { RestartIcon as duotone } from "./duotone.ts";
+import { RestartIcon as broken } from "./broken.ts";
+import { RestartIcon as outline } from "./outline.ts";
+import { RestartIcon as line_duotone } from "./line-duotone.ts";
 
 export const RestartIcon: IconEntry = {
     line: line,

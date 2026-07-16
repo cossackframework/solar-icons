@@ -4,12 +4,12 @@
  *   One style:   import { CassetteIcon } from '@cossackframework/solar-icons/cassette/<style>'
  */
 import type { IconEntry } from "../types";
-import { CassetteIcon as line } from "./line";
-import { CassetteIcon as bold } from "./bold";
-import { CassetteIcon as duotone } from "./duotone";
-import { CassetteIcon as broken } from "./broken";
-import { CassetteIcon as outline } from "./outline";
-import { CassetteIcon as line_duotone } from "./line-duotone";
+import { CassetteIcon as line } from "./line.ts";
+import { CassetteIcon as bold } from "./bold.ts";
+import { CassetteIcon as duotone } from "./duotone.ts";
+import { CassetteIcon as broken } from "./broken.ts";
+import { CassetteIcon as outline } from "./outline.ts";
+import { CassetteIcon as line_duotone } from "./line-duotone.ts";
 
 export const CassetteIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { FileFavoriteIcon } from '@cossackframework/solar-icons/file-favorite/<style>'
  */
 import type { IconEntry } from "../types";
-import { FileFavoriteIcon as line } from "./line";
-import { FileFavoriteIcon as bold } from "./bold";
-import { FileFavoriteIcon as duotone } from "./duotone";
-import { FileFavoriteIcon as broken } from "./broken";
-import { FileFavoriteIcon as outline } from "./outline";
-import { FileFavoriteIcon as line_duotone } from "./line-duotone";
+import { FileFavoriteIcon as line } from "./line.ts";
+import { FileFavoriteIcon as bold } from "./bold.ts";
+import { FileFavoriteIcon as duotone } from "./duotone.ts";
+import { FileFavoriteIcon as broken } from "./broken.ts";
+import { FileFavoriteIcon as outline } from "./outline.ts";
+import { FileFavoriteIcon as line_duotone } from "./line-duotone.ts";
 
 export const FileFavoriteIcon: IconEntry = {
     line: line,

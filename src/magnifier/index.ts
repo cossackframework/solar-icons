@@ -4,12 +4,12 @@
  *   One style:   import { MagnifierIcon } from '@cossackframework/solar-icons/magnifier/<style>'
  */
 import type { IconEntry } from "../types";
-import { MagnifierIcon as line } from "./line";
-import { MagnifierIcon as bold } from "./bold";
-import { MagnifierIcon as duotone } from "./duotone";
-import { MagnifierIcon as broken } from "./broken";
-import { MagnifierIcon as outline } from "./outline";
-import { MagnifierIcon as line_duotone } from "./line-duotone";
+import { MagnifierIcon as line } from "./line.ts";
+import { MagnifierIcon as bold } from "./bold.ts";
+import { MagnifierIcon as duotone } from "./duotone.ts";
+import { MagnifierIcon as broken } from "./broken.ts";
+import { MagnifierIcon as outline } from "./outline.ts";
+import { MagnifierIcon as line_duotone } from "./line-duotone.ts";
 
 export const MagnifierIcon: IconEntry = {
     line: line,

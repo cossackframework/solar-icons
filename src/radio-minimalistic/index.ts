@@ -4,12 +4,12 @@
  *   One style:   import { RadioMinimalisticIcon } from '@cossackframework/solar-icons/radio-minimalistic/<style>'
  */
 import type { IconEntry } from "../types";
-import { RadioMinimalisticIcon as line } from "./line";
-import { RadioMinimalisticIcon as bold } from "./bold";
-import { RadioMinimalisticIcon as duotone } from "./duotone";
-import { RadioMinimalisticIcon as broken } from "./broken";
-import { RadioMinimalisticIcon as outline } from "./outline";
-import { RadioMinimalisticIcon as line_duotone } from "./line-duotone";
+import { RadioMinimalisticIcon as line } from "./line.ts";
+import { RadioMinimalisticIcon as bold } from "./bold.ts";
+import { RadioMinimalisticIcon as duotone } from "./duotone.ts";
+import { RadioMinimalisticIcon as broken } from "./broken.ts";
+import { RadioMinimalisticIcon as outline } from "./outline.ts";
+import { RadioMinimalisticIcon as line_duotone } from "./line-duotone.ts";
 
 export const RadioMinimalisticIcon: IconEntry = {
     line: line,

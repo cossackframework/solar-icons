@@ -4,12 +4,12 @@
  *   One style:   import { RevoteIcon } from '@cossackframework/solar-icons/revote/<style>'
  */
 import type { IconEntry } from "../types";
-import { RevoteIcon as line } from "./line";
-import { RevoteIcon as bold } from "./bold";
-import { RevoteIcon as duotone } from "./duotone";
-import { RevoteIcon as broken } from "./broken";
-import { RevoteIcon as outline } from "./outline";
-import { RevoteIcon as line_duotone } from "./line-duotone";
+import { RevoteIcon as line } from "./line.ts";
+import { RevoteIcon as bold } from "./bold.ts";
+import { RevoteIcon as duotone } from "./duotone.ts";
+import { RevoteIcon as broken } from "./broken.ts";
+import { RevoteIcon as outline } from "./outline.ts";
+import { RevoteIcon as line_duotone } from "./line-duotone.ts";
 
 export const RevoteIcon: IconEntry = {
     line: line,

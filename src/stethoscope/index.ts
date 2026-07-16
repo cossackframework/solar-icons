@@ -4,12 +4,12 @@
  *   One style:   import { StethoscopeIcon } from '@cossackframework/solar-icons/stethoscope/<style>'
  */
 import type { IconEntry } from "../types";
-import { StethoscopeIcon as line } from "./line";
-import { StethoscopeIcon as bold } from "./bold";
-import { StethoscopeIcon as duotone } from "./duotone";
-import { StethoscopeIcon as broken } from "./broken";
-import { StethoscopeIcon as outline } from "./outline";
-import { StethoscopeIcon as line_duotone } from "./line-duotone";
+import { StethoscopeIcon as line } from "./line.ts";
+import { StethoscopeIcon as bold } from "./bold.ts";
+import { StethoscopeIcon as duotone } from "./duotone.ts";
+import { StethoscopeIcon as broken } from "./broken.ts";
+import { StethoscopeIcon as outline } from "./outline.ts";
+import { StethoscopeIcon as line_duotone } from "./line-duotone.ts";
 
 export const StethoscopeIcon: IconEntry = {
     line: line,

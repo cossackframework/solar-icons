@@ -4,12 +4,12 @@
  *   One style:   import { PlusMinusIcon } from '@cossackframework/solar-icons/plus-minus/<style>'
  */
 import type { IconEntry } from "../types";
-import { PlusMinusIcon as line } from "./line";
-import { PlusMinusIcon as bold } from "./bold";
-import { PlusMinusIcon as duotone } from "./duotone";
-import { PlusMinusIcon as broken } from "./broken";
-import { PlusMinusIcon as outline } from "./outline";
-import { PlusMinusIcon as line_duotone } from "./line-duotone";
+import { PlusMinusIcon as line } from "./line.ts";
+import { PlusMinusIcon as bold } from "./bold.ts";
+import { PlusMinusIcon as duotone } from "./duotone.ts";
+import { PlusMinusIcon as broken } from "./broken.ts";
+import { PlusMinusIcon as outline } from "./outline.ts";
+import { PlusMinusIcon as line_duotone } from "./line-duotone.ts";
 
 export const PlusMinusIcon: IconEntry = {
     line: line,

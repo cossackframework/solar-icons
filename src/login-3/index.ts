@@ -4,12 +4,12 @@
  *   One style:   import { Login3Icon } from '@cossackframework/solar-icons/login-3/<style>'
  */
 import type { IconEntry } from "../types";
-import { Login3Icon as line } from "./line";
-import { Login3Icon as bold } from "./bold";
-import { Login3Icon as duotone } from "./duotone";
-import { Login3Icon as broken } from "./broken";
-import { Login3Icon as outline } from "./outline";
-import { Login3Icon as line_duotone } from "./line-duotone";
+import { Login3Icon as line } from "./line.ts";
+import { Login3Icon as bold } from "./bold.ts";
+import { Login3Icon as duotone } from "./duotone.ts";
+import { Login3Icon as broken } from "./broken.ts";
+import { Login3Icon as outline } from "./outline.ts";
+import { Login3Icon as line_duotone } from "./line-duotone.ts";
 
 export const Login3Icon: IconEntry = {
     line: line,

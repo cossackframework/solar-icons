@@ -4,12 +4,12 @@
  *   One style:   import { PaperBinIcon } from '@cossackframework/solar-icons/paper-bin/<style>'
  */
 import type { IconEntry } from "../types";
-import { PaperBinIcon as line } from "./line";
-import { PaperBinIcon as bold } from "./bold";
-import { PaperBinIcon as duotone } from "./duotone";
-import { PaperBinIcon as broken } from "./broken";
-import { PaperBinIcon as outline } from "./outline";
-import { PaperBinIcon as line_duotone } from "./line-duotone";
+import { PaperBinIcon as line } from "./line.ts";
+import { PaperBinIcon as bold } from "./bold.ts";
+import { PaperBinIcon as duotone } from "./duotone.ts";
+import { PaperBinIcon as broken } from "./broken.ts";
+import { PaperBinIcon as outline } from "./outline.ts";
+import { PaperBinIcon as line_duotone } from "./line-duotone.ts";
 
 export const PaperBinIcon: IconEntry = {
     line: line,

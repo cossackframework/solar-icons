@@ -4,12 +4,12 @@
  *   One style:   import { ShieldMinimalisticIcon } from '@cossackframework/solar-icons/shield-minimalistic/<style>'
  */
 import type { IconEntry } from "../types";
-import { ShieldMinimalisticIcon as line } from "./line";
-import { ShieldMinimalisticIcon as bold } from "./bold";
-import { ShieldMinimalisticIcon as duotone } from "./duotone";
-import { ShieldMinimalisticIcon as broken } from "./broken";
-import { ShieldMinimalisticIcon as outline } from "./outline";
-import { ShieldMinimalisticIcon as line_duotone } from "./line-duotone";
+import { ShieldMinimalisticIcon as line } from "./line.ts";
+import { ShieldMinimalisticIcon as bold } from "./bold.ts";
+import { ShieldMinimalisticIcon as duotone } from "./duotone.ts";
+import { ShieldMinimalisticIcon as broken } from "./broken.ts";
+import { ShieldMinimalisticIcon as outline } from "./outline.ts";
+import { ShieldMinimalisticIcon as line_duotone } from "./line-duotone.ts";
 
 export const ShieldMinimalisticIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { TemperatureIcon } from '@cossackframework/solar-icons/temperature/<style>'
  */
 import type { IconEntry } from "../types";
-import { TemperatureIcon as line } from "./line";
-import { TemperatureIcon as bold } from "./bold";
-import { TemperatureIcon as duotone } from "./duotone";
-import { TemperatureIcon as broken } from "./broken";
-import { TemperatureIcon as outline } from "./outline";
-import { TemperatureIcon as line_duotone } from "./line-duotone";
+import { TemperatureIcon as line } from "./line.ts";
+import { TemperatureIcon as bold } from "./bold.ts";
+import { TemperatureIcon as duotone } from "./duotone.ts";
+import { TemperatureIcon as broken } from "./broken.ts";
+import { TemperatureIcon as outline } from "./outline.ts";
+import { TemperatureIcon as line_duotone } from "./line-duotone.ts";
 
 export const TemperatureIcon: IconEntry = {
     line: line,

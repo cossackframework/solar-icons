@@ -4,12 +4,12 @@
  *   One style:   import { JarOfPills2Icon } from '@cossackframework/solar-icons/jar-of-pills-2/<style>'
  */
 import type { IconEntry } from "../types";
-import { JarOfPills2Icon as line } from "./line";
-import { JarOfPills2Icon as bold } from "./bold";
-import { JarOfPills2Icon as duotone } from "./duotone";
-import { JarOfPills2Icon as broken } from "./broken";
-import { JarOfPills2Icon as outline } from "./outline";
-import { JarOfPills2Icon as line_duotone } from "./line-duotone";
+import { JarOfPills2Icon as line } from "./line.ts";
+import { JarOfPills2Icon as bold } from "./bold.ts";
+import { JarOfPills2Icon as duotone } from "./duotone.ts";
+import { JarOfPills2Icon as broken } from "./broken.ts";
+import { JarOfPills2Icon as outline } from "./outline.ts";
+import { JarOfPills2Icon as line_duotone } from "./line-duotone.ts";
 
 export const JarOfPills2Icon: IconEntry = {
     line: line,

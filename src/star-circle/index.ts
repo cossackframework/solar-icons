@@ -4,12 +4,12 @@
  *   One style:   import { StarCircleIcon } from '@cossackframework/solar-icons/star-circle/<style>'
  */
 import type { IconEntry } from "../types";
-import { StarCircleIcon as line } from "./line";
-import { StarCircleIcon as bold } from "./bold";
-import { StarCircleIcon as duotone } from "./duotone";
-import { StarCircleIcon as broken } from "./broken";
-import { StarCircleIcon as outline } from "./outline";
-import { StarCircleIcon as line_duotone } from "./line-duotone";
+import { StarCircleIcon as line } from "./line.ts";
+import { StarCircleIcon as bold } from "./bold.ts";
+import { StarCircleIcon as duotone } from "./duotone.ts";
+import { StarCircleIcon as broken } from "./broken.ts";
+import { StarCircleIcon as outline } from "./outline.ts";
+import { StarCircleIcon as line_duotone } from "./line-duotone.ts";
 
 export const StarCircleIcon: IconEntry = {
     line: line,

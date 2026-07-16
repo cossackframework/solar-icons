@@ -4,12 +4,12 @@
  *   One style:   import { PenIcon } from '@cossackframework/solar-icons/pen/<style>'
  */
 import type { IconEntry } from "../types";
-import { PenIcon as line } from "./line";
-import { PenIcon as bold } from "./bold";
-import { PenIcon as duotone } from "./duotone";
-import { PenIcon as broken } from "./broken";
-import { PenIcon as outline } from "./outline";
-import { PenIcon as line_duotone } from "./line-duotone";
+import { PenIcon as line } from "./line.ts";
+import { PenIcon as bold } from "./bold.ts";
+import { PenIcon as duotone } from "./duotone.ts";
+import { PenIcon as broken } from "./broken.ts";
+import { PenIcon as outline } from "./outline.ts";
+import { PenIcon as line_duotone } from "./line-duotone.ts";
 
 export const PenIcon: IconEntry = {
     line: line,

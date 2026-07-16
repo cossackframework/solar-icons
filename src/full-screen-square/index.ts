@@ -4,12 +4,12 @@
  *   One style:   import { FullScreenSquareIcon } from '@cossackframework/solar-icons/full-screen-square/<style>'
  */
 import type { IconEntry } from "../types";
-import { FullScreenSquareIcon as line } from "./line";
-import { FullScreenSquareIcon as bold } from "./bold";
-import { FullScreenSquareIcon as duotone } from "./duotone";
-import { FullScreenSquareIcon as broken } from "./broken";
-import { FullScreenSquareIcon as outline } from "./outline";
-import { FullScreenSquareIcon as line_duotone } from "./line-duotone";
+import { FullScreenSquareIcon as line } from "./line.ts";
+import { FullScreenSquareIcon as bold } from "./bold.ts";
+import { FullScreenSquareIcon as duotone } from "./duotone.ts";
+import { FullScreenSquareIcon as broken } from "./broken.ts";
+import { FullScreenSquareIcon as outline } from "./outline.ts";
+import { FullScreenSquareIcon as line_duotone } from "./line-duotone.ts";
 
 export const FullScreenSquareIcon: IconEntry = {
     line: line,

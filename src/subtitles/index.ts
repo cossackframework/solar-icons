@@ -4,12 +4,12 @@
  *   One style:   import { SubtitlesIcon } from '@cossackframework/solar-icons/subtitles/<style>'
  */
 import type { IconEntry } from "../types";
-import { SubtitlesIcon as line } from "./line";
-import { SubtitlesIcon as bold } from "./bold";
-import { SubtitlesIcon as duotone } from "./duotone";
-import { SubtitlesIcon as broken } from "./broken";
-import { SubtitlesIcon as outline } from "./outline";
-import { SubtitlesIcon as line_duotone } from "./line-duotone";
+import { SubtitlesIcon as line } from "./line.ts";
+import { SubtitlesIcon as bold } from "./bold.ts";
+import { SubtitlesIcon as duotone } from "./duotone.ts";
+import { SubtitlesIcon as broken } from "./broken.ts";
+import { SubtitlesIcon as outline } from "./outline.ts";
+import { SubtitlesIcon as line_duotone } from "./line-duotone.ts";
 
 export const SubtitlesIcon: IconEntry = {
     line: line,

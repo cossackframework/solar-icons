@@ -4,12 +4,12 @@
  *   One style:   import { GraphIcon } from '@cossackframework/solar-icons/graph/<style>'
  */
 import type { IconEntry } from "../types";
-import { GraphIcon as line } from "./line";
-import { GraphIcon as bold } from "./bold";
-import { GraphIcon as duotone } from "./duotone";
-import { GraphIcon as broken } from "./broken";
-import { GraphIcon as outline } from "./outline";
-import { GraphIcon as line_duotone } from "./line-duotone";
+import { GraphIcon as line } from "./line.ts";
+import { GraphIcon as bold } from "./bold.ts";
+import { GraphIcon as duotone } from "./duotone.ts";
+import { GraphIcon as broken } from "./broken.ts";
+import { GraphIcon as outline } from "./outline.ts";
+import { GraphIcon as line_duotone } from "./line-duotone.ts";
 
 export const GraphIcon: IconEntry = {
     line: line,

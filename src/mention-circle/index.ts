@@ -4,12 +4,12 @@
  *   One style:   import { MentionCircleIcon } from '@cossackframework/solar-icons/mention-circle/<style>'
  */
 import type { IconEntry } from "../types";
-import { MentionCircleIcon as line } from "./line";
-import { MentionCircleIcon as bold } from "./bold";
-import { MentionCircleIcon as duotone } from "./duotone";
-import { MentionCircleIcon as broken } from "./broken";
-import { MentionCircleIcon as outline } from "./outline";
-import { MentionCircleIcon as line_duotone } from "./line-duotone";
+import { MentionCircleIcon as line } from "./line.ts";
+import { MentionCircleIcon as bold } from "./bold.ts";
+import { MentionCircleIcon as duotone } from "./duotone.ts";
+import { MentionCircleIcon as broken } from "./broken.ts";
+import { MentionCircleIcon as outline } from "./outline.ts";
+import { MentionCircleIcon as line_duotone } from "./line-duotone.ts";
 
 export const MentionCircleIcon: IconEntry = {
     line: line,

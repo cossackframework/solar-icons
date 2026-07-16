@@ -4,12 +4,12 @@
  *   One style:   import { TextItalicIcon } from '@cossackframework/solar-icons/text-italic/<style>'
  */
 import type { IconEntry } from "../types";
-import { TextItalicIcon as line } from "./line";
-import { TextItalicIcon as bold } from "./bold";
-import { TextItalicIcon as duotone } from "./duotone";
-import { TextItalicIcon as broken } from "./broken";
-import { TextItalicIcon as outline } from "./outline";
-import { TextItalicIcon as line_duotone } from "./line-duotone";
+import { TextItalicIcon as line } from "./line.ts";
+import { TextItalicIcon as bold } from "./bold.ts";
+import { TextItalicIcon as duotone } from "./duotone.ts";
+import { TextItalicIcon as broken } from "./broken.ts";
+import { TextItalicIcon as outline } from "./outline.ts";
+import { TextItalicIcon as line_duotone } from "./line-duotone.ts";
 
 export const TextItalicIcon: IconEntry = {
     line: line,

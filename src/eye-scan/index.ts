@@ -4,12 +4,12 @@
  *   One style:   import { EyeScanIcon } from '@cossackframework/solar-icons/eye-scan/<style>'
  */
 import type { IconEntry } from "../types";
-import { EyeScanIcon as line } from "./line";
-import { EyeScanIcon as bold } from "./bold";
-import { EyeScanIcon as duotone } from "./duotone";
-import { EyeScanIcon as broken } from "./broken";
-import { EyeScanIcon as outline } from "./outline";
-import { EyeScanIcon as line_duotone } from "./line-duotone";
+import { EyeScanIcon as line } from "./line.ts";
+import { EyeScanIcon as bold } from "./bold.ts";
+import { EyeScanIcon as duotone } from "./duotone.ts";
+import { EyeScanIcon as broken } from "./broken.ts";
+import { EyeScanIcon as outline } from "./outline.ts";
+import { EyeScanIcon as line_duotone } from "./line-duotone.ts";
 
 export const EyeScanIcon: IconEntry = {
     line: line,

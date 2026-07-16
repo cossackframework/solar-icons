@@ -5,8 +5,8 @@ import { Icon } from "../Icon";
 import { iconRegistry, iconNames } from "../registry";
 import { normalizeStyle } from "../types";
 // Direct entry imports — the tree-shakeable path every component uses.
-import { ArrowRightIcon } from "../arrow-right/index";
-import { ArrowRightIcon as arrowRightBold } from "../arrow-right/bold";
+import { ArrowRightIcon } from "../arrow-right/index.ts";
+import { ArrowRightIcon as arrowRightBold } from "../arrow-right/bold.ts";
 import type { IconEntry } from "../types";
 
 function renderNamed(props: NamedIconProps): string {

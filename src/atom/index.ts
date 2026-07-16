@@ -4,12 +4,12 @@
  *   One style:   import { AtomIcon } from '@cossackframework/solar-icons/atom/<style>'
  */
 import type { IconEntry } from "../types";
-import { AtomIcon as line } from "./line";
-import { AtomIcon as bold } from "./bold";
-import { AtomIcon as duotone } from "./duotone";
-import { AtomIcon as broken } from "./broken";
-import { AtomIcon as outline } from "./outline";
-import { AtomIcon as line_duotone } from "./line-duotone";
+import { AtomIcon as line } from "./line.ts";
+import { AtomIcon as bold } from "./bold.ts";
+import { AtomIcon as duotone } from "./duotone.ts";
+import { AtomIcon as broken } from "./broken.ts";
+import { AtomIcon as outline } from "./outline.ts";
+import { AtomIcon as line_duotone } from "./line-duotone.ts";
 
 export const AtomIcon: IconEntry = {
     line: line,

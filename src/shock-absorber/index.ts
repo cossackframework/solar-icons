@@ -4,12 +4,12 @@
  *   One style:   import { ShockAbsorberIcon } from '@cossackframework/solar-icons/shock-absorber/<style>'
  */
 import type { IconEntry } from "../types";
-import { ShockAbsorberIcon as line } from "./line";
-import { ShockAbsorberIcon as bold } from "./bold";
-import { ShockAbsorberIcon as duotone } from "./duotone";
-import { ShockAbsorberIcon as broken } from "./broken";
-import { ShockAbsorberIcon as outline } from "./outline";
-import { ShockAbsorberIcon as line_duotone } from "./line-duotone";
+import { ShockAbsorberIcon as line } from "./line.ts";
+import { ShockAbsorberIcon as bold } from "./bold.ts";
+import { ShockAbsorberIcon as duotone } from "./duotone.ts";
+import { ShockAbsorberIcon as broken } from "./broken.ts";
+import { ShockAbsorberIcon as outline } from "./outline.ts";
+import { ShockAbsorberIcon as line_duotone } from "./line-duotone.ts";
 
 export const ShockAbsorberIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { ChatRoundLineIcon } from '@cossackframework/solar-icons/chat-round-line/<style>'
  */
 import type { IconEntry } from "../types";
-import { ChatRoundLineIcon as line } from "./line";
-import { ChatRoundLineIcon as bold } from "./bold";
-import { ChatRoundLineIcon as duotone } from "./duotone";
-import { ChatRoundLineIcon as broken } from "./broken";
-import { ChatRoundLineIcon as outline } from "./outline";
-import { ChatRoundLineIcon as line_duotone } from "./line-duotone";
+import { ChatRoundLineIcon as line } from "./line.ts";
+import { ChatRoundLineIcon as bold } from "./bold.ts";
+import { ChatRoundLineIcon as duotone } from "./duotone.ts";
+import { ChatRoundLineIcon as broken } from "./broken.ts";
+import { ChatRoundLineIcon as outline } from "./outline.ts";
+import { ChatRoundLineIcon as line_duotone } from "./line-duotone.ts";
 
 export const ChatRoundLineIcon: IconEntry = {
     line: line,

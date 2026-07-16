@@ -4,12 +4,12 @@
  *   One style:   import { KeySquareIcon } from '@cossackframework/solar-icons/key-square/<style>'
  */
 import type { IconEntry } from "../types";
-import { KeySquareIcon as line } from "./line";
-import { KeySquareIcon as bold } from "./bold";
-import { KeySquareIcon as duotone } from "./duotone";
-import { KeySquareIcon as broken } from "./broken";
-import { KeySquareIcon as outline } from "./outline";
-import { KeySquareIcon as line_duotone } from "./line-duotone";
+import { KeySquareIcon as line } from "./line.ts";
+import { KeySquareIcon as bold } from "./bold.ts";
+import { KeySquareIcon as duotone } from "./duotone.ts";
+import { KeySquareIcon as broken } from "./broken.ts";
+import { KeySquareIcon as outline } from "./outline.ts";
+import { KeySquareIcon as line_duotone } from "./line-duotone.ts";
 
 export const KeySquareIcon: IconEntry = {
     line: line,

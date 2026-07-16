@@ -4,12 +4,12 @@
  *   One style:   import { BacteriaIcon } from '@cossackframework/solar-icons/bacteria/<style>'
  */
 import type { IconEntry } from "../types";
-import { BacteriaIcon as line } from "./line";
-import { BacteriaIcon as bold } from "./bold";
-import { BacteriaIcon as duotone } from "./duotone";
-import { BacteriaIcon as broken } from "./broken";
-import { BacteriaIcon as outline } from "./outline";
-import { BacteriaIcon as line_duotone } from "./line-duotone";
+import { BacteriaIcon as line } from "./line.ts";
+import { BacteriaIcon as bold } from "./bold.ts";
+import { BacteriaIcon as duotone } from "./duotone.ts";
+import { BacteriaIcon as broken } from "./broken.ts";
+import { BacteriaIcon as outline } from "./outline.ts";
+import { BacteriaIcon as line_duotone } from "./line-duotone.ts";
 
 export const BacteriaIcon: IconEntry = {
     line: line,

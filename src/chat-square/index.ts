@@ -4,12 +4,12 @@
  *   One style:   import { ChatSquareIcon } from '@cossackframework/solar-icons/chat-square/<style>'
  */
 import type { IconEntry } from "../types";
-import { ChatSquareIcon as line } from "./line";
-import { ChatSquareIcon as bold } from "./bold";
-import { ChatSquareIcon as duotone } from "./duotone";
-import { ChatSquareIcon as broken } from "./broken";
-import { ChatSquareIcon as outline } from "./outline";
-import { ChatSquareIcon as line_duotone } from "./line-duotone";
+import { ChatSquareIcon as line } from "./line.ts";
+import { ChatSquareIcon as bold } from "./bold.ts";
+import { ChatSquareIcon as duotone } from "./duotone.ts";
+import { ChatSquareIcon as broken } from "./broken.ts";
+import { ChatSquareIcon as outline } from "./outline.ts";
+import { ChatSquareIcon as line_duotone } from "./line-duotone.ts";
 
 export const ChatSquareIcon: IconEntry = {
     line: line,

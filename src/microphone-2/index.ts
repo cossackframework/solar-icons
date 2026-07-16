@@ -4,12 +4,12 @@
  *   One style:   import { Microphone2Icon } from '@cossackframework/solar-icons/microphone-2/<style>'
  */
 import type { IconEntry } from "../types";
-import { Microphone2Icon as line } from "./line";
-import { Microphone2Icon as bold } from "./bold";
-import { Microphone2Icon as duotone } from "./duotone";
-import { Microphone2Icon as broken } from "./broken";
-import { Microphone2Icon as outline } from "./outline";
-import { Microphone2Icon as line_duotone } from "./line-duotone";
+import { Microphone2Icon as line } from "./line.ts";
+import { Microphone2Icon as bold } from "./bold.ts";
+import { Microphone2Icon as duotone } from "./duotone.ts";
+import { Microphone2Icon as broken } from "./broken.ts";
+import { Microphone2Icon as outline } from "./outline.ts";
+import { Microphone2Icon as line_duotone } from "./line-duotone.ts";
 
 export const Microphone2Icon: IconEntry = {
     line: line,

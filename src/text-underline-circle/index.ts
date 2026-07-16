@@ -4,12 +4,12 @@
  *   One style:   import { TextUnderlineCircleIcon } from '@cossackframework/solar-icons/text-underline-circle/<style>'
  */
 import type { IconEntry } from "../types";
-import { TextUnderlineCircleIcon as line } from "./line";
-import { TextUnderlineCircleIcon as bold } from "./bold";
-import { TextUnderlineCircleIcon as duotone } from "./duotone";
-import { TextUnderlineCircleIcon as broken } from "./broken";
-import { TextUnderlineCircleIcon as outline } from "./outline";
-import { TextUnderlineCircleIcon as line_duotone } from "./line-duotone";
+import { TextUnderlineCircleIcon as line } from "./line.ts";
+import { TextUnderlineCircleIcon as bold } from "./bold.ts";
+import { TextUnderlineCircleIcon as duotone } from "./duotone.ts";
+import { TextUnderlineCircleIcon as broken } from "./broken.ts";
+import { TextUnderlineCircleIcon as outline } from "./outline.ts";
+import { TextUnderlineCircleIcon as line_duotone } from "./line-duotone.ts";
 
 export const TextUnderlineCircleIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { BookBookmarkMinimalisticIcon } from '@cossackframework/solar-icons/book-bookmark-minimalistic/<style>'
  */
 import type { IconEntry } from "../types";
-import { BookBookmarkMinimalisticIcon as line } from "./line";
-import { BookBookmarkMinimalisticIcon as bold } from "./bold";
-import { BookBookmarkMinimalisticIcon as duotone } from "./duotone";
-import { BookBookmarkMinimalisticIcon as broken } from "./broken";
-import { BookBookmarkMinimalisticIcon as outline } from "./outline";
-import { BookBookmarkMinimalisticIcon as line_duotone } from "./line-duotone";
+import { BookBookmarkMinimalisticIcon as line } from "./line.ts";
+import { BookBookmarkMinimalisticIcon as bold } from "./bold.ts";
+import { BookBookmarkMinimalisticIcon as duotone } from "./duotone.ts";
+import { BookBookmarkMinimalisticIcon as broken } from "./broken.ts";
+import { BookBookmarkMinimalisticIcon as outline } from "./outline.ts";
+import { BookBookmarkMinimalisticIcon as line_duotone } from "./line-duotone.ts";
 
 export const BookBookmarkMinimalisticIcon: IconEntry = {
     line: line,

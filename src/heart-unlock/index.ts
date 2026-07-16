@@ -4,12 +4,12 @@
  *   One style:   import { HeartUnlockIcon } from '@cossackframework/solar-icons/heart-unlock/<style>'
  */
 import type { IconEntry } from "../types";
-import { HeartUnlockIcon as line } from "./line";
-import { HeartUnlockIcon as bold } from "./bold";
-import { HeartUnlockIcon as duotone } from "./duotone";
-import { HeartUnlockIcon as broken } from "./broken";
-import { HeartUnlockIcon as outline } from "./outline";
-import { HeartUnlockIcon as line_duotone } from "./line-duotone";
+import { HeartUnlockIcon as line } from "./line.ts";
+import { HeartUnlockIcon as bold } from "./bold.ts";
+import { HeartUnlockIcon as duotone } from "./duotone.ts";
+import { HeartUnlockIcon as broken } from "./broken.ts";
+import { HeartUnlockIcon as outline } from "./outline.ts";
+import { HeartUnlockIcon as line_duotone } from "./line-duotone.ts";
 
 export const HeartUnlockIcon: IconEntry = {
     line: line,

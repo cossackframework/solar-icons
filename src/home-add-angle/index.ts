@@ -4,12 +4,12 @@
  *   One style:   import { HomeAddAngleIcon } from '@cossackframework/solar-icons/home-add-angle/<style>'
  */
 import type { IconEntry } from "../types";
-import { HomeAddAngleIcon as line } from "./line";
-import { HomeAddAngleIcon as bold } from "./bold";
-import { HomeAddAngleIcon as duotone } from "./duotone";
-import { HomeAddAngleIcon as broken } from "./broken";
-import { HomeAddAngleIcon as outline } from "./outline";
-import { HomeAddAngleIcon as line_duotone } from "./line-duotone";
+import { HomeAddAngleIcon as line } from "./line.ts";
+import { HomeAddAngleIcon as bold } from "./bold.ts";
+import { HomeAddAngleIcon as duotone } from "./duotone.ts";
+import { HomeAddAngleIcon as broken } from "./broken.ts";
+import { HomeAddAngleIcon as outline } from "./outline.ts";
+import { HomeAddAngleIcon as line_duotone } from "./line-duotone.ts";
 
 export const HomeAddAngleIcon: IconEntry = {
     line: line,

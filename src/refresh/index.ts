@@ -4,12 +4,12 @@
  *   One style:   import { RefreshIcon } from '@cossackframework/solar-icons/refresh/<style>'
  */
 import type { IconEntry } from "../types";
-import { RefreshIcon as line } from "./line";
-import { RefreshIcon as bold } from "./bold";
-import { RefreshIcon as duotone } from "./duotone";
-import { RefreshIcon as broken } from "./broken";
-import { RefreshIcon as outline } from "./outline";
-import { RefreshIcon as line_duotone } from "./line-duotone";
+import { RefreshIcon as line } from "./line.ts";
+import { RefreshIcon as bold } from "./bold.ts";
+import { RefreshIcon as duotone } from "./duotone.ts";
+import { RefreshIcon as broken } from "./broken.ts";
+import { RefreshIcon as outline } from "./outline.ts";
+import { RefreshIcon as line_duotone } from "./line-duotone.ts";
 
 export const RefreshIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { CalculatorIcon } from '@cossackframework/solar-icons/calculator/<style>'
  */
 import type { IconEntry } from "../types";
-import { CalculatorIcon as line } from "./line";
-import { CalculatorIcon as bold } from "./bold";
-import { CalculatorIcon as duotone } from "./duotone";
-import { CalculatorIcon as broken } from "./broken";
-import { CalculatorIcon as outline } from "./outline";
-import { CalculatorIcon as line_duotone } from "./line-duotone";
+import { CalculatorIcon as line } from "./line.ts";
+import { CalculatorIcon as bold } from "./bold.ts";
+import { CalculatorIcon as duotone } from "./duotone.ts";
+import { CalculatorIcon as broken } from "./broken.ts";
+import { CalculatorIcon as outline } from "./outline.ts";
+import { CalculatorIcon as line_duotone } from "./line-duotone.ts";
 
 export const CalculatorIcon: IconEntry = {
     line: line,

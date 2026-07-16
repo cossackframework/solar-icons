@@ -4,12 +4,12 @@
  *   One style:   import { TagPriceIcon } from '@cossackframework/solar-icons/tag-price/<style>'
  */
 import type { IconEntry } from "../types";
-import { TagPriceIcon as line } from "./line";
-import { TagPriceIcon as bold } from "./bold";
-import { TagPriceIcon as duotone } from "./duotone";
-import { TagPriceIcon as broken } from "./broken";
-import { TagPriceIcon as outline } from "./outline";
-import { TagPriceIcon as line_duotone } from "./line-duotone";
+import { TagPriceIcon as line } from "./line.ts";
+import { TagPriceIcon as bold } from "./bold.ts";
+import { TagPriceIcon as duotone } from "./duotone.ts";
+import { TagPriceIcon as broken } from "./broken.ts";
+import { TagPriceIcon as outline } from "./outline.ts";
+import { TagPriceIcon as line_duotone } from "./line-duotone.ts";
 
 export const TagPriceIcon: IconEntry = {
     line: line,

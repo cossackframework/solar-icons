@@ -4,12 +4,12 @@
  *   One style:   import { CallMedicineRoundedIcon } from '@cossackframework/solar-icons/call-medicine-rounded/<style>'
  */
 import type { IconEntry } from "../types";
-import { CallMedicineRoundedIcon as line } from "./line";
-import { CallMedicineRoundedIcon as bold } from "./bold";
-import { CallMedicineRoundedIcon as duotone } from "./duotone";
-import { CallMedicineRoundedIcon as broken } from "./broken";
-import { CallMedicineRoundedIcon as outline } from "./outline";
-import { CallMedicineRoundedIcon as line_duotone } from "./line-duotone";
+import { CallMedicineRoundedIcon as line } from "./line.ts";
+import { CallMedicineRoundedIcon as bold } from "./bold.ts";
+import { CallMedicineRoundedIcon as duotone } from "./duotone.ts";
+import { CallMedicineRoundedIcon as broken } from "./broken.ts";
+import { CallMedicineRoundedIcon as outline } from "./outline.ts";
+import { CallMedicineRoundedIcon as line_duotone } from "./line-duotone.ts";
 
 export const CallMedicineRoundedIcon: IconEntry = {
     line: line,

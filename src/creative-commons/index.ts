@@ -4,12 +4,12 @@
  *   One style:   import { CreativeCommonsIcon } from '@cossackframework/solar-icons/creative-commons/<style>'
  */
 import type { IconEntry } from "../types";
-import { CreativeCommonsIcon as line } from "./line";
-import { CreativeCommonsIcon as bold } from "./bold";
-import { CreativeCommonsIcon as duotone } from "./duotone";
-import { CreativeCommonsIcon as broken } from "./broken";
-import { CreativeCommonsIcon as outline } from "./outline";
-import { CreativeCommonsIcon as line_duotone } from "./line-duotone";
+import { CreativeCommonsIcon as line } from "./line.ts";
+import { CreativeCommonsIcon as bold } from "./bold.ts";
+import { CreativeCommonsIcon as duotone } from "./duotone.ts";
+import { CreativeCommonsIcon as broken } from "./broken.ts";
+import { CreativeCommonsIcon as outline } from "./outline.ts";
+import { CreativeCommonsIcon as line_duotone } from "./line-duotone.ts";
 
 export const CreativeCommonsIcon: IconEntry = {
     line: line,

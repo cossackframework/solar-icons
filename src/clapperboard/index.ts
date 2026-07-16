@@ -4,12 +4,12 @@
  *   One style:   import { ClapperboardIcon } from '@cossackframework/solar-icons/clapperboard/<style>'
  */
 import type { IconEntry } from "../types";
-import { ClapperboardIcon as line } from "./line";
-import { ClapperboardIcon as bold } from "./bold";
-import { ClapperboardIcon as duotone } from "./duotone";
-import { ClapperboardIcon as broken } from "./broken";
-import { ClapperboardIcon as outline } from "./outline";
-import { ClapperboardIcon as line_duotone } from "./line-duotone";
+import { ClapperboardIcon as line } from "./line.ts";
+import { ClapperboardIcon as bold } from "./bold.ts";
+import { ClapperboardIcon as duotone } from "./duotone.ts";
+import { ClapperboardIcon as broken } from "./broken.ts";
+import { ClapperboardIcon as outline } from "./outline.ts";
+import { ClapperboardIcon as line_duotone } from "./line-duotone.ts";
 
 export const ClapperboardIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { TabletIcon } from '@cossackframework/solar-icons/tablet/<style>'
  */
 import type { IconEntry } from "../types";
-import { TabletIcon as line } from "./line";
-import { TabletIcon as bold } from "./bold";
-import { TabletIcon as duotone } from "./duotone";
-import { TabletIcon as broken } from "./broken";
-import { TabletIcon as outline } from "./outline";
-import { TabletIcon as line_duotone } from "./line-duotone";
+import { TabletIcon as line } from "./line.ts";
+import { TabletIcon as bold } from "./bold.ts";
+import { TabletIcon as duotone } from "./duotone.ts";
+import { TabletIcon as broken } from "./broken.ts";
+import { TabletIcon as outline } from "./outline.ts";
+import { TabletIcon as line_duotone } from "./line-duotone.ts";
 
 export const TabletIcon: IconEntry = {
     line: line,

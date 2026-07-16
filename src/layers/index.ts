@@ -4,12 +4,12 @@
  *   One style:   import { LayersIcon } from '@cossackframework/solar-icons/layers/<style>'
  */
 import type { IconEntry } from "../types";
-import { LayersIcon as line } from "./line";
-import { LayersIcon as bold } from "./bold";
-import { LayersIcon as duotone } from "./duotone";
-import { LayersIcon as broken } from "./broken";
-import { LayersIcon as outline } from "./outline";
-import { LayersIcon as line_duotone } from "./line-duotone";
+import { LayersIcon as line } from "./line.ts";
+import { LayersIcon as bold } from "./bold.ts";
+import { LayersIcon as duotone } from "./duotone.ts";
+import { LayersIcon as broken } from "./broken.ts";
+import { LayersIcon as outline } from "./outline.ts";
+import { LayersIcon as line_duotone } from "./line-duotone.ts";
 
 export const LayersIcon: IconEntry = {
     line: line,

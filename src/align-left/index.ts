@@ -4,12 +4,12 @@
  *   One style:   import { AlignLeftIcon } from '@cossackframework/solar-icons/align-left/<style>'
  */
 import type { IconEntry } from "../types";
-import { AlignLeftIcon as line } from "./line";
-import { AlignLeftIcon as bold } from "./bold";
-import { AlignLeftIcon as duotone } from "./duotone";
-import { AlignLeftIcon as broken } from "./broken";
-import { AlignLeftIcon as outline } from "./outline";
-import { AlignLeftIcon as line_duotone } from "./line-duotone";
+import { AlignLeftIcon as line } from "./line.ts";
+import { AlignLeftIcon as bold } from "./bold.ts";
+import { AlignLeftIcon as duotone } from "./duotone.ts";
+import { AlignLeftIcon as broken } from "./broken.ts";
+import { AlignLeftIcon as outline } from "./outline.ts";
+import { AlignLeftIcon as line_duotone } from "./line-duotone.ts";
 
 export const AlignLeftIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { SquareTransferHorizontalIcon } from '@cossackframework/solar-icons/square-transfer-horizontal/<style>'
  */
 import type { IconEntry } from "../types";
-import { SquareTransferHorizontalIcon as line } from "./line";
-import { SquareTransferHorizontalIcon as bold } from "./bold";
-import { SquareTransferHorizontalIcon as duotone } from "./duotone";
-import { SquareTransferHorizontalIcon as broken } from "./broken";
-import { SquareTransferHorizontalIcon as outline } from "./outline";
-import { SquareTransferHorizontalIcon as line_duotone } from "./line-duotone";
+import { SquareTransferHorizontalIcon as line } from "./line.ts";
+import { SquareTransferHorizontalIcon as bold } from "./bold.ts";
+import { SquareTransferHorizontalIcon as duotone } from "./duotone.ts";
+import { SquareTransferHorizontalIcon as broken } from "./broken.ts";
+import { SquareTransferHorizontalIcon as outline } from "./outline.ts";
+import { SquareTransferHorizontalIcon as line_duotone } from "./line-duotone.ts";
 
 export const SquareTransferHorizontalIcon: IconEntry = {
     line: line,

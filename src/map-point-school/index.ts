@@ -4,12 +4,12 @@
  *   One style:   import { MapPointSchoolIcon } from '@cossackframework/solar-icons/map-point-school/<style>'
  */
 import type { IconEntry } from "../types";
-import { MapPointSchoolIcon as line } from "./line";
-import { MapPointSchoolIcon as bold } from "./bold";
-import { MapPointSchoolIcon as duotone } from "./duotone";
-import { MapPointSchoolIcon as broken } from "./broken";
-import { MapPointSchoolIcon as outline } from "./outline";
-import { MapPointSchoolIcon as line_duotone } from "./line-duotone";
+import { MapPointSchoolIcon as line } from "./line.ts";
+import { MapPointSchoolIcon as bold } from "./bold.ts";
+import { MapPointSchoolIcon as duotone } from "./duotone.ts";
+import { MapPointSchoolIcon as broken } from "./broken.ts";
+import { MapPointSchoolIcon as outline } from "./outline.ts";
+import { MapPointSchoolIcon as line_duotone } from "./line-duotone.ts";
 
 export const MapPointSchoolIcon: IconEntry = {
     line: line,

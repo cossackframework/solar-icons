@@ -4,12 +4,12 @@
  *   One style:   import { StarAngleIcon } from '@cossackframework/solar-icons/star-angle/<style>'
  */
 import type { IconEntry } from "../types";
-import { StarAngleIcon as line } from "./line";
-import { StarAngleIcon as bold } from "./bold";
-import { StarAngleIcon as duotone } from "./duotone";
-import { StarAngleIcon as broken } from "./broken";
-import { StarAngleIcon as outline } from "./outline";
-import { StarAngleIcon as line_duotone } from "./line-duotone";
+import { StarAngleIcon as line } from "./line.ts";
+import { StarAngleIcon as bold } from "./bold.ts";
+import { StarAngleIcon as duotone } from "./duotone.ts";
+import { StarAngleIcon as broken } from "./broken.ts";
+import { StarAngleIcon as outline } from "./outline.ts";
+import { StarAngleIcon as line_duotone } from "./line-duotone.ts";
 
 export const StarAngleIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { LinkIcon } from '@cossackframework/solar-icons/link/<style>'
  */
 import type { IconEntry } from "../types";
-import { LinkIcon as line } from "./line";
-import { LinkIcon as bold } from "./bold";
-import { LinkIcon as duotone } from "./duotone";
-import { LinkIcon as broken } from "./broken";
-import { LinkIcon as outline } from "./outline";
-import { LinkIcon as line_duotone } from "./line-duotone";
+import { LinkIcon as line } from "./line.ts";
+import { LinkIcon as bold } from "./bold.ts";
+import { LinkIcon as duotone } from "./duotone.ts";
+import { LinkIcon as broken } from "./broken.ts";
+import { LinkIcon as outline } from "./outline.ts";
+import { LinkIcon as line_duotone } from "./line-duotone.ts";
 
 export const LinkIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { StopIcon } from '@cossackframework/solar-icons/stop/<style>'
  */
 import type { IconEntry } from "../types";
-import { StopIcon as line } from "./line";
-import { StopIcon as bold } from "./bold";
-import { StopIcon as duotone } from "./duotone";
-import { StopIcon as broken } from "./broken";
-import { StopIcon as outline } from "./outline";
-import { StopIcon as line_duotone } from "./line-duotone";
+import { StopIcon as line } from "./line.ts";
+import { StopIcon as bold } from "./bold.ts";
+import { StopIcon as duotone } from "./duotone.ts";
+import { StopIcon as broken } from "./broken.ts";
+import { StopIcon as outline } from "./outline.ts";
+import { StopIcon as line_duotone } from "./line-duotone.ts";
 
 export const StopIcon: IconEntry = {
     line: line,

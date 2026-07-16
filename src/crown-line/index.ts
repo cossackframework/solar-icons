@@ -4,12 +4,12 @@
  *   One style:   import { CrownLineIcon } from '@cossackframework/solar-icons/crown-line/<style>'
  */
 import type { IconEntry } from "../types";
-import { CrownLineIcon as line } from "./line";
-import { CrownLineIcon as bold } from "./bold";
-import { CrownLineIcon as duotone } from "./duotone";
-import { CrownLineIcon as broken } from "./broken";
-import { CrownLineIcon as outline } from "./outline";
-import { CrownLineIcon as line_duotone } from "./line-duotone";
+import { CrownLineIcon as line } from "./line.ts";
+import { CrownLineIcon as bold } from "./bold.ts";
+import { CrownLineIcon as duotone } from "./duotone.ts";
+import { CrownLineIcon as broken } from "./broken.ts";
+import { CrownLineIcon as outline } from "./outline.ts";
+import { CrownLineIcon as line_duotone } from "./line-duotone.ts";
 
 export const CrownLineIcon: IconEntry = {
     line: line,

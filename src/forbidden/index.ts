@@ -4,12 +4,12 @@
  *   One style:   import { ForbiddenIcon } from '@cossackframework/solar-icons/forbidden/<style>'
  */
 import type { IconEntry } from "../types";
-import { ForbiddenIcon as line } from "./line";
-import { ForbiddenIcon as bold } from "./bold";
-import { ForbiddenIcon as duotone } from "./duotone";
-import { ForbiddenIcon as broken } from "./broken";
-import { ForbiddenIcon as outline } from "./outline";
-import { ForbiddenIcon as line_duotone } from "./line-duotone";
+import { ForbiddenIcon as line } from "./line.ts";
+import { ForbiddenIcon as bold } from "./bold.ts";
+import { ForbiddenIcon as duotone } from "./duotone.ts";
+import { ForbiddenIcon as broken } from "./broken.ts";
+import { ForbiddenIcon as outline } from "./outline.ts";
+import { ForbiddenIcon as line_duotone } from "./line-duotone.ts";
 
 export const ForbiddenIcon: IconEntry = {
     line: line,

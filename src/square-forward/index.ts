@@ -4,12 +4,12 @@
  *   One style:   import { SquareForwardIcon } from '@cossackframework/solar-icons/square-forward/<style>'
  */
 import type { IconEntry } from "../types";
-import { SquareForwardIcon as line } from "./line";
-import { SquareForwardIcon as bold } from "./bold";
-import { SquareForwardIcon as duotone } from "./duotone";
-import { SquareForwardIcon as broken } from "./broken";
-import { SquareForwardIcon as outline } from "./outline";
-import { SquareForwardIcon as line_duotone } from "./line-duotone";
+import { SquareForwardIcon as line } from "./line.ts";
+import { SquareForwardIcon as bold } from "./bold.ts";
+import { SquareForwardIcon as duotone } from "./duotone.ts";
+import { SquareForwardIcon as broken } from "./broken.ts";
+import { SquareForwardIcon as outline } from "./outline.ts";
+import { SquareForwardIcon as line_duotone } from "./line-duotone.ts";
 
 export const SquareForwardIcon: IconEntry = {
     line: line,

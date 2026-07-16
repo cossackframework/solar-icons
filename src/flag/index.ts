@@ -4,12 +4,12 @@
  *   One style:   import { FlagIcon } from '@cossackframework/solar-icons/flag/<style>'
  */
 import type { IconEntry } from "../types";
-import { FlagIcon as line } from "./line";
-import { FlagIcon as bold } from "./bold";
-import { FlagIcon as duotone } from "./duotone";
-import { FlagIcon as broken } from "./broken";
-import { FlagIcon as outline } from "./outline";
-import { FlagIcon as line_duotone } from "./line-duotone";
+import { FlagIcon as line } from "./line.ts";
+import { FlagIcon as bold } from "./bold.ts";
+import { FlagIcon as duotone } from "./duotone.ts";
+import { FlagIcon as broken } from "./broken.ts";
+import { FlagIcon as outline } from "./outline.ts";
+import { FlagIcon as line_duotone } from "./line-duotone.ts";
 
 export const FlagIcon: IconEntry = {
     line: line,

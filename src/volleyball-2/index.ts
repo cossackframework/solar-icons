@@ -4,12 +4,12 @@
  *   One style:   import { Volleyball2Icon } from '@cossackframework/solar-icons/volleyball-2/<style>'
  */
 import type { IconEntry } from "../types";
-import { Volleyball2Icon as line } from "./line";
-import { Volleyball2Icon as bold } from "./bold";
-import { Volleyball2Icon as duotone } from "./duotone";
-import { Volleyball2Icon as broken } from "./broken";
-import { Volleyball2Icon as outline } from "./outline";
-import { Volleyball2Icon as line_duotone } from "./line-duotone";
+import { Volleyball2Icon as line } from "./line.ts";
+import { Volleyball2Icon as bold } from "./bold.ts";
+import { Volleyball2Icon as duotone } from "./duotone.ts";
+import { Volleyball2Icon as broken } from "./broken.ts";
+import { Volleyball2Icon as outline } from "./outline.ts";
+import { Volleyball2Icon as line_duotone } from "./line-duotone.ts";
 
 export const Volleyball2Icon: IconEntry = {
     line: line,

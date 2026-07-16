@@ -4,12 +4,12 @@
  *   One style:   import { ListIcon } from '@cossackframework/solar-icons/list/<style>'
  */
 import type { IconEntry } from "../types";
-import { ListIcon as line } from "./line";
-import { ListIcon as bold } from "./bold";
-import { ListIcon as duotone } from "./duotone";
-import { ListIcon as broken } from "./broken";
-import { ListIcon as outline } from "./outline";
-import { ListIcon as line_duotone } from "./line-duotone";
+import { ListIcon as line } from "./line.ts";
+import { ListIcon as bold } from "./bold.ts";
+import { ListIcon as duotone } from "./duotone.ts";
+import { ListIcon as broken } from "./broken.ts";
+import { ListIcon as outline } from "./outline.ts";
+import { ListIcon as line_duotone } from "./line-duotone.ts";
 
 export const ListIcon: IconEntry = {
     line: line,

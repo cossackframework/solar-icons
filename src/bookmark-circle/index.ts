@@ -4,12 +4,12 @@
  *   One style:   import { BookmarkCircleIcon } from '@cossackframework/solar-icons/bookmark-circle/<style>'
  */
 import type { IconEntry } from "../types";
-import { BookmarkCircleIcon as line } from "./line";
-import { BookmarkCircleIcon as bold } from "./bold";
-import { BookmarkCircleIcon as duotone } from "./duotone";
-import { BookmarkCircleIcon as broken } from "./broken";
-import { BookmarkCircleIcon as outline } from "./outline";
-import { BookmarkCircleIcon as line_duotone } from "./line-duotone";
+import { BookmarkCircleIcon as line } from "./line.ts";
+import { BookmarkCircleIcon as bold } from "./bold.ts";
+import { BookmarkCircleIcon as duotone } from "./duotone.ts";
+import { BookmarkCircleIcon as broken } from "./broken.ts";
+import { BookmarkCircleIcon as outline } from "./outline.ts";
+import { BookmarkCircleIcon as line_duotone } from "./line-duotone.ts";
 
 export const BookmarkCircleIcon: IconEntry = {
     line: line,

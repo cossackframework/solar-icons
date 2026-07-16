@@ -4,12 +4,12 @@
  *   One style:   import { TransferVerticalIcon } from '@cossackframework/solar-icons/transfer-vertical/<style>'
  */
 import type { IconEntry } from "../types";
-import { TransferVerticalIcon as line } from "./line";
-import { TransferVerticalIcon as bold } from "./bold";
-import { TransferVerticalIcon as duotone } from "./duotone";
-import { TransferVerticalIcon as broken } from "./broken";
-import { TransferVerticalIcon as outline } from "./outline";
-import { TransferVerticalIcon as line_duotone } from "./line-duotone";
+import { TransferVerticalIcon as line } from "./line.ts";
+import { TransferVerticalIcon as bold } from "./bold.ts";
+import { TransferVerticalIcon as duotone } from "./duotone.ts";
+import { TransferVerticalIcon as broken } from "./broken.ts";
+import { TransferVerticalIcon as outline } from "./outline.ts";
+import { TransferVerticalIcon as line_duotone } from "./line-duotone.ts";
 
 export const TransferVerticalIcon: IconEntry = {
     line: line,

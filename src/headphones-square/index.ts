@@ -4,12 +4,12 @@
  *   One style:   import { HeadphonesSquareIcon } from '@cossackframework/solar-icons/headphones-square/<style>'
  */
 import type { IconEntry } from "../types";
-import { HeadphonesSquareIcon as line } from "./line";
-import { HeadphonesSquareIcon as bold } from "./bold";
-import { HeadphonesSquareIcon as duotone } from "./duotone";
-import { HeadphonesSquareIcon as broken } from "./broken";
-import { HeadphonesSquareIcon as outline } from "./outline";
-import { HeadphonesSquareIcon as line_duotone } from "./line-duotone";
+import { HeadphonesSquareIcon as line } from "./line.ts";
+import { HeadphonesSquareIcon as bold } from "./bold.ts";
+import { HeadphonesSquareIcon as duotone } from "./duotone.ts";
+import { HeadphonesSquareIcon as broken } from "./broken.ts";
+import { HeadphonesSquareIcon as outline } from "./outline.ts";
+import { HeadphonesSquareIcon as line_duotone } from "./line-duotone.ts";
 
 export const HeadphonesSquareIcon: IconEntry = {
     line: line,

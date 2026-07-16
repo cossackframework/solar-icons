@@ -4,12 +4,12 @@
  *   One style:   import { GasStationIcon } from '@cossackframework/solar-icons/gas-station/<style>'
  */
 import type { IconEntry } from "../types";
-import { GasStationIcon as line } from "./line";
-import { GasStationIcon as bold } from "./bold";
-import { GasStationIcon as duotone } from "./duotone";
-import { GasStationIcon as broken } from "./broken";
-import { GasStationIcon as outline } from "./outline";
-import { GasStationIcon as line_duotone } from "./line-duotone";
+import { GasStationIcon as line } from "./line.ts";
+import { GasStationIcon as bold } from "./bold.ts";
+import { GasStationIcon as duotone } from "./duotone.ts";
+import { GasStationIcon as broken } from "./broken.ts";
+import { GasStationIcon as outline } from "./outline.ts";
+import { GasStationIcon as line_duotone } from "./line-duotone.ts";
 
 export const GasStationIcon: IconEntry = {
     line: line,

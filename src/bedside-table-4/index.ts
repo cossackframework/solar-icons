@@ -4,12 +4,12 @@
  *   One style:   import { BedsideTable4Icon } from '@cossackframework/solar-icons/bedside-table-4/<style>'
  */
 import type { IconEntry } from "../types";
-import { BedsideTable4Icon as line } from "./line";
-import { BedsideTable4Icon as bold } from "./bold";
-import { BedsideTable4Icon as duotone } from "./duotone";
-import { BedsideTable4Icon as broken } from "./broken";
-import { BedsideTable4Icon as outline } from "./outline";
-import { BedsideTable4Icon as line_duotone } from "./line-duotone";
+import { BedsideTable4Icon as line } from "./line.ts";
+import { BedsideTable4Icon as bold } from "./bold.ts";
+import { BedsideTable4Icon as duotone } from "./duotone.ts";
+import { BedsideTable4Icon as broken } from "./broken.ts";
+import { BedsideTable4Icon as outline } from "./outline.ts";
+import { BedsideTable4Icon as line_duotone } from "./line-duotone.ts";
 
 export const BedsideTable4Icon: IconEntry = {
     line: line,

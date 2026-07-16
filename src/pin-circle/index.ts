@@ -4,12 +4,12 @@
  *   One style:   import { PinCircleIcon } from '@cossackframework/solar-icons/pin-circle/<style>'
  */
 import type { IconEntry } from "../types";
-import { PinCircleIcon as line } from "./line";
-import { PinCircleIcon as bold } from "./bold";
-import { PinCircleIcon as duotone } from "./duotone";
-import { PinCircleIcon as broken } from "./broken";
-import { PinCircleIcon as outline } from "./outline";
-import { PinCircleIcon as line_duotone } from "./line-duotone";
+import { PinCircleIcon as line } from "./line.ts";
+import { PinCircleIcon as bold } from "./bold.ts";
+import { PinCircleIcon as duotone } from "./duotone.ts";
+import { PinCircleIcon as broken } from "./broken.ts";
+import { PinCircleIcon as outline } from "./outline.ts";
+import { PinCircleIcon as line_duotone } from "./line-duotone.ts";
 
 export const PinCircleIcon: IconEntry = {
     line: line,

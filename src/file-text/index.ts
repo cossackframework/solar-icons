@@ -4,12 +4,12 @@
  *   One style:   import { FileTextIcon } from '@cossackframework/solar-icons/file-text/<style>'
  */
 import type { IconEntry } from "../types";
-import { FileTextIcon as line } from "./line";
-import { FileTextIcon as bold } from "./bold";
-import { FileTextIcon as duotone } from "./duotone";
-import { FileTextIcon as broken } from "./broken";
-import { FileTextIcon as outline } from "./outline";
-import { FileTextIcon as line_duotone } from "./line-duotone";
+import { FileTextIcon as line } from "./line.ts";
+import { FileTextIcon as bold } from "./bold.ts";
+import { FileTextIcon as duotone } from "./duotone.ts";
+import { FileTextIcon as broken } from "./broken.ts";
+import { FileTextIcon as outline } from "./outline.ts";
+import { FileTextIcon as line_duotone } from "./line-duotone.ts";
 
 export const FileTextIcon: IconEntry = {
     line: line,

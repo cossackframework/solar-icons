@@ -4,12 +4,12 @@
  *   One style:   import { ChartIcon } from '@cossackframework/solar-icons/chart/<style>'
  */
 import type { IconEntry } from "../types";
-import { ChartIcon as line } from "./line";
-import { ChartIcon as bold } from "./bold";
-import { ChartIcon as duotone } from "./duotone";
-import { ChartIcon as broken } from "./broken";
-import { ChartIcon as outline } from "./outline";
-import { ChartIcon as line_duotone } from "./line-duotone";
+import { ChartIcon as line } from "./line.ts";
+import { ChartIcon as bold } from "./bold.ts";
+import { ChartIcon as duotone } from "./duotone.ts";
+import { ChartIcon as broken } from "./broken.ts";
+import { ChartIcon as outline } from "./outline.ts";
+import { ChartIcon as line_duotone } from "./line-duotone.ts";
 
 export const ChartIcon: IconEntry = {
     line: line,

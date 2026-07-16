@@ -4,12 +4,12 @@
  *   One style:   import { ConfoundedSquareIcon } from '@cossackframework/solar-icons/confounded-square/<style>'
  */
 import type { IconEntry } from "../types";
-import { ConfoundedSquareIcon as line } from "./line";
-import { ConfoundedSquareIcon as bold } from "./bold";
-import { ConfoundedSquareIcon as duotone } from "./duotone";
-import { ConfoundedSquareIcon as broken } from "./broken";
-import { ConfoundedSquareIcon as outline } from "./outline";
-import { ConfoundedSquareIcon as line_duotone } from "./line-duotone";
+import { ConfoundedSquareIcon as line } from "./line.ts";
+import { ConfoundedSquareIcon as bold } from "./bold.ts";
+import { ConfoundedSquareIcon as duotone } from "./duotone.ts";
+import { ConfoundedSquareIcon as broken } from "./broken.ts";
+import { ConfoundedSquareIcon as outline } from "./outline.ts";
+import { ConfoundedSquareIcon as line_duotone } from "./line-duotone.ts";
 
 export const ConfoundedSquareIcon: IconEntry = {
     line: line,

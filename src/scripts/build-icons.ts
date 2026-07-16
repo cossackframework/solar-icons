@@ -238,8 +238,13 @@ async function emitIcon(def: IconDef): Promise<void> {
     // them into an IconEntry, exported under the canonical suffixed name.
     // We do NOT re-export the per-style strings here — each style file is
     // reachable directly via `@cossackframework/solar-icons/<icon>/<style>`.
+    //
+    // The `.ts` extension is explicit on every relative import so the modules
+    // resolve under bundlers consuming this package as raw TypeScript source
+    // (via "exports" → ./src/...). Extensionless relative imports rely on
+    // bundler TS-extension resolution that isn't guaranteed for linked deps.
     const imports = def.styles
-        .map(({ style }) => `import { ${exportName} as ${styleToIdent(style)} } from "./${style}";`)
+        .map(({ style }) => `import { ${exportName} as ${styleToIdent(style)} } from "./${style}.ts";`)
         .join("\n");
     const entryFields = def.styles
         .map(({ style }) => `    ${objKey(style)}: ${styleToIdent(style)},`)
@@ -346,9 +351,10 @@ async function main() {
     }
 
     // Registry: one import + one entry per icon aggregator. Keys are the kebab
-    // names (runtime lookup), values are the suffixed IconEntry exports.
+    // names (runtime lookup), values are the suffixed IconEntry exports. The
+    // `.ts` extension is explicit (see emitIcon() for rationale).
     const registryImports = defs
-        .map((d) => `import { ${iconExportName(d.name)} } from "./${d.name}/index";`)
+        .map((d) => `import { ${iconExportName(d.name)} } from "./${d.name}/index.ts";`)
         .join("\n");
     const registryEntries = defs
         .map((d) => `    ${objKey(d.name)}: ${iconExportName(d.name)},`)

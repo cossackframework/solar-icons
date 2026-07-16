@@ -4,12 +4,12 @@
  *   One style:   import { BatteryChargeIcon } from '@cossackframework/solar-icons/battery-charge/<style>'
  */
 import type { IconEntry } from "../types";
-import { BatteryChargeIcon as line } from "./line";
-import { BatteryChargeIcon as bold } from "./bold";
-import { BatteryChargeIcon as duotone } from "./duotone";
-import { BatteryChargeIcon as broken } from "./broken";
-import { BatteryChargeIcon as outline } from "./outline";
-import { BatteryChargeIcon as line_duotone } from "./line-duotone";
+import { BatteryChargeIcon as line } from "./line.ts";
+import { BatteryChargeIcon as bold } from "./bold.ts";
+import { BatteryChargeIcon as duotone } from "./duotone.ts";
+import { BatteryChargeIcon as broken } from "./broken.ts";
+import { BatteryChargeIcon as outline } from "./outline.ts";
+import { BatteryChargeIcon as line_duotone } from "./line-duotone.ts";
 
 export const BatteryChargeIcon: IconEntry = {
     line: line,

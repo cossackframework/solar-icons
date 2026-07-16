@@ -4,12 +4,12 @@
  *   One style:   import { ConfettiMinimalisticIcon } from '@cossackframework/solar-icons/confetti-minimalistic/<style>'
  */
 import type { IconEntry } from "../types";
-import { ConfettiMinimalisticIcon as line } from "./line";
-import { ConfettiMinimalisticIcon as bold } from "./bold";
-import { ConfettiMinimalisticIcon as duotone } from "./duotone";
-import { ConfettiMinimalisticIcon as broken } from "./broken";
-import { ConfettiMinimalisticIcon as outline } from "./outline";
-import { ConfettiMinimalisticIcon as line_duotone } from "./line-duotone";
+import { ConfettiMinimalisticIcon as line } from "./line.ts";
+import { ConfettiMinimalisticIcon as bold } from "./bold.ts";
+import { ConfettiMinimalisticIcon as duotone } from "./duotone.ts";
+import { ConfettiMinimalisticIcon as broken } from "./broken.ts";
+import { ConfettiMinimalisticIcon as outline } from "./outline.ts";
+import { ConfettiMinimalisticIcon as line_duotone } from "./line-duotone.ts";
 
 export const ConfettiMinimalisticIcon: IconEntry = {
     line: line,

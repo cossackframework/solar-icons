@@ -4,12 +4,12 @@
  *   One style:   import { StarFallMinimalistic2Icon } from '@cossackframework/solar-icons/star-fall-minimalistic-2/<style>'
  */
 import type { IconEntry } from "../types";
-import { StarFallMinimalistic2Icon as line } from "./line";
-import { StarFallMinimalistic2Icon as bold } from "./bold";
-import { StarFallMinimalistic2Icon as duotone } from "./duotone";
-import { StarFallMinimalistic2Icon as broken } from "./broken";
-import { StarFallMinimalistic2Icon as outline } from "./outline";
-import { StarFallMinimalistic2Icon as line_duotone } from "./line-duotone";
+import { StarFallMinimalistic2Icon as line } from "./line.ts";
+import { StarFallMinimalistic2Icon as bold } from "./bold.ts";
+import { StarFallMinimalistic2Icon as duotone } from "./duotone.ts";
+import { StarFallMinimalistic2Icon as broken } from "./broken.ts";
+import { StarFallMinimalistic2Icon as outline } from "./outline.ts";
+import { StarFallMinimalistic2Icon as line_duotone } from "./line-duotone.ts";
 
 export const StarFallMinimalistic2Icon: IconEntry = {
     line: line,

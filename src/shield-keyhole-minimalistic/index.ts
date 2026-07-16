@@ -4,12 +4,12 @@
  *   One style:   import { ShieldKeyholeMinimalisticIcon } from '@cossackframework/solar-icons/shield-keyhole-minimalistic/<style>'
  */
 import type { IconEntry } from "../types";
-import { ShieldKeyholeMinimalisticIcon as line } from "./line";
-import { ShieldKeyholeMinimalisticIcon as bold } from "./bold";
-import { ShieldKeyholeMinimalisticIcon as duotone } from "./duotone";
-import { ShieldKeyholeMinimalisticIcon as broken } from "./broken";
-import { ShieldKeyholeMinimalisticIcon as outline } from "./outline";
-import { ShieldKeyholeMinimalisticIcon as line_duotone } from "./line-duotone";
+import { ShieldKeyholeMinimalisticIcon as line } from "./line.ts";
+import { ShieldKeyholeMinimalisticIcon as bold } from "./bold.ts";
+import { ShieldKeyholeMinimalisticIcon as duotone } from "./duotone.ts";
+import { ShieldKeyholeMinimalisticIcon as broken } from "./broken.ts";
+import { ShieldKeyholeMinimalisticIcon as outline } from "./outline.ts";
+import { ShieldKeyholeMinimalisticIcon as line_duotone } from "./line-duotone.ts";
 
 export const ShieldKeyholeMinimalisticIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { LetterUnreadIcon } from '@cossackframework/solar-icons/letter-unread/<style>'
  */
 import type { IconEntry } from "../types";
-import { LetterUnreadIcon as line } from "./line";
-import { LetterUnreadIcon as bold } from "./bold";
-import { LetterUnreadIcon as duotone } from "./duotone";
-import { LetterUnreadIcon as broken } from "./broken";
-import { LetterUnreadIcon as outline } from "./outline";
-import { LetterUnreadIcon as line_duotone } from "./line-duotone";
+import { LetterUnreadIcon as line } from "./line.ts";
+import { LetterUnreadIcon as bold } from "./bold.ts";
+import { LetterUnreadIcon as duotone } from "./duotone.ts";
+import { LetterUnreadIcon as broken } from "./broken.ts";
+import { LetterUnreadIcon as outline } from "./outline.ts";
+import { LetterUnreadIcon as line_duotone } from "./line-duotone.ts";
 
 export const LetterUnreadIcon: IconEntry = {
     line: line,

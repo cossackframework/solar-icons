@@ -4,12 +4,12 @@
  *   One style:   import { TextFieldIcon } from '@cossackframework/solar-icons/text-field/<style>'
  */
 import type { IconEntry } from "../types";
-import { TextFieldIcon as line } from "./line";
-import { TextFieldIcon as bold } from "./bold";
-import { TextFieldIcon as duotone } from "./duotone";
-import { TextFieldIcon as broken } from "./broken";
-import { TextFieldIcon as outline } from "./outline";
-import { TextFieldIcon as line_duotone } from "./line-duotone";
+import { TextFieldIcon as line } from "./line.ts";
+import { TextFieldIcon as bold } from "./bold.ts";
+import { TextFieldIcon as duotone } from "./duotone.ts";
+import { TextFieldIcon as broken } from "./broken.ts";
+import { TextFieldIcon as outline } from "./outline.ts";
+import { TextFieldIcon as line_duotone } from "./line-duotone.ts";
 
 export const TextFieldIcon: IconEntry = {
     line: line,

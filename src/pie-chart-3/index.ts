@@ -4,12 +4,12 @@
  *   One style:   import { PieChart3Icon } from '@cossackframework/solar-icons/pie-chart-3/<style>'
  */
 import type { IconEntry } from "../types";
-import { PieChart3Icon as line } from "./line";
-import { PieChart3Icon as bold } from "./bold";
-import { PieChart3Icon as duotone } from "./duotone";
-import { PieChart3Icon as broken } from "./broken";
-import { PieChart3Icon as outline } from "./outline";
-import { PieChart3Icon as line_duotone } from "./line-duotone";
+import { PieChart3Icon as line } from "./line.ts";
+import { PieChart3Icon as bold } from "./bold.ts";
+import { PieChart3Icon as duotone } from "./duotone.ts";
+import { PieChart3Icon as broken } from "./broken.ts";
+import { PieChart3Icon as outline } from "./outline.ts";
+import { PieChart3Icon as line_duotone } from "./line-duotone.ts";
 
 export const PieChart3Icon: IconEntry = {
     line: line,

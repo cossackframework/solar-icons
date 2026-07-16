@@ -4,12 +4,12 @@
  *   One style:   import { SkipNextIcon } from '@cossackframework/solar-icons/skip-next/<style>'
  */
 import type { IconEntry } from "../types";
-import { SkipNextIcon as line } from "./line";
-import { SkipNextIcon as bold } from "./bold";
-import { SkipNextIcon as duotone } from "./duotone";
-import { SkipNextIcon as broken } from "./broken";
-import { SkipNextIcon as outline } from "./outline";
-import { SkipNextIcon as line_duotone } from "./line-duotone";
+import { SkipNextIcon as line } from "./line.ts";
+import { SkipNextIcon as bold } from "./bold.ts";
+import { SkipNextIcon as duotone } from "./duotone.ts";
+import { SkipNextIcon as broken } from "./broken.ts";
+import { SkipNextIcon as outline } from "./outline.ts";
+import { SkipNextIcon as line_duotone } from "./line-duotone.ts";
 
 export const SkipNextIcon: IconEntry = {
     line: line,

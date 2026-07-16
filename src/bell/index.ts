@@ -4,12 +4,12 @@
  *   One style:   import { BellIcon } from '@cossackframework/solar-icons/bell/<style>'
  */
 import type { IconEntry } from "../types";
-import { BellIcon as line } from "./line";
-import { BellIcon as bold } from "./bold";
-import { BellIcon as duotone } from "./duotone";
-import { BellIcon as broken } from "./broken";
-import { BellIcon as outline } from "./outline";
-import { BellIcon as line_duotone } from "./line-duotone";
+import { BellIcon as line } from "./line.ts";
+import { BellIcon as bold } from "./bold.ts";
+import { BellIcon as duotone } from "./duotone.ts";
+import { BellIcon as broken } from "./broken.ts";
+import { BellIcon as outline } from "./outline.ts";
+import { BellIcon as line_duotone } from "./line-duotone.ts";
 
 export const BellIcon: IconEntry = {
     line: line,

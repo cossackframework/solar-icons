@@ -4,12 +4,12 @@
  *   One style:   import { QuitFullScreenSquareIcon } from '@cossackframework/solar-icons/quit-full-screen-square/<style>'
  */
 import type { IconEntry } from "../types";
-import { QuitFullScreenSquareIcon as line } from "./line";
-import { QuitFullScreenSquareIcon as bold } from "./bold";
-import { QuitFullScreenSquareIcon as duotone } from "./duotone";
-import { QuitFullScreenSquareIcon as broken } from "./broken";
-import { QuitFullScreenSquareIcon as outline } from "./outline";
-import { QuitFullScreenSquareIcon as line_duotone } from "./line-duotone";
+import { QuitFullScreenSquareIcon as line } from "./line.ts";
+import { QuitFullScreenSquareIcon as bold } from "./bold.ts";
+import { QuitFullScreenSquareIcon as duotone } from "./duotone.ts";
+import { QuitFullScreenSquareIcon as broken } from "./broken.ts";
+import { QuitFullScreenSquareIcon as outline } from "./outline.ts";
+import { QuitFullScreenSquareIcon as line_duotone } from "./line-duotone.ts";
 
 export const QuitFullScreenSquareIcon: IconEntry = {
     line: line,

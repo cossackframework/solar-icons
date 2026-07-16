@@ -4,12 +4,12 @@
  *   One style:   import { CardSendIcon } from '@cossackframework/solar-icons/card-send/<style>'
  */
 import type { IconEntry } from "../types";
-import { CardSendIcon as line } from "./line";
-import { CardSendIcon as bold } from "./bold";
-import { CardSendIcon as duotone } from "./duotone";
-import { CardSendIcon as broken } from "./broken";
-import { CardSendIcon as outline } from "./outline";
-import { CardSendIcon as line_duotone } from "./line-duotone";
+import { CardSendIcon as line } from "./line.ts";
+import { CardSendIcon as bold } from "./bold.ts";
+import { CardSendIcon as duotone } from "./duotone.ts";
+import { CardSendIcon as broken } from "./broken.ts";
+import { CardSendIcon as outline } from "./outline.ts";
+import { CardSendIcon as line_duotone } from "./line-duotone.ts";
 
 export const CardSendIcon: IconEntry = {
     line: line,

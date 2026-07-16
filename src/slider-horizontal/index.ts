@@ -4,12 +4,12 @@
  *   One style:   import { SliderHorizontalIcon } from '@cossackframework/solar-icons/slider-horizontal/<style>'
  */
 import type { IconEntry } from "../types";
-import { SliderHorizontalIcon as line } from "./line";
-import { SliderHorizontalIcon as bold } from "./bold";
-import { SliderHorizontalIcon as duotone } from "./duotone";
-import { SliderHorizontalIcon as broken } from "./broken";
-import { SliderHorizontalIcon as outline } from "./outline";
-import { SliderHorizontalIcon as line_duotone } from "./line-duotone";
+import { SliderHorizontalIcon as line } from "./line.ts";
+import { SliderHorizontalIcon as bold } from "./bold.ts";
+import { SliderHorizontalIcon as duotone } from "./duotone.ts";
+import { SliderHorizontalIcon as broken } from "./broken.ts";
+import { SliderHorizontalIcon as outline } from "./outline.ts";
+import { SliderHorizontalIcon as line_duotone } from "./line-duotone.ts";
 
 export const SliderHorizontalIcon: IconEntry = {
     line: line,

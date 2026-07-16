@@ -4,12 +4,12 @@
  *   One style:   import { MaskHappyIcon } from '@cossackframework/solar-icons/mask-happy/<style>'
  */
 import type { IconEntry } from "../types";
-import { MaskHappyIcon as line } from "./line";
-import { MaskHappyIcon as bold } from "./bold";
-import { MaskHappyIcon as duotone } from "./duotone";
-import { MaskHappyIcon as broken } from "./broken";
-import { MaskHappyIcon as outline } from "./outline";
-import { MaskHappyIcon as line_duotone } from "./line-duotone";
+import { MaskHappyIcon as line } from "./line.ts";
+import { MaskHappyIcon as bold } from "./bold.ts";
+import { MaskHappyIcon as duotone } from "./duotone.ts";
+import { MaskHappyIcon as broken } from "./broken.ts";
+import { MaskHappyIcon as outline } from "./outline.ts";
+import { MaskHappyIcon as line_duotone } from "./line-duotone.ts";
 
 export const MaskHappyIcon: IconEntry = {
     line: line,

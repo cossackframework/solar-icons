@@ -4,12 +4,12 @@
  *   One style:   import { ChandelierIcon } from '@cossackframework/solar-icons/chandelier/<style>'
  */
 import type { IconEntry } from "../types";
-import { ChandelierIcon as line } from "./line";
-import { ChandelierIcon as bold } from "./bold";
-import { ChandelierIcon as duotone } from "./duotone";
-import { ChandelierIcon as broken } from "./broken";
-import { ChandelierIcon as outline } from "./outline";
-import { ChandelierIcon as line_duotone } from "./line-duotone";
+import { ChandelierIcon as line } from "./line.ts";
+import { ChandelierIcon as bold } from "./bold.ts";
+import { ChandelierIcon as duotone } from "./duotone.ts";
+import { ChandelierIcon as broken } from "./broken.ts";
+import { ChandelierIcon as outline } from "./outline.ts";
+import { ChandelierIcon as line_duotone } from "./line-duotone.ts";
 
 export const ChandelierIcon: IconEntry = {
     line: line,

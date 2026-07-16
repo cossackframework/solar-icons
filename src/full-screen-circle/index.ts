@@ -4,12 +4,12 @@
  *   One style:   import { FullScreenCircleIcon } from '@cossackframework/solar-icons/full-screen-circle/<style>'
  */
 import type { IconEntry } from "../types";
-import { FullScreenCircleIcon as line } from "./line";
-import { FullScreenCircleIcon as bold } from "./bold";
-import { FullScreenCircleIcon as duotone } from "./duotone";
-import { FullScreenCircleIcon as broken } from "./broken";
-import { FullScreenCircleIcon as outline } from "./outline";
-import { FullScreenCircleIcon as line_duotone } from "./line-duotone";
+import { FullScreenCircleIcon as line } from "./line.ts";
+import { FullScreenCircleIcon as bold } from "./bold.ts";
+import { FullScreenCircleIcon as duotone } from "./duotone.ts";
+import { FullScreenCircleIcon as broken } from "./broken.ts";
+import { FullScreenCircleIcon as outline } from "./outline.ts";
+import { FullScreenCircleIcon as line_duotone } from "./line-duotone.ts";
 
 export const FullScreenCircleIcon: IconEntry = {
     line: line,

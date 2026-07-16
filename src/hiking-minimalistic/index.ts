@@ -4,12 +4,12 @@
  *   One style:   import { HikingMinimalisticIcon } from '@cossackframework/solar-icons/hiking-minimalistic/<style>'
  */
 import type { IconEntry } from "../types";
-import { HikingMinimalisticIcon as line } from "./line";
-import { HikingMinimalisticIcon as bold } from "./bold";
-import { HikingMinimalisticIcon as duotone } from "./duotone";
-import { HikingMinimalisticIcon as broken } from "./broken";
-import { HikingMinimalisticIcon as outline } from "./outline";
-import { HikingMinimalisticIcon as line_duotone } from "./line-duotone";
+import { HikingMinimalisticIcon as line } from "./line.ts";
+import { HikingMinimalisticIcon as bold } from "./bold.ts";
+import { HikingMinimalisticIcon as duotone } from "./duotone.ts";
+import { HikingMinimalisticIcon as broken } from "./broken.ts";
+import { HikingMinimalisticIcon as outline } from "./outline.ts";
+import { HikingMinimalisticIcon as line_duotone } from "./line-duotone.ts";
 
 export const HikingMinimalisticIcon: IconEntry = {
     line: line,

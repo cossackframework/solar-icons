@@ -4,12 +4,12 @@
  *   One style:   import { RoundTransferDiagonalIcon } from '@cossackframework/solar-icons/round-transfer-diagonal/<style>'
  */
 import type { IconEntry } from "../types";
-import { RoundTransferDiagonalIcon as line } from "./line";
-import { RoundTransferDiagonalIcon as bold } from "./bold";
-import { RoundTransferDiagonalIcon as duotone } from "./duotone";
-import { RoundTransferDiagonalIcon as broken } from "./broken";
-import { RoundTransferDiagonalIcon as outline } from "./outline";
-import { RoundTransferDiagonalIcon as line_duotone } from "./line-duotone";
+import { RoundTransferDiagonalIcon as line } from "./line.ts";
+import { RoundTransferDiagonalIcon as bold } from "./bold.ts";
+import { RoundTransferDiagonalIcon as duotone } from "./duotone.ts";
+import { RoundTransferDiagonalIcon as broken } from "./broken.ts";
+import { RoundTransferDiagonalIcon as outline } from "./outline.ts";
+import { RoundTransferDiagonalIcon as line_duotone } from "./line-duotone.ts";
 
 export const RoundTransferDiagonalIcon: IconEntry = {
     line: line,

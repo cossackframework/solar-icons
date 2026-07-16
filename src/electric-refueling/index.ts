@@ -4,12 +4,12 @@
  *   One style:   import { ElectricRefuelingIcon } from '@cossackframework/solar-icons/electric-refueling/<style>'
  */
 import type { IconEntry } from "../types";
-import { ElectricRefuelingIcon as line } from "./line";
-import { ElectricRefuelingIcon as bold } from "./bold";
-import { ElectricRefuelingIcon as duotone } from "./duotone";
-import { ElectricRefuelingIcon as broken } from "./broken";
-import { ElectricRefuelingIcon as outline } from "./outline";
-import { ElectricRefuelingIcon as line_duotone } from "./line-duotone";
+import { ElectricRefuelingIcon as line } from "./line.ts";
+import { ElectricRefuelingIcon as bold } from "./bold.ts";
+import { ElectricRefuelingIcon as duotone } from "./duotone.ts";
+import { ElectricRefuelingIcon as broken } from "./broken.ts";
+import { ElectricRefuelingIcon as outline } from "./outline.ts";
+import { ElectricRefuelingIcon as line_duotone } from "./line-duotone.ts";
 
 export const ElectricRefuelingIcon: IconEntry = {
     line: line,

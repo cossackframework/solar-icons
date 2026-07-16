@@ -4,12 +4,12 @@
  *   One style:   import { IncognitoIcon } from '@cossackframework/solar-icons/incognito/<style>'
  */
 import type { IconEntry } from "../types";
-import { IncognitoIcon as line } from "./line";
-import { IncognitoIcon as bold } from "./bold";
-import { IncognitoIcon as duotone } from "./duotone";
-import { IncognitoIcon as broken } from "./broken";
-import { IncognitoIcon as outline } from "./outline";
-import { IncognitoIcon as line_duotone } from "./line-duotone";
+import { IncognitoIcon as line } from "./line.ts";
+import { IncognitoIcon as bold } from "./bold.ts";
+import { IncognitoIcon as duotone } from "./duotone.ts";
+import { IncognitoIcon as broken } from "./broken.ts";
+import { IncognitoIcon as outline } from "./outline.ts";
+import { IncognitoIcon as line_duotone } from "./line-duotone.ts";
 
 export const IncognitoIcon: IconEntry = {
     line: line,

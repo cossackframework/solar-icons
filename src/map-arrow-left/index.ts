@@ -4,12 +4,12 @@
  *   One style:   import { MapArrowLeftIcon } from '@cossackframework/solar-icons/map-arrow-left/<style>'
  */
 import type { IconEntry } from "../types";
-import { MapArrowLeftIcon as line } from "./line";
-import { MapArrowLeftIcon as bold } from "./bold";
-import { MapArrowLeftIcon as duotone } from "./duotone";
-import { MapArrowLeftIcon as broken } from "./broken";
-import { MapArrowLeftIcon as outline } from "./outline";
-import { MapArrowLeftIcon as line_duotone } from "./line-duotone";
+import { MapArrowLeftIcon as line } from "./line.ts";
+import { MapArrowLeftIcon as bold } from "./bold.ts";
+import { MapArrowLeftIcon as duotone } from "./duotone.ts";
+import { MapArrowLeftIcon as broken } from "./broken.ts";
+import { MapArrowLeftIcon as outline } from "./outline.ts";
+import { MapArrowLeftIcon as line_duotone } from "./line-duotone.ts";
 
 export const MapArrowLeftIcon: IconEntry = {
     line: line,

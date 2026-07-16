@@ -4,12 +4,12 @@
  *   One style:   import { BookmarkSquareMinimalisticIcon } from '@cossackframework/solar-icons/bookmark-square-minimalistic/<style>'
  */
 import type { IconEntry } from "../types";
-import { BookmarkSquareMinimalisticIcon as line } from "./line";
-import { BookmarkSquareMinimalisticIcon as bold } from "./bold";
-import { BookmarkSquareMinimalisticIcon as duotone } from "./duotone";
-import { BookmarkSquareMinimalisticIcon as broken } from "./broken";
-import { BookmarkSquareMinimalisticIcon as outline } from "./outline";
-import { BookmarkSquareMinimalisticIcon as line_duotone } from "./line-duotone";
+import { BookmarkSquareMinimalisticIcon as line } from "./line.ts";
+import { BookmarkSquareMinimalisticIcon as bold } from "./bold.ts";
+import { BookmarkSquareMinimalisticIcon as duotone } from "./duotone.ts";
+import { BookmarkSquareMinimalisticIcon as broken } from "./broken.ts";
+import { BookmarkSquareMinimalisticIcon as outline } from "./outline.ts";
+import { BookmarkSquareMinimalisticIcon as line_duotone } from "./line-duotone.ts";
 
 export const BookmarkSquareMinimalisticIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { Translation2Icon } from '@cossackframework/solar-icons/translation-2/<style>'
  */
 import type { IconEntry } from "../types";
-import { Translation2Icon as line } from "./line";
-import { Translation2Icon as bold } from "./bold";
-import { Translation2Icon as duotone } from "./duotone";
-import { Translation2Icon as broken } from "./broken";
-import { Translation2Icon as outline } from "./outline";
-import { Translation2Icon as line_duotone } from "./line-duotone";
+import { Translation2Icon as line } from "./line.ts";
+import { Translation2Icon as bold } from "./bold.ts";
+import { Translation2Icon as duotone } from "./duotone.ts";
+import { Translation2Icon as broken } from "./broken.ts";
+import { Translation2Icon as outline } from "./outline.ts";
+import { Translation2Icon as line_duotone } from "./line-duotone.ts";
 
 export const Translation2Icon: IconEntry = {
     line: line,

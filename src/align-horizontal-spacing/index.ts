@@ -4,12 +4,12 @@
  *   One style:   import { AlignHorizontalSpacingIcon } from '@cossackframework/solar-icons/align-horizontal-spacing/<style>'
  */
 import type { IconEntry } from "../types";
-import { AlignHorizontalSpacingIcon as line } from "./line";
-import { AlignHorizontalSpacingIcon as bold } from "./bold";
-import { AlignHorizontalSpacingIcon as duotone } from "./duotone";
-import { AlignHorizontalSpacingIcon as broken } from "./broken";
-import { AlignHorizontalSpacingIcon as outline } from "./outline";
-import { AlignHorizontalSpacingIcon as line_duotone } from "./line-duotone";
+import { AlignHorizontalSpacingIcon as line } from "./line.ts";
+import { AlignHorizontalSpacingIcon as bold } from "./bold.ts";
+import { AlignHorizontalSpacingIcon as duotone } from "./duotone.ts";
+import { AlignHorizontalSpacingIcon as broken } from "./broken.ts";
+import { AlignHorizontalSpacingIcon as outline } from "./outline.ts";
+import { AlignHorizontalSpacingIcon as line_duotone } from "./line-duotone.ts";
 
 export const AlignHorizontalSpacingIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { MoneyRollIcon } from '@cossackframework/solar-icons/money-roll/<style>'
  */
 import type { IconEntry } from "../types";
-import { MoneyRollIcon as line } from "./line";
-import { MoneyRollIcon as bold } from "./bold";
-import { MoneyRollIcon as duotone } from "./duotone";
-import { MoneyRollIcon as broken } from "./broken";
-import { MoneyRollIcon as outline } from "./outline";
-import { MoneyRollIcon as line_duotone } from "./line-duotone";
+import { MoneyRollIcon as line } from "./line.ts";
+import { MoneyRollIcon as bold } from "./bold.ts";
+import { MoneyRollIcon as duotone } from "./duotone.ts";
+import { MoneyRollIcon as broken } from "./broken.ts";
+import { MoneyRollIcon as outline } from "./outline.ts";
+import { MoneyRollIcon as line_duotone } from "./line-duotone.ts";
 
 export const MoneyRollIcon: IconEntry = {
     line: line,

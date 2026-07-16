@@ -4,12 +4,12 @@
  *   One style:   import { DisketteIcon } from '@cossackframework/solar-icons/diskette/<style>'
  */
 import type { IconEntry } from "../types";
-import { DisketteIcon as line } from "./line";
-import { DisketteIcon as bold } from "./bold";
-import { DisketteIcon as duotone } from "./duotone";
-import { DisketteIcon as broken } from "./broken";
-import { DisketteIcon as outline } from "./outline";
-import { DisketteIcon as line_duotone } from "./line-duotone";
+import { DisketteIcon as line } from "./line.ts";
+import { DisketteIcon as bold } from "./bold.ts";
+import { DisketteIcon as duotone } from "./duotone.ts";
+import { DisketteIcon as broken } from "./broken.ts";
+import { DisketteIcon as outline } from "./outline.ts";
+import { DisketteIcon as line_duotone } from "./line-duotone.ts";
 
 export const DisketteIcon: IconEntry = {
     line: line,

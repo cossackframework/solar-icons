@@ -4,12 +4,12 @@
  *   One style:   import { HighQualityIcon } from '@cossackframework/solar-icons/high-quality/<style>'
  */
 import type { IconEntry } from "../types";
-import { HighQualityIcon as line } from "./line";
-import { HighQualityIcon as bold } from "./bold";
-import { HighQualityIcon as duotone } from "./duotone";
-import { HighQualityIcon as broken } from "./broken";
-import { HighQualityIcon as outline } from "./outline";
-import { HighQualityIcon as line_duotone } from "./line-duotone";
+import { HighQualityIcon as line } from "./line.ts";
+import { HighQualityIcon as bold } from "./bold.ts";
+import { HighQualityIcon as duotone } from "./duotone.ts";
+import { HighQualityIcon as broken } from "./broken.ts";
+import { HighQualityIcon as outline } from "./outline.ts";
+import { HighQualityIcon as line_duotone } from "./line-duotone.ts";
 
 export const HighQualityIcon: IconEntry = {
     line: line,

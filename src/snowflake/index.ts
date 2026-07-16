@@ -4,12 +4,12 @@
  *   One style:   import { SnowflakeIcon } from '@cossackframework/solar-icons/snowflake/<style>'
  */
 import type { IconEntry } from "../types";
-import { SnowflakeIcon as line } from "./line";
-import { SnowflakeIcon as bold } from "./bold";
-import { SnowflakeIcon as duotone } from "./duotone";
-import { SnowflakeIcon as broken } from "./broken";
-import { SnowflakeIcon as outline } from "./outline";
-import { SnowflakeIcon as line_duotone } from "./line-duotone";
+import { SnowflakeIcon as line } from "./line.ts";
+import { SnowflakeIcon as bold } from "./bold.ts";
+import { SnowflakeIcon as duotone } from "./duotone.ts";
+import { SnowflakeIcon as broken } from "./broken.ts";
+import { SnowflakeIcon as outline } from "./outline.ts";
+import { SnowflakeIcon as line_duotone } from "./line-duotone.ts";
 
 export const SnowflakeIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { AirbudsCaseOpenIcon } from '@cossackframework/solar-icons/airbuds-case-open/<style>'
  */
 import type { IconEntry } from "../types";
-import { AirbudsCaseOpenIcon as line } from "./line";
-import { AirbudsCaseOpenIcon as bold } from "./bold";
-import { AirbudsCaseOpenIcon as duotone } from "./duotone";
-import { AirbudsCaseOpenIcon as broken } from "./broken";
-import { AirbudsCaseOpenIcon as outline } from "./outline";
-import { AirbudsCaseOpenIcon as line_duotone } from "./line-duotone";
+import { AirbudsCaseOpenIcon as line } from "./line.ts";
+import { AirbudsCaseOpenIcon as bold } from "./bold.ts";
+import { AirbudsCaseOpenIcon as duotone } from "./duotone.ts";
+import { AirbudsCaseOpenIcon as broken } from "./broken.ts";
+import { AirbudsCaseOpenIcon as outline } from "./outline.ts";
+import { AirbudsCaseOpenIcon as line_duotone } from "./line-duotone.ts";
 
 export const AirbudsCaseOpenIcon: IconEntry = {
     line: line,

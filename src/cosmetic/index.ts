@@ -4,12 +4,12 @@
  *   One style:   import { CosmeticIcon } from '@cossackframework/solar-icons/cosmetic/<style>'
  */
 import type { IconEntry } from "../types";
-import { CosmeticIcon as line } from "./line";
-import { CosmeticIcon as bold } from "./bold";
-import { CosmeticIcon as duotone } from "./duotone";
-import { CosmeticIcon as broken } from "./broken";
-import { CosmeticIcon as outline } from "./outline";
-import { CosmeticIcon as line_duotone } from "./line-duotone";
+import { CosmeticIcon as line } from "./line.ts";
+import { CosmeticIcon as bold } from "./bold.ts";
+import { CosmeticIcon as duotone } from "./duotone.ts";
+import { CosmeticIcon as broken } from "./broken.ts";
+import { CosmeticIcon as outline } from "./outline.ts";
+import { CosmeticIcon as line_duotone } from "./line-duotone.ts";
 
 export const CosmeticIcon: IconEntry = {
     line: line,

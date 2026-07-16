@@ -4,12 +4,12 @@
  *   One style:   import { BranchingPathsUpIcon } from '@cossackframework/solar-icons/branching-paths-up/<style>'
  */
 import type { IconEntry } from "../types";
-import { BranchingPathsUpIcon as line } from "./line";
-import { BranchingPathsUpIcon as bold } from "./bold";
-import { BranchingPathsUpIcon as duotone } from "./duotone";
-import { BranchingPathsUpIcon as broken } from "./broken";
-import { BranchingPathsUpIcon as outline } from "./outline";
-import { BranchingPathsUpIcon as line_duotone } from "./line-duotone";
+import { BranchingPathsUpIcon as line } from "./line.ts";
+import { BranchingPathsUpIcon as bold } from "./bold.ts";
+import { BranchingPathsUpIcon as duotone } from "./duotone.ts";
+import { BranchingPathsUpIcon as broken } from "./broken.ts";
+import { BranchingPathsUpIcon as outline } from "./outline.ts";
+import { BranchingPathsUpIcon as line_duotone } from "./line-duotone.ts";
 
 export const BranchingPathsUpIcon: IconEntry = {
     line: line,

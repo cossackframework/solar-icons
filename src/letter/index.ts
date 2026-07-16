@@ -4,12 +4,12 @@
  *   One style:   import { LetterIcon } from '@cossackframework/solar-icons/letter/<style>'
  */
 import type { IconEntry } from "../types";
-import { LetterIcon as line } from "./line";
-import { LetterIcon as bold } from "./bold";
-import { LetterIcon as duotone } from "./duotone";
-import { LetterIcon as broken } from "./broken";
-import { LetterIcon as outline } from "./outline";
-import { LetterIcon as line_duotone } from "./line-duotone";
+import { LetterIcon as line } from "./line.ts";
+import { LetterIcon as bold } from "./bold.ts";
+import { LetterIcon as duotone } from "./duotone.ts";
+import { LetterIcon as broken } from "./broken.ts";
+import { LetterIcon as outline } from "./outline.ts";
+import { LetterIcon as line_duotone } from "./line-duotone.ts";
 
 export const LetterIcon: IconEntry = {
     line: line,

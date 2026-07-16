@@ -4,12 +4,12 @@
  *   One style:   import { ShopIcon } from '@cossackframework/solar-icons/shop/<style>'
  */
 import type { IconEntry } from "../types";
-import { ShopIcon as line } from "./line";
-import { ShopIcon as bold } from "./bold";
-import { ShopIcon as duotone } from "./duotone";
-import { ShopIcon as broken } from "./broken";
-import { ShopIcon as outline } from "./outline";
-import { ShopIcon as line_duotone } from "./line-duotone";
+import { ShopIcon as line } from "./line.ts";
+import { ShopIcon as bold } from "./bold.ts";
+import { ShopIcon as duotone } from "./duotone.ts";
+import { ShopIcon as broken } from "./broken.ts";
+import { ShopIcon as outline } from "./outline.ts";
+import { ShopIcon as line_duotone } from "./line-duotone.ts";
 
 export const ShopIcon: IconEntry = {
     line: line,

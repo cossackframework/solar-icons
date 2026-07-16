@@ -4,12 +4,12 @@
  *   One style:   import { CommandIcon } from '@cossackframework/solar-icons/command/<style>'
  */
 import type { IconEntry } from "../types";
-import { CommandIcon as line } from "./line";
-import { CommandIcon as bold } from "./bold";
-import { CommandIcon as duotone } from "./duotone";
-import { CommandIcon as broken } from "./broken";
-import { CommandIcon as outline } from "./outline";
-import { CommandIcon as line_duotone } from "./line-duotone";
+import { CommandIcon as line } from "./line.ts";
+import { CommandIcon as bold } from "./bold.ts";
+import { CommandIcon as duotone } from "./duotone.ts";
+import { CommandIcon as broken } from "./broken.ts";
+import { CommandIcon as outline } from "./outline.ts";
+import { CommandIcon as line_duotone } from "./line-duotone.ts";
 
 export const CommandIcon: IconEntry = {
     line: line,

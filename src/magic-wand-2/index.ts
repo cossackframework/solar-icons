@@ -4,12 +4,12 @@
  *   One style:   import { MagicWand2Icon } from '@cossackframework/solar-icons/magic-wand-2/<style>'
  */
 import type { IconEntry } from "../types";
-import { MagicWand2Icon as line } from "./line";
-import { MagicWand2Icon as bold } from "./bold";
-import { MagicWand2Icon as duotone } from "./duotone";
-import { MagicWand2Icon as broken } from "./broken";
-import { MagicWand2Icon as outline } from "./outline";
-import { MagicWand2Icon as line_duotone } from "./line-duotone";
+import { MagicWand2Icon as line } from "./line.ts";
+import { MagicWand2Icon as bold } from "./bold.ts";
+import { MagicWand2Icon as duotone } from "./duotone.ts";
+import { MagicWand2Icon as broken } from "./broken.ts";
+import { MagicWand2Icon as outline } from "./outline.ts";
+import { MagicWand2Icon as line_duotone } from "./line-duotone.ts";
 
 export const MagicWand2Icon: IconEntry = {
     line: line,

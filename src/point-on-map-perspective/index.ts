@@ -4,12 +4,12 @@
  *   One style:   import { PointOnMapPerspectiveIcon } from '@cossackframework/solar-icons/point-on-map-perspective/<style>'
  */
 import type { IconEntry } from "../types";
-import { PointOnMapPerspectiveIcon as line } from "./line";
-import { PointOnMapPerspectiveIcon as bold } from "./bold";
-import { PointOnMapPerspectiveIcon as duotone } from "./duotone";
-import { PointOnMapPerspectiveIcon as broken } from "./broken";
-import { PointOnMapPerspectiveIcon as outline } from "./outline";
-import { PointOnMapPerspectiveIcon as line_duotone } from "./line-duotone";
+import { PointOnMapPerspectiveIcon as line } from "./line.ts";
+import { PointOnMapPerspectiveIcon as bold } from "./bold.ts";
+import { PointOnMapPerspectiveIcon as duotone } from "./duotone.ts";
+import { PointOnMapPerspectiveIcon as broken } from "./broken.ts";
+import { PointOnMapPerspectiveIcon as outline } from "./outline.ts";
+import { PointOnMapPerspectiveIcon as line_duotone } from "./line-duotone.ts";
 
 export const PointOnMapPerspectiveIcon: IconEntry = {
     line: line,

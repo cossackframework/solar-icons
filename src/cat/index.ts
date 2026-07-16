@@ -4,12 +4,12 @@
  *   One style:   import { CatIcon } from '@cossackframework/solar-icons/cat/<style>'
  */
 import type { IconEntry } from "../types";
-import { CatIcon as line } from "./line";
-import { CatIcon as bold } from "./bold";
-import { CatIcon as duotone } from "./duotone";
-import { CatIcon as broken } from "./broken";
-import { CatIcon as outline } from "./outline";
-import { CatIcon as line_duotone } from "./line-duotone";
+import { CatIcon as line } from "./line.ts";
+import { CatIcon as bold } from "./bold.ts";
+import { CatIcon as duotone } from "./duotone.ts";
+import { CatIcon as broken } from "./broken.ts";
+import { CatIcon as outline } from "./outline.ts";
+import { CatIcon as line_duotone } from "./line-duotone.ts";
 
 export const CatIcon: IconEntry = {
     line: line,

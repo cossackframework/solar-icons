@@ -4,12 +4,12 @@
  *   One style:   import { PaperclipIcon } from '@cossackframework/solar-icons/paperclip/<style>'
  */
 import type { IconEntry } from "../types";
-import { PaperclipIcon as line } from "./line";
-import { PaperclipIcon as bold } from "./bold";
-import { PaperclipIcon as duotone } from "./duotone";
-import { PaperclipIcon as broken } from "./broken";
-import { PaperclipIcon as outline } from "./outline";
-import { PaperclipIcon as line_duotone } from "./line-duotone";
+import { PaperclipIcon as line } from "./line.ts";
+import { PaperclipIcon as bold } from "./bold.ts";
+import { PaperclipIcon as duotone } from "./duotone.ts";
+import { PaperclipIcon as broken } from "./broken.ts";
+import { PaperclipIcon as outline } from "./outline.ts";
+import { PaperclipIcon as line_duotone } from "./line-duotone.ts";
 
 export const PaperclipIcon: IconEntry = {
     line: line,

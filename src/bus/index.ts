@@ -4,12 +4,12 @@
  *   One style:   import { BusIcon } from '@cossackframework/solar-icons/bus/<style>'
  */
 import type { IconEntry } from "../types";
-import { BusIcon as line } from "./line";
-import { BusIcon as bold } from "./bold";
-import { BusIcon as duotone } from "./duotone";
-import { BusIcon as broken } from "./broken";
-import { BusIcon as outline } from "./outline";
-import { BusIcon as line_duotone } from "./line-duotone";
+import { BusIcon as line } from "./line.ts";
+import { BusIcon as bold } from "./bold.ts";
+import { BusIcon as duotone } from "./duotone.ts";
+import { BusIcon as broken } from "./broken.ts";
+import { BusIcon as outline } from "./outline.ts";
+import { BusIcon as line_duotone } from "./line-duotone.ts";
 
 export const BusIcon: IconEntry = {
     line: line,

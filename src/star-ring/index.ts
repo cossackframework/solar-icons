@@ -4,12 +4,12 @@
  *   One style:   import { StarRingIcon } from '@cossackframework/solar-icons/star-ring/<style>'
  */
 import type { IconEntry } from "../types";
-import { StarRingIcon as line } from "./line";
-import { StarRingIcon as bold } from "./bold";
-import { StarRingIcon as duotone } from "./duotone";
-import { StarRingIcon as broken } from "./broken";
-import { StarRingIcon as outline } from "./outline";
-import { StarRingIcon as line_duotone } from "./line-duotone";
+import { StarRingIcon as line } from "./line.ts";
+import { StarRingIcon as bold } from "./bold.ts";
+import { StarRingIcon as duotone } from "./duotone.ts";
+import { StarRingIcon as broken } from "./broken.ts";
+import { StarRingIcon as outline } from "./outline.ts";
+import { StarRingIcon as line_duotone } from "./line-duotone.ts";
 
 export const StarRingIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { LikeIcon } from '@cossackframework/solar-icons/like/<style>'
  */
 import type { IconEntry } from "../types";
-import { LikeIcon as line } from "./line";
-import { LikeIcon as bold } from "./bold";
-import { LikeIcon as duotone } from "./duotone";
-import { LikeIcon as broken } from "./broken";
-import { LikeIcon as outline } from "./outline";
-import { LikeIcon as line_duotone } from "./line-duotone";
+import { LikeIcon as line } from "./line.ts";
+import { LikeIcon as bold } from "./bold.ts";
+import { LikeIcon as duotone } from "./duotone.ts";
+import { LikeIcon as broken } from "./broken.ts";
+import { LikeIcon as outline } from "./outline.ts";
+import { LikeIcon as line_duotone } from "./line-duotone.ts";
 
 export const LikeIcon: IconEntry = {
     line: line,

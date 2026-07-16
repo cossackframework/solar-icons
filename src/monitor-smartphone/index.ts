@@ -4,12 +4,12 @@
  *   One style:   import { MonitorSmartphoneIcon } from '@cossackframework/solar-icons/monitor-smartphone/<style>'
  */
 import type { IconEntry } from "../types";
-import { MonitorSmartphoneIcon as line } from "./line";
-import { MonitorSmartphoneIcon as bold } from "./bold";
-import { MonitorSmartphoneIcon as duotone } from "./duotone";
-import { MonitorSmartphoneIcon as broken } from "./broken";
-import { MonitorSmartphoneIcon as outline } from "./outline";
-import { MonitorSmartphoneIcon as line_duotone } from "./line-duotone";
+import { MonitorSmartphoneIcon as line } from "./line.ts";
+import { MonitorSmartphoneIcon as bold } from "./bold.ts";
+import { MonitorSmartphoneIcon as duotone } from "./duotone.ts";
+import { MonitorSmartphoneIcon as broken } from "./broken.ts";
+import { MonitorSmartphoneIcon as outline } from "./outline.ts";
+import { MonitorSmartphoneIcon as line_duotone } from "./line-duotone.ts";
 
 export const MonitorSmartphoneIcon: IconEntry = {
     line: line,

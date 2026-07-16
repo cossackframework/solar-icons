@@ -4,12 +4,12 @@
  *   One style:   import { PlanetIcon } from '@cossackframework/solar-icons/planet/<style>'
  */
 import type { IconEntry } from "../types";
-import { PlanetIcon as line } from "./line";
-import { PlanetIcon as bold } from "./bold";
-import { PlanetIcon as duotone } from "./duotone";
-import { PlanetIcon as broken } from "./broken";
-import { PlanetIcon as outline } from "./outline";
-import { PlanetIcon as line_duotone } from "./line-duotone";
+import { PlanetIcon as line } from "./line.ts";
+import { PlanetIcon as bold } from "./bold.ts";
+import { PlanetIcon as duotone } from "./duotone.ts";
+import { PlanetIcon as broken } from "./broken.ts";
+import { PlanetIcon as outline } from "./outline.ts";
+import { PlanetIcon as line_duotone } from "./line-duotone.ts";
 
 export const PlanetIcon: IconEntry = {
     line: line,

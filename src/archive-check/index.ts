@@ -4,12 +4,12 @@
  *   One style:   import { ArchiveCheckIcon } from '@cossackframework/solar-icons/archive-check/<style>'
  */
 import type { IconEntry } from "../types";
-import { ArchiveCheckIcon as line } from "./line";
-import { ArchiveCheckIcon as bold } from "./bold";
-import { ArchiveCheckIcon as duotone } from "./duotone";
-import { ArchiveCheckIcon as broken } from "./broken";
-import { ArchiveCheckIcon as outline } from "./outline";
-import { ArchiveCheckIcon as line_duotone } from "./line-duotone";
+import { ArchiveCheckIcon as line } from "./line.ts";
+import { ArchiveCheckIcon as bold } from "./bold.ts";
+import { ArchiveCheckIcon as duotone } from "./duotone.ts";
+import { ArchiveCheckIcon as broken } from "./broken.ts";
+import { ArchiveCheckIcon as outline } from "./outline.ts";
+import { ArchiveCheckIcon as line_duotone } from "./line-duotone.ts";
 
 export const ArchiveCheckIcon: IconEntry = {
     line: line,

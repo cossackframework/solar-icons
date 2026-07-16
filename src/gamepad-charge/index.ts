@@ -4,12 +4,12 @@
  *   One style:   import { GamepadChargeIcon } from '@cossackframework/solar-icons/gamepad-charge/<style>'
  */
 import type { IconEntry } from "../types";
-import { GamepadChargeIcon as line } from "./line";
-import { GamepadChargeIcon as bold } from "./bold";
-import { GamepadChargeIcon as duotone } from "./duotone";
-import { GamepadChargeIcon as broken } from "./broken";
-import { GamepadChargeIcon as outline } from "./outline";
-import { GamepadChargeIcon as line_duotone } from "./line-duotone";
+import { GamepadChargeIcon as line } from "./line.ts";
+import { GamepadChargeIcon as bold } from "./bold.ts";
+import { GamepadChargeIcon as duotone } from "./duotone.ts";
+import { GamepadChargeIcon as broken } from "./broken.ts";
+import { GamepadChargeIcon as outline } from "./outline.ts";
+import { GamepadChargeIcon as line_duotone } from "./line-duotone.ts";
 
 export const GamepadChargeIcon: IconEntry = {
     line: line,

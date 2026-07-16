@@ -4,12 +4,12 @@
  *   One style:   import { DiagramUpIcon } from '@cossackframework/solar-icons/diagram-up/<style>'
  */
 import type { IconEntry } from "../types";
-import { DiagramUpIcon as line } from "./line";
-import { DiagramUpIcon as bold } from "./bold";
-import { DiagramUpIcon as duotone } from "./duotone";
-import { DiagramUpIcon as broken } from "./broken";
-import { DiagramUpIcon as outline } from "./outline";
-import { DiagramUpIcon as line_duotone } from "./line-duotone";
+import { DiagramUpIcon as line } from "./line.ts";
+import { DiagramUpIcon as bold } from "./bold.ts";
+import { DiagramUpIcon as duotone } from "./duotone.ts";
+import { DiagramUpIcon as broken } from "./broken.ts";
+import { DiagramUpIcon as outline } from "./outline.ts";
+import { DiagramUpIcon as line_duotone } from "./line-duotone.ts";
 
 export const DiagramUpIcon: IconEntry = {
     line: line,

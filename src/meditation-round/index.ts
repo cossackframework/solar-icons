@@ -4,12 +4,12 @@
  *   One style:   import { MeditationRoundIcon } from '@cossackframework/solar-icons/meditation-round/<style>'
  */
 import type { IconEntry } from "../types";
-import { MeditationRoundIcon as line } from "./line";
-import { MeditationRoundIcon as bold } from "./bold";
-import { MeditationRoundIcon as duotone } from "./duotone";
-import { MeditationRoundIcon as broken } from "./broken";
-import { MeditationRoundIcon as outline } from "./outline";
-import { MeditationRoundIcon as line_duotone } from "./line-duotone";
+import { MeditationRoundIcon as line } from "./line.ts";
+import { MeditationRoundIcon as bold } from "./bold.ts";
+import { MeditationRoundIcon as duotone } from "./duotone.ts";
+import { MeditationRoundIcon as broken } from "./broken.ts";
+import { MeditationRoundIcon as outline } from "./outline.ts";
+import { MeditationRoundIcon as line_duotone } from "./line-duotone.ts";
 
 export const MeditationRoundIcon: IconEntry = {
     line: line,

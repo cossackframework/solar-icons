@@ -4,12 +4,12 @@
  *   One style:   import { GlassesIcon } from '@cossackframework/solar-icons/glasses/<style>'
  */
 import type { IconEntry } from "../types";
-import { GlassesIcon as line } from "./line";
-import { GlassesIcon as bold } from "./bold";
-import { GlassesIcon as duotone } from "./duotone";
-import { GlassesIcon as broken } from "./broken";
-import { GlassesIcon as outline } from "./outline";
-import { GlassesIcon as line_duotone } from "./line-duotone";
+import { GlassesIcon as line } from "./line.ts";
+import { GlassesIcon as bold } from "./bold.ts";
+import { GlassesIcon as duotone } from "./duotone.ts";
+import { GlassesIcon as broken } from "./broken.ts";
+import { GlassesIcon as outline } from "./outline.ts";
+import { GlassesIcon as line_duotone } from "./line-duotone.ts";
 
 export const GlassesIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { TextBoldIcon } from '@cossackframework/solar-icons/text-bold/<style>'
  */
 import type { IconEntry } from "../types";
-import { TextBoldIcon as line } from "./line";
-import { TextBoldIcon as bold } from "./bold";
-import { TextBoldIcon as duotone } from "./duotone";
-import { TextBoldIcon as broken } from "./broken";
-import { TextBoldIcon as outline } from "./outline";
-import { TextBoldIcon as line_duotone } from "./line-duotone";
+import { TextBoldIcon as line } from "./line.ts";
+import { TextBoldIcon as bold } from "./bold.ts";
+import { TextBoldIcon as duotone } from "./duotone.ts";
+import { TextBoldIcon as broken } from "./broken.ts";
+import { TextBoldIcon as outline } from "./outline.ts";
+import { TextBoldIcon as line_duotone } from "./line-duotone.ts";
 
 export const TextBoldIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { ShieldNetworkIcon } from '@cossackframework/solar-icons/shield-network/<style>'
  */
 import type { IconEntry } from "../types";
-import { ShieldNetworkIcon as line } from "./line";
-import { ShieldNetworkIcon as bold } from "./bold";
-import { ShieldNetworkIcon as duotone } from "./duotone";
-import { ShieldNetworkIcon as broken } from "./broken";
-import { ShieldNetworkIcon as outline } from "./outline";
-import { ShieldNetworkIcon as line_duotone } from "./line-duotone";
+import { ShieldNetworkIcon as line } from "./line.ts";
+import { ShieldNetworkIcon as bold } from "./bold.ts";
+import { ShieldNetworkIcon as duotone } from "./duotone.ts";
+import { ShieldNetworkIcon as broken } from "./broken.ts";
+import { ShieldNetworkIcon as outline } from "./outline.ts";
+import { ShieldNetworkIcon as line_duotone } from "./line-duotone.ts";
 
 export const ShieldNetworkIcon: IconEntry = {
     line: line,

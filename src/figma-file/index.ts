@@ -4,12 +4,12 @@
  *   One style:   import { FigmaFileIcon } from '@cossackframework/solar-icons/figma-file/<style>'
  */
 import type { IconEntry } from "../types";
-import { FigmaFileIcon as line } from "./line";
-import { FigmaFileIcon as bold } from "./bold";
-import { FigmaFileIcon as duotone } from "./duotone";
-import { FigmaFileIcon as broken } from "./broken";
-import { FigmaFileIcon as outline } from "./outline";
-import { FigmaFileIcon as line_duotone } from "./line-duotone";
+import { FigmaFileIcon as line } from "./line.ts";
+import { FigmaFileIcon as bold } from "./bold.ts";
+import { FigmaFileIcon as duotone } from "./duotone.ts";
+import { FigmaFileIcon as broken } from "./broken.ts";
+import { FigmaFileIcon as outline } from "./outline.ts";
+import { FigmaFileIcon as line_duotone } from "./line-duotone.ts";
 
 export const FigmaFileIcon: IconEntry = {
     line: line,

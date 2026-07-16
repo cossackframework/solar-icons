@@ -4,12 +4,12 @@
  *   One style:   import { VolumeCrossIcon } from '@cossackframework/solar-icons/volume-cross/<style>'
  */
 import type { IconEntry } from "../types";
-import { VolumeCrossIcon as line } from "./line";
-import { VolumeCrossIcon as bold } from "./bold";
-import { VolumeCrossIcon as duotone } from "./duotone";
-import { VolumeCrossIcon as broken } from "./broken";
-import { VolumeCrossIcon as outline } from "./outline";
-import { VolumeCrossIcon as line_duotone } from "./line-duotone";
+import { VolumeCrossIcon as line } from "./line.ts";
+import { VolumeCrossIcon as bold } from "./bold.ts";
+import { VolumeCrossIcon as duotone } from "./duotone.ts";
+import { VolumeCrossIcon as broken } from "./broken.ts";
+import { VolumeCrossIcon as outline } from "./outline.ts";
+import { VolumeCrossIcon as line_duotone } from "./line-duotone.ts";
 
 export const VolumeCrossIcon: IconEntry = {
     line: line,

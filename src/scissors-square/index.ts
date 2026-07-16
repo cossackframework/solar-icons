@@ -4,12 +4,12 @@
  *   One style:   import { ScissorsSquareIcon } from '@cossackframework/solar-icons/scissors-square/<style>'
  */
 import type { IconEntry } from "../types";
-import { ScissorsSquareIcon as line } from "./line";
-import { ScissorsSquareIcon as bold } from "./bold";
-import { ScissorsSquareIcon as duotone } from "./duotone";
-import { ScissorsSquareIcon as broken } from "./broken";
-import { ScissorsSquareIcon as outline } from "./outline";
-import { ScissorsSquareIcon as line_duotone } from "./line-duotone";
+import { ScissorsSquareIcon as line } from "./line.ts";
+import { ScissorsSquareIcon as bold } from "./bold.ts";
+import { ScissorsSquareIcon as duotone } from "./duotone.ts";
+import { ScissorsSquareIcon as broken } from "./broken.ts";
+import { ScissorsSquareIcon as outline } from "./outline.ts";
+import { ScissorsSquareIcon as line_duotone } from "./line-duotone.ts";
 
 export const ScissorsSquareIcon: IconEntry = {
     line: line,

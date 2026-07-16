@@ -4,12 +4,12 @@
  *   One style:   import { Tennis2Icon } from '@cossackframework/solar-icons/tennis-2/<style>'
  */
 import type { IconEntry } from "../types";
-import { Tennis2Icon as line } from "./line";
-import { Tennis2Icon as bold } from "./bold";
-import { Tennis2Icon as duotone } from "./duotone";
-import { Tennis2Icon as broken } from "./broken";
-import { Tennis2Icon as outline } from "./outline";
-import { Tennis2Icon as line_duotone } from "./line-duotone";
+import { Tennis2Icon as line } from "./line.ts";
+import { Tennis2Icon as bold } from "./bold.ts";
+import { Tennis2Icon as duotone } from "./duotone.ts";
+import { Tennis2Icon as broken } from "./broken.ts";
+import { Tennis2Icon as outline } from "./outline.ts";
+import { Tennis2Icon as line_duotone } from "./line-duotone.ts";
 
 export const Tennis2Icon: IconEntry = {
     line: line,

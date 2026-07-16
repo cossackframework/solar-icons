@@ -4,12 +4,12 @@
  *   One style:   import { WalkingIcon } from '@cossackframework/solar-icons/walking/<style>'
  */
 import type { IconEntry } from "../types";
-import { WalkingIcon as line } from "./line";
-import { WalkingIcon as bold } from "./bold";
-import { WalkingIcon as duotone } from "./duotone";
-import { WalkingIcon as broken } from "./broken";
-import { WalkingIcon as outline } from "./outline";
-import { WalkingIcon as line_duotone } from "./line-duotone";
+import { WalkingIcon as line } from "./line.ts";
+import { WalkingIcon as bold } from "./bold.ts";
+import { WalkingIcon as duotone } from "./duotone.ts";
+import { WalkingIcon as broken } from "./broken.ts";
+import { WalkingIcon as outline } from "./outline.ts";
+import { WalkingIcon as line_duotone } from "./line-duotone.ts";
 
 export const WalkingIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { WinRarIcon } from '@cossackframework/solar-icons/win-rar/<style>'
  */
 import type { IconEntry } from "../types";
-import { WinRarIcon as line } from "./line";
-import { WinRarIcon as bold } from "./bold";
-import { WinRarIcon as duotone } from "./duotone";
-import { WinRarIcon as broken } from "./broken";
-import { WinRarIcon as outline } from "./outline";
-import { WinRarIcon as line_duotone } from "./line-duotone";
+import { WinRarIcon as line } from "./line.ts";
+import { WinRarIcon as bold } from "./bold.ts";
+import { WinRarIcon as duotone } from "./duotone.ts";
+import { WinRarIcon as broken } from "./broken.ts";
+import { WinRarIcon as outline } from "./outline.ts";
+import { WinRarIcon as line_duotone } from "./line-duotone.ts";
 
 export const WinRarIcon: IconEntry = {
     line: line,

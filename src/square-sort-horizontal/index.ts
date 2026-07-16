@@ -4,12 +4,12 @@
  *   One style:   import { SquareSortHorizontalIcon } from '@cossackframework/solar-icons/square-sort-horizontal/<style>'
  */
 import type { IconEntry } from "../types";
-import { SquareSortHorizontalIcon as line } from "./line";
-import { SquareSortHorizontalIcon as bold } from "./bold";
-import { SquareSortHorizontalIcon as duotone } from "./duotone";
-import { SquareSortHorizontalIcon as broken } from "./broken";
-import { SquareSortHorizontalIcon as outline } from "./outline";
-import { SquareSortHorizontalIcon as line_duotone } from "./line-duotone";
+import { SquareSortHorizontalIcon as line } from "./line.ts";
+import { SquareSortHorizontalIcon as bold } from "./bold.ts";
+import { SquareSortHorizontalIcon as duotone } from "./duotone.ts";
+import { SquareSortHorizontalIcon as broken } from "./broken.ts";
+import { SquareSortHorizontalIcon as outline } from "./outline.ts";
+import { SquareSortHorizontalIcon as line_duotone } from "./line-duotone.ts";
 
 export const SquareSortHorizontalIcon: IconEntry = {
     line: line,

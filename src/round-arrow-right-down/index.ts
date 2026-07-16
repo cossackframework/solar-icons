@@ -4,12 +4,12 @@
  *   One style:   import { RoundArrowRightDownIcon } from '@cossackframework/solar-icons/round-arrow-right-down/<style>'
  */
 import type { IconEntry } from "../types";
-import { RoundArrowRightDownIcon as line } from "./line";
-import { RoundArrowRightDownIcon as bold } from "./bold";
-import { RoundArrowRightDownIcon as duotone } from "./duotone";
-import { RoundArrowRightDownIcon as broken } from "./broken";
-import { RoundArrowRightDownIcon as outline } from "./outline";
-import { RoundArrowRightDownIcon as line_duotone } from "./line-duotone";
+import { RoundArrowRightDownIcon as line } from "./line.ts";
+import { RoundArrowRightDownIcon as bold } from "./bold.ts";
+import { RoundArrowRightDownIcon as duotone } from "./duotone.ts";
+import { RoundArrowRightDownIcon as broken } from "./broken.ts";
+import { RoundArrowRightDownIcon as outline } from "./outline.ts";
+import { RoundArrowRightDownIcon as line_duotone } from "./line-duotone.ts";
 
 export const RoundArrowRightDownIcon: IconEntry = {
     line: line,

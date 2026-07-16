@@ -4,12 +4,12 @@
  *   One style:   import { FloorLampIcon } from '@cossackframework/solar-icons/floor-lamp/<style>'
  */
 import type { IconEntry } from "../types";
-import { FloorLampIcon as line } from "./line";
-import { FloorLampIcon as bold } from "./bold";
-import { FloorLampIcon as duotone } from "./duotone";
-import { FloorLampIcon as broken } from "./broken";
-import { FloorLampIcon as outline } from "./outline";
-import { FloorLampIcon as line_duotone } from "./line-duotone";
+import { FloorLampIcon as line } from "./line.ts";
+import { FloorLampIcon as bold } from "./bold.ts";
+import { FloorLampIcon as duotone } from "./duotone.ts";
+import { FloorLampIcon as broken } from "./broken.ts";
+import { FloorLampIcon as outline } from "./outline.ts";
+import { FloorLampIcon as line_duotone } from "./line-duotone.ts";
 
 export const FloorLampIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { HamburgerMenuIcon } from '@cossackframework/solar-icons/hamburger-menu/<style>'
  */
 import type { IconEntry } from "../types";
-import { HamburgerMenuIcon as line } from "./line";
-import { HamburgerMenuIcon as bold } from "./bold";
-import { HamburgerMenuIcon as duotone } from "./duotone";
-import { HamburgerMenuIcon as broken } from "./broken";
-import { HamburgerMenuIcon as outline } from "./outline";
-import { HamburgerMenuIcon as line_duotone } from "./line-duotone";
+import { HamburgerMenuIcon as line } from "./line.ts";
+import { HamburgerMenuIcon as bold } from "./bold.ts";
+import { HamburgerMenuIcon as duotone } from "./duotone.ts";
+import { HamburgerMenuIcon as broken } from "./broken.ts";
+import { HamburgerMenuIcon as outline } from "./outline.ts";
+import { HamburgerMenuIcon as line_duotone } from "./line-duotone.ts";
 
 export const HamburgerMenuIcon: IconEntry = {
     line: line,

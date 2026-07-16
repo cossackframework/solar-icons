@@ -4,12 +4,12 @@
  *   One style:   import { GraphUpIcon } from '@cossackframework/solar-icons/graph-up/<style>'
  */
 import type { IconEntry } from "../types";
-import { GraphUpIcon as line } from "./line";
-import { GraphUpIcon as bold } from "./bold";
-import { GraphUpIcon as duotone } from "./duotone";
-import { GraphUpIcon as broken } from "./broken";
-import { GraphUpIcon as outline } from "./outline";
-import { GraphUpIcon as line_duotone } from "./line-duotone";
+import { GraphUpIcon as line } from "./line.ts";
+import { GraphUpIcon as bold } from "./bold.ts";
+import { GraphUpIcon as duotone } from "./duotone.ts";
+import { GraphUpIcon as broken } from "./broken.ts";
+import { GraphUpIcon as outline } from "./outline.ts";
+import { GraphUpIcon as line_duotone } from "./line-duotone.ts";
 
 export const GraphUpIcon: IconEntry = {
     line: line,

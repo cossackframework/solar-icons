@@ -4,12 +4,12 @@
  *   One style:   import { InboxArchiveIcon } from '@cossackframework/solar-icons/inbox-archive/<style>'
  */
 import type { IconEntry } from "../types";
-import { InboxArchiveIcon as line } from "./line";
-import { InboxArchiveIcon as bold } from "./bold";
-import { InboxArchiveIcon as duotone } from "./duotone";
-import { InboxArchiveIcon as broken } from "./broken";
-import { InboxArchiveIcon as outline } from "./outline";
-import { InboxArchiveIcon as line_duotone } from "./line-duotone";
+import { InboxArchiveIcon as line } from "./line.ts";
+import { InboxArchiveIcon as bold } from "./bold.ts";
+import { InboxArchiveIcon as duotone } from "./duotone.ts";
+import { InboxArchiveIcon as broken } from "./broken.ts";
+import { InboxArchiveIcon as outline } from "./outline.ts";
+import { InboxArchiveIcon as line_duotone } from "./line-duotone.ts";
 
 export const InboxArchiveIcon: IconEntry = {
     line: line,

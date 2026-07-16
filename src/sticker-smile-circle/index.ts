@@ -4,12 +4,12 @@
  *   One style:   import { StickerSmileCircleIcon } from '@cossackframework/solar-icons/sticker-smile-circle/<style>'
  */
 import type { IconEntry } from "../types";
-import { StickerSmileCircleIcon as line } from "./line";
-import { StickerSmileCircleIcon as bold } from "./bold";
-import { StickerSmileCircleIcon as duotone } from "./duotone";
-import { StickerSmileCircleIcon as broken } from "./broken";
-import { StickerSmileCircleIcon as outline } from "./outline";
-import { StickerSmileCircleIcon as line_duotone } from "./line-duotone";
+import { StickerSmileCircleIcon as line } from "./line.ts";
+import { StickerSmileCircleIcon as bold } from "./bold.ts";
+import { StickerSmileCircleIcon as duotone } from "./duotone.ts";
+import { StickerSmileCircleIcon as broken } from "./broken.ts";
+import { StickerSmileCircleIcon as outline } from "./outline.ts";
+import { StickerSmileCircleIcon as line_duotone } from "./line-duotone.ts";
 
 export const StickerSmileCircleIcon: IconEntry = {
     line: line,

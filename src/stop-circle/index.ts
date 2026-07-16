@@ -4,12 +4,12 @@
  *   One style:   import { StopCircleIcon } from '@cossackframework/solar-icons/stop-circle/<style>'
  */
 import type { IconEntry } from "../types";
-import { StopCircleIcon as line } from "./line";
-import { StopCircleIcon as bold } from "./bold";
-import { StopCircleIcon as duotone } from "./duotone";
-import { StopCircleIcon as broken } from "./broken";
-import { StopCircleIcon as outline } from "./outline";
-import { StopCircleIcon as line_duotone } from "./line-duotone";
+import { StopCircleIcon as line } from "./line.ts";
+import { StopCircleIcon as bold } from "./bold.ts";
+import { StopCircleIcon as duotone } from "./duotone.ts";
+import { StopCircleIcon as broken } from "./broken.ts";
+import { StopCircleIcon as outline } from "./outline.ts";
+import { StopCircleIcon as line_duotone } from "./line-duotone.ts";
 
 export const StopCircleIcon: IconEntry = {
     line: line,

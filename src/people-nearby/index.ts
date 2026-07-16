@@ -4,12 +4,12 @@
  *   One style:   import { PeopleNearbyIcon } from '@cossackframework/solar-icons/people-nearby/<style>'
  */
 import type { IconEntry } from "../types";
-import { PeopleNearbyIcon as line } from "./line";
-import { PeopleNearbyIcon as bold } from "./bold";
-import { PeopleNearbyIcon as duotone } from "./duotone";
-import { PeopleNearbyIcon as broken } from "./broken";
-import { PeopleNearbyIcon as outline } from "./outline";
-import { PeopleNearbyIcon as line_duotone } from "./line-duotone";
+import { PeopleNearbyIcon as line } from "./line.ts";
+import { PeopleNearbyIcon as bold } from "./bold.ts";
+import { PeopleNearbyIcon as duotone } from "./duotone.ts";
+import { PeopleNearbyIcon as broken } from "./broken.ts";
+import { PeopleNearbyIcon as outline } from "./outline.ts";
+import { PeopleNearbyIcon as line_duotone } from "./line-duotone.ts";
 
 export const PeopleNearbyIcon: IconEntry = {
     line: line,

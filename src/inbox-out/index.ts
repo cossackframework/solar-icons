@@ -4,12 +4,12 @@
  *   One style:   import { InboxOutIcon } from '@cossackframework/solar-icons/inbox-out/<style>'
  */
 import type { IconEntry } from "../types";
-import { InboxOutIcon as line } from "./line";
-import { InboxOutIcon as bold } from "./bold";
-import { InboxOutIcon as duotone } from "./duotone";
-import { InboxOutIcon as broken } from "./broken";
-import { InboxOutIcon as outline } from "./outline";
-import { InboxOutIcon as line_duotone } from "./line-duotone";
+import { InboxOutIcon as line } from "./line.ts";
+import { InboxOutIcon as bold } from "./bold.ts";
+import { InboxOutIcon as duotone } from "./duotone.ts";
+import { InboxOutIcon as broken } from "./broken.ts";
+import { InboxOutIcon as outline } from "./outline.ts";
+import { InboxOutIcon as line_duotone } from "./line-duotone.ts";
 
 export const InboxOutIcon: IconEntry = {
     line: line,

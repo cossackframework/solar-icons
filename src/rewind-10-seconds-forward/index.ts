@@ -4,12 +4,12 @@
  *   One style:   import { Rewind10SecondsForwardIcon } from '@cossackframework/solar-icons/rewind-10-seconds-forward/<style>'
  */
 import type { IconEntry } from "../types";
-import { Rewind10SecondsForwardIcon as line } from "./line";
-import { Rewind10SecondsForwardIcon as bold } from "./bold";
-import { Rewind10SecondsForwardIcon as duotone } from "./duotone";
-import { Rewind10SecondsForwardIcon as broken } from "./broken";
-import { Rewind10SecondsForwardIcon as outline } from "./outline";
-import { Rewind10SecondsForwardIcon as line_duotone } from "./line-duotone";
+import { Rewind10SecondsForwardIcon as line } from "./line.ts";
+import { Rewind10SecondsForwardIcon as bold } from "./bold.ts";
+import { Rewind10SecondsForwardIcon as duotone } from "./duotone.ts";
+import { Rewind10SecondsForwardIcon as broken } from "./broken.ts";
+import { Rewind10SecondsForwardIcon as outline } from "./outline.ts";
+import { Rewind10SecondsForwardIcon as line_duotone } from "./line-duotone.ts";
 
 export const Rewind10SecondsForwardIcon: IconEntry = {
     line: line,

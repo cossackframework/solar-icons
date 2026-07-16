@@ -4,12 +4,12 @@
  *   One style:   import { UnlinkIcon } from '@cossackframework/solar-icons/unlink/<style>'
  */
 import type { IconEntry } from "../types";
-import { UnlinkIcon as line } from "./line";
-import { UnlinkIcon as bold } from "./bold";
-import { UnlinkIcon as duotone } from "./duotone";
-import { UnlinkIcon as broken } from "./broken";
-import { UnlinkIcon as outline } from "./outline";
-import { UnlinkIcon as line_duotone } from "./line-duotone";
+import { UnlinkIcon as line } from "./line.ts";
+import { UnlinkIcon as bold } from "./bold.ts";
+import { UnlinkIcon as duotone } from "./duotone.ts";
+import { UnlinkIcon as broken } from "./broken.ts";
+import { UnlinkIcon as outline } from "./outline.ts";
+import { UnlinkIcon as line_duotone } from "./line-duotone.ts";
 
 export const UnlinkIcon: IconEntry = {
     line: line,

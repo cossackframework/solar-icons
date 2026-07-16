@@ -4,12 +4,12 @@
  *   One style:   import { StreamIcon } from '@cossackframework/solar-icons/stream/<style>'
  */
 import type { IconEntry } from "../types";
-import { StreamIcon as line } from "./line";
-import { StreamIcon as bold } from "./bold";
-import { StreamIcon as duotone } from "./duotone";
-import { StreamIcon as broken } from "./broken";
-import { StreamIcon as outline } from "./outline";
-import { StreamIcon as line_duotone } from "./line-duotone";
+import { StreamIcon as line } from "./line.ts";
+import { StreamIcon as bold } from "./bold.ts";
+import { StreamIcon as duotone } from "./duotone.ts";
+import { StreamIcon as broken } from "./broken.ts";
+import { StreamIcon as outline } from "./outline.ts";
+import { StreamIcon as line_duotone } from "./line-duotone.ts";
 
 export const StreamIcon: IconEntry = {
     line: line,

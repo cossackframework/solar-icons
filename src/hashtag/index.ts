@@ -4,12 +4,12 @@
  *   One style:   import { HashtagIcon } from '@cossackframework/solar-icons/hashtag/<style>'
  */
 import type { IconEntry } from "../types";
-import { HashtagIcon as line } from "./line";
-import { HashtagIcon as bold } from "./bold";
-import { HashtagIcon as duotone } from "./duotone";
-import { HashtagIcon as broken } from "./broken";
-import { HashtagIcon as outline } from "./outline";
-import { HashtagIcon as line_duotone } from "./line-duotone";
+import { HashtagIcon as line } from "./line.ts";
+import { HashtagIcon as bold } from "./bold.ts";
+import { HashtagIcon as duotone } from "./duotone.ts";
+import { HashtagIcon as broken } from "./broken.ts";
+import { HashtagIcon as outline } from "./outline.ts";
+import { HashtagIcon as line_duotone } from "./line-duotone.ts";
 
 export const HashtagIcon: IconEntry = {
     line: line,

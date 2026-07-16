@@ -4,12 +4,12 @@
  *   One style:   import { RoundedMagnifierZoomOutIcon } from '@cossackframework/solar-icons/rounded-magnifier-zoom-out/<style>'
  */
 import type { IconEntry } from "../types";
-import { RoundedMagnifierZoomOutIcon as line } from "./line";
-import { RoundedMagnifierZoomOutIcon as bold } from "./bold";
-import { RoundedMagnifierZoomOutIcon as duotone } from "./duotone";
-import { RoundedMagnifierZoomOutIcon as broken } from "./broken";
-import { RoundedMagnifierZoomOutIcon as outline } from "./outline";
-import { RoundedMagnifierZoomOutIcon as line_duotone } from "./line-duotone";
+import { RoundedMagnifierZoomOutIcon as line } from "./line.ts";
+import { RoundedMagnifierZoomOutIcon as bold } from "./bold.ts";
+import { RoundedMagnifierZoomOutIcon as duotone } from "./duotone.ts";
+import { RoundedMagnifierZoomOutIcon as broken } from "./broken.ts";
+import { RoundedMagnifierZoomOutIcon as outline } from "./outline.ts";
+import { RoundedMagnifierZoomOutIcon as line_duotone } from "./line-duotone.ts";
 
 export const RoundedMagnifierZoomOutIcon: IconEntry = {
     line: line,

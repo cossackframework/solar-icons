@@ -4,12 +4,12 @@
  *   One style:   import { SirenIcon } from '@cossackframework/solar-icons/siren/<style>'
  */
 import type { IconEntry } from "../types";
-import { SirenIcon as line } from "./line";
-import { SirenIcon as bold } from "./bold";
-import { SirenIcon as duotone } from "./duotone";
-import { SirenIcon as broken } from "./broken";
-import { SirenIcon as outline } from "./outline";
-import { SirenIcon as line_duotone } from "./line-duotone";
+import { SirenIcon as line } from "./line.ts";
+import { SirenIcon as bold } from "./bold.ts";
+import { SirenIcon as duotone } from "./duotone.ts";
+import { SirenIcon as broken } from "./broken.ts";
+import { SirenIcon as outline } from "./outline.ts";
+import { SirenIcon as line_duotone } from "./line-duotone.ts";
 
 export const SirenIcon: IconEntry = {
     line: line,

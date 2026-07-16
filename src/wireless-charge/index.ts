@@ -4,12 +4,12 @@
  *   One style:   import { WirelessChargeIcon } from '@cossackframework/solar-icons/wireless-charge/<style>'
  */
 import type { IconEntry } from "../types";
-import { WirelessChargeIcon as line } from "./line";
-import { WirelessChargeIcon as bold } from "./bold";
-import { WirelessChargeIcon as duotone } from "./duotone";
-import { WirelessChargeIcon as broken } from "./broken";
-import { WirelessChargeIcon as outline } from "./outline";
-import { WirelessChargeIcon as line_duotone } from "./line-duotone";
+import { WirelessChargeIcon as line } from "./line.ts";
+import { WirelessChargeIcon as bold } from "./bold.ts";
+import { WirelessChargeIcon as duotone } from "./duotone.ts";
+import { WirelessChargeIcon as broken } from "./broken.ts";
+import { WirelessChargeIcon as outline } from "./outline.ts";
+import { WirelessChargeIcon as line_duotone } from "./line-duotone.ts";
 
 export const WirelessChargeIcon: IconEntry = {
     line: line,

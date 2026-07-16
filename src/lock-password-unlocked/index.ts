@@ -4,12 +4,12 @@
  *   One style:   import { LockPasswordUnlockedIcon } from '@cossackframework/solar-icons/lock-password-unlocked/<style>'
  */
 import type { IconEntry } from "../types";
-import { LockPasswordUnlockedIcon as line } from "./line";
-import { LockPasswordUnlockedIcon as bold } from "./bold";
-import { LockPasswordUnlockedIcon as duotone } from "./duotone";
-import { LockPasswordUnlockedIcon as broken } from "./broken";
-import { LockPasswordUnlockedIcon as outline } from "./outline";
-import { LockPasswordUnlockedIcon as line_duotone } from "./line-duotone";
+import { LockPasswordUnlockedIcon as line } from "./line.ts";
+import { LockPasswordUnlockedIcon as bold } from "./bold.ts";
+import { LockPasswordUnlockedIcon as duotone } from "./duotone.ts";
+import { LockPasswordUnlockedIcon as broken } from "./broken.ts";
+import { LockPasswordUnlockedIcon as outline } from "./outline.ts";
+import { LockPasswordUnlockedIcon as line_duotone } from "./line-duotone.ts";
 
 export const LockPasswordUnlockedIcon: IconEntry = {
     line: line,

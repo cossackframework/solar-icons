@@ -4,12 +4,12 @@
  *   One style:   import { PassportMinimalisticIcon } from '@cossackframework/solar-icons/passport-minimalistic/<style>'
  */
 import type { IconEntry } from "../types";
-import { PassportMinimalisticIcon as line } from "./line";
-import { PassportMinimalisticIcon as bold } from "./bold";
-import { PassportMinimalisticIcon as duotone } from "./duotone";
-import { PassportMinimalisticIcon as broken } from "./broken";
-import { PassportMinimalisticIcon as outline } from "./outline";
-import { PassportMinimalisticIcon as line_duotone } from "./line-duotone";
+import { PassportMinimalisticIcon as line } from "./line.ts";
+import { PassportMinimalisticIcon as bold } from "./bold.ts";
+import { PassportMinimalisticIcon as duotone } from "./duotone.ts";
+import { PassportMinimalisticIcon as broken } from "./broken.ts";
+import { PassportMinimalisticIcon as outline } from "./outline.ts";
+import { PassportMinimalisticIcon as line_duotone } from "./line-duotone.ts";
 
 export const PassportMinimalisticIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { AlarmSleepIcon } from '@cossackframework/solar-icons/alarm-sleep/<style>'
  */
 import type { IconEntry } from "../types";
-import { AlarmSleepIcon as line } from "./line";
-import { AlarmSleepIcon as bold } from "./bold";
-import { AlarmSleepIcon as duotone } from "./duotone";
-import { AlarmSleepIcon as broken } from "./broken";
-import { AlarmSleepIcon as outline } from "./outline";
-import { AlarmSleepIcon as line_duotone } from "./line-duotone";
+import { AlarmSleepIcon as line } from "./line.ts";
+import { AlarmSleepIcon as bold } from "./bold.ts";
+import { AlarmSleepIcon as duotone } from "./duotone.ts";
+import { AlarmSleepIcon as broken } from "./broken.ts";
+import { AlarmSleepIcon as outline } from "./outline.ts";
+import { AlarmSleepIcon as line_duotone } from "./line-duotone.ts";
 
 export const AlarmSleepIcon: IconEntry = {
     line: line,

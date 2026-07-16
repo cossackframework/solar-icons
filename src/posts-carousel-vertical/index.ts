@@ -4,12 +4,12 @@
  *   One style:   import { PostsCarouselVerticalIcon } from '@cossackframework/solar-icons/posts-carousel-vertical/<style>'
  */
 import type { IconEntry } from "../types";
-import { PostsCarouselVerticalIcon as line } from "./line";
-import { PostsCarouselVerticalIcon as bold } from "./bold";
-import { PostsCarouselVerticalIcon as duotone } from "./duotone";
-import { PostsCarouselVerticalIcon as broken } from "./broken";
-import { PostsCarouselVerticalIcon as outline } from "./outline";
-import { PostsCarouselVerticalIcon as line_duotone } from "./line-duotone";
+import { PostsCarouselVerticalIcon as line } from "./line.ts";
+import { PostsCarouselVerticalIcon as bold } from "./bold.ts";
+import { PostsCarouselVerticalIcon as duotone } from "./duotone.ts";
+import { PostsCarouselVerticalIcon as broken } from "./broken.ts";
+import { PostsCarouselVerticalIcon as outline } from "./outline.ts";
+import { PostsCarouselVerticalIcon as line_duotone } from "./line-duotone.ts";
 
 export const PostsCarouselVerticalIcon: IconEntry = {
     line: line,

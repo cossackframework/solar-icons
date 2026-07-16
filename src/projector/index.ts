@@ -4,12 +4,12 @@
  *   One style:   import { ProjectorIcon } from '@cossackframework/solar-icons/projector/<style>'
  */
 import type { IconEntry } from "../types";
-import { ProjectorIcon as line } from "./line";
-import { ProjectorIcon as bold } from "./bold";
-import { ProjectorIcon as duotone } from "./duotone";
-import { ProjectorIcon as broken } from "./broken";
-import { ProjectorIcon as outline } from "./outline";
-import { ProjectorIcon as line_duotone } from "./line-duotone";
+import { ProjectorIcon as line } from "./line.ts";
+import { ProjectorIcon as bold } from "./bold.ts";
+import { ProjectorIcon as duotone } from "./duotone.ts";
+import { ProjectorIcon as broken } from "./broken.ts";
+import { ProjectorIcon as outline } from "./outline.ts";
+import { ProjectorIcon as line_duotone } from "./line-duotone.ts";
 
 export const ProjectorIcon: IconEntry = {
     line: line,

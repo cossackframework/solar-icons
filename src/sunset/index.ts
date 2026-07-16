@@ -4,12 +4,12 @@
  *   One style:   import { SunsetIcon } from '@cossackframework/solar-icons/sunset/<style>'
  */
 import type { IconEntry } from "../types";
-import { SunsetIcon as line } from "./line";
-import { SunsetIcon as bold } from "./bold";
-import { SunsetIcon as duotone } from "./duotone";
-import { SunsetIcon as broken } from "./broken";
-import { SunsetIcon as outline } from "./outline";
-import { SunsetIcon as line_duotone } from "./line-duotone";
+import { SunsetIcon as line } from "./line.ts";
+import { SunsetIcon as bold } from "./bold.ts";
+import { SunsetIcon as duotone } from "./duotone.ts";
+import { SunsetIcon as broken } from "./broken.ts";
+import { SunsetIcon as outline } from "./outline.ts";
+import { SunsetIcon as line_duotone } from "./line-duotone.ts";
 
 export const SunsetIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { NotebookMinimalisticIcon } from '@cossackframework/solar-icons/notebook-minimalistic/<style>'
  */
 import type { IconEntry } from "../types";
-import { NotebookMinimalisticIcon as line } from "./line";
-import { NotebookMinimalisticIcon as bold } from "./bold";
-import { NotebookMinimalisticIcon as duotone } from "./duotone";
-import { NotebookMinimalisticIcon as broken } from "./broken";
-import { NotebookMinimalisticIcon as outline } from "./outline";
-import { NotebookMinimalisticIcon as line_duotone } from "./line-duotone";
+import { NotebookMinimalisticIcon as line } from "./line.ts";
+import { NotebookMinimalisticIcon as bold } from "./bold.ts";
+import { NotebookMinimalisticIcon as duotone } from "./duotone.ts";
+import { NotebookMinimalisticIcon as broken } from "./broken.ts";
+import { NotebookMinimalisticIcon as outline } from "./outline.ts";
+import { NotebookMinimalisticIcon as line_duotone } from "./line-duotone.ts";
 
 export const NotebookMinimalisticIcon: IconEntry = {
     line: line,

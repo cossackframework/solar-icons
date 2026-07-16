@@ -4,12 +4,12 @@
  *   One style:   import { RoundSortVerticalIcon } from '@cossackframework/solar-icons/round-sort-vertical/<style>'
  */
 import type { IconEntry } from "../types";
-import { RoundSortVerticalIcon as line } from "./line";
-import { RoundSortVerticalIcon as bold } from "./bold";
-import { RoundSortVerticalIcon as duotone } from "./duotone";
-import { RoundSortVerticalIcon as broken } from "./broken";
-import { RoundSortVerticalIcon as outline } from "./outline";
-import { RoundSortVerticalIcon as line_duotone } from "./line-duotone";
+import { RoundSortVerticalIcon as line } from "./line.ts";
+import { RoundSortVerticalIcon as bold } from "./bold.ts";
+import { RoundSortVerticalIcon as duotone } from "./duotone.ts";
+import { RoundSortVerticalIcon as broken } from "./broken.ts";
+import { RoundSortVerticalIcon as outline } from "./outline.ts";
+import { RoundSortVerticalIcon as line_duotone } from "./line-duotone.ts";
 
 export const RoundSortVerticalIcon: IconEntry = {
     line: line,

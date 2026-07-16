@@ -4,12 +4,12 @@
  *   One style:   import { RepeatOneIcon } from '@cossackframework/solar-icons/repeat-one/<style>'
  */
 import type { IconEntry } from "../types";
-import { RepeatOneIcon as line } from "./line";
-import { RepeatOneIcon as bold } from "./bold";
-import { RepeatOneIcon as duotone } from "./duotone";
-import { RepeatOneIcon as broken } from "./broken";
-import { RepeatOneIcon as outline } from "./outline";
-import { RepeatOneIcon as line_duotone } from "./line-duotone";
+import { RepeatOneIcon as line } from "./line.ts";
+import { RepeatOneIcon as bold } from "./bold.ts";
+import { RepeatOneIcon as duotone } from "./duotone.ts";
+import { RepeatOneIcon as broken } from "./broken.ts";
+import { RepeatOneIcon as outline } from "./outline.ts";
+import { RepeatOneIcon as line_duotone } from "./line-duotone.ts";
 
 export const RepeatOneIcon: IconEntry = {
     line: line,

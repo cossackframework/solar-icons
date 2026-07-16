@@ -4,12 +4,12 @@
  *   One style:   import { BallsIcon } from '@cossackframework/solar-icons/balls/<style>'
  */
 import type { IconEntry } from "../types";
-import { BallsIcon as line } from "./line";
-import { BallsIcon as bold } from "./bold";
-import { BallsIcon as duotone } from "./duotone";
-import { BallsIcon as broken } from "./broken";
-import { BallsIcon as outline } from "./outline";
-import { BallsIcon as line_duotone } from "./line-duotone";
+import { BallsIcon as line } from "./line.ts";
+import { BallsIcon as bold } from "./bold.ts";
+import { BallsIcon as duotone } from "./duotone.ts";
+import { BallsIcon as broken } from "./broken.ts";
+import { BallsIcon as outline } from "./outline.ts";
+import { BallsIcon as line_duotone } from "./line-duotone.ts";
 
 export const BallsIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { SoundwaveSquareIcon } from '@cossackframework/solar-icons/soundwave-square/<style>'
  */
 import type { IconEntry } from "../types";
-import { SoundwaveSquareIcon as line } from "./line";
-import { SoundwaveSquareIcon as bold } from "./bold";
-import { SoundwaveSquareIcon as duotone } from "./duotone";
-import { SoundwaveSquareIcon as broken } from "./broken";
-import { SoundwaveSquareIcon as outline } from "./outline";
-import { SoundwaveSquareIcon as line_duotone } from "./line-duotone";
+import { SoundwaveSquareIcon as line } from "./line.ts";
+import { SoundwaveSquareIcon as bold } from "./bold.ts";
+import { SoundwaveSquareIcon as duotone } from "./duotone.ts";
+import { SoundwaveSquareIcon as broken } from "./broken.ts";
+import { SoundwaveSquareIcon as outline } from "./outline.ts";
+import { SoundwaveSquareIcon as line_duotone } from "./line-duotone.ts";
 
 export const SoundwaveSquareIcon: IconEntry = {
     line: line,

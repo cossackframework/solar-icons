@@ -4,12 +4,12 @@
  *   One style:   import { ForwardRightIcon } from '@cossackframework/solar-icons/forward-right/<style>'
  */
 import type { IconEntry } from "../types";
-import { ForwardRightIcon as line } from "./line";
-import { ForwardRightIcon as bold } from "./bold";
-import { ForwardRightIcon as duotone } from "./duotone";
-import { ForwardRightIcon as broken } from "./broken";
-import { ForwardRightIcon as outline } from "./outline";
-import { ForwardRightIcon as line_duotone } from "./line-duotone";
+import { ForwardRightIcon as line } from "./line.ts";
+import { ForwardRightIcon as bold } from "./bold.ts";
+import { ForwardRightIcon as duotone } from "./duotone.ts";
+import { ForwardRightIcon as broken } from "./broken.ts";
+import { ForwardRightIcon as outline } from "./outline.ts";
+import { ForwardRightIcon as line_duotone } from "./line-duotone.ts";
 
 export const ForwardRightIcon: IconEntry = {
     line: line,

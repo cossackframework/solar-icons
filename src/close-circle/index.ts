@@ -4,12 +4,12 @@
  *   One style:   import { CloseCircleIcon } from '@cossackframework/solar-icons/close-circle/<style>'
  */
 import type { IconEntry } from "../types";
-import { CloseCircleIcon as line } from "./line";
-import { CloseCircleIcon as bold } from "./bold";
-import { CloseCircleIcon as duotone } from "./duotone";
-import { CloseCircleIcon as broken } from "./broken";
-import { CloseCircleIcon as outline } from "./outline";
-import { CloseCircleIcon as line_duotone } from "./line-duotone";
+import { CloseCircleIcon as line } from "./line.ts";
+import { CloseCircleIcon as bold } from "./bold.ts";
+import { CloseCircleIcon as duotone } from "./duotone.ts";
+import { CloseCircleIcon as broken } from "./broken.ts";
+import { CloseCircleIcon as outline } from "./outline.ts";
+import { CloseCircleIcon as line_duotone } from "./line-duotone.ts";
 
 export const CloseCircleIcon: IconEntry = {
     line: line,

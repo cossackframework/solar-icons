@@ -4,12 +4,12 @@
  *   One style:   import { Cart2Icon } from '@cossackframework/solar-icons/cart-2/<style>'
  */
 import type { IconEntry } from "../types";
-import { Cart2Icon as line } from "./line";
-import { Cart2Icon as bold } from "./bold";
-import { Cart2Icon as duotone } from "./duotone";
-import { Cart2Icon as broken } from "./broken";
-import { Cart2Icon as outline } from "./outline";
-import { Cart2Icon as line_duotone } from "./line-duotone";
+import { Cart2Icon as line } from "./line.ts";
+import { Cart2Icon as bold } from "./bold.ts";
+import { Cart2Icon as duotone } from "./duotone.ts";
+import { Cart2Icon as broken } from "./broken.ts";
+import { Cart2Icon as outline } from "./outline.ts";
+import { Cart2Icon as line_duotone } from "./line-duotone.ts";
 
 export const Cart2Icon: IconEntry = {
     line: line,

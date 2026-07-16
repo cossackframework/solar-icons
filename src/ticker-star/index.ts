@@ -4,12 +4,12 @@
  *   One style:   import { TickerStarIcon } from '@cossackframework/solar-icons/ticker-star/<style>'
  */
 import type { IconEntry } from "../types";
-import { TickerStarIcon as line } from "./line";
-import { TickerStarIcon as bold } from "./bold";
-import { TickerStarIcon as duotone } from "./duotone";
-import { TickerStarIcon as broken } from "./broken";
-import { TickerStarIcon as outline } from "./outline";
-import { TickerStarIcon as line_duotone } from "./line-duotone";
+import { TickerStarIcon as line } from "./line.ts";
+import { TickerStarIcon as bold } from "./bold.ts";
+import { TickerStarIcon as duotone } from "./duotone.ts";
+import { TickerStarIcon as broken } from "./broken.ts";
+import { TickerStarIcon as outline } from "./outline.ts";
+import { TickerStarIcon as line_duotone } from "./line-duotone.ts";
 
 export const TickerStarIcon: IconEntry = {
     line: line,

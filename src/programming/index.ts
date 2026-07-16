@@ -4,12 +4,12 @@
  *   One style:   import { ProgrammingIcon } from '@cossackframework/solar-icons/programming/<style>'
  */
 import type { IconEntry } from "../types";
-import { ProgrammingIcon as line } from "./line";
-import { ProgrammingIcon as bold } from "./bold";
-import { ProgrammingIcon as duotone } from "./duotone";
-import { ProgrammingIcon as broken } from "./broken";
-import { ProgrammingIcon as outline } from "./outline";
-import { ProgrammingIcon as line_duotone } from "./line-duotone";
+import { ProgrammingIcon as line } from "./line.ts";
+import { ProgrammingIcon as bold } from "./bold.ts";
+import { ProgrammingIcon as duotone } from "./duotone.ts";
+import { ProgrammingIcon as broken } from "./broken.ts";
+import { ProgrammingIcon as outline } from "./outline.ts";
+import { ProgrammingIcon as line_duotone } from "./line-duotone.ts";
 
 export const ProgrammingIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { TurntableMinimalisticIcon } from '@cossackframework/solar-icons/turntable-minimalistic/<style>'
  */
 import type { IconEntry } from "../types";
-import { TurntableMinimalisticIcon as line } from "./line";
-import { TurntableMinimalisticIcon as bold } from "./bold";
-import { TurntableMinimalisticIcon as duotone } from "./duotone";
-import { TurntableMinimalisticIcon as broken } from "./broken";
-import { TurntableMinimalisticIcon as outline } from "./outline";
-import { TurntableMinimalisticIcon as line_duotone } from "./line-duotone";
+import { TurntableMinimalisticIcon as line } from "./line.ts";
+import { TurntableMinimalisticIcon as bold } from "./bold.ts";
+import { TurntableMinimalisticIcon as duotone } from "./duotone.ts";
+import { TurntableMinimalisticIcon as broken } from "./broken.ts";
+import { TurntableMinimalisticIcon as outline } from "./outline.ts";
+import { TurntableMinimalisticIcon as line_duotone } from "./line-duotone.ts";
 
 export const TurntableMinimalisticIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { HashtagSquareIcon } from '@cossackframework/solar-icons/hashtag-square/<style>'
  */
 import type { IconEntry } from "../types";
-import { HashtagSquareIcon as line } from "./line";
-import { HashtagSquareIcon as bold } from "./bold";
-import { HashtagSquareIcon as duotone } from "./duotone";
-import { HashtagSquareIcon as broken } from "./broken";
-import { HashtagSquareIcon as outline } from "./outline";
-import { HashtagSquareIcon as line_duotone } from "./line-duotone";
+import { HashtagSquareIcon as line } from "./line.ts";
+import { HashtagSquareIcon as bold } from "./bold.ts";
+import { HashtagSquareIcon as duotone } from "./duotone.ts";
+import { HashtagSquareIcon as broken } from "./broken.ts";
+import { HashtagSquareIcon as outline } from "./outline.ts";
+import { HashtagSquareIcon as line_duotone } from "./line-duotone.ts";
 
 export const HashtagSquareIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { UserCheckIcon } from '@cossackframework/solar-icons/user-check/<style>'
  */
 import type { IconEntry } from "../types";
-import { UserCheckIcon as line } from "./line";
-import { UserCheckIcon as bold } from "./bold";
-import { UserCheckIcon as duotone } from "./duotone";
-import { UserCheckIcon as broken } from "./broken";
-import { UserCheckIcon as outline } from "./outline";
-import { UserCheckIcon as line_duotone } from "./line-duotone";
+import { UserCheckIcon as line } from "./line.ts";
+import { UserCheckIcon as bold } from "./bold.ts";
+import { UserCheckIcon as duotone } from "./duotone.ts";
+import { UserCheckIcon as broken } from "./broken.ts";
+import { UserCheckIcon as outline } from "./outline.ts";
+import { UserCheckIcon as line_duotone } from "./line-duotone.ts";
 
 export const UserCheckIcon: IconEntry = {
     line: line,

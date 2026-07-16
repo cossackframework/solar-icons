@@ -4,12 +4,12 @@
  *   One style:   import { BicyclingRoundIcon } from '@cossackframework/solar-icons/bicycling-round/<style>'
  */
 import type { IconEntry } from "../types";
-import { BicyclingRoundIcon as line } from "./line";
-import { BicyclingRoundIcon as bold } from "./bold";
-import { BicyclingRoundIcon as duotone } from "./duotone";
-import { BicyclingRoundIcon as broken } from "./broken";
-import { BicyclingRoundIcon as outline } from "./outline";
-import { BicyclingRoundIcon as line_duotone } from "./line-duotone";
+import { BicyclingRoundIcon as line } from "./line.ts";
+import { BicyclingRoundIcon as bold } from "./bold.ts";
+import { BicyclingRoundIcon as duotone } from "./duotone.ts";
+import { BicyclingRoundIcon as broken } from "./broken.ts";
+import { BicyclingRoundIcon as outline } from "./outline.ts";
+import { BicyclingRoundIcon as line_duotone } from "./line-duotone.ts";
 
 export const BicyclingRoundIcon: IconEntry = {
     line: line,

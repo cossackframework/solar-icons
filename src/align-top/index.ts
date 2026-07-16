@@ -4,12 +4,12 @@
  *   One style:   import { AlignTopIcon } from '@cossackframework/solar-icons/align-top/<style>'
  */
 import type { IconEntry } from "../types";
-import { AlignTopIcon as line } from "./line";
-import { AlignTopIcon as bold } from "./bold";
-import { AlignTopIcon as duotone } from "./duotone";
-import { AlignTopIcon as broken } from "./broken";
-import { AlignTopIcon as outline } from "./outline";
-import { AlignTopIcon as line_duotone } from "./line-duotone";
+import { AlignTopIcon as line } from "./line.ts";
+import { AlignTopIcon as bold } from "./bold.ts";
+import { AlignTopIcon as duotone } from "./duotone.ts";
+import { AlignTopIcon as broken } from "./broken.ts";
+import { AlignTopIcon as outline } from "./outline.ts";
+import { AlignTopIcon as line_duotone } from "./line-duotone.ts";
 
 export const AlignTopIcon: IconEntry = {
     line: line,

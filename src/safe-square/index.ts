@@ -4,12 +4,12 @@
  *   One style:   import { SafeSquareIcon } from '@cossackframework/solar-icons/safe-square/<style>'
  */
 import type { IconEntry } from "../types";
-import { SafeSquareIcon as line } from "./line";
-import { SafeSquareIcon as bold } from "./bold";
-import { SafeSquareIcon as duotone } from "./duotone";
-import { SafeSquareIcon as broken } from "./broken";
-import { SafeSquareIcon as outline } from "./outline";
-import { SafeSquareIcon as line_duotone } from "./line-duotone";
+import { SafeSquareIcon as line } from "./line.ts";
+import { SafeSquareIcon as bold } from "./bold.ts";
+import { SafeSquareIcon as duotone } from "./duotone.ts";
+import { SafeSquareIcon as broken } from "./broken.ts";
+import { SafeSquareIcon as outline } from "./outline.ts";
+import { SafeSquareIcon as line_duotone } from "./line-duotone.ts";
 
 export const SafeSquareIcon: IconEntry = {
     line: line,

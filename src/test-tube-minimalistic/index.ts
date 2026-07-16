@@ -4,12 +4,12 @@
  *   One style:   import { TestTubeMinimalisticIcon } from '@cossackframework/solar-icons/test-tube-minimalistic/<style>'
  */
 import type { IconEntry } from "../types";
-import { TestTubeMinimalisticIcon as line } from "./line";
-import { TestTubeMinimalisticIcon as bold } from "./bold";
-import { TestTubeMinimalisticIcon as duotone } from "./duotone";
-import { TestTubeMinimalisticIcon as broken } from "./broken";
-import { TestTubeMinimalisticIcon as outline } from "./outline";
-import { TestTubeMinimalisticIcon as line_duotone } from "./line-duotone";
+import { TestTubeMinimalisticIcon as line } from "./line.ts";
+import { TestTubeMinimalisticIcon as bold } from "./bold.ts";
+import { TestTubeMinimalisticIcon as duotone } from "./duotone.ts";
+import { TestTubeMinimalisticIcon as broken } from "./broken.ts";
+import { TestTubeMinimalisticIcon as outline } from "./outline.ts";
+import { TestTubeMinimalisticIcon as line_duotone } from "./line-duotone.ts";
 
 export const TestTubeMinimalisticIcon: IconEntry = {
     line: line,

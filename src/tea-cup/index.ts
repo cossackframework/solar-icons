@@ -4,12 +4,12 @@
  *   One style:   import { TeaCupIcon } from '@cossackframework/solar-icons/tea-cup/<style>'
  */
 import type { IconEntry } from "../types";
-import { TeaCupIcon as line } from "./line";
-import { TeaCupIcon as bold } from "./bold";
-import { TeaCupIcon as duotone } from "./duotone";
-import { TeaCupIcon as broken } from "./broken";
-import { TeaCupIcon as outline } from "./outline";
-import { TeaCupIcon as line_duotone } from "./line-duotone";
+import { TeaCupIcon as line } from "./line.ts";
+import { TeaCupIcon as bold } from "./bold.ts";
+import { TeaCupIcon as duotone } from "./duotone.ts";
+import { TeaCupIcon as broken } from "./broken.ts";
+import { TeaCupIcon as outline } from "./outline.ts";
+import { TeaCupIcon as line_duotone } from "./line-duotone.ts";
 
 export const TeaCupIcon: IconEntry = {
     line: line,

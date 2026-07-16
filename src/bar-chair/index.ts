@@ -4,12 +4,12 @@
  *   One style:   import { BarChairIcon } from '@cossackframework/solar-icons/bar-chair/<style>'
  */
 import type { IconEntry } from "../types";
-import { BarChairIcon as line } from "./line";
-import { BarChairIcon as bold } from "./bold";
-import { BarChairIcon as duotone } from "./duotone";
-import { BarChairIcon as broken } from "./broken";
-import { BarChairIcon as outline } from "./outline";
-import { BarChairIcon as line_duotone } from "./line-duotone";
+import { BarChairIcon as line } from "./line.ts";
+import { BarChairIcon as bold } from "./bold.ts";
+import { BarChairIcon as duotone } from "./duotone.ts";
+import { BarChairIcon as broken } from "./broken.ts";
+import { BarChairIcon as outline } from "./outline.ts";
+import { BarChairIcon as line_duotone } from "./line-duotone.ts";
 
 export const BarChairIcon: IconEntry = {
     line: line,

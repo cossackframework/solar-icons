@@ -4,12 +4,12 @@
  *   One style:   import { WiFiRouterIcon } from '@cossackframework/solar-icons/wi-fi-router/<style>'
  */
 import type { IconEntry } from "../types";
-import { WiFiRouterIcon as line } from "./line";
-import { WiFiRouterIcon as bold } from "./bold";
-import { WiFiRouterIcon as duotone } from "./duotone";
-import { WiFiRouterIcon as broken } from "./broken";
-import { WiFiRouterIcon as outline } from "./outline";
-import { WiFiRouterIcon as line_duotone } from "./line-duotone";
+import { WiFiRouterIcon as line } from "./line.ts";
+import { WiFiRouterIcon as bold } from "./bold.ts";
+import { WiFiRouterIcon as duotone } from "./duotone.ts";
+import { WiFiRouterIcon as broken } from "./broken.ts";
+import { WiFiRouterIcon as outline } from "./outline.ts";
+import { WiFiRouterIcon as line_duotone } from "./line-duotone.ts";
 
 export const WiFiRouterIcon: IconEntry = {
     line: line,

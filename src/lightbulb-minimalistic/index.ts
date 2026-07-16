@@ -4,12 +4,12 @@
  *   One style:   import { LightbulbMinimalisticIcon } from '@cossackframework/solar-icons/lightbulb-minimalistic/<style>'
  */
 import type { IconEntry } from "../types";
-import { LightbulbMinimalisticIcon as line } from "./line";
-import { LightbulbMinimalisticIcon as bold } from "./bold";
-import { LightbulbMinimalisticIcon as duotone } from "./duotone";
-import { LightbulbMinimalisticIcon as broken } from "./broken";
-import { LightbulbMinimalisticIcon as outline } from "./outline";
-import { LightbulbMinimalisticIcon as line_duotone } from "./line-duotone";
+import { LightbulbMinimalisticIcon as line } from "./line.ts";
+import { LightbulbMinimalisticIcon as bold } from "./bold.ts";
+import { LightbulbMinimalisticIcon as duotone } from "./duotone.ts";
+import { LightbulbMinimalisticIcon as broken } from "./broken.ts";
+import { LightbulbMinimalisticIcon as outline } from "./outline.ts";
+import { LightbulbMinimalisticIcon as line_duotone } from "./line-duotone.ts";
 
 export const LightbulbMinimalisticIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { TextSelectionIcon } from '@cossackframework/solar-icons/text-selection/<style>'
  */
 import type { IconEntry } from "../types";
-import { TextSelectionIcon as line } from "./line";
-import { TextSelectionIcon as bold } from "./bold";
-import { TextSelectionIcon as duotone } from "./duotone";
-import { TextSelectionIcon as broken } from "./broken";
-import { TextSelectionIcon as outline } from "./outline";
-import { TextSelectionIcon as line_duotone } from "./line-duotone";
+import { TextSelectionIcon as line } from "./line.ts";
+import { TextSelectionIcon as bold } from "./bold.ts";
+import { TextSelectionIcon as duotone } from "./duotone.ts";
+import { TextSelectionIcon as broken } from "./broken.ts";
+import { TextSelectionIcon as outline } from "./outline.ts";
+import { TextSelectionIcon as line_duotone } from "./line-duotone.ts";
 
 export const TextSelectionIcon: IconEntry = {
     line: line,

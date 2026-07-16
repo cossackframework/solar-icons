@@ -4,12 +4,12 @@
  *   One style:   import { TramIcon } from '@cossackframework/solar-icons/tram/<style>'
  */
 import type { IconEntry } from "../types";
-import { TramIcon as line } from "./line";
-import { TramIcon as bold } from "./bold";
-import { TramIcon as duotone } from "./duotone";
-import { TramIcon as broken } from "./broken";
-import { TramIcon as outline } from "./outline";
-import { TramIcon as line_duotone } from "./line-duotone";
+import { TramIcon as line } from "./line.ts";
+import { TramIcon as bold } from "./bold.ts";
+import { TramIcon as duotone } from "./duotone.ts";
+import { TramIcon as broken } from "./broken.ts";
+import { TramIcon as outline } from "./outline.ts";
+import { TramIcon as line_duotone } from "./line-duotone.ts";
 
 export const TramIcon: IconEntry = {
     line: line,

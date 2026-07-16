@@ -4,12 +4,12 @@
  *   One style:   import { CameraRotateIcon } from '@cossackframework/solar-icons/camera-rotate/<style>'
  */
 import type { IconEntry } from "../types";
-import { CameraRotateIcon as line } from "./line";
-import { CameraRotateIcon as bold } from "./bold";
-import { CameraRotateIcon as duotone } from "./duotone";
-import { CameraRotateIcon as broken } from "./broken";
-import { CameraRotateIcon as outline } from "./outline";
-import { CameraRotateIcon as line_duotone } from "./line-duotone";
+import { CameraRotateIcon as line } from "./line.ts";
+import { CameraRotateIcon as bold } from "./bold.ts";
+import { CameraRotateIcon as duotone } from "./duotone.ts";
+import { CameraRotateIcon as broken } from "./broken.ts";
+import { CameraRotateIcon as outline } from "./outline.ts";
+import { CameraRotateIcon as line_duotone } from "./line-duotone.ts";
 
 export const CameraRotateIcon: IconEntry = {
     line: line,

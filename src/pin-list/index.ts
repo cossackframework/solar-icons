@@ -4,12 +4,12 @@
  *   One style:   import { PinListIcon } from '@cossackframework/solar-icons/pin-list/<style>'
  */
 import type { IconEntry } from "../types";
-import { PinListIcon as line } from "./line";
-import { PinListIcon as bold } from "./bold";
-import { PinListIcon as duotone } from "./duotone";
-import { PinListIcon as broken } from "./broken";
-import { PinListIcon as outline } from "./outline";
-import { PinListIcon as line_duotone } from "./line-duotone";
+import { PinListIcon as line } from "./line.ts";
+import { PinListIcon as bold } from "./bold.ts";
+import { PinListIcon as duotone } from "./duotone.ts";
+import { PinListIcon as broken } from "./broken.ts";
+import { PinListIcon as outline } from "./outline.ts";
+import { PinListIcon as line_duotone } from "./line-duotone.ts";
 
 export const PinListIcon: IconEntry = {
     line: line,

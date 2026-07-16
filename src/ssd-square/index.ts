@@ -4,12 +4,12 @@
  *   One style:   import { SsdSquareIcon } from '@cossackframework/solar-icons/ssd-square/<style>'
  */
 import type { IconEntry } from "../types";
-import { SsdSquareIcon as line } from "./line";
-import { SsdSquareIcon as bold } from "./bold";
-import { SsdSquareIcon as duotone } from "./duotone";
-import { SsdSquareIcon as broken } from "./broken";
-import { SsdSquareIcon as outline } from "./outline";
-import { SsdSquareIcon as line_duotone } from "./line-duotone";
+import { SsdSquareIcon as line } from "./line.ts";
+import { SsdSquareIcon as bold } from "./bold.ts";
+import { SsdSquareIcon as duotone } from "./duotone.ts";
+import { SsdSquareIcon as broken } from "./broken.ts";
+import { SsdSquareIcon as outline } from "./outline.ts";
+import { SsdSquareIcon as line_duotone } from "./line-duotone.ts";
 
 export const SsdSquareIcon: IconEntry = {
     line: line,

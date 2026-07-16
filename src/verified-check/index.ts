@@ -4,12 +4,12 @@
  *   One style:   import { VerifiedCheckIcon } from '@cossackframework/solar-icons/verified-check/<style>'
  */
 import type { IconEntry } from "../types";
-import { VerifiedCheckIcon as line } from "./line";
-import { VerifiedCheckIcon as bold } from "./bold";
-import { VerifiedCheckIcon as duotone } from "./duotone";
-import { VerifiedCheckIcon as broken } from "./broken";
-import { VerifiedCheckIcon as outline } from "./outline";
-import { VerifiedCheckIcon as line_duotone } from "./line-duotone";
+import { VerifiedCheckIcon as line } from "./line.ts";
+import { VerifiedCheckIcon as bold } from "./bold.ts";
+import { VerifiedCheckIcon as duotone } from "./duotone.ts";
+import { VerifiedCheckIcon as broken } from "./broken.ts";
+import { VerifiedCheckIcon as outline } from "./outline.ts";
+import { VerifiedCheckIcon as line_duotone } from "./line-duotone.ts";
 
 export const VerifiedCheckIcon: IconEntry = {
     line: line,

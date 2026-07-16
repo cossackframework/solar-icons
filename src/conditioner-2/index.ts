@@ -4,12 +4,12 @@
  *   One style:   import { Conditioner2Icon } from '@cossackframework/solar-icons/conditioner-2/<style>'
  */
 import type { IconEntry } from "../types";
-import { Conditioner2Icon as line } from "./line";
-import { Conditioner2Icon as bold } from "./bold";
-import { Conditioner2Icon as duotone } from "./duotone";
-import { Conditioner2Icon as broken } from "./broken";
-import { Conditioner2Icon as outline } from "./outline";
-import { Conditioner2Icon as line_duotone } from "./line-duotone";
+import { Conditioner2Icon as line } from "./line.ts";
+import { Conditioner2Icon as bold } from "./bold.ts";
+import { Conditioner2Icon as duotone } from "./duotone.ts";
+import { Conditioner2Icon as broken } from "./broken.ts";
+import { Conditioner2Icon as outline } from "./outline.ts";
+import { Conditioner2Icon as line_duotone } from "./line-duotone.ts";
 
 export const Conditioner2Icon: IconEntry = {
     line: line,

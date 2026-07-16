@@ -4,12 +4,12 @@
  *   One style:   import { DnaIcon } from '@cossackframework/solar-icons/dna/<style>'
  */
 import type { IconEntry } from "../types";
-import { DnaIcon as line } from "./line";
-import { DnaIcon as bold } from "./bold";
-import { DnaIcon as duotone } from "./duotone";
-import { DnaIcon as broken } from "./broken";
-import { DnaIcon as outline } from "./outline";
-import { DnaIcon as line_duotone } from "./line-duotone";
+import { DnaIcon as line } from "./line.ts";
+import { DnaIcon as bold } from "./bold.ts";
+import { DnaIcon as duotone } from "./duotone.ts";
+import { DnaIcon as broken } from "./broken.ts";
+import { DnaIcon as outline } from "./outline.ts";
+import { DnaIcon as line_duotone } from "./line-duotone.ts";
 
 export const DnaIcon: IconEntry = {
     line: line,

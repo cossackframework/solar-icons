@@ -4,12 +4,12 @@
  *   One style:   import { BombEmojiIcon } from '@cossackframework/solar-icons/bomb-emoji/<style>'
  */
 import type { IconEntry } from "../types";
-import { BombEmojiIcon as line } from "./line";
-import { BombEmojiIcon as bold } from "./bold";
-import { BombEmojiIcon as duotone } from "./duotone";
-import { BombEmojiIcon as broken } from "./broken";
-import { BombEmojiIcon as outline } from "./outline";
-import { BombEmojiIcon as line_duotone } from "./line-duotone";
+import { BombEmojiIcon as line } from "./line.ts";
+import { BombEmojiIcon as bold } from "./bold.ts";
+import { BombEmojiIcon as duotone } from "./duotone.ts";
+import { BombEmojiIcon as broken } from "./broken.ts";
+import { BombEmojiIcon as outline } from "./outline.ts";
+import { BombEmojiIcon as line_duotone } from "./line-duotone.ts";
 
 export const BombEmojiIcon: IconEntry = {
     line: line,

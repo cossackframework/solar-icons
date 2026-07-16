@@ -4,12 +4,12 @@
  *   One style:   import { MagnetIcon } from '@cossackframework/solar-icons/magnet/<style>'
  */
 import type { IconEntry } from "../types";
-import { MagnetIcon as line } from "./line";
-import { MagnetIcon as bold } from "./bold";
-import { MagnetIcon as duotone } from "./duotone";
-import { MagnetIcon as broken } from "./broken";
-import { MagnetIcon as outline } from "./outline";
-import { MagnetIcon as line_duotone } from "./line-duotone";
+import { MagnetIcon as line } from "./line.ts";
+import { MagnetIcon as bold } from "./bold.ts";
+import { MagnetIcon as duotone } from "./duotone.ts";
+import { MagnetIcon as broken } from "./broken.ts";
+import { MagnetIcon as outline } from "./outline.ts";
+import { MagnetIcon as line_duotone } from "./line-duotone.ts";
 
 export const MagnetIcon: IconEntry = {
     line: line,

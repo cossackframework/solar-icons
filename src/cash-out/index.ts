@@ -4,12 +4,12 @@
  *   One style:   import { CashOutIcon } from '@cossackframework/solar-icons/cash-out/<style>'
  */
 import type { IconEntry } from "../types";
-import { CashOutIcon as line } from "./line";
-import { CashOutIcon as bold } from "./bold";
-import { CashOutIcon as duotone } from "./duotone";
-import { CashOutIcon as broken } from "./broken";
-import { CashOutIcon as outline } from "./outline";
-import { CashOutIcon as line_duotone } from "./line-duotone";
+import { CashOutIcon as line } from "./line.ts";
+import { CashOutIcon as bold } from "./bold.ts";
+import { CashOutIcon as duotone } from "./duotone.ts";
+import { CashOutIcon as broken } from "./broken.ts";
+import { CashOutIcon as outline } from "./outline.ts";
+import { CashOutIcon as line_duotone } from "./line-duotone.ts";
 
 export const CashOutIcon: IconEntry = {
     line: line,

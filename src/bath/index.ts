@@ -4,12 +4,12 @@
  *   One style:   import { BathIcon } from '@cossackframework/solar-icons/bath/<style>'
  */
 import type { IconEntry } from "../types";
-import { BathIcon as line } from "./line";
-import { BathIcon as bold } from "./bold";
-import { BathIcon as duotone } from "./duotone";
-import { BathIcon as broken } from "./broken";
-import { BathIcon as outline } from "./outline";
-import { BathIcon as line_duotone } from "./line-duotone";
+import { BathIcon as line } from "./line.ts";
+import { BathIcon as bold } from "./bold.ts";
+import { BathIcon as duotone } from "./duotone.ts";
+import { BathIcon as broken } from "./broken.ts";
+import { BathIcon as outline } from "./outline.ts";
+import { BathIcon as line_duotone } from "./line-duotone.ts";
 
 export const BathIcon: IconEntry = {
     line: line,

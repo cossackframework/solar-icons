@@ -4,12 +4,12 @@
  *   One style:   import { SsdRoundIcon } from '@cossackframework/solar-icons/ssd-round/<style>'
  */
 import type { IconEntry } from "../types";
-import { SsdRoundIcon as line } from "./line";
-import { SsdRoundIcon as bold } from "./bold";
-import { SsdRoundIcon as duotone } from "./duotone";
-import { SsdRoundIcon as broken } from "./broken";
-import { SsdRoundIcon as outline } from "./outline";
-import { SsdRoundIcon as line_duotone } from "./line-duotone";
+import { SsdRoundIcon as line } from "./line.ts";
+import { SsdRoundIcon as bold } from "./bold.ts";
+import { SsdRoundIcon as duotone } from "./duotone.ts";
+import { SsdRoundIcon as broken } from "./broken.ts";
+import { SsdRoundIcon as outline } from "./outline.ts";
+import { SsdRoundIcon as line_duotone } from "./line-duotone.ts";
 
 export const SsdRoundIcon: IconEntry = {
     line: line,

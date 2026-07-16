@@ -4,12 +4,12 @@
  *   One style:   import { HandPillsIcon } from '@cossackframework/solar-icons/hand-pills/<style>'
  */
 import type { IconEntry } from "../types";
-import { HandPillsIcon as line } from "./line";
-import { HandPillsIcon as bold } from "./bold";
-import { HandPillsIcon as duotone } from "./duotone";
-import { HandPillsIcon as broken } from "./broken";
-import { HandPillsIcon as outline } from "./outline";
-import { HandPillsIcon as line_duotone } from "./line-duotone";
+import { HandPillsIcon as line } from "./line.ts";
+import { HandPillsIcon as bold } from "./bold.ts";
+import { HandPillsIcon as duotone } from "./duotone.ts";
+import { HandPillsIcon as broken } from "./broken.ts";
+import { HandPillsIcon as outline } from "./outline.ts";
+import { HandPillsIcon as line_duotone } from "./line-duotone.ts";
 
 export const HandPillsIcon: IconEntry = {
     line: line,

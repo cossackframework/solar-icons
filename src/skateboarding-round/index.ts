@@ -4,12 +4,12 @@
  *   One style:   import { SkateboardingRoundIcon } from '@cossackframework/solar-icons/skateboarding-round/<style>'
  */
 import type { IconEntry } from "../types";
-import { SkateboardingRoundIcon as line } from "./line";
-import { SkateboardingRoundIcon as bold } from "./bold";
-import { SkateboardingRoundIcon as duotone } from "./duotone";
-import { SkateboardingRoundIcon as broken } from "./broken";
-import { SkateboardingRoundIcon as outline } from "./outline";
-import { SkateboardingRoundIcon as line_duotone } from "./line-duotone";
+import { SkateboardingRoundIcon as line } from "./line.ts";
+import { SkateboardingRoundIcon as bold } from "./bold.ts";
+import { SkateboardingRoundIcon as duotone } from "./duotone.ts";
+import { SkateboardingRoundIcon as broken } from "./broken.ts";
+import { SkateboardingRoundIcon as outline } from "./outline.ts";
+import { SkateboardingRoundIcon as line_duotone } from "./line-duotone.ts";
 
 export const SkateboardingRoundIcon: IconEntry = {
     line: line,

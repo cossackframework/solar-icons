@@ -4,12 +4,12 @@
  *   One style:   import { TagHorizontalIcon } from '@cossackframework/solar-icons/tag-horizontal/<style>'
  */
 import type { IconEntry } from "../types";
-import { TagHorizontalIcon as line } from "./line";
-import { TagHorizontalIcon as bold } from "./bold";
-import { TagHorizontalIcon as duotone } from "./duotone";
-import { TagHorizontalIcon as broken } from "./broken";
-import { TagHorizontalIcon as outline } from "./outline";
-import { TagHorizontalIcon as line_duotone } from "./line-duotone";
+import { TagHorizontalIcon as line } from "./line.ts";
+import { TagHorizontalIcon as bold } from "./bold.ts";
+import { TagHorizontalIcon as duotone } from "./duotone.ts";
+import { TagHorizontalIcon as broken } from "./broken.ts";
+import { TagHorizontalIcon as outline } from "./outline.ts";
+import { TagHorizontalIcon as line_duotone } from "./line-duotone.ts";
 
 export const TagHorizontalIcon: IconEntry = {
     line: line,

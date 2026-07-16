@@ -4,12 +4,12 @@
  *   One style:   import { ScannerIcon } from '@cossackframework/solar-icons/scanner/<style>'
  */
 import type { IconEntry } from "../types";
-import { ScannerIcon as line } from "./line";
-import { ScannerIcon as bold } from "./bold";
-import { ScannerIcon as duotone } from "./duotone";
-import { ScannerIcon as broken } from "./broken";
-import { ScannerIcon as outline } from "./outline";
-import { ScannerIcon as line_duotone } from "./line-duotone";
+import { ScannerIcon as line } from "./line.ts";
+import { ScannerIcon as bold } from "./bold.ts";
+import { ScannerIcon as duotone } from "./duotone.ts";
+import { ScannerIcon as broken } from "./broken.ts";
+import { ScannerIcon as outline } from "./outline.ts";
+import { ScannerIcon as line_duotone } from "./line-duotone.ts";
 
 export const ScannerIcon: IconEntry = {
     line: line,

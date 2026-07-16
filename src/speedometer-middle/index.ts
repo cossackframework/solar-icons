@@ -4,12 +4,12 @@
  *   One style:   import { SpeedometerMiddleIcon } from '@cossackframework/solar-icons/speedometer-middle/<style>'
  */
 import type { IconEntry } from "../types";
-import { SpeedometerMiddleIcon as line } from "./line";
-import { SpeedometerMiddleIcon as bold } from "./bold";
-import { SpeedometerMiddleIcon as duotone } from "./duotone";
-import { SpeedometerMiddleIcon as broken } from "./broken";
-import { SpeedometerMiddleIcon as outline } from "./outline";
-import { SpeedometerMiddleIcon as line_duotone } from "./line-duotone";
+import { SpeedometerMiddleIcon as line } from "./line.ts";
+import { SpeedometerMiddleIcon as bold } from "./bold.ts";
+import { SpeedometerMiddleIcon as duotone } from "./duotone.ts";
+import { SpeedometerMiddleIcon as broken } from "./broken.ts";
+import { SpeedometerMiddleIcon as outline } from "./outline.ts";
+import { SpeedometerMiddleIcon as line_duotone } from "./line-duotone.ts";
 
 export const SpeedometerMiddleIcon: IconEntry = {
     line: line,

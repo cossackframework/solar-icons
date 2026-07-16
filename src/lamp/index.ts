@@ -4,12 +4,12 @@
  *   One style:   import { LampIcon } from '@cossackframework/solar-icons/lamp/<style>'
  */
 import type { IconEntry } from "../types";
-import { LampIcon as line } from "./line";
-import { LampIcon as bold } from "./bold";
-import { LampIcon as duotone } from "./duotone";
-import { LampIcon as broken } from "./broken";
-import { LampIcon as outline } from "./outline";
-import { LampIcon as line_duotone } from "./line-duotone";
+import { LampIcon as line } from "./line.ts";
+import { LampIcon as bold } from "./bold.ts";
+import { LampIcon as duotone } from "./duotone.ts";
+import { LampIcon as broken } from "./broken.ts";
+import { LampIcon as outline } from "./outline.ts";
+import { LampIcon as line_duotone } from "./line-duotone.ts";
 
 export const LampIcon: IconEntry = {
     line: line,

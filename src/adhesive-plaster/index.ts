@@ -4,12 +4,12 @@
  *   One style:   import { AdhesivePlasterIcon } from '@cossackframework/solar-icons/adhesive-plaster/<style>'
  */
 import type { IconEntry } from "../types";
-import { AdhesivePlasterIcon as line } from "./line";
-import { AdhesivePlasterIcon as bold } from "./bold";
-import { AdhesivePlasterIcon as duotone } from "./duotone";
-import { AdhesivePlasterIcon as broken } from "./broken";
-import { AdhesivePlasterIcon as outline } from "./outline";
-import { AdhesivePlasterIcon as line_duotone } from "./line-duotone";
+import { AdhesivePlasterIcon as line } from "./line.ts";
+import { AdhesivePlasterIcon as bold } from "./bold.ts";
+import { AdhesivePlasterIcon as duotone } from "./duotone.ts";
+import { AdhesivePlasterIcon as broken } from "./broken.ts";
+import { AdhesivePlasterIcon as outline } from "./outline.ts";
+import { AdhesivePlasterIcon as line_duotone } from "./line-duotone.ts";
 
 export const AdhesivePlasterIcon: IconEntry = {
     line: line,

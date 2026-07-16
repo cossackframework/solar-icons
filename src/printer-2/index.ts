@@ -4,12 +4,12 @@
  *   One style:   import { Printer2Icon } from '@cossackframework/solar-icons/printer-2/<style>'
  */
 import type { IconEntry } from "../types";
-import { Printer2Icon as line } from "./line";
-import { Printer2Icon as bold } from "./bold";
-import { Printer2Icon as duotone } from "./duotone";
-import { Printer2Icon as broken } from "./broken";
-import { Printer2Icon as outline } from "./outline";
-import { Printer2Icon as line_duotone } from "./line-duotone";
+import { Printer2Icon as line } from "./line.ts";
+import { Printer2Icon as bold } from "./bold.ts";
+import { Printer2Icon as duotone } from "./duotone.ts";
+import { Printer2Icon as broken } from "./broken.ts";
+import { Printer2Icon as outline } from "./outline.ts";
+import { Printer2Icon as line_duotone } from "./line-duotone.ts";
 
 export const Printer2Icon: IconEntry = {
     line: line,

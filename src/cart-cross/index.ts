@@ -4,12 +4,12 @@
  *   One style:   import { CartCrossIcon } from '@cossackframework/solar-icons/cart-cross/<style>'
  */
 import type { IconEntry } from "../types";
-import { CartCrossIcon as line } from "./line";
-import { CartCrossIcon as bold } from "./bold";
-import { CartCrossIcon as duotone } from "./duotone";
-import { CartCrossIcon as broken } from "./broken";
-import { CartCrossIcon as outline } from "./outline";
-import { CartCrossIcon as line_duotone } from "./line-duotone";
+import { CartCrossIcon as line } from "./line.ts";
+import { CartCrossIcon as bold } from "./bold.ts";
+import { CartCrossIcon as duotone } from "./duotone.ts";
+import { CartCrossIcon as broken } from "./broken.ts";
+import { CartCrossIcon as outline } from "./outline.ts";
+import { CartCrossIcon as line_duotone } from "./line-duotone.ts";
 
 export const CartCrossIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { Smartphone2Icon } from '@cossackframework/solar-icons/smartphone-2/<style>'
  */
 import type { IconEntry } from "../types";
-import { Smartphone2Icon as line } from "./line";
-import { Smartphone2Icon as bold } from "./bold";
-import { Smartphone2Icon as duotone } from "./duotone";
-import { Smartphone2Icon as broken } from "./broken";
-import { Smartphone2Icon as outline } from "./outline";
-import { Smartphone2Icon as line_duotone } from "./line-duotone";
+import { Smartphone2Icon as line } from "./line.ts";
+import { Smartphone2Icon as bold } from "./bold.ts";
+import { Smartphone2Icon as duotone } from "./duotone.ts";
+import { Smartphone2Icon as broken } from "./broken.ts";
+import { Smartphone2Icon as outline } from "./outline.ts";
+import { Smartphone2Icon as line_duotone } from "./line-duotone.ts";
 
 export const Smartphone2Icon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { LayersMinimalisticIcon } from '@cossackframework/solar-icons/layers-minimalistic/<style>'
  */
 import type { IconEntry } from "../types";
-import { LayersMinimalisticIcon as line } from "./line";
-import { LayersMinimalisticIcon as bold } from "./bold";
-import { LayersMinimalisticIcon as duotone } from "./duotone";
-import { LayersMinimalisticIcon as broken } from "./broken";
-import { LayersMinimalisticIcon as outline } from "./outline";
-import { LayersMinimalisticIcon as line_duotone } from "./line-duotone";
+import { LayersMinimalisticIcon as line } from "./line.ts";
+import { LayersMinimalisticIcon as bold } from "./bold.ts";
+import { LayersMinimalisticIcon as duotone } from "./duotone.ts";
+import { LayersMinimalisticIcon as broken } from "./broken.ts";
+import { LayersMinimalisticIcon as outline } from "./outline.ts";
+import { LayersMinimalisticIcon as line_duotone } from "./line-duotone.ts";
 
 export const LayersMinimalisticIcon: IconEntry = {
     line: line,

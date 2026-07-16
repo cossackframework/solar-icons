@@ -4,12 +4,12 @@
  *   One style:   import { MinusSquareIcon } from '@cossackframework/solar-icons/minus-square/<style>'
  */
 import type { IconEntry } from "../types";
-import { MinusSquareIcon as line } from "./line";
-import { MinusSquareIcon as bold } from "./bold";
-import { MinusSquareIcon as duotone } from "./duotone";
-import { MinusSquareIcon as broken } from "./broken";
-import { MinusSquareIcon as outline } from "./outline";
-import { MinusSquareIcon as line_duotone } from "./line-duotone";
+import { MinusSquareIcon as line } from "./line.ts";
+import { MinusSquareIcon as bold } from "./bold.ts";
+import { MinusSquareIcon as duotone } from "./duotone.ts";
+import { MinusSquareIcon as broken } from "./broken.ts";
+import { MinusSquareIcon as outline } from "./outline.ts";
+import { MinusSquareIcon as line_duotone } from "./line-duotone.ts";
 
 export const MinusSquareIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { FaceScanSquareIcon } from '@cossackframework/solar-icons/face-scan-square/<style>'
  */
 import type { IconEntry } from "../types";
-import { FaceScanSquareIcon as line } from "./line";
-import { FaceScanSquareIcon as bold } from "./bold";
-import { FaceScanSquareIcon as duotone } from "./duotone";
-import { FaceScanSquareIcon as broken } from "./broken";
-import { FaceScanSquareIcon as outline } from "./outline";
-import { FaceScanSquareIcon as line_duotone } from "./line-duotone";
+import { FaceScanSquareIcon as line } from "./line.ts";
+import { FaceScanSquareIcon as bold } from "./bold.ts";
+import { FaceScanSquareIcon as duotone } from "./duotone.ts";
+import { FaceScanSquareIcon as broken } from "./broken.ts";
+import { FaceScanSquareIcon as outline } from "./outline.ts";
+import { FaceScanSquareIcon as line_duotone } from "./line-duotone.ts";
 
 export const FaceScanSquareIcon: IconEntry = {
     line: line,

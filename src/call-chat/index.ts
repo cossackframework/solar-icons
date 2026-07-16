@@ -4,12 +4,12 @@
  *   One style:   import { CallChatIcon } from '@cossackframework/solar-icons/call-chat/<style>'
  */
 import type { IconEntry } from "../types";
-import { CallChatIcon as line } from "./line";
-import { CallChatIcon as bold } from "./bold";
-import { CallChatIcon as duotone } from "./duotone";
-import { CallChatIcon as broken } from "./broken";
-import { CallChatIcon as outline } from "./outline";
-import { CallChatIcon as line_duotone } from "./line-duotone";
+import { CallChatIcon as line } from "./line.ts";
+import { CallChatIcon as bold } from "./bold.ts";
+import { CallChatIcon as duotone } from "./duotone.ts";
+import { CallChatIcon as broken } from "./broken.ts";
+import { CallChatIcon as outline } from "./outline.ts";
+import { CallChatIcon as line_duotone } from "./line-duotone.ts";
 
 export const CallChatIcon: IconEntry = {
     line: line,

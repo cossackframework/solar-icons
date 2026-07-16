@@ -4,12 +4,12 @@
  *   One style:   import { CopyIcon } from '@cossackframework/solar-icons/copy/<style>'
  */
 import type { IconEntry } from "../types";
-import { CopyIcon as line } from "./line";
-import { CopyIcon as bold } from "./bold";
-import { CopyIcon as duotone } from "./duotone";
-import { CopyIcon as broken } from "./broken";
-import { CopyIcon as outline } from "./outline";
-import { CopyIcon as line_duotone } from "./line-duotone";
+import { CopyIcon as line } from "./line.ts";
+import { CopyIcon as bold } from "./bold.ts";
+import { CopyIcon as duotone } from "./duotone.ts";
+import { CopyIcon as broken } from "./broken.ts";
+import { CopyIcon as outline } from "./outline.ts";
+import { CopyIcon as line_duotone } from "./line-duotone.ts";
 
 export const CopyIcon: IconEntry = {
     line: line,

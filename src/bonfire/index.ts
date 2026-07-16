@@ -4,12 +4,12 @@
  *   One style:   import { BonfireIcon } from '@cossackframework/solar-icons/bonfire/<style>'
  */
 import type { IconEntry } from "../types";
-import { BonfireIcon as line } from "./line";
-import { BonfireIcon as bold } from "./bold";
-import { BonfireIcon as duotone } from "./duotone";
-import { BonfireIcon as broken } from "./broken";
-import { BonfireIcon as outline } from "./outline";
-import { BonfireIcon as line_duotone } from "./line-duotone";
+import { BonfireIcon as line } from "./line.ts";
+import { BonfireIcon as bold } from "./bold.ts";
+import { BonfireIcon as duotone } from "./duotone.ts";
+import { BonfireIcon as broken } from "./broken.ts";
+import { BonfireIcon as outline } from "./outline.ts";
+import { BonfireIcon as line_duotone } from "./line-duotone.ts";
 
 export const BonfireIcon: IconEntry = {
     line: line,

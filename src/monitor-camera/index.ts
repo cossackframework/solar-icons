@@ -4,12 +4,12 @@
  *   One style:   import { MonitorCameraIcon } from '@cossackframework/solar-icons/monitor-camera/<style>'
  */
 import type { IconEntry } from "../types";
-import { MonitorCameraIcon as line } from "./line";
-import { MonitorCameraIcon as bold } from "./bold";
-import { MonitorCameraIcon as duotone } from "./duotone";
-import { MonitorCameraIcon as broken } from "./broken";
-import { MonitorCameraIcon as outline } from "./outline";
-import { MonitorCameraIcon as line_duotone } from "./line-duotone";
+import { MonitorCameraIcon as line } from "./line.ts";
+import { MonitorCameraIcon as bold } from "./bold.ts";
+import { MonitorCameraIcon as duotone } from "./duotone.ts";
+import { MonitorCameraIcon as broken } from "./broken.ts";
+import { MonitorCameraIcon as outline } from "./outline.ts";
+import { MonitorCameraIcon as line_duotone } from "./line-duotone.ts";
 
 export const MonitorCameraIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { RugbyIcon } from '@cossackframework/solar-icons/rugby/<style>'
  */
 import type { IconEntry } from "../types";
-import { RugbyIcon as line } from "./line";
-import { RugbyIcon as bold } from "./bold";
-import { RugbyIcon as duotone } from "./duotone";
-import { RugbyIcon as broken } from "./broken";
-import { RugbyIcon as outline } from "./outline";
-import { RugbyIcon as line_duotone } from "./line-duotone";
+import { RugbyIcon as line } from "./line.ts";
+import { RugbyIcon as bold } from "./bold.ts";
+import { RugbyIcon as duotone } from "./duotone.ts";
+import { RugbyIcon as broken } from "./broken.ts";
+import { RugbyIcon as outline } from "./outline.ts";
+import { RugbyIcon as line_duotone } from "./line-duotone.ts";
 
 export const RugbyIcon: IconEntry = {
     line: line,

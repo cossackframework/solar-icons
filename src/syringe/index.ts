@@ -4,12 +4,12 @@
  *   One style:   import { SyringeIcon } from '@cossackframework/solar-icons/syringe/<style>'
  */
 import type { IconEntry } from "../types";
-import { SyringeIcon as line } from "./line";
-import { SyringeIcon as bold } from "./bold";
-import { SyringeIcon as duotone } from "./duotone";
-import { SyringeIcon as broken } from "./broken";
-import { SyringeIcon as outline } from "./outline";
-import { SyringeIcon as line_duotone } from "./line-duotone";
+import { SyringeIcon as line } from "./line.ts";
+import { SyringeIcon as bold } from "./bold.ts";
+import { SyringeIcon as duotone } from "./duotone.ts";
+import { SyringeIcon as broken } from "./broken.ts";
+import { SyringeIcon as outline } from "./outline.ts";
+import { SyringeIcon as line_duotone } from "./line-duotone.ts";
 
 export const SyringeIcon: IconEntry = {
     line: line,

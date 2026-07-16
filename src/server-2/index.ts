@@ -4,12 +4,12 @@
  *   One style:   import { Server2Icon } from '@cossackframework/solar-icons/server-2/<style>'
  */
 import type { IconEntry } from "../types";
-import { Server2Icon as line } from "./line";
-import { Server2Icon as bold } from "./bold";
-import { Server2Icon as duotone } from "./duotone";
-import { Server2Icon as broken } from "./broken";
-import { Server2Icon as outline } from "./outline";
-import { Server2Icon as line_duotone } from "./line-duotone";
+import { Server2Icon as line } from "./line.ts";
+import { Server2Icon as bold } from "./bold.ts";
+import { Server2Icon as duotone } from "./duotone.ts";
+import { Server2Icon as broken } from "./broken.ts";
+import { Server2Icon as outline } from "./outline.ts";
+import { Server2Icon as line_duotone } from "./line-duotone.ts";
 
 export const Server2Icon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { WheelIcon } from '@cossackframework/solar-icons/wheel/<style>'
  */
 import type { IconEntry } from "../types";
-import { WheelIcon as line } from "./line";
-import { WheelIcon as bold } from "./bold";
-import { WheelIcon as duotone } from "./duotone";
-import { WheelIcon as broken } from "./broken";
-import { WheelIcon as outline } from "./outline";
-import { WheelIcon as line_duotone } from "./line-duotone";
+import { WheelIcon as line } from "./line.ts";
+import { WheelIcon as bold } from "./bold.ts";
+import { WheelIcon as duotone } from "./duotone.ts";
+import { WheelIcon as broken } from "./broken.ts";
+import { WheelIcon as outline } from "./outline.ts";
+import { WheelIcon as line_duotone } from "./line-duotone.ts";
 
 export const WheelIcon: IconEntry = {
     line: line,

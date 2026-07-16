@@ -4,12 +4,12 @@
  *   One style:   import { MinimizeIcon } from '@cossackframework/solar-icons/minimize/<style>'
  */
 import type { IconEntry } from "../types";
-import { MinimizeIcon as line } from "./line";
-import { MinimizeIcon as bold } from "./bold";
-import { MinimizeIcon as duotone } from "./duotone";
-import { MinimizeIcon as broken } from "./broken";
-import { MinimizeIcon as outline } from "./outline";
-import { MinimizeIcon as line_duotone } from "./line-duotone";
+import { MinimizeIcon as line } from "./line.ts";
+import { MinimizeIcon as bold } from "./bold.ts";
+import { MinimizeIcon as duotone } from "./duotone.ts";
+import { MinimizeIcon as broken } from "./broken.ts";
+import { MinimizeIcon as outline } from "./outline.ts";
+import { MinimizeIcon as line_duotone } from "./line-duotone.ts";
 
 export const MinimizeIcon: IconEntry = {
     line: line,

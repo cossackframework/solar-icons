@@ -4,12 +4,12 @@
  *   One style:   import { SmartHomeIcon } from '@cossackframework/solar-icons/smart-home/<style>'
  */
 import type { IconEntry } from "../types";
-import { SmartHomeIcon as line } from "./line";
-import { SmartHomeIcon as bold } from "./bold";
-import { SmartHomeIcon as duotone } from "./duotone";
-import { SmartHomeIcon as broken } from "./broken";
-import { SmartHomeIcon as outline } from "./outline";
-import { SmartHomeIcon as line_duotone } from "./line-duotone";
+import { SmartHomeIcon as line } from "./line.ts";
+import { SmartHomeIcon as bold } from "./bold.ts";
+import { SmartHomeIcon as duotone } from "./duotone.ts";
+import { SmartHomeIcon as broken } from "./broken.ts";
+import { SmartHomeIcon as outline } from "./outline.ts";
+import { SmartHomeIcon as line_duotone } from "./line-duotone.ts";
 
 export const SmartHomeIcon: IconEntry = {
     line: line,

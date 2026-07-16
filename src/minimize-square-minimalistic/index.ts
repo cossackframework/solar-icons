@@ -4,12 +4,12 @@
  *   One style:   import { MinimizeSquareMinimalisticIcon } from '@cossackframework/solar-icons/minimize-square-minimalistic/<style>'
  */
 import type { IconEntry } from "../types";
-import { MinimizeSquareMinimalisticIcon as line } from "./line";
-import { MinimizeSquareMinimalisticIcon as bold } from "./bold";
-import { MinimizeSquareMinimalisticIcon as duotone } from "./duotone";
-import { MinimizeSquareMinimalisticIcon as broken } from "./broken";
-import { MinimizeSquareMinimalisticIcon as outline } from "./outline";
-import { MinimizeSquareMinimalisticIcon as line_duotone } from "./line-duotone";
+import { MinimizeSquareMinimalisticIcon as line } from "./line.ts";
+import { MinimizeSquareMinimalisticIcon as bold } from "./bold.ts";
+import { MinimizeSquareMinimalisticIcon as duotone } from "./duotone.ts";
+import { MinimizeSquareMinimalisticIcon as broken } from "./broken.ts";
+import { MinimizeSquareMinimalisticIcon as outline } from "./outline.ts";
+import { MinimizeSquareMinimalisticIcon as line_duotone } from "./line-duotone.ts";
 
 export const MinimizeSquareMinimalisticIcon: IconEntry = {
     line: line,

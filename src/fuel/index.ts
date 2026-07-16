@@ -4,12 +4,12 @@
  *   One style:   import { FuelIcon } from '@cossackframework/solar-icons/fuel/<style>'
  */
 import type { IconEntry } from "../types";
-import { FuelIcon as line } from "./line";
-import { FuelIcon as bold } from "./bold";
-import { FuelIcon as duotone } from "./duotone";
-import { FuelIcon as broken } from "./broken";
-import { FuelIcon as outline } from "./outline";
-import { FuelIcon as line_duotone } from "./line-duotone";
+import { FuelIcon as line } from "./line.ts";
+import { FuelIcon as bold } from "./bold.ts";
+import { FuelIcon as duotone } from "./duotone.ts";
+import { FuelIcon as broken } from "./broken.ts";
+import { FuelIcon as outline } from "./outline.ts";
+import { FuelIcon as line_duotone } from "./line-duotone.ts";
 
 export const FuelIcon: IconEntry = {
     line: line,

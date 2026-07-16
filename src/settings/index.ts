@@ -4,12 +4,12 @@
  *   One style:   import { SettingsIcon } from '@cossackframework/solar-icons/settings/<style>'
  */
 import type { IconEntry } from "../types";
-import { SettingsIcon as line } from "./line";
-import { SettingsIcon as bold } from "./bold";
-import { SettingsIcon as duotone } from "./duotone";
-import { SettingsIcon as broken } from "./broken";
-import { SettingsIcon as outline } from "./outline";
-import { SettingsIcon as line_duotone } from "./line-duotone";
+import { SettingsIcon as line } from "./line.ts";
+import { SettingsIcon as bold } from "./bold.ts";
+import { SettingsIcon as duotone } from "./duotone.ts";
+import { SettingsIcon as broken } from "./broken.ts";
+import { SettingsIcon as outline } from "./outline.ts";
+import { SettingsIcon as line_duotone } from "./line-duotone.ts";
 
 export const SettingsIcon: IconEntry = {
     line: line,

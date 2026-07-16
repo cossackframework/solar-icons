@@ -4,12 +4,12 @@
  *   One style:   import { PowerIcon } from '@cossackframework/solar-icons/power/<style>'
  */
 import type { IconEntry } from "../types";
-import { PowerIcon as line } from "./line";
-import { PowerIcon as bold } from "./bold";
-import { PowerIcon as duotone } from "./duotone";
-import { PowerIcon as broken } from "./broken";
-import { PowerIcon as outline } from "./outline";
-import { PowerIcon as line_duotone } from "./line-duotone";
+import { PowerIcon as line } from "./line.ts";
+import { PowerIcon as bold } from "./bold.ts";
+import { PowerIcon as duotone } from "./duotone.ts";
+import { PowerIcon as broken } from "./broken.ts";
+import { PowerIcon as outline } from "./outline.ts";
+import { PowerIcon as line_duotone } from "./line-duotone.ts";
 
 export const PowerIcon: IconEntry = {
     line: line,

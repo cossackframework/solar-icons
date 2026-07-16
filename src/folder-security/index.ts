@@ -4,12 +4,12 @@
  *   One style:   import { FolderSecurityIcon } from '@cossackframework/solar-icons/folder-security/<style>'
  */
 import type { IconEntry } from "../types";
-import { FolderSecurityIcon as line } from "./line";
-import { FolderSecurityIcon as bold } from "./bold";
-import { FolderSecurityIcon as duotone } from "./duotone";
-import { FolderSecurityIcon as broken } from "./broken";
-import { FolderSecurityIcon as outline } from "./outline";
-import { FolderSecurityIcon as line_duotone } from "./line-duotone";
+import { FolderSecurityIcon as line } from "./line.ts";
+import { FolderSecurityIcon as bold } from "./bold.ts";
+import { FolderSecurityIcon as duotone } from "./duotone.ts";
+import { FolderSecurityIcon as broken } from "./broken.ts";
+import { FolderSecurityIcon as outline } from "./outline.ts";
+import { FolderSecurityIcon as line_duotone } from "./line-duotone.ts";
 
 export const FolderSecurityIcon: IconEntry = {
     line: line,

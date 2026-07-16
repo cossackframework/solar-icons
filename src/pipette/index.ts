@@ -4,12 +4,12 @@
  *   One style:   import { PipetteIcon } from '@cossackframework/solar-icons/pipette/<style>'
  */
 import type { IconEntry } from "../types";
-import { PipetteIcon as line } from "./line";
-import { PipetteIcon as bold } from "./bold";
-import { PipetteIcon as duotone } from "./duotone";
-import { PipetteIcon as broken } from "./broken";
-import { PipetteIcon as outline } from "./outline";
-import { PipetteIcon as line_duotone } from "./line-duotone";
+import { PipetteIcon as line } from "./line.ts";
+import { PipetteIcon as bold } from "./bold.ts";
+import { PipetteIcon as duotone } from "./duotone.ts";
+import { PipetteIcon as broken } from "./broken.ts";
+import { PipetteIcon as outline } from "./outline.ts";
+import { PipetteIcon as line_duotone } from "./line-duotone.ts";
 
 export const PipetteIcon: IconEntry = {
     line: line,

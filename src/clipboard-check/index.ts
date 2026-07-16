@@ -4,12 +4,12 @@
  *   One style:   import { ClipboardCheckIcon } from '@cossackframework/solar-icons/clipboard-check/<style>'
  */
 import type { IconEntry } from "../types";
-import { ClipboardCheckIcon as line } from "./line";
-import { ClipboardCheckIcon as bold } from "./bold";
-import { ClipboardCheckIcon as duotone } from "./duotone";
-import { ClipboardCheckIcon as broken } from "./broken";
-import { ClipboardCheckIcon as outline } from "./outline";
-import { ClipboardCheckIcon as line_duotone } from "./line-duotone";
+import { ClipboardCheckIcon as line } from "./line.ts";
+import { ClipboardCheckIcon as bold } from "./bold.ts";
+import { ClipboardCheckIcon as duotone } from "./duotone.ts";
+import { ClipboardCheckIcon as broken } from "./broken.ts";
+import { ClipboardCheckIcon as outline } from "./outline.ts";
+import { ClipboardCheckIcon as line_duotone } from "./line-duotone.ts";
 
 export const ClipboardCheckIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { BoltIcon } from '@cossackframework/solar-icons/bolt/<style>'
  */
 import type { IconEntry } from "../types";
-import { BoltIcon as line } from "./line";
-import { BoltIcon as bold } from "./bold";
-import { BoltIcon as duotone } from "./duotone";
-import { BoltIcon as broken } from "./broken";
-import { BoltIcon as outline } from "./outline";
-import { BoltIcon as line_duotone } from "./line-duotone";
+import { BoltIcon as line } from "./line.ts";
+import { BoltIcon as bold } from "./bold.ts";
+import { BoltIcon as duotone } from "./duotone.ts";
+import { BoltIcon as broken } from "./broken.ts";
+import { BoltIcon as outline } from "./outline.ts";
+import { BoltIcon as line_duotone } from "./line-duotone.ts";
 
 export const BoltIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { ThermometerIcon } from '@cossackframework/solar-icons/thermometer/<style>'
  */
 import type { IconEntry } from "../types";
-import { ThermometerIcon as line } from "./line";
-import { ThermometerIcon as bold } from "./bold";
-import { ThermometerIcon as duotone } from "./duotone";
-import { ThermometerIcon as broken } from "./broken";
-import { ThermometerIcon as outline } from "./outline";
-import { ThermometerIcon as line_duotone } from "./line-duotone";
+import { ThermometerIcon as line } from "./line.ts";
+import { ThermometerIcon as bold } from "./bold.ts";
+import { ThermometerIcon as duotone } from "./duotone.ts";
+import { ThermometerIcon as broken } from "./broken.ts";
+import { ThermometerIcon as outline } from "./outline.ts";
+import { ThermometerIcon as line_duotone } from "./line-duotone.ts";
 
 export const ThermometerIcon: IconEntry = {
     line: line,

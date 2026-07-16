@@ -4,12 +4,12 @@
  *   One style:   import { StretchingRoundIcon } from '@cossackframework/solar-icons/stretching-round/<style>'
  */
 import type { IconEntry } from "../types";
-import { StretchingRoundIcon as line } from "./line";
-import { StretchingRoundIcon as bold } from "./bold";
-import { StretchingRoundIcon as duotone } from "./duotone";
-import { StretchingRoundIcon as broken } from "./broken";
-import { StretchingRoundIcon as outline } from "./outline";
-import { StretchingRoundIcon as line_duotone } from "./line-duotone";
+import { StretchingRoundIcon as line } from "./line.ts";
+import { StretchingRoundIcon as bold } from "./bold.ts";
+import { StretchingRoundIcon as duotone } from "./duotone.ts";
+import { StretchingRoundIcon as broken } from "./broken.ts";
+import { StretchingRoundIcon as outline } from "./outline.ts";
+import { StretchingRoundIcon as line_duotone } from "./line-duotone.ts";
 
 export const StretchingRoundIcon: IconEntry = {
     line: line,

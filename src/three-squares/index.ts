@@ -4,12 +4,12 @@
  *   One style:   import { ThreeSquaresIcon } from '@cossackframework/solar-icons/three-squares/<style>'
  */
 import type { IconEntry } from "../types";
-import { ThreeSquaresIcon as line } from "./line";
-import { ThreeSquaresIcon as bold } from "./bold";
-import { ThreeSquaresIcon as duotone } from "./duotone";
-import { ThreeSquaresIcon as broken } from "./broken";
-import { ThreeSquaresIcon as outline } from "./outline";
-import { ThreeSquaresIcon as line_duotone } from "./line-duotone";
+import { ThreeSquaresIcon as line } from "./line.ts";
+import { ThreeSquaresIcon as bold } from "./bold.ts";
+import { ThreeSquaresIcon as duotone } from "./duotone.ts";
+import { ThreeSquaresIcon as broken } from "./broken.ts";
+import { ThreeSquaresIcon as outline } from "./outline.ts";
+import { ThreeSquaresIcon as line_duotone } from "./line-duotone.ts";
 
 export const ThreeSquaresIcon: IconEntry = {
     line: line,

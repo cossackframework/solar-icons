@@ -4,12 +4,12 @@
  *   One style:   import { WindIcon } from '@cossackframework/solar-icons/wind/<style>'
  */
 import type { IconEntry } from "../types";
-import { WindIcon as line } from "./line";
-import { WindIcon as bold } from "./bold";
-import { WindIcon as duotone } from "./duotone";
-import { WindIcon as broken } from "./broken";
-import { WindIcon as outline } from "./outline";
-import { WindIcon as line_duotone } from "./line-duotone";
+import { WindIcon as line } from "./line.ts";
+import { WindIcon as bold } from "./bold.ts";
+import { WindIcon as duotone } from "./duotone.ts";
+import { WindIcon as broken } from "./broken.ts";
+import { WindIcon as outline } from "./outline.ts";
+import { WindIcon as line_duotone } from "./line-duotone.ts";
 
 export const WindIcon: IconEntry = {
     line: line,

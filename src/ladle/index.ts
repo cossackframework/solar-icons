@@ -4,12 +4,12 @@
  *   One style:   import { LadleIcon } from '@cossackframework/solar-icons/ladle/<style>'
  */
 import type { IconEntry } from "../types";
-import { LadleIcon as line } from "./line";
-import { LadleIcon as bold } from "./bold";
-import { LadleIcon as duotone } from "./duotone";
-import { LadleIcon as broken } from "./broken";
-import { LadleIcon as outline } from "./outline";
-import { LadleIcon as line_duotone } from "./line-duotone";
+import { LadleIcon as line } from "./line.ts";
+import { LadleIcon as bold } from "./bold.ts";
+import { LadleIcon as duotone } from "./duotone.ts";
+import { LadleIcon as broken } from "./broken.ts";
+import { LadleIcon as outline } from "./outline.ts";
+import { LadleIcon as line_duotone } from "./line-duotone.ts";
 
 export const LadleIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { FourKIcon } from '@cossackframework/solar-icons/four-k/<style>'
  */
 import type { IconEntry } from "../types";
-import { FourKIcon as line } from "./line";
-import { FourKIcon as bold } from "./bold";
-import { FourKIcon as duotone } from "./duotone";
-import { FourKIcon as broken } from "./broken";
-import { FourKIcon as outline } from "./outline";
-import { FourKIcon as line_duotone } from "./line-duotone";
+import { FourKIcon as line } from "./line.ts";
+import { FourKIcon as bold } from "./bold.ts";
+import { FourKIcon as duotone } from "./duotone.ts";
+import { FourKIcon as broken } from "./broken.ts";
+import { FourKIcon as outline } from "./outline.ts";
+import { FourKIcon as line_duotone } from "./line-duotone.ts";
 
 export const FourKIcon: IconEntry = {
     line: line,

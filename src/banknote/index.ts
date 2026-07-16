@@ -4,12 +4,12 @@
  *   One style:   import { BanknoteIcon } from '@cossackframework/solar-icons/banknote/<style>'
  */
 import type { IconEntry } from "../types";
-import { BanknoteIcon as line } from "./line";
-import { BanknoteIcon as bold } from "./bold";
-import { BanknoteIcon as duotone } from "./duotone";
-import { BanknoteIcon as broken } from "./broken";
-import { BanknoteIcon as outline } from "./outline";
-import { BanknoteIcon as line_duotone } from "./line-duotone";
+import { BanknoteIcon as line } from "./line.ts";
+import { BanknoteIcon as bold } from "./bold.ts";
+import { BanknoteIcon as duotone } from "./duotone.ts";
+import { BanknoteIcon as broken } from "./broken.ts";
+import { BanknoteIcon as outline } from "./outline.ts";
+import { BanknoteIcon as line_duotone } from "./line-duotone.ts";
 
 export const BanknoteIcon: IconEntry = {
     line: line,

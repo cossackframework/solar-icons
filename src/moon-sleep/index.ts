@@ -4,12 +4,12 @@
  *   One style:   import { MoonSleepIcon } from '@cossackframework/solar-icons/moon-sleep/<style>'
  */
 import type { IconEntry } from "../types";
-import { MoonSleepIcon as line } from "./line";
-import { MoonSleepIcon as bold } from "./bold";
-import { MoonSleepIcon as duotone } from "./duotone";
-import { MoonSleepIcon as broken } from "./broken";
-import { MoonSleepIcon as outline } from "./outline";
-import { MoonSleepIcon as line_duotone } from "./line-duotone";
+import { MoonSleepIcon as line } from "./line.ts";
+import { MoonSleepIcon as bold } from "./bold.ts";
+import { MoonSleepIcon as duotone } from "./duotone.ts";
+import { MoonSleepIcon as broken } from "./broken.ts";
+import { MoonSleepIcon as outline } from "./outline.ts";
+import { MoonSleepIcon as line_duotone } from "./line-duotone.ts";
 
 export const MoonSleepIcon: IconEntry = {
     line: line,

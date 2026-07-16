@@ -4,12 +4,12 @@
  *   One style:   import { ExpressionlessCircleIcon } from '@cossackframework/solar-icons/expressionless-circle/<style>'
  */
 import type { IconEntry } from "../types";
-import { ExpressionlessCircleIcon as line } from "./line";
-import { ExpressionlessCircleIcon as bold } from "./bold";
-import { ExpressionlessCircleIcon as duotone } from "./duotone";
-import { ExpressionlessCircleIcon as broken } from "./broken";
-import { ExpressionlessCircleIcon as outline } from "./outline";
-import { ExpressionlessCircleIcon as line_duotone } from "./line-duotone";
+import { ExpressionlessCircleIcon as line } from "./line.ts";
+import { ExpressionlessCircleIcon as bold } from "./bold.ts";
+import { ExpressionlessCircleIcon as duotone } from "./duotone.ts";
+import { ExpressionlessCircleIcon as broken } from "./broken.ts";
+import { ExpressionlessCircleIcon as outline } from "./outline.ts";
+import { ExpressionlessCircleIcon as line_duotone } from "./line-duotone.ts";
 
 export const ExpressionlessCircleIcon: IconEntry = {
     line: line,

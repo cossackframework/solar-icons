@@ -4,12 +4,12 @@
  *   One style:   import { SkateboardIcon } from '@cossackframework/solar-icons/skateboard/<style>'
  */
 import type { IconEntry } from "../types";
-import { SkateboardIcon as line } from "./line";
-import { SkateboardIcon as bold } from "./bold";
-import { SkateboardIcon as duotone } from "./duotone";
-import { SkateboardIcon as broken } from "./broken";
-import { SkateboardIcon as outline } from "./outline";
-import { SkateboardIcon as line_duotone } from "./line-duotone";
+import { SkateboardIcon as line } from "./line.ts";
+import { SkateboardIcon as bold } from "./bold.ts";
+import { SkateboardIcon as duotone } from "./duotone.ts";
+import { SkateboardIcon as broken } from "./broken.ts";
+import { SkateboardIcon as outline } from "./outline.ts";
+import { SkateboardIcon as line_duotone } from "./line-duotone.ts";
 
 export const SkateboardIcon: IconEntry = {
     line: line,

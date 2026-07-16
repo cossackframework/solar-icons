@@ -4,12 +4,12 @@
  *   One style:   import { RoundedMagnifierIcon } from '@cossackframework/solar-icons/rounded-magnifier/<style>'
  */
 import type { IconEntry } from "../types";
-import { RoundedMagnifierIcon as line } from "./line";
-import { RoundedMagnifierIcon as bold } from "./bold";
-import { RoundedMagnifierIcon as duotone } from "./duotone";
-import { RoundedMagnifierIcon as broken } from "./broken";
-import { RoundedMagnifierIcon as outline } from "./outline";
-import { RoundedMagnifierIcon as line_duotone } from "./line-duotone";
+import { RoundedMagnifierIcon as line } from "./line.ts";
+import { RoundedMagnifierIcon as bold } from "./bold.ts";
+import { RoundedMagnifierIcon as duotone } from "./duotone.ts";
+import { RoundedMagnifierIcon as broken } from "./broken.ts";
+import { RoundedMagnifierIcon as outline } from "./outline.ts";
+import { RoundedMagnifierIcon as line_duotone } from "./line-duotone.ts";
 
 export const RoundedMagnifierIcon: IconEntry = {
     line: line,

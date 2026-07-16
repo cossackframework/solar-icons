@@ -4,12 +4,12 @@
  *   One style:   import { MapPointRemoveIcon } from '@cossackframework/solar-icons/map-point-remove/<style>'
  */
 import type { IconEntry } from "../types";
-import { MapPointRemoveIcon as line } from "./line";
-import { MapPointRemoveIcon as bold } from "./bold";
-import { MapPointRemoveIcon as duotone } from "./duotone";
-import { MapPointRemoveIcon as broken } from "./broken";
-import { MapPointRemoveIcon as outline } from "./outline";
-import { MapPointRemoveIcon as line_duotone } from "./line-duotone";
+import { MapPointRemoveIcon as line } from "./line.ts";
+import { MapPointRemoveIcon as bold } from "./bold.ts";
+import { MapPointRemoveIcon as duotone } from "./duotone.ts";
+import { MapPointRemoveIcon as broken } from "./broken.ts";
+import { MapPointRemoveIcon as outline } from "./outline.ts";
+import { MapPointRemoveIcon as line_duotone } from "./line-duotone.ts";
 
 export const MapPointRemoveIcon: IconEntry = {
     line: line,

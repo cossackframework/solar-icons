@@ -4,12 +4,12 @@
  *   One style:   import { HandShakeIcon } from '@cossackframework/solar-icons/hand-shake/<style>'
  */
 import type { IconEntry } from "../types";
-import { HandShakeIcon as line } from "./line";
-import { HandShakeIcon as bold } from "./bold";
-import { HandShakeIcon as duotone } from "./duotone";
-import { HandShakeIcon as broken } from "./broken";
-import { HandShakeIcon as outline } from "./outline";
-import { HandShakeIcon as line_duotone } from "./line-duotone";
+import { HandShakeIcon as line } from "./line.ts";
+import { HandShakeIcon as bold } from "./bold.ts";
+import { HandShakeIcon as duotone } from "./duotone.ts";
+import { HandShakeIcon as broken } from "./broken.ts";
+import { HandShakeIcon as outline } from "./outline.ts";
+import { HandShakeIcon as line_duotone } from "./line-duotone.ts";
 
 export const HandShakeIcon: IconEntry = {
     line: line,

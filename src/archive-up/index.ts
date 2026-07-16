@@ -4,12 +4,12 @@
  *   One style:   import { ArchiveUpIcon } from '@cossackframework/solar-icons/archive-up/<style>'
  */
 import type { IconEntry } from "../types";
-import { ArchiveUpIcon as line } from "./line";
-import { ArchiveUpIcon as bold } from "./bold";
-import { ArchiveUpIcon as duotone } from "./duotone";
-import { ArchiveUpIcon as broken } from "./broken";
-import { ArchiveUpIcon as outline } from "./outline";
-import { ArchiveUpIcon as line_duotone } from "./line-duotone";
+import { ArchiveUpIcon as line } from "./line.ts";
+import { ArchiveUpIcon as bold } from "./bold.ts";
+import { ArchiveUpIcon as duotone } from "./duotone.ts";
+import { ArchiveUpIcon as broken } from "./broken.ts";
+import { ArchiveUpIcon as outline } from "./outline.ts";
+import { ArchiveUpIcon as line_duotone } from "./line-duotone.ts";
 
 export const ArchiveUpIcon: IconEntry = {
     line: line,

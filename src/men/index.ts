@@ -4,12 +4,12 @@
  *   One style:   import { MenIcon } from '@cossackframework/solar-icons/men/<style>'
  */
 import type { IconEntry } from "../types";
-import { MenIcon as line } from "./line";
-import { MenIcon as bold } from "./bold";
-import { MenIcon as duotone } from "./duotone";
-import { MenIcon as broken } from "./broken";
-import { MenIcon as outline } from "./outline";
-import { MenIcon as line_duotone } from "./line-duotone";
+import { MenIcon as line } from "./line.ts";
+import { MenIcon as bold } from "./bold.ts";
+import { MenIcon as duotone } from "./duotone.ts";
+import { MenIcon as broken } from "./broken.ts";
+import { MenIcon as outline } from "./outline.ts";
+import { MenIcon as line_duotone } from "./line-duotone.ts";
 
 export const MenIcon: IconEntry = {
     line: line,

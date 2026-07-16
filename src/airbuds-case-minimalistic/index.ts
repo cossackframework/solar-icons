@@ -4,12 +4,12 @@
  *   One style:   import { AirbudsCaseMinimalisticIcon } from '@cossackframework/solar-icons/airbuds-case-minimalistic/<style>'
  */
 import type { IconEntry } from "../types";
-import { AirbudsCaseMinimalisticIcon as line } from "./line";
-import { AirbudsCaseMinimalisticIcon as bold } from "./bold";
-import { AirbudsCaseMinimalisticIcon as duotone } from "./duotone";
-import { AirbudsCaseMinimalisticIcon as broken } from "./broken";
-import { AirbudsCaseMinimalisticIcon as outline } from "./outline";
-import { AirbudsCaseMinimalisticIcon as line_duotone } from "./line-duotone";
+import { AirbudsCaseMinimalisticIcon as line } from "./line.ts";
+import { AirbudsCaseMinimalisticIcon as bold } from "./bold.ts";
+import { AirbudsCaseMinimalisticIcon as duotone } from "./duotone.ts";
+import { AirbudsCaseMinimalisticIcon as broken } from "./broken.ts";
+import { AirbudsCaseMinimalisticIcon as outline } from "./outline.ts";
+import { AirbudsCaseMinimalisticIcon as line_duotone } from "./line-duotone.ts";
 
 export const AirbudsCaseMinimalisticIcon: IconEntry = {
     line: line,

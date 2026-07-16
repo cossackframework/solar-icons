@@ -4,12 +4,12 @@
  *   One style:   import { UploadTwiceSquareIcon } from '@cossackframework/solar-icons/upload-twice-square/<style>'
  */
 import type { IconEntry } from "../types";
-import { UploadTwiceSquareIcon as line } from "./line";
-import { UploadTwiceSquareIcon as bold } from "./bold";
-import { UploadTwiceSquareIcon as duotone } from "./duotone";
-import { UploadTwiceSquareIcon as broken } from "./broken";
-import { UploadTwiceSquareIcon as outline } from "./outline";
-import { UploadTwiceSquareIcon as line_duotone } from "./line-duotone";
+import { UploadTwiceSquareIcon as line } from "./line.ts";
+import { UploadTwiceSquareIcon as bold } from "./bold.ts";
+import { UploadTwiceSquareIcon as duotone } from "./duotone.ts";
+import { UploadTwiceSquareIcon as broken } from "./broken.ts";
+import { UploadTwiceSquareIcon as outline } from "./outline.ts";
+import { UploadTwiceSquareIcon as line_duotone } from "./line-duotone.ts";
 
 export const UploadTwiceSquareIcon: IconEntry = {
     line: line,

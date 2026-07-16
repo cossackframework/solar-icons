@@ -4,12 +4,12 @@
  *   One style:   import { NotebookIcon } from '@cossackframework/solar-icons/notebook/<style>'
  */
 import type { IconEntry } from "../types";
-import { NotebookIcon as line } from "./line";
-import { NotebookIcon as bold } from "./bold";
-import { NotebookIcon as duotone } from "./duotone";
-import { NotebookIcon as broken } from "./broken";
-import { NotebookIcon as outline } from "./outline";
-import { NotebookIcon as line_duotone } from "./line-duotone";
+import { NotebookIcon as line } from "./line.ts";
+import { NotebookIcon as bold } from "./bold.ts";
+import { NotebookIcon as duotone } from "./duotone.ts";
+import { NotebookIcon as broken } from "./broken.ts";
+import { NotebookIcon as outline } from "./outline.ts";
+import { NotebookIcon as line_duotone } from "./line-duotone.ts";
 
 export const NotebookIcon: IconEntry = {
     line: line,

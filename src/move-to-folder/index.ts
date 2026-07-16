@@ -4,12 +4,12 @@
  *   One style:   import { MoveToFolderIcon } from '@cossackframework/solar-icons/move-to-folder/<style>'
  */
 import type { IconEntry } from "../types";
-import { MoveToFolderIcon as line } from "./line";
-import { MoveToFolderIcon as bold } from "./bold";
-import { MoveToFolderIcon as duotone } from "./duotone";
-import { MoveToFolderIcon as broken } from "./broken";
-import { MoveToFolderIcon as outline } from "./outline";
-import { MoveToFolderIcon as line_duotone } from "./line-duotone";
+import { MoveToFolderIcon as line } from "./line.ts";
+import { MoveToFolderIcon as bold } from "./bold.ts";
+import { MoveToFolderIcon as duotone } from "./duotone.ts";
+import { MoveToFolderIcon as broken } from "./broken.ts";
+import { MoveToFolderIcon as outline } from "./outline.ts";
+import { MoveToFolderIcon as line_duotone } from "./line-duotone.ts";
 
 export const MoveToFolderIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { RubleIcon } from '@cossackframework/solar-icons/ruble/<style>'
  */
 import type { IconEntry } from "../types";
-import { RubleIcon as line } from "./line";
-import { RubleIcon as bold } from "./bold";
-import { RubleIcon as duotone } from "./duotone";
-import { RubleIcon as broken } from "./broken";
-import { RubleIcon as outline } from "./outline";
-import { RubleIcon as line_duotone } from "./line-duotone";
+import { RubleIcon as line } from "./line.ts";
+import { RubleIcon as bold } from "./bold.ts";
+import { RubleIcon as duotone } from "./duotone.ts";
+import { RubleIcon as broken } from "./broken.ts";
+import { RubleIcon as outline } from "./outline.ts";
+import { RubleIcon as line_duotone } from "./line-duotone.ts";
 
 export const RubleIcon: IconEntry = {
     line: line,

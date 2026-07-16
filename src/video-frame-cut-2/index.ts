@@ -4,12 +4,12 @@
  *   One style:   import { VideoFrameCut2Icon } from '@cossackframework/solar-icons/video-frame-cut-2/<style>'
  */
 import type { IconEntry } from "../types";
-import { VideoFrameCut2Icon as line } from "./line";
-import { VideoFrameCut2Icon as bold } from "./bold";
-import { VideoFrameCut2Icon as duotone } from "./duotone";
-import { VideoFrameCut2Icon as broken } from "./broken";
-import { VideoFrameCut2Icon as outline } from "./outline";
-import { VideoFrameCut2Icon as line_duotone } from "./line-duotone";
+import { VideoFrameCut2Icon as line } from "./line.ts";
+import { VideoFrameCut2Icon as bold } from "./bold.ts";
+import { VideoFrameCut2Icon as duotone } from "./duotone.ts";
+import { VideoFrameCut2Icon as broken } from "./broken.ts";
+import { VideoFrameCut2Icon as outline } from "./outline.ts";
+import { VideoFrameCut2Icon as line_duotone } from "./line-duotone.ts";
 
 export const VideoFrameCut2Icon: IconEntry = {
     line: line,

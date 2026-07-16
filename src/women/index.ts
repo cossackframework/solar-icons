@@ -4,12 +4,12 @@
  *   One style:   import { WomenIcon } from '@cossackframework/solar-icons/women/<style>'
  */
 import type { IconEntry } from "../types";
-import { WomenIcon as line } from "./line";
-import { WomenIcon as bold } from "./bold";
-import { WomenIcon as duotone } from "./duotone";
-import { WomenIcon as broken } from "./broken";
-import { WomenIcon as outline } from "./outline";
-import { WomenIcon as line_duotone } from "./line-duotone";
+import { WomenIcon as line } from "./line.ts";
+import { WomenIcon as bold } from "./bold.ts";
+import { WomenIcon as duotone } from "./duotone.ts";
+import { WomenIcon as broken } from "./broken.ts";
+import { WomenIcon as outline } from "./outline.ts";
+import { WomenIcon as line_duotone } from "./line-duotone.ts";
 
 export const WomenIcon: IconEntry = {
     line: line,

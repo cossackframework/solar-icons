@@ -4,12 +4,12 @@
  *   One style:   import { ListHeartMinimalisticIcon } from '@cossackframework/solar-icons/list-heart-minimalistic/<style>'
  */
 import type { IconEntry } from "../types";
-import { ListHeartMinimalisticIcon as line } from "./line";
-import { ListHeartMinimalisticIcon as bold } from "./bold";
-import { ListHeartMinimalisticIcon as duotone } from "./duotone";
-import { ListHeartMinimalisticIcon as broken } from "./broken";
-import { ListHeartMinimalisticIcon as outline } from "./outline";
-import { ListHeartMinimalisticIcon as line_duotone } from "./line-duotone";
+import { ListHeartMinimalisticIcon as line } from "./line.ts";
+import { ListHeartMinimalisticIcon as bold } from "./bold.ts";
+import { ListHeartMinimalisticIcon as duotone } from "./duotone.ts";
+import { ListHeartMinimalisticIcon as broken } from "./broken.ts";
+import { ListHeartMinimalisticIcon as outline } from "./outline.ts";
+import { ListHeartMinimalisticIcon as line_duotone } from "./line-duotone.ts";
 
 export const ListHeartMinimalisticIcon: IconEntry = {
     line: line,

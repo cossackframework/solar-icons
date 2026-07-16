@@ -4,12 +4,12 @@
  *   One style:   import { HeadphonesRoundSoundIcon } from '@cossackframework/solar-icons/headphones-round-sound/<style>'
  */
 import type { IconEntry } from "../types";
-import { HeadphonesRoundSoundIcon as line } from "./line";
-import { HeadphonesRoundSoundIcon as bold } from "./bold";
-import { HeadphonesRoundSoundIcon as duotone } from "./duotone";
-import { HeadphonesRoundSoundIcon as broken } from "./broken";
-import { HeadphonesRoundSoundIcon as outline } from "./outline";
-import { HeadphonesRoundSoundIcon as line_duotone } from "./line-duotone";
+import { HeadphonesRoundSoundIcon as line } from "./line.ts";
+import { HeadphonesRoundSoundIcon as bold } from "./bold.ts";
+import { HeadphonesRoundSoundIcon as duotone } from "./duotone.ts";
+import { HeadphonesRoundSoundIcon as broken } from "./broken.ts";
+import { HeadphonesRoundSoundIcon as outline } from "./outline.ts";
+import { HeadphonesRoundSoundIcon as line_duotone } from "./line-duotone.ts";
 
 export const HeadphonesRoundSoundIcon: IconEntry = {
     line: line,

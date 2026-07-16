@@ -4,12 +4,12 @@
  *   One style:   import { MedalRibbonIcon } from '@cossackframework/solar-icons/medal-ribbon/<style>'
  */
 import type { IconEntry } from "../types";
-import { MedalRibbonIcon as line } from "./line";
-import { MedalRibbonIcon as bold } from "./bold";
-import { MedalRibbonIcon as duotone } from "./duotone";
-import { MedalRibbonIcon as broken } from "./broken";
-import { MedalRibbonIcon as outline } from "./outline";
-import { MedalRibbonIcon as line_duotone } from "./line-duotone";
+import { MedalRibbonIcon as line } from "./line.ts";
+import { MedalRibbonIcon as bold } from "./bold.ts";
+import { MedalRibbonIcon as duotone } from "./duotone.ts";
+import { MedalRibbonIcon as broken } from "./broken.ts";
+import { MedalRibbonIcon as outline } from "./outline.ts";
+import { MedalRibbonIcon as line_duotone } from "./line-duotone.ts";
 
 export const MedalRibbonIcon: IconEntry = {
     line: line,

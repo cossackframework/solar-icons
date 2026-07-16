@@ -4,12 +4,12 @@
  *   One style:   import { CheckCircleIcon } from '@cossackframework/solar-icons/check-circle/<style>'
  */
 import type { IconEntry } from "../types";
-import { CheckCircleIcon as line } from "./line";
-import { CheckCircleIcon as bold } from "./bold";
-import { CheckCircleIcon as duotone } from "./duotone";
-import { CheckCircleIcon as broken } from "./broken";
-import { CheckCircleIcon as outline } from "./outline";
-import { CheckCircleIcon as line_duotone } from "./line-duotone";
+import { CheckCircleIcon as line } from "./line.ts";
+import { CheckCircleIcon as bold } from "./bold.ts";
+import { CheckCircleIcon as duotone } from "./duotone.ts";
+import { CheckCircleIcon as broken } from "./broken.ts";
+import { CheckCircleIcon as outline } from "./outline.ts";
+import { CheckCircleIcon as line_duotone } from "./line-duotone.ts";
 
 export const CheckCircleIcon: IconEntry = {
     line: line,

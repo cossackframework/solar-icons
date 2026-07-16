@@ -4,12 +4,12 @@
  *   One style:   import { MirrorIcon } from '@cossackframework/solar-icons/mirror/<style>'
  */
 import type { IconEntry } from "../types";
-import { MirrorIcon as line } from "./line";
-import { MirrorIcon as bold } from "./bold";
-import { MirrorIcon as duotone } from "./duotone";
-import { MirrorIcon as broken } from "./broken";
-import { MirrorIcon as outline } from "./outline";
-import { MirrorIcon as line_duotone } from "./line-duotone";
+import { MirrorIcon as line } from "./line.ts";
+import { MirrorIcon as bold } from "./bold.ts";
+import { MirrorIcon as duotone } from "./duotone.ts";
+import { MirrorIcon as broken } from "./broken.ts";
+import { MirrorIcon as outline } from "./outline.ts";
+import { MirrorIcon as line_duotone } from "./line-duotone.ts";
 
 export const MirrorIcon: IconEntry = {
     line: line,

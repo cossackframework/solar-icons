@@ -4,12 +4,12 @@
  *   One style:   import { GamepadMinimalisticIcon } from '@cossackframework/solar-icons/gamepad-minimalistic/<style>'
  */
 import type { IconEntry } from "../types";
-import { GamepadMinimalisticIcon as line } from "./line";
-import { GamepadMinimalisticIcon as bold } from "./bold";
-import { GamepadMinimalisticIcon as duotone } from "./duotone";
-import { GamepadMinimalisticIcon as broken } from "./broken";
-import { GamepadMinimalisticIcon as outline } from "./outline";
-import { GamepadMinimalisticIcon as line_duotone } from "./line-duotone";
+import { GamepadMinimalisticIcon as line } from "./line.ts";
+import { GamepadMinimalisticIcon as bold } from "./bold.ts";
+import { GamepadMinimalisticIcon as duotone } from "./duotone.ts";
+import { GamepadMinimalisticIcon as broken } from "./broken.ts";
+import { GamepadMinimalisticIcon as outline } from "./outline.ts";
+import { GamepadMinimalisticIcon as line_duotone } from "./line-duotone.ts";
 
 export const GamepadMinimalisticIcon: IconEntry = {
     line: line,

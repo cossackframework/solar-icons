@@ -4,12 +4,12 @@
  *   One style:   import { CardSearchIcon } from '@cossackframework/solar-icons/card-search/<style>'
  */
 import type { IconEntry } from "../types";
-import { CardSearchIcon as line } from "./line";
-import { CardSearchIcon as bold } from "./bold";
-import { CardSearchIcon as duotone } from "./duotone";
-import { CardSearchIcon as broken } from "./broken";
-import { CardSearchIcon as outline } from "./outline";
-import { CardSearchIcon as line_duotone } from "./line-duotone";
+import { CardSearchIcon as line } from "./line.ts";
+import { CardSearchIcon as bold } from "./bold.ts";
+import { CardSearchIcon as duotone } from "./duotone.ts";
+import { CardSearchIcon as broken } from "./broken.ts";
+import { CardSearchIcon as outline } from "./outline.ts";
+import { CardSearchIcon as line_duotone } from "./line-duotone.ts";
 
 export const CardSearchIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { PlaylistMinimalistic2Icon } from '@cossackframework/solar-icons/playlist-minimalistic-2/<style>'
  */
 import type { IconEntry } from "../types";
-import { PlaylistMinimalistic2Icon as line } from "./line";
-import { PlaylistMinimalistic2Icon as bold } from "./bold";
-import { PlaylistMinimalistic2Icon as duotone } from "./duotone";
-import { PlaylistMinimalistic2Icon as broken } from "./broken";
-import { PlaylistMinimalistic2Icon as outline } from "./outline";
-import { PlaylistMinimalistic2Icon as line_duotone } from "./line-duotone";
+import { PlaylistMinimalistic2Icon as line } from "./line.ts";
+import { PlaylistMinimalistic2Icon as bold } from "./bold.ts";
+import { PlaylistMinimalistic2Icon as duotone } from "./duotone.ts";
+import { PlaylistMinimalistic2Icon as broken } from "./broken.ts";
+import { PlaylistMinimalistic2Icon as outline } from "./outline.ts";
+import { PlaylistMinimalistic2Icon as line_duotone } from "./line-duotone.ts";
 
 export const PlaylistMinimalistic2Icon: IconEntry = {
     line: line,

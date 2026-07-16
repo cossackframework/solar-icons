@@ -4,12 +4,12 @@
  *   One style:   import { ToPipIcon } from '@cossackframework/solar-icons/to-pip/<style>'
  */
 import type { IconEntry } from "../types";
-import { ToPipIcon as line } from "./line";
-import { ToPipIcon as bold } from "./bold";
-import { ToPipIcon as duotone } from "./duotone";
-import { ToPipIcon as broken } from "./broken";
-import { ToPipIcon as outline } from "./outline";
-import { ToPipIcon as line_duotone } from "./line-duotone";
+import { ToPipIcon as line } from "./line.ts";
+import { ToPipIcon as bold } from "./bold.ts";
+import { ToPipIcon as duotone } from "./duotone.ts";
+import { ToPipIcon as broken } from "./broken.ts";
+import { ToPipIcon as outline } from "./outline.ts";
+import { ToPipIcon as line_duotone } from "./line-duotone.ts";
 
 export const ToPipIcon: IconEntry = {
     line: line,

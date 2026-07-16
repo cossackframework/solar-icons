@@ -4,12 +4,12 @@
  *   One style:   import { WineglassTriangleIcon } from '@cossackframework/solar-icons/wineglass-triangle/<style>'
  */
 import type { IconEntry } from "../types";
-import { WineglassTriangleIcon as line } from "./line";
-import { WineglassTriangleIcon as bold } from "./bold";
-import { WineglassTriangleIcon as duotone } from "./duotone";
-import { WineglassTriangleIcon as broken } from "./broken";
-import { WineglassTriangleIcon as outline } from "./outline";
-import { WineglassTriangleIcon as line_duotone } from "./line-duotone";
+import { WineglassTriangleIcon as line } from "./line.ts";
+import { WineglassTriangleIcon as bold } from "./bold.ts";
+import { WineglassTriangleIcon as duotone } from "./duotone.ts";
+import { WineglassTriangleIcon as broken } from "./broken.ts";
+import { WineglassTriangleIcon as outline } from "./outline.ts";
+import { WineglassTriangleIcon as line_duotone } from "./line-duotone.ts";
 
 export const WineglassTriangleIcon: IconEntry = {
     line: line,

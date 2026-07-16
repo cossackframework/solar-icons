@@ -4,12 +4,12 @@
  *   One style:   import { TextBoldCircleIcon } from '@cossackframework/solar-icons/text-bold-circle/<style>'
  */
 import type { IconEntry } from "../types";
-import { TextBoldCircleIcon as line } from "./line";
-import { TextBoldCircleIcon as bold } from "./bold";
-import { TextBoldCircleIcon as duotone } from "./duotone";
-import { TextBoldCircleIcon as broken } from "./broken";
-import { TextBoldCircleIcon as outline } from "./outline";
-import { TextBoldCircleIcon as line_duotone } from "./line-duotone";
+import { TextBoldCircleIcon as line } from "./line.ts";
+import { TextBoldCircleIcon as bold } from "./bold.ts";
+import { TextBoldCircleIcon as duotone } from "./duotone.ts";
+import { TextBoldCircleIcon as broken } from "./broken.ts";
+import { TextBoldCircleIcon as outline } from "./outline.ts";
+import { TextBoldCircleIcon as line_duotone } from "./line-duotone.ts";
 
 export const TextBoldCircleIcon: IconEntry = {
     line: line,

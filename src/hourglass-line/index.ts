@@ -4,12 +4,12 @@
  *   One style:   import { HourglassLineIcon } from '@cossackframework/solar-icons/hourglass-line/<style>'
  */
 import type { IconEntry } from "../types";
-import { HourglassLineIcon as line } from "./line";
-import { HourglassLineIcon as bold } from "./bold";
-import { HourglassLineIcon as duotone } from "./duotone";
-import { HourglassLineIcon as broken } from "./broken";
-import { HourglassLineIcon as outline } from "./outline";
-import { HourglassLineIcon as line_duotone } from "./line-duotone";
+import { HourglassLineIcon as line } from "./line.ts";
+import { HourglassLineIcon as bold } from "./bold.ts";
+import { HourglassLineIcon as duotone } from "./duotone.ts";
+import { HourglassLineIcon as broken } from "./broken.ts";
+import { HourglassLineIcon as outline } from "./outline.ts";
+import { HourglassLineIcon as line_duotone } from "./line-duotone.ts";
 
 export const HourglassLineIcon: IconEntry = {
     line: line,

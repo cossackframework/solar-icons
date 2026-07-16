@@ -4,12 +4,12 @@
  *   One style:   import { ExpressionlessSquareIcon } from '@cossackframework/solar-icons/expressionless-square/<style>'
  */
 import type { IconEntry } from "../types";
-import { ExpressionlessSquareIcon as line } from "./line";
-import { ExpressionlessSquareIcon as bold } from "./bold";
-import { ExpressionlessSquareIcon as duotone } from "./duotone";
-import { ExpressionlessSquareIcon as broken } from "./broken";
-import { ExpressionlessSquareIcon as outline } from "./outline";
-import { ExpressionlessSquareIcon as line_duotone } from "./line-duotone";
+import { ExpressionlessSquareIcon as line } from "./line.ts";
+import { ExpressionlessSquareIcon as bold } from "./bold.ts";
+import { ExpressionlessSquareIcon as duotone } from "./duotone.ts";
+import { ExpressionlessSquareIcon as broken } from "./broken.ts";
+import { ExpressionlessSquareIcon as outline } from "./outline.ts";
+import { ExpressionlessSquareIcon as line_duotone } from "./line-duotone.ts";
 
 export const ExpressionlessSquareIcon: IconEntry = {
     line: line,

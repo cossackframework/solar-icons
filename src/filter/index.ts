@@ -4,12 +4,12 @@
  *   One style:   import { FilterIcon } from '@cossackframework/solar-icons/filter/<style>'
  */
 import type { IconEntry } from "../types";
-import { FilterIcon as line } from "./line";
-import { FilterIcon as bold } from "./bold";
-import { FilterIcon as duotone } from "./duotone";
-import { FilterIcon as broken } from "./broken";
-import { FilterIcon as outline } from "./outline";
-import { FilterIcon as line_duotone } from "./line-duotone";
+import { FilterIcon as line } from "./line.ts";
+import { FilterIcon as bold } from "./bold.ts";
+import { FilterIcon as duotone } from "./duotone.ts";
+import { FilterIcon as broken } from "./broken.ts";
+import { FilterIcon as outline } from "./outline.ts";
+import { FilterIcon as line_duotone } from "./line-duotone.ts";
 
 export const FilterIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { GiftIcon } from '@cossackframework/solar-icons/gift/<style>'
  */
 import type { IconEntry } from "../types";
-import { GiftIcon as line } from "./line";
-import { GiftIcon as bold } from "./bold";
-import { GiftIcon as duotone } from "./duotone";
-import { GiftIcon as broken } from "./broken";
-import { GiftIcon as outline } from "./outline";
-import { GiftIcon as line_duotone } from "./line-duotone";
+import { GiftIcon as line } from "./line.ts";
+import { GiftIcon as bold } from "./bold.ts";
+import { GiftIcon as duotone } from "./duotone.ts";
+import { GiftIcon as broken } from "./broken.ts";
+import { GiftIcon as outline } from "./outline.ts";
+import { GiftIcon as line_duotone } from "./line-duotone.ts";
 
 export const GiftIcon: IconEntry = {
     line: line,

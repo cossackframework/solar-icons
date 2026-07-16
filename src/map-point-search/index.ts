@@ -4,12 +4,12 @@
  *   One style:   import { MapPointSearchIcon } from '@cossackframework/solar-icons/map-point-search/<style>'
  */
 import type { IconEntry } from "../types";
-import { MapPointSearchIcon as line } from "./line";
-import { MapPointSearchIcon as bold } from "./bold";
-import { MapPointSearchIcon as duotone } from "./duotone";
-import { MapPointSearchIcon as broken } from "./broken";
-import { MapPointSearchIcon as outline } from "./outline";
-import { MapPointSearchIcon as line_duotone } from "./line-duotone";
+import { MapPointSearchIcon as line } from "./line.ts";
+import { MapPointSearchIcon as bold } from "./bold.ts";
+import { MapPointSearchIcon as duotone } from "./duotone.ts";
+import { MapPointSearchIcon as broken } from "./broken.ts";
+import { MapPointSearchIcon as outline } from "./outline.ts";
+import { MapPointSearchIcon as line_duotone } from "./line-duotone.ts";
 
 export const MapPointSearchIcon: IconEntry = {
     line: line,

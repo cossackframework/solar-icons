@@ -4,12 +4,12 @@
  *   One style:   import { SuitcaseLinesIcon } from '@cossackframework/solar-icons/suitcase-lines/<style>'
  */
 import type { IconEntry } from "../types";
-import { SuitcaseLinesIcon as line } from "./line";
-import { SuitcaseLinesIcon as bold } from "./bold";
-import { SuitcaseLinesIcon as duotone } from "./duotone";
-import { SuitcaseLinesIcon as broken } from "./broken";
-import { SuitcaseLinesIcon as outline } from "./outline";
-import { SuitcaseLinesIcon as line_duotone } from "./line-duotone";
+import { SuitcaseLinesIcon as line } from "./line.ts";
+import { SuitcaseLinesIcon as bold } from "./bold.ts";
+import { SuitcaseLinesIcon as duotone } from "./duotone.ts";
+import { SuitcaseLinesIcon as broken } from "./broken.ts";
+import { SuitcaseLinesIcon as outline } from "./outline.ts";
+import { SuitcaseLinesIcon as line_duotone } from "./line-duotone.ts";
 
 export const SuitcaseLinesIcon: IconEntry = {
     line: line,

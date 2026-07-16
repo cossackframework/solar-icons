@@ -4,12 +4,12 @@
  *   One style:   import { FeedIcon } from '@cossackframework/solar-icons/feed/<style>'
  */
 import type { IconEntry } from "../types";
-import { FeedIcon as line } from "./line";
-import { FeedIcon as bold } from "./bold";
-import { FeedIcon as duotone } from "./duotone";
-import { FeedIcon as broken } from "./broken";
-import { FeedIcon as outline } from "./outline";
-import { FeedIcon as line_duotone } from "./line-duotone";
+import { FeedIcon as line } from "./line.ts";
+import { FeedIcon as bold } from "./bold.ts";
+import { FeedIcon as duotone } from "./duotone.ts";
+import { FeedIcon as broken } from "./broken.ts";
+import { FeedIcon as outline } from "./outline.ts";
+import { FeedIcon as line_duotone } from "./line-duotone.ts";
 
 export const FeedIcon: IconEntry = {
     line: line,

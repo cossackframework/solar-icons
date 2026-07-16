@@ -4,12 +4,12 @@
  *   One style:   import { RoutingIcon } from '@cossackframework/solar-icons/routing/<style>'
  */
 import type { IconEntry } from "../types";
-import { RoutingIcon as line } from "./line";
-import { RoutingIcon as bold } from "./bold";
-import { RoutingIcon as duotone } from "./duotone";
-import { RoutingIcon as broken } from "./broken";
-import { RoutingIcon as outline } from "./outline";
-import { RoutingIcon as line_duotone } from "./line-duotone";
+import { RoutingIcon as line } from "./line.ts";
+import { RoutingIcon as bold } from "./bold.ts";
+import { RoutingIcon as duotone } from "./duotone.ts";
+import { RoutingIcon as broken } from "./broken.ts";
+import { RoutingIcon as outline } from "./outline.ts";
+import { RoutingIcon as line_duotone } from "./line-duotone.ts";
 
 export const RoutingIcon: IconEntry = {
     line: line,

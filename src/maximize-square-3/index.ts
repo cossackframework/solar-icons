@@ -4,12 +4,12 @@
  *   One style:   import { MaximizeSquare3Icon } from '@cossackframework/solar-icons/maximize-square-3/<style>'
  */
 import type { IconEntry } from "../types";
-import { MaximizeSquare3Icon as line } from "./line";
-import { MaximizeSquare3Icon as bold } from "./bold";
-import { MaximizeSquare3Icon as duotone } from "./duotone";
-import { MaximizeSquare3Icon as broken } from "./broken";
-import { MaximizeSquare3Icon as outline } from "./outline";
-import { MaximizeSquare3Icon as line_duotone } from "./line-duotone";
+import { MaximizeSquare3Icon as line } from "./line.ts";
+import { MaximizeSquare3Icon as bold } from "./bold.ts";
+import { MaximizeSquare3Icon as duotone } from "./duotone.ts";
+import { MaximizeSquare3Icon as broken } from "./broken.ts";
+import { MaximizeSquare3Icon as outline } from "./outline.ts";
+import { MaximizeSquare3Icon as line_duotone } from "./line-duotone.ts";
 
 export const MaximizeSquare3Icon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { DropperMinimalisticIcon } from '@cossackframework/solar-icons/dropper-minimalistic/<style>'
  */
 import type { IconEntry } from "../types";
-import { DropperMinimalisticIcon as line } from "./line";
-import { DropperMinimalisticIcon as bold } from "./bold";
-import { DropperMinimalisticIcon as duotone } from "./duotone";
-import { DropperMinimalisticIcon as broken } from "./broken";
-import { DropperMinimalisticIcon as outline } from "./outline";
-import { DropperMinimalisticIcon as line_duotone } from "./line-duotone";
+import { DropperMinimalisticIcon as line } from "./line.ts";
+import { DropperMinimalisticIcon as bold } from "./bold.ts";
+import { DropperMinimalisticIcon as duotone } from "./duotone.ts";
+import { DropperMinimalisticIcon as broken } from "./broken.ts";
+import { DropperMinimalisticIcon as outline } from "./outline.ts";
+import { DropperMinimalisticIcon as line_duotone } from "./line-duotone.ts";
 
 export const DropperMinimalisticIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { TrafficEconomyIcon } from '@cossackframework/solar-icons/traffic-economy/<style>'
  */
 import type { IconEntry } from "../types";
-import { TrafficEconomyIcon as line } from "./line";
-import { TrafficEconomyIcon as bold } from "./bold";
-import { TrafficEconomyIcon as duotone } from "./duotone";
-import { TrafficEconomyIcon as broken } from "./broken";
-import { TrafficEconomyIcon as outline } from "./outline";
-import { TrafficEconomyIcon as line_duotone } from "./line-duotone";
+import { TrafficEconomyIcon as line } from "./line.ts";
+import { TrafficEconomyIcon as bold } from "./bold.ts";
+import { TrafficEconomyIcon as duotone } from "./duotone.ts";
+import { TrafficEconomyIcon as broken } from "./broken.ts";
+import { TrafficEconomyIcon as outline } from "./outline.ts";
+import { TrafficEconomyIcon as line_duotone } from "./line-duotone.ts";
 
 export const TrafficEconomyIcon: IconEntry = {
     line: line,

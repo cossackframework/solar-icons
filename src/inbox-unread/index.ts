@@ -4,12 +4,12 @@
  *   One style:   import { InboxUnreadIcon } from '@cossackframework/solar-icons/inbox-unread/<style>'
  */
 import type { IconEntry } from "../types";
-import { InboxUnreadIcon as line } from "./line";
-import { InboxUnreadIcon as bold } from "./bold";
-import { InboxUnreadIcon as duotone } from "./duotone";
-import { InboxUnreadIcon as broken } from "./broken";
-import { InboxUnreadIcon as outline } from "./outline";
-import { InboxUnreadIcon as line_duotone } from "./line-duotone";
+import { InboxUnreadIcon as line } from "./line.ts";
+import { InboxUnreadIcon as bold } from "./bold.ts";
+import { InboxUnreadIcon as duotone } from "./duotone.ts";
+import { InboxUnreadIcon as broken } from "./broken.ts";
+import { InboxUnreadIcon as outline } from "./outline.ts";
+import { InboxUnreadIcon as line_duotone } from "./line-duotone.ts";
 
 export const InboxUnreadIcon: IconEntry = {
     line: line,

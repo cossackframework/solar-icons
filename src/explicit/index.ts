@@ -4,12 +4,12 @@
  *   One style:   import { ExplicitIcon } from '@cossackframework/solar-icons/explicit/<style>'
  */
 import type { IconEntry } from "../types";
-import { ExplicitIcon as line } from "./line";
-import { ExplicitIcon as bold } from "./bold";
-import { ExplicitIcon as duotone } from "./duotone";
-import { ExplicitIcon as broken } from "./broken";
-import { ExplicitIcon as outline } from "./outline";
-import { ExplicitIcon as line_duotone } from "./line-duotone";
+import { ExplicitIcon as line } from "./line.ts";
+import { ExplicitIcon as bold } from "./bold.ts";
+import { ExplicitIcon as duotone } from "./duotone.ts";
+import { ExplicitIcon as broken } from "./broken.ts";
+import { ExplicitIcon as outline } from "./outline.ts";
+import { ExplicitIcon as line_duotone } from "./line-duotone.ts";
 
 export const ExplicitIcon: IconEntry = {
     line: line,

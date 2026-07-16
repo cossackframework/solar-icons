@@ -4,12 +4,12 @@
  *   One style:   import { MinimalisticMagnifierIcon } from '@cossackframework/solar-icons/minimalistic-magnifier/<style>'
  */
 import type { IconEntry } from "../types";
-import { MinimalisticMagnifierIcon as line } from "./line";
-import { MinimalisticMagnifierIcon as bold } from "./bold";
-import { MinimalisticMagnifierIcon as duotone } from "./duotone";
-import { MinimalisticMagnifierIcon as broken } from "./broken";
-import { MinimalisticMagnifierIcon as outline } from "./outline";
-import { MinimalisticMagnifierIcon as line_duotone } from "./line-duotone";
+import { MinimalisticMagnifierIcon as line } from "./line.ts";
+import { MinimalisticMagnifierIcon as bold } from "./bold.ts";
+import { MinimalisticMagnifierIcon as duotone } from "./duotone.ts";
+import { MinimalisticMagnifierIcon as broken } from "./broken.ts";
+import { MinimalisticMagnifierIcon as outline } from "./outline.ts";
+import { MinimalisticMagnifierIcon as line_duotone } from "./line-duotone.ts";
 
 export const MinimalisticMagnifierIcon: IconEntry = {
     line: line,

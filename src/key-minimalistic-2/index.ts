@@ -4,12 +4,12 @@
  *   One style:   import { KeyMinimalistic2Icon } from '@cossackframework/solar-icons/key-minimalistic-2/<style>'
  */
 import type { IconEntry } from "../types";
-import { KeyMinimalistic2Icon as line } from "./line";
-import { KeyMinimalistic2Icon as bold } from "./bold";
-import { KeyMinimalistic2Icon as duotone } from "./duotone";
-import { KeyMinimalistic2Icon as broken } from "./broken";
-import { KeyMinimalistic2Icon as outline } from "./outline";
-import { KeyMinimalistic2Icon as line_duotone } from "./line-duotone";
+import { KeyMinimalistic2Icon as line } from "./line.ts";
+import { KeyMinimalistic2Icon as bold } from "./bold.ts";
+import { KeyMinimalistic2Icon as duotone } from "./duotone.ts";
+import { KeyMinimalistic2Icon as broken } from "./broken.ts";
+import { KeyMinimalistic2Icon as outline } from "./outline.ts";
+import { KeyMinimalistic2Icon as line_duotone } from "./line-duotone.ts";
 
 export const KeyMinimalistic2Icon: IconEntry = {
     line: line,

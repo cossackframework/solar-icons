@@ -4,12 +4,12 @@
  *   One style:   import { BlackHoleIcon } from '@cossackframework/solar-icons/black-hole/<style>'
  */
 import type { IconEntry } from "../types";
-import { BlackHoleIcon as line } from "./line";
-import { BlackHoleIcon as bold } from "./bold";
-import { BlackHoleIcon as duotone } from "./duotone";
-import { BlackHoleIcon as broken } from "./broken";
-import { BlackHoleIcon as outline } from "./outline";
-import { BlackHoleIcon as line_duotone } from "./line-duotone";
+import { BlackHoleIcon as line } from "./line.ts";
+import { BlackHoleIcon as bold } from "./bold.ts";
+import { BlackHoleIcon as duotone } from "./duotone.ts";
+import { BlackHoleIcon as broken } from "./broken.ts";
+import { BlackHoleIcon as outline } from "./outline.ts";
+import { BlackHoleIcon as line_duotone } from "./line-duotone.ts";
 
 export const BlackHoleIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { TelescopeIcon } from '@cossackframework/solar-icons/telescope/<style>'
  */
 import type { IconEntry } from "../types";
-import { TelescopeIcon as line } from "./line";
-import { TelescopeIcon as bold } from "./bold";
-import { TelescopeIcon as duotone } from "./duotone";
-import { TelescopeIcon as broken } from "./broken";
-import { TelescopeIcon as outline } from "./outline";
-import { TelescopeIcon as line_duotone } from "./line-duotone";
+import { TelescopeIcon as line } from "./line.ts";
+import { TelescopeIcon as bold } from "./bold.ts";
+import { TelescopeIcon as duotone } from "./duotone.ts";
+import { TelescopeIcon as broken } from "./broken.ts";
+import { TelescopeIcon as outline } from "./outline.ts";
+import { TelescopeIcon as line_duotone } from "./line-duotone.ts";
 
 export const TelescopeIcon: IconEntry = {
     line: line,

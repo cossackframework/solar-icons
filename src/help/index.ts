@@ -4,12 +4,12 @@
  *   One style:   import { HelpIcon } from '@cossackframework/solar-icons/help/<style>'
  */
 import type { IconEntry } from "../types";
-import { HelpIcon as line } from "./line";
-import { HelpIcon as bold } from "./bold";
-import { HelpIcon as duotone } from "./duotone";
-import { HelpIcon as broken } from "./broken";
-import { HelpIcon as outline } from "./outline";
-import { HelpIcon as line_duotone } from "./line-duotone";
+import { HelpIcon as line } from "./line.ts";
+import { HelpIcon as bold } from "./bold.ts";
+import { HelpIcon as duotone } from "./duotone.ts";
+import { HelpIcon as broken } from "./broken.ts";
+import { HelpIcon as outline } from "./outline.ts";
+import { HelpIcon as line_duotone } from "./line-duotone.ts";
 
 export const HelpIcon: IconEntry = {
     line: line,

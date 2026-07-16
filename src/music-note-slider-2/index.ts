@@ -4,12 +4,12 @@
  *   One style:   import { MusicNoteSlider2Icon } from '@cossackframework/solar-icons/music-note-slider-2/<style>'
  */
 import type { IconEntry } from "../types";
-import { MusicNoteSlider2Icon as line } from "./line";
-import { MusicNoteSlider2Icon as bold } from "./bold";
-import { MusicNoteSlider2Icon as duotone } from "./duotone";
-import { MusicNoteSlider2Icon as broken } from "./broken";
-import { MusicNoteSlider2Icon as outline } from "./outline";
-import { MusicNoteSlider2Icon as line_duotone } from "./line-duotone";
+import { MusicNoteSlider2Icon as line } from "./line.ts";
+import { MusicNoteSlider2Icon as bold } from "./bold.ts";
+import { MusicNoteSlider2Icon as duotone } from "./duotone.ts";
+import { MusicNoteSlider2Icon as broken } from "./broken.ts";
+import { MusicNoteSlider2Icon as outline } from "./outline.ts";
+import { MusicNoteSlider2Icon as line_duotone } from "./line-duotone.ts";
 
 export const MusicNoteSlider2Icon: IconEntry = {
     line: line,

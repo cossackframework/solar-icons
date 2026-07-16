@@ -4,12 +4,12 @@
  *   One style:   import { GolfIcon } from '@cossackframework/solar-icons/golf/<style>'
  */
 import type { IconEntry } from "../types";
-import { GolfIcon as line } from "./line";
-import { GolfIcon as bold } from "./bold";
-import { GolfIcon as duotone } from "./duotone";
-import { GolfIcon as broken } from "./broken";
-import { GolfIcon as outline } from "./outline";
-import { GolfIcon as line_duotone } from "./line-duotone";
+import { GolfIcon as line } from "./line.ts";
+import { GolfIcon as bold } from "./bold.ts";
+import { GolfIcon as duotone } from "./duotone.ts";
+import { GolfIcon as broken } from "./broken.ts";
+import { GolfIcon as outline } from "./outline.ts";
+import { GolfIcon as line_duotone } from "./line-duotone.ts";
 
 export const GolfIcon: IconEntry = {
     line: line,

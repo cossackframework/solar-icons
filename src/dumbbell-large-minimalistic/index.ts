@@ -4,12 +4,12 @@
  *   One style:   import { DumbbellLargeMinimalisticIcon } from '@cossackframework/solar-icons/dumbbell-large-minimalistic/<style>'
  */
 import type { IconEntry } from "../types";
-import { DumbbellLargeMinimalisticIcon as line } from "./line";
-import { DumbbellLargeMinimalisticIcon as bold } from "./bold";
-import { DumbbellLargeMinimalisticIcon as duotone } from "./duotone";
-import { DumbbellLargeMinimalisticIcon as broken } from "./broken";
-import { DumbbellLargeMinimalisticIcon as outline } from "./outline";
-import { DumbbellLargeMinimalisticIcon as line_duotone } from "./line-duotone";
+import { DumbbellLargeMinimalisticIcon as line } from "./line.ts";
+import { DumbbellLargeMinimalisticIcon as bold } from "./bold.ts";
+import { DumbbellLargeMinimalisticIcon as duotone } from "./duotone.ts";
+import { DumbbellLargeMinimalisticIcon as broken } from "./broken.ts";
+import { DumbbellLargeMinimalisticIcon as outline } from "./outline.ts";
+import { DumbbellLargeMinimalisticIcon as line_duotone } from "./line-duotone.ts";
 
 export const DumbbellLargeMinimalisticIcon: IconEntry = {
     line: line,

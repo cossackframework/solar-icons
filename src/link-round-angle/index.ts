@@ -4,12 +4,12 @@
  *   One style:   import { LinkRoundAngleIcon } from '@cossackframework/solar-icons/link-round-angle/<style>'
  */
 import type { IconEntry } from "../types";
-import { LinkRoundAngleIcon as line } from "./line";
-import { LinkRoundAngleIcon as bold } from "./bold";
-import { LinkRoundAngleIcon as duotone } from "./duotone";
-import { LinkRoundAngleIcon as broken } from "./broken";
-import { LinkRoundAngleIcon as outline } from "./outline";
-import { LinkRoundAngleIcon as line_duotone } from "./line-duotone";
+import { LinkRoundAngleIcon as line } from "./line.ts";
+import { LinkRoundAngleIcon as bold } from "./bold.ts";
+import { LinkRoundAngleIcon as duotone } from "./duotone.ts";
+import { LinkRoundAngleIcon as broken } from "./broken.ts";
+import { LinkRoundAngleIcon as outline } from "./outline.ts";
+import { LinkRoundAngleIcon as line_duotone } from "./line-duotone.ts";
 
 export const LinkRoundAngleIcon: IconEntry = {
     line: line,

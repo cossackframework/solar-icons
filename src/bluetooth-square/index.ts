@@ -4,12 +4,12 @@
  *   One style:   import { BluetoothSquareIcon } from '@cossackframework/solar-icons/bluetooth-square/<style>'
  */
 import type { IconEntry } from "../types";
-import { BluetoothSquareIcon as line } from "./line";
-import { BluetoothSquareIcon as bold } from "./bold";
-import { BluetoothSquareIcon as duotone } from "./duotone";
-import { BluetoothSquareIcon as broken } from "./broken";
-import { BluetoothSquareIcon as outline } from "./outline";
-import { BluetoothSquareIcon as line_duotone } from "./line-duotone";
+import { BluetoothSquareIcon as line } from "./line.ts";
+import { BluetoothSquareIcon as bold } from "./bold.ts";
+import { BluetoothSquareIcon as duotone } from "./duotone.ts";
+import { BluetoothSquareIcon as broken } from "./broken.ts";
+import { BluetoothSquareIcon as outline } from "./outline.ts";
+import { BluetoothSquareIcon as line_duotone } from "./line-duotone.ts";
 
 export const BluetoothSquareIcon: IconEntry = {
     line: line,

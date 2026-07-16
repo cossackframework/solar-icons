@@ -4,12 +4,12 @@
  *   One style:   import { SocketIcon } from '@cossackframework/solar-icons/socket/<style>'
  */
 import type { IconEntry } from "../types";
-import { SocketIcon as line } from "./line";
-import { SocketIcon as bold } from "./bold";
-import { SocketIcon as duotone } from "./duotone";
-import { SocketIcon as broken } from "./broken";
-import { SocketIcon as outline } from "./outline";
-import { SocketIcon as line_duotone } from "./line-duotone";
+import { SocketIcon as line } from "./line.ts";
+import { SocketIcon as bold } from "./bold.ts";
+import { SocketIcon as duotone } from "./duotone.ts";
+import { SocketIcon as broken } from "./broken.ts";
+import { SocketIcon as outline } from "./outline.ts";
+import { SocketIcon as line_duotone } from "./line-duotone.ts";
 
 export const SocketIcon: IconEntry = {
     line: line,

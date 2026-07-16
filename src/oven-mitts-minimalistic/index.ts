@@ -4,12 +4,12 @@
  *   One style:   import { OvenMittsMinimalisticIcon } from '@cossackframework/solar-icons/oven-mitts-minimalistic/<style>'
  */
 import type { IconEntry } from "../types";
-import { OvenMittsMinimalisticIcon as line } from "./line";
-import { OvenMittsMinimalisticIcon as bold } from "./bold";
-import { OvenMittsMinimalisticIcon as duotone } from "./duotone";
-import { OvenMittsMinimalisticIcon as broken } from "./broken";
-import { OvenMittsMinimalisticIcon as outline } from "./outline";
-import { OvenMittsMinimalisticIcon as line_duotone } from "./line-duotone";
+import { OvenMittsMinimalisticIcon as line } from "./line.ts";
+import { OvenMittsMinimalisticIcon as bold } from "./bold.ts";
+import { OvenMittsMinimalisticIcon as duotone } from "./duotone.ts";
+import { OvenMittsMinimalisticIcon as broken } from "./broken.ts";
+import { OvenMittsMinimalisticIcon as outline } from "./outline.ts";
+import { OvenMittsMinimalisticIcon as line_duotone } from "./line-duotone.ts";
 
 export const OvenMittsMinimalisticIcon: IconEntry = {
     line: line,

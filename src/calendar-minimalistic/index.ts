@@ -4,12 +4,12 @@
  *   One style:   import { CalendarMinimalisticIcon } from '@cossackframework/solar-icons/calendar-minimalistic/<style>'
  */
 import type { IconEntry } from "../types";
-import { CalendarMinimalisticIcon as line } from "./line";
-import { CalendarMinimalisticIcon as bold } from "./bold";
-import { CalendarMinimalisticIcon as duotone } from "./duotone";
-import { CalendarMinimalisticIcon as broken } from "./broken";
-import { CalendarMinimalisticIcon as outline } from "./outline";
-import { CalendarMinimalisticIcon as line_duotone } from "./line-duotone";
+import { CalendarMinimalisticIcon as line } from "./line.ts";
+import { CalendarMinimalisticIcon as bold } from "./bold.ts";
+import { CalendarMinimalisticIcon as duotone } from "./duotone.ts";
+import { CalendarMinimalisticIcon as broken } from "./broken.ts";
+import { CalendarMinimalisticIcon as outline } from "./outline.ts";
+import { CalendarMinimalisticIcon as line_duotone } from "./line-duotone.ts";
 
 export const CalendarMinimalisticIcon: IconEntry = {
     line: line,

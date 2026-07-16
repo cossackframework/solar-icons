@@ -4,12 +4,12 @@
  *   One style:   import { EuroIcon } from '@cossackframework/solar-icons/euro/<style>'
  */
 import type { IconEntry } from "../types";
-import { EuroIcon as line } from "./line";
-import { EuroIcon as bold } from "./bold";
-import { EuroIcon as duotone } from "./duotone";
-import { EuroIcon as broken } from "./broken";
-import { EuroIcon as outline } from "./outline";
-import { EuroIcon as line_duotone } from "./line-duotone";
+import { EuroIcon as line } from "./line.ts";
+import { EuroIcon as bold } from "./bold.ts";
+import { EuroIcon as duotone } from "./duotone.ts";
+import { EuroIcon as broken } from "./broken.ts";
+import { EuroIcon as outline } from "./outline.ts";
+import { EuroIcon as line_duotone } from "./line-duotone.ts";
 
 export const EuroIcon: IconEntry = {
     line: line,

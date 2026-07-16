@@ -4,12 +4,12 @@
  *   One style:   import { PodcastIcon } from '@cossackframework/solar-icons/podcast/<style>'
  */
 import type { IconEntry } from "../types";
-import { PodcastIcon as line } from "./line";
-import { PodcastIcon as bold } from "./bold";
-import { PodcastIcon as duotone } from "./duotone";
-import { PodcastIcon as broken } from "./broken";
-import { PodcastIcon as outline } from "./outline";
-import { PodcastIcon as line_duotone } from "./line-duotone";
+import { PodcastIcon as line } from "./line.ts";
+import { PodcastIcon as bold } from "./bold.ts";
+import { PodcastIcon as duotone } from "./duotone.ts";
+import { PodcastIcon as broken } from "./broken.ts";
+import { PodcastIcon as outline } from "./outline.ts";
+import { PodcastIcon as line_duotone } from "./line-duotone.ts";
 
 export const PodcastIcon: IconEntry = {
     line: line,

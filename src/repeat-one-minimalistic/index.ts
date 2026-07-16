@@ -4,12 +4,12 @@
  *   One style:   import { RepeatOneMinimalisticIcon } from '@cossackframework/solar-icons/repeat-one-minimalistic/<style>'
  */
 import type { IconEntry } from "../types";
-import { RepeatOneMinimalisticIcon as line } from "./line";
-import { RepeatOneMinimalisticIcon as bold } from "./bold";
-import { RepeatOneMinimalisticIcon as duotone } from "./duotone";
-import { RepeatOneMinimalisticIcon as broken } from "./broken";
-import { RepeatOneMinimalisticIcon as outline } from "./outline";
-import { RepeatOneMinimalisticIcon as line_duotone } from "./line-duotone";
+import { RepeatOneMinimalisticIcon as line } from "./line.ts";
+import { RepeatOneMinimalisticIcon as bold } from "./bold.ts";
+import { RepeatOneMinimalisticIcon as duotone } from "./duotone.ts";
+import { RepeatOneMinimalisticIcon as broken } from "./broken.ts";
+import { RepeatOneMinimalisticIcon as outline } from "./outline.ts";
+import { RepeatOneMinimalisticIcon as line_duotone } from "./line-duotone.ts";
 
 export const RepeatOneMinimalisticIcon: IconEntry = {
     line: line,

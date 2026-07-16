@@ -4,12 +4,12 @@
  *   One style:   import { MedicalKitIcon } from '@cossackframework/solar-icons/medical-kit/<style>'
  */
 import type { IconEntry } from "../types";
-import { MedicalKitIcon as line } from "./line";
-import { MedicalKitIcon as bold } from "./bold";
-import { MedicalKitIcon as duotone } from "./duotone";
-import { MedicalKitIcon as broken } from "./broken";
-import { MedicalKitIcon as outline } from "./outline";
-import { MedicalKitIcon as line_duotone } from "./line-duotone";
+import { MedicalKitIcon as line } from "./line.ts";
+import { MedicalKitIcon as bold } from "./bold.ts";
+import { MedicalKitIcon as duotone } from "./duotone.ts";
+import { MedicalKitIcon as broken } from "./broken.ts";
+import { MedicalKitIcon as outline } from "./outline.ts";
+import { MedicalKitIcon as line_duotone } from "./line-duotone.ts";
 
 export const MedicalKitIcon: IconEntry = {
     line: line,

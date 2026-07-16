@@ -4,12 +4,12 @@
  *   One style:   import { MouseIcon } from '@cossackframework/solar-icons/mouse/<style>'
  */
 import type { IconEntry } from "../types";
-import { MouseIcon as line } from "./line";
-import { MouseIcon as bold } from "./bold";
-import { MouseIcon as duotone } from "./duotone";
-import { MouseIcon as broken } from "./broken";
-import { MouseIcon as outline } from "./outline";
-import { MouseIcon as line_duotone } from "./line-duotone";
+import { MouseIcon as line } from "./line.ts";
+import { MouseIcon as bold } from "./bold.ts";
+import { MouseIcon as duotone } from "./duotone.ts";
+import { MouseIcon as broken } from "./broken.ts";
+import { MouseIcon as outline } from "./outline.ts";
+import { MouseIcon as line_duotone } from "./line-duotone.ts";
 
 export const MouseIcon: IconEntry = {
     line: line,

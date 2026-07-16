@@ -4,12 +4,12 @@
  *   One style:   import { TShirtIcon } from '@cossackframework/solar-icons/t-shirt/<style>'
  */
 import type { IconEntry } from "../types";
-import { TShirtIcon as line } from "./line";
-import { TShirtIcon as bold } from "./bold";
-import { TShirtIcon as duotone } from "./duotone";
-import { TShirtIcon as broken } from "./broken";
-import { TShirtIcon as outline } from "./outline";
-import { TShirtIcon as line_duotone } from "./line-duotone";
+import { TShirtIcon as line } from "./line.ts";
+import { TShirtIcon as bold } from "./bold.ts";
+import { TShirtIcon as duotone } from "./duotone.ts";
+import { TShirtIcon as broken } from "./broken.ts";
+import { TShirtIcon as outline } from "./outline.ts";
+import { TShirtIcon as line_duotone } from "./line-duotone.ts";
 
 export const TShirtIcon: IconEntry = {
     line: line,

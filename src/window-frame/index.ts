@@ -4,12 +4,12 @@
  *   One style:   import { WindowFrameIcon } from '@cossackframework/solar-icons/window-frame/<style>'
  */
 import type { IconEntry } from "../types";
-import { WindowFrameIcon as line } from "./line";
-import { WindowFrameIcon as bold } from "./bold";
-import { WindowFrameIcon as duotone } from "./duotone";
-import { WindowFrameIcon as broken } from "./broken";
-import { WindowFrameIcon as outline } from "./outline";
-import { WindowFrameIcon as line_duotone } from "./line-duotone";
+import { WindowFrameIcon as line } from "./line.ts";
+import { WindowFrameIcon as bold } from "./bold.ts";
+import { WindowFrameIcon as duotone } from "./duotone.ts";
+import { WindowFrameIcon as broken } from "./broken.ts";
+import { WindowFrameIcon as outline } from "./outline.ts";
+import { WindowFrameIcon as line_duotone } from "./line-duotone.ts";
 
 export const WindowFrameIcon: IconEntry = {
     line: line,

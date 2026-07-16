@@ -4,12 +4,12 @@
  *   One style:   import { TicketIcon } from '@cossackframework/solar-icons/ticket/<style>'
  */
 import type { IconEntry } from "../types";
-import { TicketIcon as line } from "./line";
-import { TicketIcon as bold } from "./bold";
-import { TicketIcon as duotone } from "./duotone";
-import { TicketIcon as broken } from "./broken";
-import { TicketIcon as outline } from "./outline";
-import { TicketIcon as line_duotone } from "./line-duotone";
+import { TicketIcon as line } from "./line.ts";
+import { TicketIcon as bold } from "./bold.ts";
+import { TicketIcon as duotone } from "./duotone.ts";
+import { TicketIcon as broken } from "./broken.ts";
+import { TicketIcon as outline } from "./outline.ts";
+import { TicketIcon as line_duotone } from "./line-duotone.ts";
 
 export const TicketIcon: IconEntry = {
     line: line,

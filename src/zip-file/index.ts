@@ -4,12 +4,12 @@
  *   One style:   import { ZipFileIcon } from '@cossackframework/solar-icons/zip-file/<style>'
  */
 import type { IconEntry } from "../types";
-import { ZipFileIcon as line } from "./line";
-import { ZipFileIcon as bold } from "./bold";
-import { ZipFileIcon as duotone } from "./duotone";
-import { ZipFileIcon as broken } from "./broken";
-import { ZipFileIcon as outline } from "./outline";
-import { ZipFileIcon as line_duotone } from "./line-duotone";
+import { ZipFileIcon as line } from "./line.ts";
+import { ZipFileIcon as bold } from "./bold.ts";
+import { ZipFileIcon as duotone } from "./duotone.ts";
+import { ZipFileIcon as broken } from "./broken.ts";
+import { ZipFileIcon as outline } from "./outline.ts";
+import { ZipFileIcon as line_duotone } from "./line-duotone.ts";
 
 export const ZipFileIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { PasswordMinimalisticInputIcon } from '@cossackframework/solar-icons/password-minimalistic-input/<style>'
  */
 import type { IconEntry } from "../types";
-import { PasswordMinimalisticInputIcon as line } from "./line";
-import { PasswordMinimalisticInputIcon as bold } from "./bold";
-import { PasswordMinimalisticInputIcon as duotone } from "./duotone";
-import { PasswordMinimalisticInputIcon as broken } from "./broken";
-import { PasswordMinimalisticInputIcon as outline } from "./outline";
-import { PasswordMinimalisticInputIcon as line_duotone } from "./line-duotone";
+import { PasswordMinimalisticInputIcon as line } from "./line.ts";
+import { PasswordMinimalisticInputIcon as bold } from "./bold.ts";
+import { PasswordMinimalisticInputIcon as duotone } from "./duotone.ts";
+import { PasswordMinimalisticInputIcon as broken } from "./broken.ts";
+import { PasswordMinimalisticInputIcon as outline } from "./outline.ts";
+import { PasswordMinimalisticInputIcon as line_duotone } from "./line-duotone.ts";
 
 export const PasswordMinimalisticInputIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { SlashCircleIcon } from '@cossackframework/solar-icons/slash-circle/<style>'
  */
 import type { IconEntry } from "../types";
-import { SlashCircleIcon as line } from "./line";
-import { SlashCircleIcon as bold } from "./bold";
-import { SlashCircleIcon as duotone } from "./duotone";
-import { SlashCircleIcon as broken } from "./broken";
-import { SlashCircleIcon as outline } from "./outline";
-import { SlashCircleIcon as line_duotone } from "./line-duotone";
+import { SlashCircleIcon as line } from "./line.ts";
+import { SlashCircleIcon as bold } from "./bold.ts";
+import { SlashCircleIcon as duotone } from "./duotone.ts";
+import { SlashCircleIcon as broken } from "./broken.ts";
+import { SlashCircleIcon as outline } from "./outline.ts";
+import { SlashCircleIcon as line_duotone } from "./line-duotone.ts";
 
 export const SlashCircleIcon: IconEntry = {
     line: line,

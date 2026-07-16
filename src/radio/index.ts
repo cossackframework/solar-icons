@@ -4,12 +4,12 @@
  *   One style:   import { RadioIcon } from '@cossackframework/solar-icons/radio/<style>'
  */
 import type { IconEntry } from "../types";
-import { RadioIcon as line } from "./line";
-import { RadioIcon as bold } from "./bold";
-import { RadioIcon as duotone } from "./duotone";
-import { RadioIcon as broken } from "./broken";
-import { RadioIcon as outline } from "./outline";
-import { RadioIcon as line_duotone } from "./line-duotone";
+import { RadioIcon as line } from "./line.ts";
+import { RadioIcon as bold } from "./bold.ts";
+import { RadioIcon as duotone } from "./duotone.ts";
+import { RadioIcon as broken } from "./broken.ts";
+import { RadioIcon as outline } from "./outline.ts";
+import { RadioIcon as line_duotone } from "./line-duotone.ts";
 
 export const RadioIcon: IconEntry = {
     line: line,

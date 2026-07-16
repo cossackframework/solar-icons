@@ -4,12 +4,12 @@
  *   One style:   import { PlaneIcon } from '@cossackframework/solar-icons/plane/<style>'
  */
 import type { IconEntry } from "../types";
-import { PlaneIcon as line } from "./line";
-import { PlaneIcon as bold } from "./bold";
-import { PlaneIcon as duotone } from "./duotone";
-import { PlaneIcon as broken } from "./broken";
-import { PlaneIcon as outline } from "./outline";
-import { PlaneIcon as line_duotone } from "./line-duotone";
+import { PlaneIcon as line } from "./line.ts";
+import { PlaneIcon as bold } from "./bold.ts";
+import { PlaneIcon as duotone } from "./duotone.ts";
+import { PlaneIcon as broken } from "./broken.ts";
+import { PlaneIcon as outline } from "./outline.ts";
+import { PlaneIcon as line_duotone } from "./line-duotone.ts";
 
 export const PlaneIcon: IconEntry = {
     line: line,

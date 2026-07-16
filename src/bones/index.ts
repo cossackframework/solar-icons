@@ -4,12 +4,12 @@
  *   One style:   import { BonesIcon } from '@cossackframework/solar-icons/bones/<style>'
  */
 import type { IconEntry } from "../types";
-import { BonesIcon as line } from "./line";
-import { BonesIcon as bold } from "./bold";
-import { BonesIcon as duotone } from "./duotone";
-import { BonesIcon as broken } from "./broken";
-import { BonesIcon as outline } from "./outline";
-import { BonesIcon as line_duotone } from "./line-duotone";
+import { BonesIcon as line } from "./line.ts";
+import { BonesIcon as bold } from "./bold.ts";
+import { BonesIcon as duotone } from "./duotone.ts";
+import { BonesIcon as broken } from "./broken.ts";
+import { BonesIcon as outline } from "./outline.ts";
+import { BonesIcon as line_duotone } from "./line-duotone.ts";
 
 export const BonesIcon: IconEntry = {
     line: line,

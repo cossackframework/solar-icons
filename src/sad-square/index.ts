@@ -4,12 +4,12 @@
  *   One style:   import { SadSquareIcon } from '@cossackframework/solar-icons/sad-square/<style>'
  */
 import type { IconEntry } from "../types";
-import { SadSquareIcon as line } from "./line";
-import { SadSquareIcon as bold } from "./bold";
-import { SadSquareIcon as duotone } from "./duotone";
-import { SadSquareIcon as broken } from "./broken";
-import { SadSquareIcon as outline } from "./outline";
-import { SadSquareIcon as line_duotone } from "./line-duotone";
+import { SadSquareIcon as line } from "./line.ts";
+import { SadSquareIcon as bold } from "./bold.ts";
+import { SadSquareIcon as duotone } from "./duotone.ts";
+import { SadSquareIcon as broken } from "./broken.ts";
+import { SadSquareIcon as outline } from "./outline.ts";
+import { SadSquareIcon as line_duotone } from "./line-duotone.ts";
 
 export const SadSquareIcon: IconEntry = {
     line: line,

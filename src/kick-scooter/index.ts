@@ -4,12 +4,12 @@
  *   One style:   import { KickScooterIcon } from '@cossackframework/solar-icons/kick-scooter/<style>'
  */
 import type { IconEntry } from "../types";
-import { KickScooterIcon as line } from "./line";
-import { KickScooterIcon as bold } from "./bold";
-import { KickScooterIcon as duotone } from "./duotone";
-import { KickScooterIcon as broken } from "./broken";
-import { KickScooterIcon as outline } from "./outline";
-import { KickScooterIcon as line_duotone } from "./line-duotone";
+import { KickScooterIcon as line } from "./line.ts";
+import { KickScooterIcon as bold } from "./bold.ts";
+import { KickScooterIcon as duotone } from "./duotone.ts";
+import { KickScooterIcon as broken } from "./broken.ts";
+import { KickScooterIcon as outline } from "./outline.ts";
+import { KickScooterIcon as line_duotone } from "./line-duotone.ts";
 
 export const KickScooterIcon: IconEntry = {
     line: line,

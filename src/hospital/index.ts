@@ -4,12 +4,12 @@
  *   One style:   import { HospitalIcon } from '@cossackframework/solar-icons/hospital/<style>'
  */
 import type { IconEntry } from "../types";
-import { HospitalIcon as line } from "./line";
-import { HospitalIcon as bold } from "./bold";
-import { HospitalIcon as duotone } from "./duotone";
-import { HospitalIcon as broken } from "./broken";
-import { HospitalIcon as outline } from "./outline";
-import { HospitalIcon as line_duotone } from "./line-duotone";
+import { HospitalIcon as line } from "./line.ts";
+import { HospitalIcon as bold } from "./bold.ts";
+import { HospitalIcon as duotone } from "./duotone.ts";
+import { HospitalIcon as broken } from "./broken.ts";
+import { HospitalIcon as outline } from "./outline.ts";
+import { HospitalIcon as line_duotone } from "./line-duotone.ts";
 
 export const HospitalIcon: IconEntry = {
     line: line,

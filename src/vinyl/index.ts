@@ -4,12 +4,12 @@
  *   One style:   import { VinylIcon } from '@cossackframework/solar-icons/vinyl/<style>'
  */
 import type { IconEntry } from "../types";
-import { VinylIcon as line } from "./line";
-import { VinylIcon as bold } from "./bold";
-import { VinylIcon as duotone } from "./duotone";
-import { VinylIcon as broken } from "./broken";
-import { VinylIcon as outline } from "./outline";
-import { VinylIcon as line_duotone } from "./line-duotone";
+import { VinylIcon as line } from "./line.ts";
+import { VinylIcon as bold } from "./bold.ts";
+import { VinylIcon as duotone } from "./duotone.ts";
+import { VinylIcon as broken } from "./broken.ts";
+import { VinylIcon as outline } from "./outline.ts";
+import { VinylIcon as line_duotone } from "./line-duotone.ts";
 
 export const VinylIcon: IconEntry = {
     line: line,

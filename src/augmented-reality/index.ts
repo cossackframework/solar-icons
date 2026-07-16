@@ -4,12 +4,12 @@
  *   One style:   import { AugmentedRealityIcon } from '@cossackframework/solar-icons/augmented-reality/<style>'
  */
 import type { IconEntry } from "../types";
-import { AugmentedRealityIcon as line } from "./line";
-import { AugmentedRealityIcon as bold } from "./bold";
-import { AugmentedRealityIcon as duotone } from "./duotone";
-import { AugmentedRealityIcon as broken } from "./broken";
-import { AugmentedRealityIcon as outline } from "./outline";
-import { AugmentedRealityIcon as line_duotone } from "./line-duotone";
+import { AugmentedRealityIcon as line } from "./line.ts";
+import { AugmentedRealityIcon as bold } from "./bold.ts";
+import { AugmentedRealityIcon as duotone } from "./duotone.ts";
+import { AugmentedRealityIcon as broken } from "./broken.ts";
+import { AugmentedRealityIcon as outline } from "./outline.ts";
+import { AugmentedRealityIcon as line_duotone } from "./line-duotone.ts";
 
 export const AugmentedRealityIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { QrCodeIcon } from '@cossackframework/solar-icons/qr-code/<style>'
  */
 import type { IconEntry } from "../types";
-import { QrCodeIcon as line } from "./line";
-import { QrCodeIcon as bold } from "./bold";
-import { QrCodeIcon as duotone } from "./duotone";
-import { QrCodeIcon as broken } from "./broken";
-import { QrCodeIcon as outline } from "./outline";
-import { QrCodeIcon as line_duotone } from "./line-duotone";
+import { QrCodeIcon as line } from "./line.ts";
+import { QrCodeIcon as bold } from "./bold.ts";
+import { QrCodeIcon as duotone } from "./duotone.ts";
+import { QrCodeIcon as broken } from "./broken.ts";
+import { QrCodeIcon as outline } from "./outline.ts";
+import { QrCodeIcon as line_duotone } from "./line-duotone.ts";
 
 export const QrCodeIcon: IconEntry = {
     line: line,

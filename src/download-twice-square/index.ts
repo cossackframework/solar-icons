@@ -4,12 +4,12 @@
  *   One style:   import { DownloadTwiceSquareIcon } from '@cossackframework/solar-icons/download-twice-square/<style>'
  */
 import type { IconEntry } from "../types";
-import { DownloadTwiceSquareIcon as line } from "./line";
-import { DownloadTwiceSquareIcon as bold } from "./bold";
-import { DownloadTwiceSquareIcon as duotone } from "./duotone";
-import { DownloadTwiceSquareIcon as broken } from "./broken";
-import { DownloadTwiceSquareIcon as outline } from "./outline";
-import { DownloadTwiceSquareIcon as line_duotone } from "./line-duotone";
+import { DownloadTwiceSquareIcon as line } from "./line.ts";
+import { DownloadTwiceSquareIcon as bold } from "./bold.ts";
+import { DownloadTwiceSquareIcon as duotone } from "./duotone.ts";
+import { DownloadTwiceSquareIcon as broken } from "./broken.ts";
+import { DownloadTwiceSquareIcon as outline } from "./outline.ts";
+import { DownloadTwiceSquareIcon as line_duotone } from "./line-duotone.ts";
 
 export const DownloadTwiceSquareIcon: IconEntry = {
     line: line,

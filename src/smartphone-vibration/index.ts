@@ -4,12 +4,12 @@
  *   One style:   import { SmartphoneVibrationIcon } from '@cossackframework/solar-icons/smartphone-vibration/<style>'
  */
 import type { IconEntry } from "../types";
-import { SmartphoneVibrationIcon as line } from "./line";
-import { SmartphoneVibrationIcon as bold } from "./bold";
-import { SmartphoneVibrationIcon as duotone } from "./duotone";
-import { SmartphoneVibrationIcon as broken } from "./broken";
-import { SmartphoneVibrationIcon as outline } from "./outline";
-import { SmartphoneVibrationIcon as line_duotone } from "./line-duotone";
+import { SmartphoneVibrationIcon as line } from "./line.ts";
+import { SmartphoneVibrationIcon as bold } from "./bold.ts";
+import { SmartphoneVibrationIcon as duotone } from "./duotone.ts";
+import { SmartphoneVibrationIcon as broken } from "./broken.ts";
+import { SmartphoneVibrationIcon as outline } from "./outline.ts";
+import { SmartphoneVibrationIcon as line_duotone } from "./line-duotone.ts";
 
 export const SmartphoneVibrationIcon: IconEntry = {
     line: line,

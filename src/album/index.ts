@@ -4,12 +4,12 @@
  *   One style:   import { AlbumIcon } from '@cossackframework/solar-icons/album/<style>'
  */
 import type { IconEntry } from "../types";
-import { AlbumIcon as line } from "./line";
-import { AlbumIcon as bold } from "./bold";
-import { AlbumIcon as duotone } from "./duotone";
-import { AlbumIcon as broken } from "./broken";
-import { AlbumIcon as outline } from "./outline";
-import { AlbumIcon as line_duotone } from "./line-duotone";
+import { AlbumIcon as line } from "./line.ts";
+import { AlbumIcon as bold } from "./bold.ts";
+import { AlbumIcon as duotone } from "./duotone.ts";
+import { AlbumIcon as broken } from "./broken.ts";
+import { AlbumIcon as outline } from "./outline.ts";
+import { AlbumIcon as line_duotone } from "./line-duotone.ts";
 
 export const AlbumIcon: IconEntry = {
     line: line,

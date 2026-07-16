@@ -4,12 +4,12 @@
  *   One style:   import { VanityIcon } from '@cossackframework/solar-icons/vanity/<style>'
  */
 import type { IconEntry } from "../types";
-import { VanityIcon as line } from "./line";
-import { VanityIcon as bold } from "./bold";
-import { VanityIcon as duotone } from "./duotone";
-import { VanityIcon as broken } from "./broken";
-import { VanityIcon as outline } from "./outline";
-import { VanityIcon as line_duotone } from "./line-duotone";
+import { VanityIcon as line } from "./line.ts";
+import { VanityIcon as bold } from "./bold.ts";
+import { VanityIcon as duotone } from "./duotone.ts";
+import { VanityIcon as broken } from "./broken.ts";
+import { VanityIcon as outline } from "./outline.ts";
+import { VanityIcon as line_duotone } from "./line-duotone.ts";
 
 export const VanityIcon: IconEntry = {
     line: line,

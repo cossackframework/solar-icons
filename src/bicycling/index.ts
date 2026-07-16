@@ -4,12 +4,12 @@
  *   One style:   import { BicyclingIcon } from '@cossackframework/solar-icons/bicycling/<style>'
  */
 import type { IconEntry } from "../types";
-import { BicyclingIcon as line } from "./line";
-import { BicyclingIcon as bold } from "./bold";
-import { BicyclingIcon as duotone } from "./duotone";
-import { BicyclingIcon as broken } from "./broken";
-import { BicyclingIcon as outline } from "./outline";
-import { BicyclingIcon as line_duotone } from "./line-duotone";
+import { BicyclingIcon as line } from "./line.ts";
+import { BicyclingIcon as bold } from "./bold.ts";
+import { BicyclingIcon as duotone } from "./duotone.ts";
+import { BicyclingIcon as broken } from "./broken.ts";
+import { BicyclingIcon as outline } from "./outline.ts";
+import { BicyclingIcon as line_duotone } from "./line-duotone.ts";
 
 export const BicyclingIcon: IconEntry = {
     line: line,

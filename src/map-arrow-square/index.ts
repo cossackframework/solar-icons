@@ -4,12 +4,12 @@
  *   One style:   import { MapArrowSquareIcon } from '@cossackframework/solar-icons/map-arrow-square/<style>'
  */
 import type { IconEntry } from "../types";
-import { MapArrowSquareIcon as line } from "./line";
-import { MapArrowSquareIcon as bold } from "./bold";
-import { MapArrowSquareIcon as duotone } from "./duotone";
-import { MapArrowSquareIcon as broken } from "./broken";
-import { MapArrowSquareIcon as outline } from "./outline";
-import { MapArrowSquareIcon as line_duotone } from "./line-duotone";
+import { MapArrowSquareIcon as line } from "./line.ts";
+import { MapArrowSquareIcon as bold } from "./bold.ts";
+import { MapArrowSquareIcon as duotone } from "./duotone.ts";
+import { MapArrowSquareIcon as broken } from "./broken.ts";
+import { MapArrowSquareIcon as outline } from "./outline.ts";
+import { MapArrowSquareIcon as line_duotone } from "./line-duotone.ts";
 
 export const MapArrowSquareIcon: IconEntry = {
     line: line,

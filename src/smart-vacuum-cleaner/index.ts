@@ -4,12 +4,12 @@
  *   One style:   import { SmartVacuumCleanerIcon } from '@cossackframework/solar-icons/smart-vacuum-cleaner/<style>'
  */
 import type { IconEntry } from "../types";
-import { SmartVacuumCleanerIcon as line } from "./line";
-import { SmartVacuumCleanerIcon as bold } from "./bold";
-import { SmartVacuumCleanerIcon as duotone } from "./duotone";
-import { SmartVacuumCleanerIcon as broken } from "./broken";
-import { SmartVacuumCleanerIcon as outline } from "./outline";
-import { SmartVacuumCleanerIcon as line_duotone } from "./line-duotone";
+import { SmartVacuumCleanerIcon as line } from "./line.ts";
+import { SmartVacuumCleanerIcon as bold } from "./bold.ts";
+import { SmartVacuumCleanerIcon as duotone } from "./duotone.ts";
+import { SmartVacuumCleanerIcon as broken } from "./broken.ts";
+import { SmartVacuumCleanerIcon as outline } from "./outline.ts";
+import { SmartVacuumCleanerIcon as line_duotone } from "./line-duotone.ts";
 
 export const SmartVacuumCleanerIcon: IconEntry = {
     line: line,

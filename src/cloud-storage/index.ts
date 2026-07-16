@@ -4,12 +4,12 @@
  *   One style:   import { CloudStorageIcon } from '@cossackframework/solar-icons/cloud-storage/<style>'
  */
 import type { IconEntry } from "../types";
-import { CloudStorageIcon as line } from "./line";
-import { CloudStorageIcon as bold } from "./bold";
-import { CloudStorageIcon as duotone } from "./duotone";
-import { CloudStorageIcon as broken } from "./broken";
-import { CloudStorageIcon as outline } from "./outline";
-import { CloudStorageIcon as line_duotone } from "./line-duotone";
+import { CloudStorageIcon as line } from "./line.ts";
+import { CloudStorageIcon as bold } from "./bold.ts";
+import { CloudStorageIcon as duotone } from "./duotone.ts";
+import { CloudStorageIcon as broken } from "./broken.ts";
+import { CloudStorageIcon as outline } from "./outline.ts";
+import { CloudStorageIcon as line_duotone } from "./line-duotone.ts";
 
 export const CloudStorageIcon: IconEntry = {
     line: line,

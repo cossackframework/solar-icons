@@ -4,12 +4,12 @@
  *   One style:   import { SignpostIcon } from '@cossackframework/solar-icons/signpost/<style>'
  */
 import type { IconEntry } from "../types";
-import { SignpostIcon as line } from "./line";
-import { SignpostIcon as bold } from "./bold";
-import { SignpostIcon as duotone } from "./duotone";
-import { SignpostIcon as broken } from "./broken";
-import { SignpostIcon as outline } from "./outline";
-import { SignpostIcon as line_duotone } from "./line-duotone";
+import { SignpostIcon as line } from "./line.ts";
+import { SignpostIcon as bold } from "./bold.ts";
+import { SignpostIcon as duotone } from "./duotone.ts";
+import { SignpostIcon as broken } from "./broken.ts";
+import { SignpostIcon as outline } from "./outline.ts";
+import { SignpostIcon as line_duotone } from "./line-duotone.ts";
 
 export const SignpostIcon: IconEntry = {
     line: line,

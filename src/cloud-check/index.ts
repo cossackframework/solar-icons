@@ -4,12 +4,12 @@
  *   One style:   import { CloudCheckIcon } from '@cossackframework/solar-icons/cloud-check/<style>'
  */
 import type { IconEntry } from "../types";
-import { CloudCheckIcon as line } from "./line";
-import { CloudCheckIcon as bold } from "./bold";
-import { CloudCheckIcon as duotone } from "./duotone";
-import { CloudCheckIcon as broken } from "./broken";
-import { CloudCheckIcon as outline } from "./outline";
-import { CloudCheckIcon as line_duotone } from "./line-duotone";
+import { CloudCheckIcon as line } from "./line.ts";
+import { CloudCheckIcon as bold } from "./bold.ts";
+import { CloudCheckIcon as duotone } from "./duotone.ts";
+import { CloudCheckIcon as broken } from "./broken.ts";
+import { CloudCheckIcon as outline } from "./outline.ts";
+import { CloudCheckIcon as line_duotone } from "./line-duotone.ts";
 
 export const CloudCheckIcon: IconEntry = {
     line: line,

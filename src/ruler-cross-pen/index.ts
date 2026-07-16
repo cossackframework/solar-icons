@@ -4,12 +4,12 @@
  *   One style:   import { RulerCrossPenIcon } from '@cossackframework/solar-icons/ruler-cross-pen/<style>'
  */
 import type { IconEntry } from "../types";
-import { RulerCrossPenIcon as line } from "./line";
-import { RulerCrossPenIcon as bold } from "./bold";
-import { RulerCrossPenIcon as duotone } from "./duotone";
-import { RulerCrossPenIcon as broken } from "./broken";
-import { RulerCrossPenIcon as outline } from "./outline";
-import { RulerCrossPenIcon as line_duotone } from "./line-duotone";
+import { RulerCrossPenIcon as line } from "./line.ts";
+import { RulerCrossPenIcon as bold } from "./bold.ts";
+import { RulerCrossPenIcon as duotone } from "./duotone.ts";
+import { RulerCrossPenIcon as broken } from "./broken.ts";
+import { RulerCrossPenIcon as outline } from "./outline.ts";
+import { RulerCrossPenIcon as line_duotone } from "./line-duotone.ts";
 
 export const RulerCrossPenIcon: IconEntry = {
     line: line,

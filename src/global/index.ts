@@ -4,12 +4,12 @@
  *   One style:   import { GlobalIcon } from '@cossackframework/solar-icons/global/<style>'
  */
 import type { IconEntry } from "../types";
-import { GlobalIcon as line } from "./line";
-import { GlobalIcon as bold } from "./bold";
-import { GlobalIcon as duotone } from "./duotone";
-import { GlobalIcon as broken } from "./broken";
-import { GlobalIcon as outline } from "./outline";
-import { GlobalIcon as line_duotone } from "./line-duotone";
+import { GlobalIcon as line } from "./line.ts";
+import { GlobalIcon as bold } from "./bold.ts";
+import { GlobalIcon as duotone } from "./duotone.ts";
+import { GlobalIcon as broken } from "./broken.ts";
+import { GlobalIcon as outline } from "./outline.ts";
+import { GlobalIcon as line_duotone } from "./line-duotone.ts";
 
 export const GlobalIcon: IconEntry = {
     line: line,

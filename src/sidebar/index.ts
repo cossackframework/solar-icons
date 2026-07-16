@@ -4,12 +4,12 @@
  *   One style:   import { SidebarIcon } from '@cossackframework/solar-icons/sidebar/<style>'
  */
 import type { IconEntry } from "../types";
-import { SidebarIcon as line } from "./line";
-import { SidebarIcon as bold } from "./bold";
-import { SidebarIcon as duotone } from "./duotone";
-import { SidebarIcon as broken } from "./broken";
-import { SidebarIcon as outline } from "./outline";
-import { SidebarIcon as line_duotone } from "./line-duotone";
+import { SidebarIcon as line } from "./line.ts";
+import { SidebarIcon as bold } from "./bold.ts";
+import { SidebarIcon as duotone } from "./duotone.ts";
+import { SidebarIcon as broken } from "./broken.ts";
+import { SidebarIcon as outline } from "./outline.ts";
+import { SidebarIcon as line_duotone } from "./line-duotone.ts";
 
 export const SidebarIcon: IconEntry = {
     line: line,

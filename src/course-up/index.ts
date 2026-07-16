@@ -4,12 +4,12 @@
  *   One style:   import { CourseUpIcon } from '@cossackframework/solar-icons/course-up/<style>'
  */
 import type { IconEntry } from "../types";
-import { CourseUpIcon as line } from "./line";
-import { CourseUpIcon as bold } from "./bold";
-import { CourseUpIcon as duotone } from "./duotone";
-import { CourseUpIcon as broken } from "./broken";
-import { CourseUpIcon as outline } from "./outline";
-import { CourseUpIcon as line_duotone } from "./line-duotone";
+import { CourseUpIcon as line } from "./line.ts";
+import { CourseUpIcon as bold } from "./bold.ts";
+import { CourseUpIcon as duotone } from "./duotone.ts";
+import { CourseUpIcon as broken } from "./broken.ts";
+import { CourseUpIcon as outline } from "./outline.ts";
+import { CourseUpIcon as line_duotone } from "./line-duotone.ts";
 
 export const CourseUpIcon: IconEntry = {
     line: line,

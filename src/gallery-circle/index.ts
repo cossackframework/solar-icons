@@ -4,12 +4,12 @@
  *   One style:   import { GalleryCircleIcon } from '@cossackframework/solar-icons/gallery-circle/<style>'
  */
 import type { IconEntry } from "../types";
-import { GalleryCircleIcon as line } from "./line";
-import { GalleryCircleIcon as bold } from "./bold";
-import { GalleryCircleIcon as duotone } from "./duotone";
-import { GalleryCircleIcon as broken } from "./broken";
-import { GalleryCircleIcon as outline } from "./outline";
-import { GalleryCircleIcon as line_duotone } from "./line-duotone";
+import { GalleryCircleIcon as line } from "./line.ts";
+import { GalleryCircleIcon as bold } from "./bold.ts";
+import { GalleryCircleIcon as duotone } from "./duotone.ts";
+import { GalleryCircleIcon as broken } from "./broken.ts";
+import { GalleryCircleIcon as outline } from "./outline.ts";
+import { GalleryCircleIcon as line_duotone } from "./line-duotone.ts";
 
 export const GalleryCircleIcon: IconEntry = {
     line: line,

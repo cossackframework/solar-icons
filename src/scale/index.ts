@@ -4,12 +4,12 @@
  *   One style:   import { ScaleIcon } from '@cossackframework/solar-icons/scale/<style>'
  */
 import type { IconEntry } from "../types";
-import { ScaleIcon as line } from "./line";
-import { ScaleIcon as bold } from "./bold";
-import { ScaleIcon as duotone } from "./duotone";
-import { ScaleIcon as broken } from "./broken";
-import { ScaleIcon as outline } from "./outline";
-import { ScaleIcon as line_duotone } from "./line-duotone";
+import { ScaleIcon as line } from "./line.ts";
+import { ScaleIcon as bold } from "./bold.ts";
+import { ScaleIcon as duotone } from "./duotone.ts";
+import { ScaleIcon as broken } from "./broken.ts";
+import { ScaleIcon as outline } from "./outline.ts";
+import { ScaleIcon as line_duotone } from "./line-duotone.ts";
 
 export const ScaleIcon: IconEntry = {
     line: line,

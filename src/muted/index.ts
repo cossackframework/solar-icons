@@ -4,12 +4,12 @@
  *   One style:   import { MutedIcon } from '@cossackframework/solar-icons/muted/<style>'
  */
 import type { IconEntry } from "../types";
-import { MutedIcon as line } from "./line";
-import { MutedIcon as bold } from "./bold";
-import { MutedIcon as duotone } from "./duotone";
-import { MutedIcon as broken } from "./broken";
-import { MutedIcon as outline } from "./outline";
-import { MutedIcon as line_duotone } from "./line-duotone";
+import { MutedIcon as line } from "./line.ts";
+import { MutedIcon as bold } from "./bold.ts";
+import { MutedIcon as duotone } from "./duotone.ts";
+import { MutedIcon as broken } from "./broken.ts";
+import { MutedIcon as outline } from "./outline.ts";
+import { MutedIcon as line_duotone } from "./line-duotone.ts";
 
 export const MutedIcon: IconEntry = {
     line: line,

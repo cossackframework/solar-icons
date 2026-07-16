@@ -4,12 +4,12 @@
  *   One style:   import { FlipHorizontalIcon } from '@cossackframework/solar-icons/flip-horizontal/<style>'
  */
 import type { IconEntry } from "../types";
-import { FlipHorizontalIcon as line } from "./line";
-import { FlipHorizontalIcon as bold } from "./bold";
-import { FlipHorizontalIcon as duotone } from "./duotone";
-import { FlipHorizontalIcon as broken } from "./broken";
-import { FlipHorizontalIcon as outline } from "./outline";
-import { FlipHorizontalIcon as line_duotone } from "./line-duotone";
+import { FlipHorizontalIcon as line } from "./line.ts";
+import { FlipHorizontalIcon as bold } from "./bold.ts";
+import { FlipHorizontalIcon as duotone } from "./duotone.ts";
+import { FlipHorizontalIcon as broken } from "./broken.ts";
+import { FlipHorizontalIcon as outline } from "./outline.ts";
+import { FlipHorizontalIcon as line_duotone } from "./line-duotone.ts";
 
 export const FlipHorizontalIcon: IconEntry = {
     line: line,

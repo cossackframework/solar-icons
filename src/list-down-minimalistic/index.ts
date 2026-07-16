@@ -4,12 +4,12 @@
  *   One style:   import { ListDownMinimalisticIcon } from '@cossackframework/solar-icons/list-down-minimalistic/<style>'
  */
 import type { IconEntry } from "../types";
-import { ListDownMinimalisticIcon as line } from "./line";
-import { ListDownMinimalisticIcon as bold } from "./bold";
-import { ListDownMinimalisticIcon as duotone } from "./duotone";
-import { ListDownMinimalisticIcon as broken } from "./broken";
-import { ListDownMinimalisticIcon as outline } from "./outline";
-import { ListDownMinimalisticIcon as line_duotone } from "./line-duotone";
+import { ListDownMinimalisticIcon as line } from "./line.ts";
+import { ListDownMinimalisticIcon as bold } from "./bold.ts";
+import { ListDownMinimalisticIcon as duotone } from "./duotone.ts";
+import { ListDownMinimalisticIcon as broken } from "./broken.ts";
+import { ListDownMinimalisticIcon as outline } from "./outline.ts";
+import { ListDownMinimalisticIcon as line_duotone } from "./line-duotone.ts";
 
 export const ListDownMinimalisticIcon: IconEntry = {
     line: line,

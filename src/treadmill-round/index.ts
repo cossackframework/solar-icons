@@ -4,12 +4,12 @@
  *   One style:   import { TreadmillRoundIcon } from '@cossackframework/solar-icons/treadmill-round/<style>'
  */
 import type { IconEntry } from "../types";
-import { TreadmillRoundIcon as line } from "./line";
-import { TreadmillRoundIcon as bold } from "./bold";
-import { TreadmillRoundIcon as duotone } from "./duotone";
-import { TreadmillRoundIcon as broken } from "./broken";
-import { TreadmillRoundIcon as outline } from "./outline";
-import { TreadmillRoundIcon as line_duotone } from "./line-duotone";
+import { TreadmillRoundIcon as line } from "./line.ts";
+import { TreadmillRoundIcon as bold } from "./bold.ts";
+import { TreadmillRoundIcon as duotone } from "./duotone.ts";
+import { TreadmillRoundIcon as broken } from "./broken.ts";
+import { TreadmillRoundIcon as outline } from "./outline.ts";
+import { TreadmillRoundIcon as line_duotone } from "./line-duotone.ts";
 
 export const TreadmillRoundIcon: IconEntry = {
     line: line,

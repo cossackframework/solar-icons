@@ -4,12 +4,12 @@
  *   One style:   import { MapPointHospitalIcon } from '@cossackframework/solar-icons/map-point-hospital/<style>'
  */
 import type { IconEntry } from "../types";
-import { MapPointHospitalIcon as line } from "./line";
-import { MapPointHospitalIcon as bold } from "./bold";
-import { MapPointHospitalIcon as duotone } from "./duotone";
-import { MapPointHospitalIcon as broken } from "./broken";
-import { MapPointHospitalIcon as outline } from "./outline";
-import { MapPointHospitalIcon as line_duotone } from "./line-duotone";
+import { MapPointHospitalIcon as line } from "./line.ts";
+import { MapPointHospitalIcon as bold } from "./bold.ts";
+import { MapPointHospitalIcon as duotone } from "./duotone.ts";
+import { MapPointHospitalIcon as broken } from "./broken.ts";
+import { MapPointHospitalIcon as outline } from "./outline.ts";
+import { MapPointHospitalIcon as line_duotone } from "./line-duotone.ts";
 
 export const MapPointHospitalIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { PaintRollerIcon } from '@cossackframework/solar-icons/paint-roller/<style>'
  */
 import type { IconEntry } from "../types";
-import { PaintRollerIcon as line } from "./line";
-import { PaintRollerIcon as bold } from "./bold";
-import { PaintRollerIcon as duotone } from "./duotone";
-import { PaintRollerIcon as broken } from "./broken";
-import { PaintRollerIcon as outline } from "./outline";
-import { PaintRollerIcon as line_duotone } from "./line-duotone";
+import { PaintRollerIcon as line } from "./line.ts";
+import { PaintRollerIcon as bold } from "./bold.ts";
+import { PaintRollerIcon as duotone } from "./duotone.ts";
+import { PaintRollerIcon as broken } from "./broken.ts";
+import { PaintRollerIcon as outline } from "./outline.ts";
+import { PaintRollerIcon as line_duotone } from "./line-duotone.ts";
 
 export const PaintRollerIcon: IconEntry = {
     line: line,

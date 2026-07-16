@@ -4,12 +4,12 @@
  *   One style:   import { FlashlightOnIcon } from '@cossackframework/solar-icons/flashlight-on/<style>'
  */
 import type { IconEntry } from "../types";
-import { FlashlightOnIcon as line } from "./line";
-import { FlashlightOnIcon as bold } from "./bold";
-import { FlashlightOnIcon as duotone } from "./duotone";
-import { FlashlightOnIcon as broken } from "./broken";
-import { FlashlightOnIcon as outline } from "./outline";
-import { FlashlightOnIcon as line_duotone } from "./line-duotone";
+import { FlashlightOnIcon as line } from "./line.ts";
+import { FlashlightOnIcon as bold } from "./bold.ts";
+import { FlashlightOnIcon as duotone } from "./duotone.ts";
+import { FlashlightOnIcon as broken } from "./broken.ts";
+import { FlashlightOnIcon as outline } from "./outline.ts";
+import { FlashlightOnIcon as line_duotone } from "./line-duotone.ts";
 
 export const FlashlightOnIcon: IconEntry = {
     line: line,

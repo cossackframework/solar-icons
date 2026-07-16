@@ -4,12 +4,12 @@
  *   One style:   import { BowlingIcon } from '@cossackframework/solar-icons/bowling/<style>'
  */
 import type { IconEntry } from "../types";
-import { BowlingIcon as line } from "./line";
-import { BowlingIcon as bold } from "./bold";
-import { BowlingIcon as duotone } from "./duotone";
-import { BowlingIcon as broken } from "./broken";
-import { BowlingIcon as outline } from "./outline";
-import { BowlingIcon as line_duotone } from "./line-duotone";
+import { BowlingIcon as line } from "./line.ts";
+import { BowlingIcon as bold } from "./bold.ts";
+import { BowlingIcon as duotone } from "./duotone.ts";
+import { BowlingIcon as broken } from "./broken.ts";
+import { BowlingIcon as outline } from "./outline.ts";
+import { BowlingIcon as line_duotone } from "./line-duotone.ts";
 
 export const BowlingIcon: IconEntry = {
     line: line,

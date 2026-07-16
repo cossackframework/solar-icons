@@ -4,12 +4,12 @@
  *   One style:   import { WiFiRouterMinimalisticIcon } from '@cossackframework/solar-icons/wi-fi-router-minimalistic/<style>'
  */
 import type { IconEntry } from "../types";
-import { WiFiRouterMinimalisticIcon as line } from "./line";
-import { WiFiRouterMinimalisticIcon as bold } from "./bold";
-import { WiFiRouterMinimalisticIcon as duotone } from "./duotone";
-import { WiFiRouterMinimalisticIcon as broken } from "./broken";
-import { WiFiRouterMinimalisticIcon as outline } from "./outline";
-import { WiFiRouterMinimalisticIcon as line_duotone } from "./line-duotone";
+import { WiFiRouterMinimalisticIcon as line } from "./line.ts";
+import { WiFiRouterMinimalisticIcon as bold } from "./bold.ts";
+import { WiFiRouterMinimalisticIcon as duotone } from "./duotone.ts";
+import { WiFiRouterMinimalisticIcon as broken } from "./broken.ts";
+import { WiFiRouterMinimalisticIcon as outline } from "./outline.ts";
+import { WiFiRouterMinimalisticIcon as line_duotone } from "./line-duotone.ts";
 
 export const WiFiRouterMinimalisticIcon: IconEntry = {
     line: line,

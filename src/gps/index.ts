@@ -4,12 +4,12 @@
  *   One style:   import { GpsIcon } from '@cossackframework/solar-icons/gps/<style>'
  */
 import type { IconEntry } from "../types";
-import { GpsIcon as line } from "./line";
-import { GpsIcon as bold } from "./bold";
-import { GpsIcon as duotone } from "./duotone";
-import { GpsIcon as broken } from "./broken";
-import { GpsIcon as outline } from "./outline";
-import { GpsIcon as line_duotone } from "./line-duotone";
+import { GpsIcon as line } from "./line.ts";
+import { GpsIcon as bold } from "./bold.ts";
+import { GpsIcon as duotone } from "./duotone.ts";
+import { GpsIcon as broken } from "./broken.ts";
+import { GpsIcon as outline } from "./outline.ts";
+import { GpsIcon as line_duotone } from "./line-duotone.ts";
 
 export const GpsIcon: IconEntry = {
     line: line,

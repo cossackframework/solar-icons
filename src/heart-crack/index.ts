@@ -4,12 +4,12 @@
  *   One style:   import { HeartCrackIcon } from '@cossackframework/solar-icons/heart-crack/<style>'
  */
 import type { IconEntry } from "../types";
-import { HeartCrackIcon as line } from "./line";
-import { HeartCrackIcon as bold } from "./bold";
-import { HeartCrackIcon as duotone } from "./duotone";
-import { HeartCrackIcon as broken } from "./broken";
-import { HeartCrackIcon as outline } from "./outline";
-import { HeartCrackIcon as line_duotone } from "./line-duotone";
+import { HeartCrackIcon as line } from "./line.ts";
+import { HeartCrackIcon as bold } from "./bold.ts";
+import { HeartCrackIcon as duotone } from "./duotone.ts";
+import { HeartCrackIcon as broken } from "./broken.ts";
+import { HeartCrackIcon as outline } from "./outline.ts";
+import { HeartCrackIcon as line_duotone } from "./line-duotone.ts";
 
 export const HeartCrackIcon: IconEntry = {
     line: line,

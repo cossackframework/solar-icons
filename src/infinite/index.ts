@@ -4,12 +4,12 @@
  *   One style:   import { InfiniteIcon } from '@cossackframework/solar-icons/infinite/<style>'
  */
 import type { IconEntry } from "../types";
-import { InfiniteIcon as line } from "./line";
-import { InfiniteIcon as bold } from "./bold";
-import { InfiniteIcon as duotone } from "./duotone";
-import { InfiniteIcon as broken } from "./broken";
-import { InfiniteIcon as outline } from "./outline";
-import { InfiniteIcon as line_duotone } from "./line-duotone";
+import { InfiniteIcon as line } from "./line.ts";
+import { InfiniteIcon as bold } from "./bold.ts";
+import { InfiniteIcon as duotone } from "./duotone.ts";
+import { InfiniteIcon as broken } from "./broken.ts";
+import { InfiniteIcon as outline } from "./outline.ts";
+import { InfiniteIcon as line_duotone } from "./line-duotone.ts";
 
 export const InfiniteIcon: IconEntry = {
     line: line,

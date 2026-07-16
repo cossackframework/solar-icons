@@ -4,12 +4,12 @@
  *   One style:   import { AsteroidIcon } from '@cossackframework/solar-icons/asteroid/<style>'
  */
 import type { IconEntry } from "../types";
-import { AsteroidIcon as line } from "./line";
-import { AsteroidIcon as bold } from "./bold";
-import { AsteroidIcon as duotone } from "./duotone";
-import { AsteroidIcon as broken } from "./broken";
-import { AsteroidIcon as outline } from "./outline";
-import { AsteroidIcon as line_duotone } from "./line-duotone";
+import { AsteroidIcon as line } from "./line.ts";
+import { AsteroidIcon as bold } from "./bold.ts";
+import { AsteroidIcon as duotone } from "./duotone.ts";
+import { AsteroidIcon as broken } from "./broken.ts";
+import { AsteroidIcon as outline } from "./outline.ts";
+import { AsteroidIcon as line_duotone } from "./line-duotone.ts";
 
 export const AsteroidIcon: IconEntry = {
     line: line,

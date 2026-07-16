@@ -4,12 +4,12 @@
  *   One style:   import { ClipboardHeartIcon } from '@cossackframework/solar-icons/clipboard-heart/<style>'
  */
 import type { IconEntry } from "../types";
-import { ClipboardHeartIcon as line } from "./line";
-import { ClipboardHeartIcon as bold } from "./bold";
-import { ClipboardHeartIcon as duotone } from "./duotone";
-import { ClipboardHeartIcon as broken } from "./broken";
-import { ClipboardHeartIcon as outline } from "./outline";
-import { ClipboardHeartIcon as line_duotone } from "./line-duotone";
+import { ClipboardHeartIcon as line } from "./line.ts";
+import { ClipboardHeartIcon as bold } from "./bold.ts";
+import { ClipboardHeartIcon as duotone } from "./duotone.ts";
+import { ClipboardHeartIcon as broken } from "./broken.ts";
+import { ClipboardHeartIcon as outline } from "./outline.ts";
+import { ClipboardHeartIcon as line_duotone } from "./line-duotone.ts";
 
 export const ClipboardHeartIcon: IconEntry = {
     line: line,

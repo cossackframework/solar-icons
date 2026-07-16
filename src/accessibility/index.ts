@@ -4,12 +4,12 @@
  *   One style:   import { AccessibilityIcon } from '@cossackframework/solar-icons/accessibility/<style>'
  */
 import type { IconEntry } from "../types";
-import { AccessibilityIcon as line } from "./line";
-import { AccessibilityIcon as bold } from "./bold";
-import { AccessibilityIcon as duotone } from "./duotone";
-import { AccessibilityIcon as broken } from "./broken";
-import { AccessibilityIcon as outline } from "./outline";
-import { AccessibilityIcon as line_duotone } from "./line-duotone";
+import { AccessibilityIcon as line } from "./line.ts";
+import { AccessibilityIcon as bold } from "./bold.ts";
+import { AccessibilityIcon as duotone } from "./duotone.ts";
+import { AccessibilityIcon as broken } from "./broken.ts";
+import { AccessibilityIcon as outline } from "./outline.ts";
+import { AccessibilityIcon as line_duotone } from "./line-duotone.ts";
 
 export const AccessibilityIcon: IconEntry = {
     line: line,

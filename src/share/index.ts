@@ -4,12 +4,12 @@
  *   One style:   import { ShareIcon } from '@cossackframework/solar-icons/share/<style>'
  */
 import type { IconEntry } from "../types";
-import { ShareIcon as line } from "./line";
-import { ShareIcon as bold } from "./bold";
-import { ShareIcon as duotone } from "./duotone";
-import { ShareIcon as broken } from "./broken";
-import { ShareIcon as outline } from "./outline";
-import { ShareIcon as line_duotone } from "./line-duotone";
+import { ShareIcon as line } from "./line.ts";
+import { ShareIcon as bold } from "./bold.ts";
+import { ShareIcon as duotone } from "./duotone.ts";
+import { ShareIcon as broken } from "./broken.ts";
+import { ShareIcon as outline } from "./outline.ts";
+import { ShareIcon as line_duotone } from "./line-duotone.ts";
 
 export const ShareIcon: IconEntry = {
     line: line,

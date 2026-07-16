@@ -4,12 +4,12 @@
  *   One style:   import { LetterOpenedIcon } from '@cossackframework/solar-icons/letter-opened/<style>'
  */
 import type { IconEntry } from "../types";
-import { LetterOpenedIcon as line } from "./line";
-import { LetterOpenedIcon as bold } from "./bold";
-import { LetterOpenedIcon as duotone } from "./duotone";
-import { LetterOpenedIcon as broken } from "./broken";
-import { LetterOpenedIcon as outline } from "./outline";
-import { LetterOpenedIcon as line_duotone } from "./line-duotone";
+import { LetterOpenedIcon as line } from "./line.ts";
+import { LetterOpenedIcon as bold } from "./bold.ts";
+import { LetterOpenedIcon as duotone } from "./duotone.ts";
+import { LetterOpenedIcon as broken } from "./broken.ts";
+import { LetterOpenedIcon as outline } from "./outline.ts";
+import { LetterOpenedIcon as line_duotone } from "./line-duotone.ts";
 
 export const LetterOpenedIcon: IconEntry = {
     line: line,

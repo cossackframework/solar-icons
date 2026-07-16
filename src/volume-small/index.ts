@@ -4,12 +4,12 @@
  *   One style:   import { VolumeSmallIcon } from '@cossackframework/solar-icons/volume-small/<style>'
  */
 import type { IconEntry } from "../types";
-import { VolumeSmallIcon as line } from "./line";
-import { VolumeSmallIcon as bold } from "./bold";
-import { VolumeSmallIcon as duotone } from "./duotone";
-import { VolumeSmallIcon as broken } from "./broken";
-import { VolumeSmallIcon as outline } from "./outline";
-import { VolumeSmallIcon as line_duotone } from "./line-duotone";
+import { VolumeSmallIcon as line } from "./line.ts";
+import { VolumeSmallIcon as bold } from "./bold.ts";
+import { VolumeSmallIcon as duotone } from "./duotone.ts";
+import { VolumeSmallIcon as broken } from "./broken.ts";
+import { VolumeSmallIcon as outline } from "./outline.ts";
+import { VolumeSmallIcon as line_duotone } from "./line-duotone.ts";
 
 export const VolumeSmallIcon: IconEntry = {
     line: line,

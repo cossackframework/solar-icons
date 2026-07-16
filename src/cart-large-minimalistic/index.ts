@@ -4,12 +4,12 @@
  *   One style:   import { CartLargeMinimalisticIcon } from '@cossackframework/solar-icons/cart-large-minimalistic/<style>'
  */
 import type { IconEntry } from "../types";
-import { CartLargeMinimalisticIcon as line } from "./line";
-import { CartLargeMinimalisticIcon as bold } from "./bold";
-import { CartLargeMinimalisticIcon as duotone } from "./duotone";
-import { CartLargeMinimalisticIcon as broken } from "./broken";
-import { CartLargeMinimalisticIcon as outline } from "./outline";
-import { CartLargeMinimalisticIcon as line_duotone } from "./line-duotone";
+import { CartLargeMinimalisticIcon as line } from "./line.ts";
+import { CartLargeMinimalisticIcon as bold } from "./bold.ts";
+import { CartLargeMinimalisticIcon as duotone } from "./duotone.ts";
+import { CartLargeMinimalisticIcon as broken } from "./broken.ts";
+import { CartLargeMinimalisticIcon as outline } from "./outline.ts";
+import { CartLargeMinimalisticIcon as line_duotone } from "./line-duotone.ts";
 
 export const CartLargeMinimalisticIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { ShareCircleIcon } from '@cossackframework/solar-icons/share-circle/<style>'
  */
 import type { IconEntry } from "../types";
-import { ShareCircleIcon as line } from "./line";
-import { ShareCircleIcon as bold } from "./bold";
-import { ShareCircleIcon as duotone } from "./duotone";
-import { ShareCircleIcon as broken } from "./broken";
-import { ShareCircleIcon as outline } from "./outline";
-import { ShareCircleIcon as line_duotone } from "./line-duotone";
+import { ShareCircleIcon as line } from "./line.ts";
+import { ShareCircleIcon as bold } from "./bold.ts";
+import { ShareCircleIcon as duotone } from "./duotone.ts";
+import { ShareCircleIcon as broken } from "./broken.ts";
+import { ShareCircleIcon as outline } from "./outline.ts";
+import { ShareCircleIcon as line_duotone } from "./line-duotone.ts";
 
 export const ShareCircleIcon: IconEntry = {
     line: line,

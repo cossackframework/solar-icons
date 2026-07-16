@@ -4,12 +4,12 @@
  *   One style:   import { SaleSquareIcon } from '@cossackframework/solar-icons/sale-square/<style>'
  */
 import type { IconEntry } from "../types";
-import { SaleSquareIcon as line } from "./line";
-import { SaleSquareIcon as bold } from "./bold";
-import { SaleSquareIcon as duotone } from "./duotone";
-import { SaleSquareIcon as broken } from "./broken";
-import { SaleSquareIcon as outline } from "./outline";
-import { SaleSquareIcon as line_duotone } from "./line-duotone";
+import { SaleSquareIcon as line } from "./line.ts";
+import { SaleSquareIcon as bold } from "./bold.ts";
+import { SaleSquareIcon as duotone } from "./duotone.ts";
+import { SaleSquareIcon as broken } from "./broken.ts";
+import { SaleSquareIcon as outline } from "./outline.ts";
+import { SaleSquareIcon as line_duotone } from "./line-duotone.ts";
 
 export const SaleSquareIcon: IconEntry = {
     line: line,

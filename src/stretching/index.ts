@@ -4,12 +4,12 @@
  *   One style:   import { StretchingIcon } from '@cossackframework/solar-icons/stretching/<style>'
  */
 import type { IconEntry } from "../types";
-import { StretchingIcon as line } from "./line";
-import { StretchingIcon as bold } from "./bold";
-import { StretchingIcon as duotone } from "./duotone";
-import { StretchingIcon as broken } from "./broken";
-import { StretchingIcon as outline } from "./outline";
-import { StretchingIcon as line_duotone } from "./line-duotone";
+import { StretchingIcon as line } from "./line.ts";
+import { StretchingIcon as bold } from "./bold.ts";
+import { StretchingIcon as duotone } from "./duotone.ts";
+import { StretchingIcon as broken } from "./broken.ts";
+import { StretchingIcon as outline } from "./outline.ts";
+import { StretchingIcon as line_duotone } from "./line-duotone.ts";
 
 export const StretchingIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { VideoLibraryIcon } from '@cossackframework/solar-icons/video-library/<style>'
  */
 import type { IconEntry } from "../types";
-import { VideoLibraryIcon as line } from "./line";
-import { VideoLibraryIcon as bold } from "./bold";
-import { VideoLibraryIcon as duotone } from "./duotone";
-import { VideoLibraryIcon as broken } from "./broken";
-import { VideoLibraryIcon as outline } from "./outline";
-import { VideoLibraryIcon as line_duotone } from "./line-duotone";
+import { VideoLibraryIcon as line } from "./line.ts";
+import { VideoLibraryIcon as bold } from "./bold.ts";
+import { VideoLibraryIcon as duotone } from "./duotone.ts";
+import { VideoLibraryIcon as broken } from "./broken.ts";
+import { VideoLibraryIcon as outline } from "./outline.ts";
+import { VideoLibraryIcon as line_duotone } from "./line-duotone.ts";
 
 export const VideoLibraryIcon: IconEntry = {
     line: line,

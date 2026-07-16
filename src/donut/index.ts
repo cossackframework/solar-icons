@@ -4,12 +4,12 @@
  *   One style:   import { DonutIcon } from '@cossackframework/solar-icons/donut/<style>'
  */
 import type { IconEntry } from "../types";
-import { DonutIcon as line } from "./line";
-import { DonutIcon as bold } from "./bold";
-import { DonutIcon as duotone } from "./duotone";
-import { DonutIcon as broken } from "./broken";
-import { DonutIcon as outline } from "./outline";
-import { DonutIcon as line_duotone } from "./line-duotone";
+import { DonutIcon as line } from "./line.ts";
+import { DonutIcon as bold } from "./bold.ts";
+import { DonutIcon as duotone } from "./duotone.ts";
+import { DonutIcon as broken } from "./broken.ts";
+import { DonutIcon as outline } from "./outline.ts";
+import { DonutIcon as line_duotone } from "./line-duotone.ts";
 
 export const DonutIcon: IconEntry = {
     line: line,

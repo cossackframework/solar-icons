@@ -4,12 +4,12 @@
  *   One style:   import { RewindBackCircleIcon } from '@cossackframework/solar-icons/rewind-back-circle/<style>'
  */
 import type { IconEntry } from "../types";
-import { RewindBackCircleIcon as line } from "./line";
-import { RewindBackCircleIcon as bold } from "./bold";
-import { RewindBackCircleIcon as duotone } from "./duotone";
-import { RewindBackCircleIcon as broken } from "./broken";
-import { RewindBackCircleIcon as outline } from "./outline";
-import { RewindBackCircleIcon as line_duotone } from "./line-duotone";
+import { RewindBackCircleIcon as line } from "./line.ts";
+import { RewindBackCircleIcon as bold } from "./bold.ts";
+import { RewindBackCircleIcon as duotone } from "./duotone.ts";
+import { RewindBackCircleIcon as broken } from "./broken.ts";
+import { RewindBackCircleIcon as outline } from "./outline.ts";
+import { RewindBackCircleIcon as line_duotone } from "./line-duotone.ts";
 
 export const RewindBackCircleIcon: IconEntry = {
     line: line,

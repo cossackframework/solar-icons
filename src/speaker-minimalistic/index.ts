@@ -4,12 +4,12 @@
  *   One style:   import { SpeakerMinimalisticIcon } from '@cossackframework/solar-icons/speaker-minimalistic/<style>'
  */
 import type { IconEntry } from "../types";
-import { SpeakerMinimalisticIcon as line } from "./line";
-import { SpeakerMinimalisticIcon as bold } from "./bold";
-import { SpeakerMinimalisticIcon as duotone } from "./duotone";
-import { SpeakerMinimalisticIcon as broken } from "./broken";
-import { SpeakerMinimalisticIcon as outline } from "./outline";
-import { SpeakerMinimalisticIcon as line_duotone } from "./line-duotone";
+import { SpeakerMinimalisticIcon as line } from "./line.ts";
+import { SpeakerMinimalisticIcon as bold } from "./bold.ts";
+import { SpeakerMinimalisticIcon as duotone } from "./duotone.ts";
+import { SpeakerMinimalisticIcon as broken } from "./broken.ts";
+import { SpeakerMinimalisticIcon as outline } from "./outline.ts";
+import { SpeakerMinimalisticIcon as line_duotone } from "./line-duotone.ts";
 
 export const SpeakerMinimalisticIcon: IconEntry = {
     line: line,

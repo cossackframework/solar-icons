@@ -4,12 +4,12 @@
  *   One style:   import { BenzeneRingIcon } from '@cossackframework/solar-icons/benzene-ring/<style>'
  */
 import type { IconEntry } from "../types";
-import { BenzeneRingIcon as line } from "./line";
-import { BenzeneRingIcon as bold } from "./bold";
-import { BenzeneRingIcon as duotone } from "./duotone";
-import { BenzeneRingIcon as broken } from "./broken";
-import { BenzeneRingIcon as outline } from "./outline";
-import { BenzeneRingIcon as line_duotone } from "./line-duotone";
+import { BenzeneRingIcon as line } from "./line.ts";
+import { BenzeneRingIcon as bold } from "./bold.ts";
+import { BenzeneRingIcon as duotone } from "./duotone.ts";
+import { BenzeneRingIcon as broken } from "./broken.ts";
+import { BenzeneRingIcon as outline } from "./outline.ts";
+import { BenzeneRingIcon as line_duotone } from "./line-duotone.ts";
 
 export const BenzeneRingIcon: IconEntry = {
     line: line,

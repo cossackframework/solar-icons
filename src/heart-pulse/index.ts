@@ -4,12 +4,12 @@
  *   One style:   import { HeartPulseIcon } from '@cossackframework/solar-icons/heart-pulse/<style>'
  */
 import type { IconEntry } from "../types";
-import { HeartPulseIcon as line } from "./line";
-import { HeartPulseIcon as bold } from "./bold";
-import { HeartPulseIcon as duotone } from "./duotone";
-import { HeartPulseIcon as broken } from "./broken";
-import { HeartPulseIcon as outline } from "./outline";
-import { HeartPulseIcon as line_duotone } from "./line-duotone";
+import { HeartPulseIcon as line } from "./line.ts";
+import { HeartPulseIcon as bold } from "./bold.ts";
+import { HeartPulseIcon as duotone } from "./duotone.ts";
+import { HeartPulseIcon as broken } from "./broken.ts";
+import { HeartPulseIcon as outline } from "./outline.ts";
+import { HeartPulseIcon as line_duotone } from "./line-duotone.ts";
 
 export const HeartPulseIcon: IconEntry = {
     line: line,

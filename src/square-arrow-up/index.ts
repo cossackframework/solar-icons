@@ -4,12 +4,12 @@
  *   One style:   import { SquareArrowUpIcon } from '@cossackframework/solar-icons/square-arrow-up/<style>'
  */
 import type { IconEntry } from "../types";
-import { SquareArrowUpIcon as line } from "./line";
-import { SquareArrowUpIcon as bold } from "./bold";
-import { SquareArrowUpIcon as duotone } from "./duotone";
-import { SquareArrowUpIcon as broken } from "./broken";
-import { SquareArrowUpIcon as outline } from "./outline";
-import { SquareArrowUpIcon as line_duotone } from "./line-duotone";
+import { SquareArrowUpIcon as line } from "./line.ts";
+import { SquareArrowUpIcon as bold } from "./bold.ts";
+import { SquareArrowUpIcon as duotone } from "./duotone.ts";
+import { SquareArrowUpIcon as broken } from "./broken.ts";
+import { SquareArrowUpIcon as outline } from "./outline.ts";
+import { SquareArrowUpIcon as line_duotone } from "./line-duotone.ts";
 
 export const SquareArrowUpIcon: IconEntry = {
     line: line,

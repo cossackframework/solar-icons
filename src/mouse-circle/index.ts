@@ -4,12 +4,12 @@
  *   One style:   import { MouseCircleIcon } from '@cossackframework/solar-icons/mouse-circle/<style>'
  */
 import type { IconEntry } from "../types";
-import { MouseCircleIcon as line } from "./line";
-import { MouseCircleIcon as bold } from "./bold";
-import { MouseCircleIcon as duotone } from "./duotone";
-import { MouseCircleIcon as broken } from "./broken";
-import { MouseCircleIcon as outline } from "./outline";
-import { MouseCircleIcon as line_duotone } from "./line-duotone";
+import { MouseCircleIcon as line } from "./line.ts";
+import { MouseCircleIcon as bold } from "./bold.ts";
+import { MouseCircleIcon as duotone } from "./duotone.ts";
+import { MouseCircleIcon as broken } from "./broken.ts";
+import { MouseCircleIcon as outline } from "./outline.ts";
+import { MouseCircleIcon as line_duotone } from "./line-duotone.ts";
 
 export const MouseCircleIcon: IconEntry = {
     line: line,

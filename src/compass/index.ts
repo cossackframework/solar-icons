@@ -4,12 +4,12 @@
  *   One style:   import { CompassIcon } from '@cossackframework/solar-icons/compass/<style>'
  */
 import type { IconEntry } from "../types";
-import { CompassIcon as line } from "./line";
-import { CompassIcon as bold } from "./bold";
-import { CompassIcon as duotone } from "./duotone";
-import { CompassIcon as broken } from "./broken";
-import { CompassIcon as outline } from "./outline";
-import { CompassIcon as line_duotone } from "./line-duotone";
+import { CompassIcon as line } from "./line.ts";
+import { CompassIcon as bold } from "./bold.ts";
+import { CompassIcon as duotone } from "./duotone.ts";
+import { CompassIcon as broken } from "./broken.ts";
+import { CompassIcon as outline } from "./outline.ts";
+import { CompassIcon as line_duotone } from "./line-duotone.ts";
 
 export const CompassIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { ReelIcon } from '@cossackframework/solar-icons/reel/<style>'
  */
 import type { IconEntry } from "../types";
-import { ReelIcon as line } from "./line";
-import { ReelIcon as bold } from "./bold";
-import { ReelIcon as duotone } from "./duotone";
-import { ReelIcon as broken } from "./broken";
-import { ReelIcon as outline } from "./outline";
-import { ReelIcon as line_duotone } from "./line-duotone";
+import { ReelIcon as line } from "./line.ts";
+import { ReelIcon as bold } from "./bold.ts";
+import { ReelIcon as duotone } from "./duotone.ts";
+import { ReelIcon as broken } from "./broken.ts";
+import { ReelIcon as outline } from "./outline.ts";
+import { ReelIcon as line_duotone } from "./line-duotone.ts";
 
 export const ReelIcon: IconEntry = {
     line: line,

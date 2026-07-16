@@ -4,12 +4,12 @@
  *   One style:   import { BodyShapeIcon } from '@cossackframework/solar-icons/body-shape/<style>'
  */
 import type { IconEntry } from "../types";
-import { BodyShapeIcon as line } from "./line";
-import { BodyShapeIcon as bold } from "./bold";
-import { BodyShapeIcon as duotone } from "./duotone";
-import { BodyShapeIcon as broken } from "./broken";
-import { BodyShapeIcon as outline } from "./outline";
-import { BodyShapeIcon as line_duotone } from "./line-duotone";
+import { BodyShapeIcon as line } from "./line.ts";
+import { BodyShapeIcon as bold } from "./bold.ts";
+import { BodyShapeIcon as duotone } from "./duotone.ts";
+import { BodyShapeIcon as broken } from "./broken.ts";
+import { BodyShapeIcon as outline } from "./outline.ts";
+import { BodyShapeIcon as line_duotone } from "./line-duotone.ts";
 
 export const BodyShapeIcon: IconEntry = {
     line: line,

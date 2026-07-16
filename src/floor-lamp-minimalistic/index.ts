@@ -4,12 +4,12 @@
  *   One style:   import { FloorLampMinimalisticIcon } from '@cossackframework/solar-icons/floor-lamp-minimalistic/<style>'
  */
 import type { IconEntry } from "../types";
-import { FloorLampMinimalisticIcon as line } from "./line";
-import { FloorLampMinimalisticIcon as bold } from "./bold";
-import { FloorLampMinimalisticIcon as duotone } from "./duotone";
-import { FloorLampMinimalisticIcon as broken } from "./broken";
-import { FloorLampMinimalisticIcon as outline } from "./outline";
-import { FloorLampMinimalisticIcon as line_duotone } from "./line-duotone";
+import { FloorLampMinimalisticIcon as line } from "./line.ts";
+import { FloorLampMinimalisticIcon as bold } from "./bold.ts";
+import { FloorLampMinimalisticIcon as duotone } from "./duotone.ts";
+import { FloorLampMinimalisticIcon as broken } from "./broken.ts";
+import { FloorLampMinimalisticIcon as outline } from "./outline.ts";
+import { FloorLampMinimalisticIcon as line_duotone } from "./line-duotone.ts";
 
 export const FloorLampMinimalisticIcon: IconEntry = {
     line: line,

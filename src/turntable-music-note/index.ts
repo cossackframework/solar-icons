@@ -4,12 +4,12 @@
  *   One style:   import { TurntableMusicNoteIcon } from '@cossackframework/solar-icons/turntable-music-note/<style>'
  */
 import type { IconEntry } from "../types";
-import { TurntableMusicNoteIcon as line } from "./line";
-import { TurntableMusicNoteIcon as bold } from "./bold";
-import { TurntableMusicNoteIcon as duotone } from "./duotone";
-import { TurntableMusicNoteIcon as broken } from "./broken";
-import { TurntableMusicNoteIcon as outline } from "./outline";
-import { TurntableMusicNoteIcon as line_duotone } from "./line-duotone";
+import { TurntableMusicNoteIcon as line } from "./line.ts";
+import { TurntableMusicNoteIcon as bold } from "./bold.ts";
+import { TurntableMusicNoteIcon as duotone } from "./duotone.ts";
+import { TurntableMusicNoteIcon as broken } from "./broken.ts";
+import { TurntableMusicNoteIcon as outline } from "./outline.ts";
+import { TurntableMusicNoteIcon as line_duotone } from "./line-duotone.ts";
 
 export const TurntableMusicNoteIcon: IconEntry = {
     line: line,

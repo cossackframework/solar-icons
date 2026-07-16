@@ -4,12 +4,12 @@
  *   One style:   import { ChefHatIcon } from '@cossackframework/solar-icons/chef-hat/<style>'
  */
 import type { IconEntry } from "../types";
-import { ChefHatIcon as line } from "./line";
-import { ChefHatIcon as bold } from "./bold";
-import { ChefHatIcon as duotone } from "./duotone";
-import { ChefHatIcon as broken } from "./broken";
-import { ChefHatIcon as outline } from "./outline";
-import { ChefHatIcon as line_duotone } from "./line-duotone";
+import { ChefHatIcon as line } from "./line.ts";
+import { ChefHatIcon as bold } from "./bold.ts";
+import { ChefHatIcon as duotone } from "./duotone.ts";
+import { ChefHatIcon as broken } from "./broken.ts";
+import { ChefHatIcon as outline } from "./outline.ts";
+import { ChefHatIcon as line_duotone } from "./line-duotone.ts";
 
 export const ChefHatIcon: IconEntry = {
     line: line,

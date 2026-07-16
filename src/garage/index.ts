@@ -4,12 +4,12 @@
  *   One style:   import { GarageIcon } from '@cossackframework/solar-icons/garage/<style>'
  */
 import type { IconEntry } from "../types";
-import { GarageIcon as line } from "./line";
-import { GarageIcon as bold } from "./bold";
-import { GarageIcon as duotone } from "./duotone";
-import { GarageIcon as broken } from "./broken";
-import { GarageIcon as outline } from "./outline";
-import { GarageIcon as line_duotone } from "./line-duotone";
+import { GarageIcon as line } from "./line.ts";
+import { GarageIcon as bold } from "./bold.ts";
+import { GarageIcon as duotone } from "./duotone.ts";
+import { GarageIcon as broken } from "./broken.ts";
+import { GarageIcon as outline } from "./outline.ts";
+import { GarageIcon as line_duotone } from "./line-duotone.ts";
 
 export const GarageIcon: IconEntry = {
     line: line,

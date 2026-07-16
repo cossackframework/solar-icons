@@ -4,12 +4,12 @@
  *   One style:   import { HomeWiFiIcon } from '@cossackframework/solar-icons/home-wi-fi/<style>'
  */
 import type { IconEntry } from "../types";
-import { HomeWiFiIcon as line } from "./line";
-import { HomeWiFiIcon as bold } from "./bold";
-import { HomeWiFiIcon as duotone } from "./duotone";
-import { HomeWiFiIcon as broken } from "./broken";
-import { HomeWiFiIcon as outline } from "./outline";
-import { HomeWiFiIcon as line_duotone } from "./line-duotone";
+import { HomeWiFiIcon as line } from "./line.ts";
+import { HomeWiFiIcon as bold } from "./bold.ts";
+import { HomeWiFiIcon as duotone } from "./duotone.ts";
+import { HomeWiFiIcon as broken } from "./broken.ts";
+import { HomeWiFiIcon as outline } from "./outline.ts";
+import { HomeWiFiIcon as line_duotone } from "./line-duotone.ts";
 
 export const HomeWiFiIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { CropIcon } from '@cossackframework/solar-icons/crop/<style>'
  */
 import type { IconEntry } from "../types";
-import { CropIcon as line } from "./line";
-import { CropIcon as bold } from "./bold";
-import { CropIcon as duotone } from "./duotone";
-import { CropIcon as broken } from "./broken";
-import { CropIcon as outline } from "./outline";
-import { CropIcon as line_duotone } from "./line-duotone";
+import { CropIcon as line } from "./line.ts";
+import { CropIcon as bold } from "./bold.ts";
+import { CropIcon as duotone } from "./duotone.ts";
+import { CropIcon as broken } from "./broken.ts";
+import { CropIcon as outline } from "./outline.ts";
+import { CropIcon as line_duotone } from "./line-duotone.ts";
 
 export const CropIcon: IconEntry = {
     line: line,

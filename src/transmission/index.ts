@@ -4,12 +4,12 @@
  *   One style:   import { TransmissionIcon } from '@cossackframework/solar-icons/transmission/<style>'
  */
 import type { IconEntry } from "../types";
-import { TransmissionIcon as line } from "./line";
-import { TransmissionIcon as bold } from "./bold";
-import { TransmissionIcon as duotone } from "./duotone";
-import { TransmissionIcon as broken } from "./broken";
-import { TransmissionIcon as outline } from "./outline";
-import { TransmissionIcon as line_duotone } from "./line-duotone";
+import { TransmissionIcon as line } from "./line.ts";
+import { TransmissionIcon as bold } from "./bold.ts";
+import { TransmissionIcon as duotone } from "./duotone.ts";
+import { TransmissionIcon as broken } from "./broken.ts";
+import { TransmissionIcon as outline } from "./outline.ts";
+import { TransmissionIcon as line_duotone } from "./line-duotone.ts";
 
 export const TransmissionIcon: IconEntry = {
     line: line,

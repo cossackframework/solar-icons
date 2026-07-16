@@ -4,12 +4,12 @@
  *   One style:   import { PaletteIcon } from '@cossackframework/solar-icons/palette/<style>'
  */
 import type { IconEntry } from "../types";
-import { PaletteIcon as line } from "./line";
-import { PaletteIcon as bold } from "./bold";
-import { PaletteIcon as duotone } from "./duotone";
-import { PaletteIcon as broken } from "./broken";
-import { PaletteIcon as outline } from "./outline";
-import { PaletteIcon as line_duotone } from "./line-duotone";
+import { PaletteIcon as line } from "./line.ts";
+import { PaletteIcon as bold } from "./bold.ts";
+import { PaletteIcon as duotone } from "./duotone.ts";
+import { PaletteIcon as broken } from "./broken.ts";
+import { PaletteIcon as outline } from "./outline.ts";
+import { PaletteIcon as line_duotone } from "./line-duotone.ts";
 
 export const PaletteIcon: IconEntry = {
     line: line,

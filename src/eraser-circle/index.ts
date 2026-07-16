@@ -4,12 +4,12 @@
  *   One style:   import { EraserCircleIcon } from '@cossackframework/solar-icons/eraser-circle/<style>'
  */
 import type { IconEntry } from "../types";
-import { EraserCircleIcon as line } from "./line";
-import { EraserCircleIcon as bold } from "./bold";
-import { EraserCircleIcon as duotone } from "./duotone";
-import { EraserCircleIcon as broken } from "./broken";
-import { EraserCircleIcon as outline } from "./outline";
-import { EraserCircleIcon as line_duotone } from "./line-duotone";
+import { EraserCircleIcon as line } from "./line.ts";
+import { EraserCircleIcon as bold } from "./bold.ts";
+import { EraserCircleIcon as duotone } from "./duotone.ts";
+import { EraserCircleIcon as broken } from "./broken.ts";
+import { EraserCircleIcon as outline } from "./outline.ts";
+import { EraserCircleIcon as line_duotone } from "./line-duotone.ts";
 
 export const EraserCircleIcon: IconEntry = {
     line: line,

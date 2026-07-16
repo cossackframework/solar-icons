@@ -4,12 +4,12 @@
  *   One style:   import { ConfoundedCircleIcon } from '@cossackframework/solar-icons/confounded-circle/<style>'
  */
 import type { IconEntry } from "../types";
-import { ConfoundedCircleIcon as line } from "./line";
-import { ConfoundedCircleIcon as bold } from "./bold";
-import { ConfoundedCircleIcon as duotone } from "./duotone";
-import { ConfoundedCircleIcon as broken } from "./broken";
-import { ConfoundedCircleIcon as outline } from "./outline";
-import { ConfoundedCircleIcon as line_duotone } from "./line-duotone";
+import { ConfoundedCircleIcon as line } from "./line.ts";
+import { ConfoundedCircleIcon as bold } from "./bold.ts";
+import { ConfoundedCircleIcon as duotone } from "./duotone.ts";
+import { ConfoundedCircleIcon as broken } from "./broken.ts";
+import { ConfoundedCircleIcon as outline } from "./outline.ts";
+import { ConfoundedCircleIcon as line_duotone } from "./line-duotone.ts";
 
 export const ConfoundedCircleIcon: IconEntry = {
     line: line,

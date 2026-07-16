@@ -4,12 +4,12 @@
  *   One style:   import { UploadTrackIcon } from '@cossackframework/solar-icons/upload-track/<style>'
  */
 import type { IconEntry } from "../types";
-import { UploadTrackIcon as line } from "./line";
-import { UploadTrackIcon as bold } from "./bold";
-import { UploadTrackIcon as duotone } from "./duotone";
-import { UploadTrackIcon as broken } from "./broken";
-import { UploadTrackIcon as outline } from "./outline";
-import { UploadTrackIcon as line_duotone } from "./line-duotone";
+import { UploadTrackIcon as line } from "./line.ts";
+import { UploadTrackIcon as bold } from "./bold.ts";
+import { UploadTrackIcon as duotone } from "./duotone.ts";
+import { UploadTrackIcon as broken } from "./broken.ts";
+import { UploadTrackIcon as outline } from "./outline.ts";
+import { UploadTrackIcon as line_duotone } from "./line-duotone.ts";
 
 export const UploadTrackIcon: IconEntry = {
     line: line,

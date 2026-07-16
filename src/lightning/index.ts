@@ -4,12 +4,12 @@
  *   One style:   import { LightningIcon } from '@cossackframework/solar-icons/lightning/<style>'
  */
 import type { IconEntry } from "../types";
-import { LightningIcon as line } from "./line";
-import { LightningIcon as bold } from "./bold";
-import { LightningIcon as duotone } from "./duotone";
-import { LightningIcon as broken } from "./broken";
-import { LightningIcon as outline } from "./outline";
-import { LightningIcon as line_duotone } from "./line-duotone";
+import { LightningIcon as line } from "./line.ts";
+import { LightningIcon as bold } from "./bold.ts";
+import { LightningIcon as duotone } from "./duotone.ts";
+import { LightningIcon as broken } from "./broken.ts";
+import { LightningIcon as outline } from "./outline.ts";
+import { LightningIcon as line_duotone } from "./line-duotone.ts";
 
 export const LightningIcon: IconEntry = {
     line: line,

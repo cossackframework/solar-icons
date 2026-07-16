@@ -4,12 +4,12 @@
  *   One style:   import { SmartphoneRotateAngleIcon } from '@cossackframework/solar-icons/smartphone-rotate-angle/<style>'
  */
 import type { IconEntry } from "../types";
-import { SmartphoneRotateAngleIcon as line } from "./line";
-import { SmartphoneRotateAngleIcon as bold } from "./bold";
-import { SmartphoneRotateAngleIcon as duotone } from "./duotone";
-import { SmartphoneRotateAngleIcon as broken } from "./broken";
-import { SmartphoneRotateAngleIcon as outline } from "./outline";
-import { SmartphoneRotateAngleIcon as line_duotone } from "./line-duotone";
+import { SmartphoneRotateAngleIcon as line } from "./line.ts";
+import { SmartphoneRotateAngleIcon as bold } from "./bold.ts";
+import { SmartphoneRotateAngleIcon as duotone } from "./duotone.ts";
+import { SmartphoneRotateAngleIcon as broken } from "./broken.ts";
+import { SmartphoneRotateAngleIcon as outline } from "./outline.ts";
+import { SmartphoneRotateAngleIcon as line_duotone } from "./line-duotone.ts";
 
 export const SmartphoneRotateAngleIcon: IconEntry = {
     line: line,

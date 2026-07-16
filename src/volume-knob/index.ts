@@ -4,12 +4,12 @@
  *   One style:   import { VolumeKnobIcon } from '@cossackframework/solar-icons/volume-knob/<style>'
  */
 import type { IconEntry } from "../types";
-import { VolumeKnobIcon as line } from "./line";
-import { VolumeKnobIcon as bold } from "./bold";
-import { VolumeKnobIcon as duotone } from "./duotone";
-import { VolumeKnobIcon as broken } from "./broken";
-import { VolumeKnobIcon as outline } from "./outline";
-import { VolumeKnobIcon as line_duotone } from "./line-duotone";
+import { VolumeKnobIcon as line } from "./line.ts";
+import { VolumeKnobIcon as bold } from "./bold.ts";
+import { VolumeKnobIcon as duotone } from "./duotone.ts";
+import { VolumeKnobIcon as broken } from "./broken.ts";
+import { VolumeKnobIcon as outline } from "./outline.ts";
+import { VolumeKnobIcon as line_duotone } from "./line-duotone.ts";
 
 export const VolumeKnobIcon: IconEntry = {
     line: line,

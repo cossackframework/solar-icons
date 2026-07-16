@@ -4,12 +4,12 @@
  *   One style:   import { BatteryFullMinimalisticIcon } from '@cossackframework/solar-icons/battery-full-minimalistic/<style>'
  */
 import type { IconEntry } from "../types";
-import { BatteryFullMinimalisticIcon as line } from "./line";
-import { BatteryFullMinimalisticIcon as bold } from "./bold";
-import { BatteryFullMinimalisticIcon as duotone } from "./duotone";
-import { BatteryFullMinimalisticIcon as broken } from "./broken";
-import { BatteryFullMinimalisticIcon as outline } from "./outline";
-import { BatteryFullMinimalisticIcon as line_duotone } from "./line-duotone";
+import { BatteryFullMinimalisticIcon as line } from "./line.ts";
+import { BatteryFullMinimalisticIcon as bold } from "./bold.ts";
+import { BatteryFullMinimalisticIcon as duotone } from "./duotone.ts";
+import { BatteryFullMinimalisticIcon as broken } from "./broken.ts";
+import { BatteryFullMinimalisticIcon as outline } from "./outline.ts";
+import { BatteryFullMinimalisticIcon as line_duotone } from "./line-duotone.ts";
 
 export const BatteryFullMinimalisticIcon: IconEntry = {
     line: line,

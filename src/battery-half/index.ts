@@ -4,12 +4,12 @@
  *   One style:   import { BatteryHalfIcon } from '@cossackframework/solar-icons/battery-half/<style>'
  */
 import type { IconEntry } from "../types";
-import { BatteryHalfIcon as line } from "./line";
-import { BatteryHalfIcon as bold } from "./bold";
-import { BatteryHalfIcon as duotone } from "./duotone";
-import { BatteryHalfIcon as broken } from "./broken";
-import { BatteryHalfIcon as outline } from "./outline";
-import { BatteryHalfIcon as line_duotone } from "./line-duotone";
+import { BatteryHalfIcon as line } from "./line.ts";
+import { BatteryHalfIcon as bold } from "./bold.ts";
+import { BatteryHalfIcon as duotone } from "./duotone.ts";
+import { BatteryHalfIcon as broken } from "./broken.ts";
+import { BatteryHalfIcon as outline } from "./outline.ts";
+import { BatteryHalfIcon as line_duotone } from "./line-duotone.ts";
 
 export const BatteryHalfIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { FileLeftIcon } from '@cossackframework/solar-icons/file-left/<style>'
  */
 import type { IconEntry } from "../types";
-import { FileLeftIcon as line } from "./line";
-import { FileLeftIcon as bold } from "./bold";
-import { FileLeftIcon as duotone } from "./duotone";
-import { FileLeftIcon as broken } from "./broken";
-import { FileLeftIcon as outline } from "./outline";
-import { FileLeftIcon as line_duotone } from "./line-duotone";
+import { FileLeftIcon as line } from "./line.ts";
+import { FileLeftIcon as bold } from "./bold.ts";
+import { FileLeftIcon as duotone } from "./duotone.ts";
+import { FileLeftIcon as broken } from "./broken.ts";
+import { FileLeftIcon as outline } from "./outline.ts";
+import { FileLeftIcon as line_duotone } from "./line-duotone.ts";
 
 export const FileLeftIcon: IconEntry = {
     line: line,

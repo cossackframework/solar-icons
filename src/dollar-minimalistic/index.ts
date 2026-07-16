@@ -4,12 +4,12 @@
  *   One style:   import { DollarMinimalisticIcon } from '@cossackframework/solar-icons/dollar-minimalistic/<style>'
  */
 import type { IconEntry } from "../types";
-import { DollarMinimalisticIcon as line } from "./line";
-import { DollarMinimalisticIcon as bold } from "./bold";
-import { DollarMinimalisticIcon as duotone } from "./duotone";
-import { DollarMinimalisticIcon as broken } from "./broken";
-import { DollarMinimalisticIcon as outline } from "./outline";
-import { DollarMinimalisticIcon as line_duotone } from "./line-duotone";
+import { DollarMinimalisticIcon as line } from "./line.ts";
+import { DollarMinimalisticIcon as bold } from "./bold.ts";
+import { DollarMinimalisticIcon as duotone } from "./duotone.ts";
+import { DollarMinimalisticIcon as broken } from "./broken.ts";
+import { DollarMinimalisticIcon as outline } from "./outline.ts";
+import { DollarMinimalisticIcon as line_duotone } from "./line-duotone.ts";
 
 export const DollarMinimalisticIcon: IconEntry = {
     line: line,

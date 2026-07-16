@@ -4,12 +4,12 @@
  *   One style:   import { ChatUnreadIcon } from '@cossackframework/solar-icons/chat-unread/<style>'
  */
 import type { IconEntry } from "../types";
-import { ChatUnreadIcon as line } from "./line";
-import { ChatUnreadIcon as bold } from "./bold";
-import { ChatUnreadIcon as duotone } from "./duotone";
-import { ChatUnreadIcon as broken } from "./broken";
-import { ChatUnreadIcon as outline } from "./outline";
-import { ChatUnreadIcon as line_duotone } from "./line-duotone";
+import { ChatUnreadIcon as line } from "./line.ts";
+import { ChatUnreadIcon as bold } from "./bold.ts";
+import { ChatUnreadIcon as duotone } from "./duotone.ts";
+import { ChatUnreadIcon as broken } from "./broken.ts";
+import { ChatUnreadIcon as outline } from "./outline.ts";
+import { ChatUnreadIcon as line_duotone } from "./line-duotone.ts";
 
 export const ChatUnreadIcon: IconEntry = {
     line: line,

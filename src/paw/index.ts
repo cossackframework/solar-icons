@@ -4,12 +4,12 @@
  *   One style:   import { PawIcon } from '@cossackframework/solar-icons/paw/<style>'
  */
 import type { IconEntry } from "../types";
-import { PawIcon as line } from "./line";
-import { PawIcon as bold } from "./bold";
-import { PawIcon as duotone } from "./duotone";
-import { PawIcon as broken } from "./broken";
-import { PawIcon as outline } from "./outline";
-import { PawIcon as line_duotone } from "./line-duotone";
+import { PawIcon as line } from "./line.ts";
+import { PawIcon as bold } from "./bold.ts";
+import { PawIcon as duotone } from "./duotone.ts";
+import { PawIcon as broken } from "./broken.ts";
+import { PawIcon as outline } from "./outline.ts";
+import { PawIcon as line_duotone } from "./line-duotone.ts";
 
 export const PawIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { SkipPreviousIcon } from '@cossackframework/solar-icons/skip-previous/<style>'
  */
 import type { IconEntry } from "../types";
-import { SkipPreviousIcon as line } from "./line";
-import { SkipPreviousIcon as bold } from "./bold";
-import { SkipPreviousIcon as duotone } from "./duotone";
-import { SkipPreviousIcon as broken } from "./broken";
-import { SkipPreviousIcon as outline } from "./outline";
-import { SkipPreviousIcon as line_duotone } from "./line-duotone";
+import { SkipPreviousIcon as line } from "./line.ts";
+import { SkipPreviousIcon as bold } from "./bold.ts";
+import { SkipPreviousIcon as duotone } from "./duotone.ts";
+import { SkipPreviousIcon as broken } from "./broken.ts";
+import { SkipPreviousIcon as outline } from "./outline.ts";
+import { SkipPreviousIcon as line_duotone } from "./line-duotone.ts";
 
 export const SkipPreviousIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { EndCallIcon } from '@cossackframework/solar-icons/end-call/<style>'
  */
 import type { IconEntry } from "../types";
-import { EndCallIcon as line } from "./line";
-import { EndCallIcon as bold } from "./bold";
-import { EndCallIcon as duotone } from "./duotone";
-import { EndCallIcon as broken } from "./broken";
-import { EndCallIcon as outline } from "./outline";
-import { EndCallIcon as line_duotone } from "./line-duotone";
+import { EndCallIcon as line } from "./line.ts";
+import { EndCallIcon as bold } from "./bold.ts";
+import { EndCallIcon as duotone } from "./duotone.ts";
+import { EndCallIcon as broken } from "./broken.ts";
+import { EndCallIcon as outline } from "./outline.ts";
+import { EndCallIcon as line_duotone } from "./line-duotone.ts";
 
 export const EndCallIcon: IconEntry = {
     line: line,

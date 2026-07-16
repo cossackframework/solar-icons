@@ -4,12 +4,12 @@
  *   One style:   import { HangerIcon } from '@cossackframework/solar-icons/hanger/<style>'
  */
 import type { IconEntry } from "../types";
-import { HangerIcon as line } from "./line";
-import { HangerIcon as bold } from "./bold";
-import { HangerIcon as duotone } from "./duotone";
-import { HangerIcon as broken } from "./broken";
-import { HangerIcon as outline } from "./outline";
-import { HangerIcon as line_duotone } from "./line-duotone";
+import { HangerIcon as line } from "./line.ts";
+import { HangerIcon as bold } from "./bold.ts";
+import { HangerIcon as duotone } from "./duotone.ts";
+import { HangerIcon as broken } from "./broken.ts";
+import { HangerIcon as outline } from "./outline.ts";
+import { HangerIcon as line_duotone } from "./line-duotone.ts";
 
 export const HangerIcon: IconEntry = {
     line: line,

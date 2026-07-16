@@ -4,12 +4,12 @@
  *   One style:   import { BatteryFullIcon } from '@cossackframework/solar-icons/battery-full/<style>'
  */
 import type { IconEntry } from "../types";
-import { BatteryFullIcon as line } from "./line";
-import { BatteryFullIcon as bold } from "./bold";
-import { BatteryFullIcon as duotone } from "./duotone";
-import { BatteryFullIcon as broken } from "./broken";
-import { BatteryFullIcon as outline } from "./outline";
-import { BatteryFullIcon as line_duotone } from "./line-duotone";
+import { BatteryFullIcon as line } from "./line.ts";
+import { BatteryFullIcon as bold } from "./bold.ts";
+import { BatteryFullIcon as duotone } from "./duotone.ts";
+import { BatteryFullIcon as broken } from "./broken.ts";
+import { BatteryFullIcon as outline } from "./outline.ts";
+import { BatteryFullIcon as line_duotone } from "./line-duotone.ts";
 
 export const BatteryFullIcon: IconEntry = {
     line: line,

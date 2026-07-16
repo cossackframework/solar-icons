@@ -4,12 +4,12 @@
  *   One style:   import { Armchair2Icon } from '@cossackframework/solar-icons/armchair-2/<style>'
  */
 import type { IconEntry } from "../types";
-import { Armchair2Icon as line } from "./line";
-import { Armchair2Icon as bold } from "./bold";
-import { Armchair2Icon as duotone } from "./duotone";
-import { Armchair2Icon as broken } from "./broken";
-import { Armchair2Icon as outline } from "./outline";
-import { Armchair2Icon as line_duotone } from "./line-duotone";
+import { Armchair2Icon as line } from "./line.ts";
+import { Armchair2Icon as bold } from "./bold.ts";
+import { Armchair2Icon as duotone } from "./duotone.ts";
+import { Armchair2Icon as broken } from "./broken.ts";
+import { Armchair2Icon as outline } from "./outline.ts";
+import { Armchair2Icon as line_duotone } from "./line-duotone.ts";
 
 export const Armchair2Icon: IconEntry = {
     line: line,

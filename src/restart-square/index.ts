@@ -4,12 +4,12 @@
  *   One style:   import { RestartSquareIcon } from '@cossackframework/solar-icons/restart-square/<style>'
  */
 import type { IconEntry } from "../types";
-import { RestartSquareIcon as line } from "./line";
-import { RestartSquareIcon as bold } from "./bold";
-import { RestartSquareIcon as duotone } from "./duotone";
-import { RestartSquareIcon as broken } from "./broken";
-import { RestartSquareIcon as outline } from "./outline";
-import { RestartSquareIcon as line_duotone } from "./line-duotone";
+import { RestartSquareIcon as line } from "./line.ts";
+import { RestartSquareIcon as bold } from "./bold.ts";
+import { RestartSquareIcon as duotone } from "./duotone.ts";
+import { RestartSquareIcon as broken } from "./broken.ts";
+import { RestartSquareIcon as outline } from "./outline.ts";
+import { RestartSquareIcon as line_duotone } from "./line-duotone.ts";
 
 export const RestartSquareIcon: IconEntry = {
     line: line,

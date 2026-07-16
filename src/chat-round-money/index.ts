@@ -4,12 +4,12 @@
  *   One style:   import { ChatRoundMoneyIcon } from '@cossackframework/solar-icons/chat-round-money/<style>'
  */
 import type { IconEntry } from "../types";
-import { ChatRoundMoneyIcon as line } from "./line";
-import { ChatRoundMoneyIcon as bold } from "./bold";
-import { ChatRoundMoneyIcon as duotone } from "./duotone";
-import { ChatRoundMoneyIcon as broken } from "./broken";
-import { ChatRoundMoneyIcon as outline } from "./outline";
-import { ChatRoundMoneyIcon as line_duotone } from "./line-duotone";
+import { ChatRoundMoneyIcon as line } from "./line.ts";
+import { ChatRoundMoneyIcon as bold } from "./bold.ts";
+import { ChatRoundMoneyIcon as duotone } from "./duotone.ts";
+import { ChatRoundMoneyIcon as broken } from "./broken.ts";
+import { ChatRoundMoneyIcon as outline } from "./outline.ts";
+import { ChatRoundMoneyIcon as line_duotone } from "./line-duotone.ts";
 
 export const ChatRoundMoneyIcon: IconEntry = {
     line: line,

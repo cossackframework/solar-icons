@@ -4,12 +4,12 @@
  *   One style:   import { ReceiveSquareIcon } from '@cossackframework/solar-icons/receive-square/<style>'
  */
 import type { IconEntry } from "../types";
-import { ReceiveSquareIcon as line } from "./line";
-import { ReceiveSquareIcon as bold } from "./bold";
-import { ReceiveSquareIcon as duotone } from "./duotone";
-import { ReceiveSquareIcon as broken } from "./broken";
-import { ReceiveSquareIcon as outline } from "./outline";
-import { ReceiveSquareIcon as line_duotone } from "./line-duotone";
+import { ReceiveSquareIcon as line } from "./line.ts";
+import { ReceiveSquareIcon as bold } from "./bold.ts";
+import { ReceiveSquareIcon as duotone } from "./duotone.ts";
+import { ReceiveSquareIcon as broken } from "./broken.ts";
+import { ReceiveSquareIcon as outline } from "./outline.ts";
+import { ReceiveSquareIcon as line_duotone } from "./line-duotone.ts";
 
 export const ReceiveSquareIcon: IconEntry = {
     line: line,

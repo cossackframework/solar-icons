@@ -4,12 +4,12 @@
  *   One style:   import { BackspaceIcon } from '@cossackframework/solar-icons/backspace/<style>'
  */
 import type { IconEntry } from "../types";
-import { BackspaceIcon as line } from "./line";
-import { BackspaceIcon as bold } from "./bold";
-import { BackspaceIcon as duotone } from "./duotone";
-import { BackspaceIcon as broken } from "./broken";
-import { BackspaceIcon as outline } from "./outline";
-import { BackspaceIcon as line_duotone } from "./line-duotone";
+import { BackspaceIcon as line } from "./line.ts";
+import { BackspaceIcon as bold } from "./bold.ts";
+import { BackspaceIcon as duotone } from "./duotone.ts";
+import { BackspaceIcon as broken } from "./broken.ts";
+import { BackspaceIcon as outline } from "./outline.ts";
+import { BackspaceIcon as line_duotone } from "./line-duotone.ts";
 
 export const BackspaceIcon: IconEntry = {
     line: line,

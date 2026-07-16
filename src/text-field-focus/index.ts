@@ -4,12 +4,12 @@
  *   One style:   import { TextFieldFocusIcon } from '@cossackframework/solar-icons/text-field-focus/<style>'
  */
 import type { IconEntry } from "../types";
-import { TextFieldFocusIcon as line } from "./line";
-import { TextFieldFocusIcon as bold } from "./bold";
-import { TextFieldFocusIcon as duotone } from "./duotone";
-import { TextFieldFocusIcon as broken } from "./broken";
-import { TextFieldFocusIcon as outline } from "./outline";
-import { TextFieldFocusIcon as line_duotone } from "./line-duotone";
+import { TextFieldFocusIcon as line } from "./line.ts";
+import { TextFieldFocusIcon as bold } from "./bold.ts";
+import { TextFieldFocusIcon as duotone } from "./duotone.ts";
+import { TextFieldFocusIcon as broken } from "./broken.ts";
+import { TextFieldFocusIcon as outline } from "./outline.ts";
+import { TextFieldFocusIcon as line_duotone } from "./line-duotone.ts";
 
 export const TextFieldFocusIcon: IconEntry = {
     line: line,

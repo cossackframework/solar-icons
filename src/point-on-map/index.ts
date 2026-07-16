@@ -4,12 +4,12 @@
  *   One style:   import { PointOnMapIcon } from '@cossackframework/solar-icons/point-on-map/<style>'
  */
 import type { IconEntry } from "../types";
-import { PointOnMapIcon as line } from "./line";
-import { PointOnMapIcon as bold } from "./bold";
-import { PointOnMapIcon as duotone } from "./duotone";
-import { PointOnMapIcon as broken } from "./broken";
-import { PointOnMapIcon as outline } from "./outline";
-import { PointOnMapIcon as line_duotone } from "./line-duotone";
+import { PointOnMapIcon as line } from "./line.ts";
+import { PointOnMapIcon as bold } from "./bold.ts";
+import { PointOnMapIcon as duotone } from "./duotone.ts";
+import { PointOnMapIcon as broken } from "./broken.ts";
+import { PointOnMapIcon as outline } from "./outline.ts";
+import { PointOnMapIcon as line_duotone } from "./line-duotone.ts";
 
 export const PointOnMapIcon: IconEntry = {
     line: line,

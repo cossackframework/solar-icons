@@ -4,12 +4,12 @@
  *   One style:   import { ClipboardRemoveIcon } from '@cossackframework/solar-icons/clipboard-remove/<style>'
  */
 import type { IconEntry } from "../types";
-import { ClipboardRemoveIcon as line } from "./line";
-import { ClipboardRemoveIcon as bold } from "./bold";
-import { ClipboardRemoveIcon as duotone } from "./duotone";
-import { ClipboardRemoveIcon as broken } from "./broken";
-import { ClipboardRemoveIcon as outline } from "./outline";
-import { ClipboardRemoveIcon as line_duotone } from "./line-duotone";
+import { ClipboardRemoveIcon as line } from "./line.ts";
+import { ClipboardRemoveIcon as bold } from "./bold.ts";
+import { ClipboardRemoveIcon as duotone } from "./duotone.ts";
+import { ClipboardRemoveIcon as broken } from "./broken.ts";
+import { ClipboardRemoveIcon as outline } from "./outline.ts";
+import { ClipboardRemoveIcon as line_duotone } from "./line-duotone.ts";
 
 export const ClipboardRemoveIcon: IconEntry = {
     line: line,

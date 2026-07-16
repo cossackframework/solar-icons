@@ -4,12 +4,12 @@
  *   One style:   import { SledgehammerIcon } from '@cossackframework/solar-icons/sledgehammer/<style>'
  */
 import type { IconEntry } from "../types";
-import { SledgehammerIcon as line } from "./line";
-import { SledgehammerIcon as bold } from "./bold";
-import { SledgehammerIcon as duotone } from "./duotone";
-import { SledgehammerIcon as broken } from "./broken";
-import { SledgehammerIcon as outline } from "./outline";
-import { SledgehammerIcon as line_duotone } from "./line-duotone";
+import { SledgehammerIcon as line } from "./line.ts";
+import { SledgehammerIcon as bold } from "./bold.ts";
+import { SledgehammerIcon as duotone } from "./duotone.ts";
+import { SledgehammerIcon as broken } from "./broken.ts";
+import { SledgehammerIcon as outline } from "./outline.ts";
+import { SledgehammerIcon as line_duotone } from "./line-duotone.ts";
 
 export const SledgehammerIcon: IconEntry = {
     line: line,

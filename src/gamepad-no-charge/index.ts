@@ -4,12 +4,12 @@
  *   One style:   import { GamepadNoChargeIcon } from '@cossackframework/solar-icons/gamepad-no-charge/<style>'
  */
 import type { IconEntry } from "../types";
-import { GamepadNoChargeIcon as line } from "./line";
-import { GamepadNoChargeIcon as bold } from "./bold";
-import { GamepadNoChargeIcon as duotone } from "./duotone";
-import { GamepadNoChargeIcon as broken } from "./broken";
-import { GamepadNoChargeIcon as outline } from "./outline";
-import { GamepadNoChargeIcon as line_duotone } from "./line-duotone";
+import { GamepadNoChargeIcon as line } from "./line.ts";
+import { GamepadNoChargeIcon as bold } from "./bold.ts";
+import { GamepadNoChargeIcon as duotone } from "./duotone.ts";
+import { GamepadNoChargeIcon as broken } from "./broken.ts";
+import { GamepadNoChargeIcon as outline } from "./outline.ts";
+import { GamepadNoChargeIcon as line_duotone } from "./line-duotone.ts";
 
 export const GamepadNoChargeIcon: IconEntry = {
     line: line,

@@ -4,12 +4,12 @@
  *   One style:   import { CloudSnowfallMinimalisticIcon } from '@cossackframework/solar-icons/cloud-snowfall-minimalistic/<style>'
  */
 import type { IconEntry } from "../types";
-import { CloudSnowfallMinimalisticIcon as line } from "./line";
-import { CloudSnowfallMinimalisticIcon as bold } from "./bold";
-import { CloudSnowfallMinimalisticIcon as duotone } from "./duotone";
-import { CloudSnowfallMinimalisticIcon as broken } from "./broken";
-import { CloudSnowfallMinimalisticIcon as outline } from "./outline";
-import { CloudSnowfallMinimalisticIcon as line_duotone } from "./line-duotone";
+import { CloudSnowfallMinimalisticIcon as line } from "./line.ts";
+import { CloudSnowfallMinimalisticIcon as bold } from "./bold.ts";
+import { CloudSnowfallMinimalisticIcon as duotone } from "./duotone.ts";
+import { CloudSnowfallMinimalisticIcon as broken } from "./broken.ts";
+import { CloudSnowfallMinimalisticIcon as outline } from "./outline.ts";
+import { CloudSnowfallMinimalisticIcon as line_duotone } from "./line-duotone.ts";
 
 export const CloudSnowfallMinimalisticIcon: IconEntry = {
     line: line,

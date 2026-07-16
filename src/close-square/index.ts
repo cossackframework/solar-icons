@@ -4,12 +4,12 @@
  *   One style:   import { CloseSquareIcon } from '@cossackframework/solar-icons/close-square/<style>'
  */
 import type { IconEntry } from "../types";
-import { CloseSquareIcon as line } from "./line";
-import { CloseSquareIcon as bold } from "./bold";
-import { CloseSquareIcon as duotone } from "./duotone";
-import { CloseSquareIcon as broken } from "./broken";
-import { CloseSquareIcon as outline } from "./outline";
-import { CloseSquareIcon as line_duotone } from "./line-duotone";
+import { CloseSquareIcon as line } from "./line.ts";
+import { CloseSquareIcon as bold } from "./bold.ts";
+import { CloseSquareIcon as duotone } from "./duotone.ts";
+import { CloseSquareIcon as broken } from "./broken.ts";
+import { CloseSquareIcon as outline } from "./outline.ts";
+import { CloseSquareIcon as line_duotone } from "./line-duotone.ts";
 
 export const CloseSquareIcon: IconEntry = {
     line: line,

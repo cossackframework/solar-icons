@@ -4,12 +4,12 @@
  *   One style:   import { CupFirstIcon } from '@cossackframework/solar-icons/cup-first/<style>'
  */
 import type { IconEntry } from "../types";
-import { CupFirstIcon as line } from "./line";
-import { CupFirstIcon as bold } from "./bold";
-import { CupFirstIcon as duotone } from "./duotone";
-import { CupFirstIcon as broken } from "./broken";
-import { CupFirstIcon as outline } from "./outline";
-import { CupFirstIcon as line_duotone } from "./line-duotone";
+import { CupFirstIcon as line } from "./line.ts";
+import { CupFirstIcon as bold } from "./bold.ts";
+import { CupFirstIcon as duotone } from "./duotone.ts";
+import { CupFirstIcon as broken } from "./broken.ts";
+import { CupFirstIcon as outline } from "./outline.ts";
+import { CupFirstIcon as line_duotone } from "./line-duotone.ts";
 
 export const CupFirstIcon: IconEntry = {
     line: line,

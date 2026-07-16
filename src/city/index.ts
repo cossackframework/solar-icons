@@ -4,12 +4,12 @@
  *   One style:   import { CityIcon } from '@cossackframework/solar-icons/city/<style>'
  */
 import type { IconEntry } from "../types";
-import { CityIcon as line } from "./line";
-import { CityIcon as bold } from "./bold";
-import { CityIcon as duotone } from "./duotone";
-import { CityIcon as broken } from "./broken";
-import { CityIcon as outline } from "./outline";
-import { CityIcon as line_duotone } from "./line-duotone";
+import { CityIcon as line } from "./line.ts";
+import { CityIcon as bold } from "./bold.ts";
+import { CityIcon as duotone } from "./duotone.ts";
+import { CityIcon as broken } from "./broken.ts";
+import { CityIcon as outline } from "./outline.ts";
+import { CityIcon as line_duotone } from "./line-duotone.ts";
 
 export const CityIcon: IconEntry = {
     line: line,

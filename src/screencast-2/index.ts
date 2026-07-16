@@ -4,12 +4,12 @@
  *   One style:   import { Screencast2Icon } from '@cossackframework/solar-icons/screencast-2/<style>'
  */
 import type { IconEntry } from "../types";
-import { Screencast2Icon as line } from "./line";
-import { Screencast2Icon as bold } from "./bold";
-import { Screencast2Icon as duotone } from "./duotone";
-import { Screencast2Icon as broken } from "./broken";
-import { Screencast2Icon as outline } from "./outline";
-import { Screencast2Icon as line_duotone } from "./line-duotone";
+import { Screencast2Icon as line } from "./line.ts";
+import { Screencast2Icon as bold } from "./bold.ts";
+import { Screencast2Icon as duotone } from "./duotone.ts";
+import { Screencast2Icon as broken } from "./broken.ts";
+import { Screencast2Icon as outline } from "./outline.ts";
+import { Screencast2Icon as line_duotone } from "./line-duotone.ts";
 
 export const Screencast2Icon: IconEntry = {
     line: line,

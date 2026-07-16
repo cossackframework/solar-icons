@@ -4,12 +4,12 @@
  *   One style:   import { Logout2Icon } from '@cossackframework/solar-icons/logout-2/<style>'
  */
 import type { IconEntry } from "../types";
-import { Logout2Icon as line } from "./line";
-import { Logout2Icon as bold } from "./bold";
-import { Logout2Icon as duotone } from "./duotone";
-import { Logout2Icon as broken } from "./broken";
-import { Logout2Icon as outline } from "./outline";
-import { Logout2Icon as line_duotone } from "./line-duotone";
+import { Logout2Icon as line } from "./line.ts";
+import { Logout2Icon as bold } from "./bold.ts";
+import { Logout2Icon as duotone } from "./duotone.ts";
+import { Logout2Icon as broken } from "./broken.ts";
+import { Logout2Icon as outline } from "./outline.ts";
+import { Logout2Icon as line_duotone } from "./line-duotone.ts";
 
 export const Logout2Icon: IconEntry = {
     line: line,

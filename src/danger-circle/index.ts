@@ -4,12 +4,12 @@
  *   One style:   import { DangerCircleIcon } from '@cossackframework/solar-icons/danger-circle/<style>'
  */
 import type { IconEntry } from "../types";
-import { DangerCircleIcon as line } from "./line";
-import { DangerCircleIcon as bold } from "./bold";
-import { DangerCircleIcon as duotone } from "./duotone";
-import { DangerCircleIcon as broken } from "./broken";
-import { DangerCircleIcon as outline } from "./outline";
-import { DangerCircleIcon as line_duotone } from "./line-duotone";
+import { DangerCircleIcon as line } from "./line.ts";
+import { DangerCircleIcon as bold } from "./bold.ts";
+import { DangerCircleIcon as duotone } from "./duotone.ts";
+import { DangerCircleIcon as broken } from "./broken.ts";
+import { DangerCircleIcon as outline } from "./outline.ts";
+import { DangerCircleIcon as line_duotone } from "./line-duotone.ts";
 
 export const DangerCircleIcon: IconEntry = {
     line: line,

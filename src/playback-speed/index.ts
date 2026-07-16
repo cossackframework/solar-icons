@@ -4,12 +4,12 @@
  *   One style:   import { PlaybackSpeedIcon } from '@cossackframework/solar-icons/playback-speed/<style>'
  */
 import type { IconEntry } from "../types";
-import { PlaybackSpeedIcon as line } from "./line";
-import { PlaybackSpeedIcon as bold } from "./bold";
-import { PlaybackSpeedIcon as duotone } from "./duotone";
-import { PlaybackSpeedIcon as broken } from "./broken";
-import { PlaybackSpeedIcon as outline } from "./outline";
-import { PlaybackSpeedIcon as line_duotone } from "./line-duotone";
+import { PlaybackSpeedIcon as line } from "./line.ts";
+import { PlaybackSpeedIcon as bold } from "./bold.ts";
+import { PlaybackSpeedIcon as duotone } from "./duotone.ts";
+import { PlaybackSpeedIcon as broken } from "./broken.ts";
+import { PlaybackSpeedIcon as outline } from "./outline.ts";
+import { PlaybackSpeedIcon as line_duotone } from "./line-duotone.ts";
 
 export const PlaybackSpeedIcon: IconEntry = {
     line: line,

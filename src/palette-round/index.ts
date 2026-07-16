@@ -4,12 +4,12 @@
  *   One style:   import { PaletteRoundIcon } from '@cossackframework/solar-icons/palette-round/<style>'
  */
 import type { IconEntry } from "../types";
-import { PaletteRoundIcon as line } from "./line";
-import { PaletteRoundIcon as bold } from "./bold";
-import { PaletteRoundIcon as duotone } from "./duotone";
-import { PaletteRoundIcon as broken } from "./broken";
-import { PaletteRoundIcon as outline } from "./outline";
-import { PaletteRoundIcon as line_duotone } from "./line-duotone";
+import { PaletteRoundIcon as line } from "./line.ts";
+import { PaletteRoundIcon as bold } from "./bold.ts";
+import { PaletteRoundIcon as duotone } from "./duotone.ts";
+import { PaletteRoundIcon as broken } from "./broken.ts";
+import { PaletteRoundIcon as outline } from "./outline.ts";
+import { PaletteRoundIcon as line_duotone } from "./line-duotone.ts";
 
 export const PaletteRoundIcon: IconEntry = {
     line: line,

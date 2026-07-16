@@ -4,12 +4,12 @@
  *   One style:   import { TornadoSmallIcon } from '@cossackframework/solar-icons/tornado-small/<style>'
  */
 import type { IconEntry } from "../types";
-import { TornadoSmallIcon as line } from "./line";
-import { TornadoSmallIcon as bold } from "./bold";
-import { TornadoSmallIcon as duotone } from "./duotone";
-import { TornadoSmallIcon as broken } from "./broken";
-import { TornadoSmallIcon as outline } from "./outline";
-import { TornadoSmallIcon as line_duotone } from "./line-duotone";
+import { TornadoSmallIcon as line } from "./line.ts";
+import { TornadoSmallIcon as bold } from "./bold.ts";
+import { TornadoSmallIcon as duotone } from "./duotone.ts";
+import { TornadoSmallIcon as broken } from "./broken.ts";
+import { TornadoSmallIcon as outline } from "./outline.ts";
+import { TornadoSmallIcon as line_duotone } from "./line-duotone.ts";
 
 export const TornadoSmallIcon: IconEntry = {
     line: line,

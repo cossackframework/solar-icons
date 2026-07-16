@@ -4,12 +4,12 @@
  *   One style:   import { TvIcon } from '@cossackframework/solar-icons/tv/<style>'
  */
 import type { IconEntry } from "../types";
-import { TvIcon as line } from "./line";
-import { TvIcon as bold } from "./bold";
-import { TvIcon as duotone } from "./duotone";
-import { TvIcon as broken } from "./broken";
-import { TvIcon as outline } from "./outline";
-import { TvIcon as line_duotone } from "./line-duotone";
+import { TvIcon as line } from "./line.ts";
+import { TvIcon as bold } from "./bold.ts";
+import { TvIcon as duotone } from "./duotone.ts";
+import { TvIcon as broken } from "./broken.ts";
+import { TvIcon as outline } from "./outline.ts";
+import { TvIcon as line_duotone } from "./line-duotone.ts";
 
 export const TvIcon: IconEntry = {
     line: line,

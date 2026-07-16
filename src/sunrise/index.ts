@@ -4,12 +4,12 @@
  *   One style:   import { SunriseIcon } from '@cossackframework/solar-icons/sunrise/<style>'
  */
 import type { IconEntry } from "../types";
-import { SunriseIcon as line } from "./line";
-import { SunriseIcon as bold } from "./bold";
-import { SunriseIcon as duotone } from "./duotone";
-import { SunriseIcon as broken } from "./broken";
-import { SunriseIcon as outline } from "./outline";
-import { SunriseIcon as line_duotone } from "./line-duotone";
+import { SunriseIcon as line } from "./line.ts";
+import { SunriseIcon as bold } from "./bold.ts";
+import { SunriseIcon as duotone } from "./duotone.ts";
+import { SunriseIcon as broken } from "./broken.ts";
+import { SunriseIcon as outline } from "./outline.ts";
+import { SunriseIcon as line_duotone } from "./line-duotone.ts";
 
 export const SunriseIcon: IconEntry = {
     line: line,

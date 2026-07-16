@@ -4,12 +4,12 @@
  *   One style:   import { NotificationLinesRemoveIcon } from '@cossackframework/solar-icons/notification-lines-remove/<style>'
  */
 import type { IconEntry } from "../types";
-import { NotificationLinesRemoveIcon as line } from "./line";
-import { NotificationLinesRemoveIcon as bold } from "./bold";
-import { NotificationLinesRemoveIcon as duotone } from "./duotone";
-import { NotificationLinesRemoveIcon as broken } from "./broken";
-import { NotificationLinesRemoveIcon as outline } from "./outline";
-import { NotificationLinesRemoveIcon as line_duotone } from "./line-duotone";
+import { NotificationLinesRemoveIcon as line } from "./line.ts";
+import { NotificationLinesRemoveIcon as bold } from "./bold.ts";
+import { NotificationLinesRemoveIcon as duotone } from "./duotone.ts";
+import { NotificationLinesRemoveIcon as broken } from "./broken.ts";
+import { NotificationLinesRemoveIcon as outline } from "./outline.ts";
+import { NotificationLinesRemoveIcon as line_duotone } from "./line-duotone.ts";
 
 export const NotificationLinesRemoveIcon: IconEntry = {
     line: line,

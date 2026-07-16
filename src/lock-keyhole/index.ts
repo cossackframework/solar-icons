@@ -4,12 +4,12 @@
  *   One style:   import { LockKeyholeIcon } from '@cossackframework/solar-icons/lock-keyhole/<style>'
  */
 import type { IconEntry } from "../types";
-import { LockKeyholeIcon as line } from "./line";
-import { LockKeyholeIcon as bold } from "./bold";
-import { LockKeyholeIcon as duotone } from "./duotone";
-import { LockKeyholeIcon as broken } from "./broken";
-import { LockKeyholeIcon as outline } from "./outline";
-import { LockKeyholeIcon as line_duotone } from "./line-duotone";
+import { LockKeyholeIcon as line } from "./line.ts";
+import { LockKeyholeIcon as bold } from "./bold.ts";
+import { LockKeyholeIcon as duotone } from "./duotone.ts";
+import { LockKeyholeIcon as broken } from "./broken.ts";
+import { LockKeyholeIcon as outline } from "./outline.ts";
+import { LockKeyholeIcon as line_duotone } from "./line-duotone.ts";
 
 export const LockKeyholeIcon: IconEntry = {
     line: line,

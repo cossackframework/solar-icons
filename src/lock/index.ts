@@ -4,12 +4,12 @@
  *   One style:   import { LockIcon } from '@cossackframework/solar-icons/lock/<style>'
  */
 import type { IconEntry } from "../types";
-import { LockIcon as line } from "./line";
-import { LockIcon as bold } from "./bold";
-import { LockIcon as duotone } from "./duotone";
-import { LockIcon as broken } from "./broken";
-import { LockIcon as outline } from "./outline";
-import { LockIcon as line_duotone } from "./line-duotone";
+import { LockIcon as line } from "./line.ts";
+import { LockIcon as bold } from "./bold.ts";
+import { LockIcon as duotone } from "./duotone.ts";
+import { LockIcon as broken } from "./broken.ts";
+import { LockIcon as outline } from "./outline.ts";
+import { LockIcon as line_duotone } from "./line-duotone.ts";
 
 export const LockIcon: IconEntry = {
     line: line,

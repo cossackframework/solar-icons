@@ -4,12 +4,12 @@
  *   One style:   import { WhiskIcon } from '@cossackframework/solar-icons/whisk/<style>'
  */
 import type { IconEntry } from "../types";
-import { WhiskIcon as line } from "./line";
-import { WhiskIcon as bold } from "./bold";
-import { WhiskIcon as duotone } from "./duotone";
-import { WhiskIcon as broken } from "./broken";
-import { WhiskIcon as outline } from "./outline";
-import { WhiskIcon as line_duotone } from "./line-duotone";
+import { WhiskIcon as line } from "./line.ts";
+import { WhiskIcon as bold } from "./bold.ts";
+import { WhiskIcon as duotone } from "./duotone.ts";
+import { WhiskIcon as broken } from "./broken.ts";
+import { WhiskIcon as outline } from "./outline.ts";
+import { WhiskIcon as line_duotone } from "./line-duotone.ts";
 
 export const WhiskIcon: IconEntry = {
     line: line,

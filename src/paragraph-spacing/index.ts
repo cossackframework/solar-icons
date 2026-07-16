@@ -4,12 +4,12 @@
  *   One style:   import { ParagraphSpacingIcon } from '@cossackframework/solar-icons/paragraph-spacing/<style>'
  */
 import type { IconEntry } from "../types";
-import { ParagraphSpacingIcon as line } from "./line";
-import { ParagraphSpacingIcon as bold } from "./bold";
-import { ParagraphSpacingIcon as duotone } from "./duotone";
-import { ParagraphSpacingIcon as broken } from "./broken";
-import { ParagraphSpacingIcon as outline } from "./outline";
-import { ParagraphSpacingIcon as line_duotone } from "./line-duotone";
+import { ParagraphSpacingIcon as line } from "./line.ts";
+import { ParagraphSpacingIcon as bold } from "./bold.ts";
+import { ParagraphSpacingIcon as duotone } from "./duotone.ts";
+import { ParagraphSpacingIcon as broken } from "./broken.ts";
+import { ParagraphSpacingIcon as outline } from "./outline.ts";
+import { ParagraphSpacingIcon as line_duotone } from "./line-duotone.ts";
 
 export const ParagraphSpacingIcon: IconEntry = {
     line: line,
