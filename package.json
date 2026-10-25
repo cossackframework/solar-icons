@@ -1,6 +1,6 @@
 {
   "name": "@cossackframework/solar-icons",
-  "version": "0.7.1",
+  "version": "0.7.2",
   "description": "Tree-shakeable Solar icon set for the Cossack framework — data entries + Icon/NamedIcon components.",
   "type": "module",
   "sideEffects": false,
